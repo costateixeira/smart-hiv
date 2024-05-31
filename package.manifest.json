@@ -1,6 +1,7 @@
 {
-  "version" : "0.1.0",
-  "fhirVersion" : ["4.3.0"],
-  "date" : "20240424012719",
-  "name" : "who.fhir.smart-ig-empty"
+  "version" : "0.3.0",
+  "fhirVersion" : ["4.0.1"],
+  "date" : "20240531074744",
+  "name" : "who.fhir.anc-cds",
+  "jurisdiction" : "http://unstats.un.org/unsd/methods/m49/m49.htm#001"
 }
