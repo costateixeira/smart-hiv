@@ -264,7 +264,7 @@
   </wstxns5:includes>
   <wstxns9:codeSystems xmlns:wstxns9="urn:hl7-org:elm:r1" wstxns9:type="Library$CodeSystems">
     <wstxns9:def>
-      <wstxns9:def wstxns9:type="CodeSystemDef" localId="207" locator="12:1-12:104" name="HIV_DAK_Codes" id="http://fhir.org/guides/itech-uw/who-smart-hiv-dak/CodeSystem/concept-codes" accessLevel="Public">
+      <wstxns9:def wstxns9:type="CodeSystemDef" localId="207" locator="12:1-12:91" name="HIV_DAK_Codes" id="http://fhir.org/guides/who/hiv-dak/CodeSystem/HIV-DAKConcepts" accessLevel="Public">
         <wstxns9:annotation>
           <wstxns9:annotation wstxns9:type="Annotation">
             <wstxns10:s xmlns:wstxns10="urn:hl7-org:cql-annotations:r1" r="207">
@@ -275,12 +275,12 @@
                   <scope>jakarta.xml.bind.JAXBElement$GlobalScope</scope>
                   <value>
                     <s>
-                      <s>//codesystem "Custom_Codes": 'http://fhir.org/guides/itech-uw/who-smart-hiv-dak/CodeSystem/concept-codes'
+                      <s>//codesystem "Custom_Codes": 'http://fhir.org/guides/who/hiv-dak/CodeSystem/HIV-DAKConcepts'
 </s>
                       <s>codesystem </s>
                       <s>"HIV_DAK_Codes"</s>
                       <s>: </s>
-                      <s>'http://fhir.org/guides/itech-uw/who-smart-hiv-dak/CodeSystem/concept-codes'</s>
+                      <s>'http://fhir.org/guides/who/hiv-dak/CodeSystem/HIV-DAKConcepts'</s>
                     </s>
                   </value>
                   <nil>false</nil>
@@ -296,7 +296,7 @@
   </wstxns9:codeSystems>
   <wstxns11:valueSets xmlns:wstxns11="urn:hl7-org:elm:r1" wstxns11:type="Library$ValueSets">
     <wstxns11:def>
-      <wstxns11:def wstxns11:type="ValueSetDef" localId="208" locator="14:1-14:82" name="Assay 1 reactive" id="http://fhir.org/guides/itech-uw/ValueSet/hiv-b-de95" accessLevel="Public">
+      <wstxns11:def wstxns11:type="ValueSetDef" localId="208" locator="14:1-14:85" name="Assay 1 reactive" id="http://fhir.org/guides/who/hiv-dak/ValueSet/hiv-b-de95" accessLevel="Public">
         <wstxns11:annotation>
           <wstxns11:annotation wstxns11:type="Annotation">
             <wstxns12:s xmlns:wstxns12="urn:hl7-org:cql-annotations:r1" r="208">
@@ -307,12 +307,12 @@
                   <scope>jakarta.xml.bind.JAXBElement$GlobalScope</scope>
                   <value>
                     <s>
-                      <s>//valueset "TestresultofHIVassay1Codes": 'http://fhir.org/guides/itech-uw/ValueSet/hiv-b-de95'
+                      <s>//valueset "TestresultofHIVassay1Codes": 'http://fhir.org/guides/who/hiv-dak/ValueSet/hiv-b-de95'
 </s>
                       <s>valueset </s>
                       <s>"Assay 1 reactive"</s>
                       <s>: </s>
-                      <s>'http://fhir.org/guides/itech-uw/ValueSet/hiv-b-de95'</s>
+                      <s>'http://fhir.org/guides/who/hiv-dak/ValueSet/hiv-b-de95'</s>
                     </s>
                   </value>
                   <nil>false</nil>
@@ -324,7 +324,7 @@
           </wstxns11:annotation>
         </wstxns11:annotation>
       </wstxns11:def>
-      <wstxns11:def wstxns11:type="ValueSetDef" localId="209" locator="15:1-15:73" name="Assay 1" id="http://fhir.org/guides/itech-uw/ValueSet/hiv-b-de90" accessLevel="Public">
+      <wstxns11:def wstxns11:type="ValueSetDef" localId="209" locator="15:1-15:76" name="Assay 1" id="http://fhir.org/guides/who/hiv-dak/ValueSet/hiv-b-de90" accessLevel="Public">
         <wstxns11:annotation>
           <wstxns11:annotation wstxns11:type="Annotation">
             <wstxns13:s xmlns:wstxns13="urn:hl7-org:cql-annotations:r1" r="209">
@@ -339,7 +339,7 @@
                       <s>valueset </s>
                       <s>"Assay 1"</s>
                       <s>: </s>
-                      <s>'http://fhir.org/guides/itech-uw/ValueSet/hiv-b-de90'</s>
+                      <s>'http://fhir.org/guides/who/hiv-dak/ValueSet/hiv-b-de90'</s>
                     </s>
                   </value>
                   <nil>false</nil>
@@ -351,7 +351,7 @@
           </wstxns11:annotation>
         </wstxns11:annotation>
       </wstxns11:def>
-      <wstxns11:def wstxns11:type="ValueSetDef" localId="210" locator="16:1-16:73" name="Assay 2" id="http://fhir.org/guides/itech-uw/ValueSet/hiv-b-de91" accessLevel="Public">
+      <wstxns11:def wstxns11:type="ValueSetDef" localId="210" locator="16:1-16:76" name="Assay 2" id="http://fhir.org/guides/who/hiv-dak/ValueSet/hiv-b-de91" accessLevel="Public">
         <wstxns11:annotation>
           <wstxns11:annotation wstxns11:type="Annotation">
             <wstxns14:s xmlns:wstxns14="urn:hl7-org:cql-annotations:r1" r="210">
@@ -366,7 +366,7 @@
                       <s>valueset </s>
                       <s>"Assay 2"</s>
                       <s>: </s>
-                      <s>'http://fhir.org/guides/itech-uw/ValueSet/hiv-b-de91'</s>
+                      <s>'http://fhir.org/guides/who/hiv-dak/ValueSet/hiv-b-de91'</s>
                     </s>
                   </value>
                   <nil>false</nil>
@@ -378,7 +378,7 @@
           </wstxns11:annotation>
         </wstxns11:annotation>
       </wstxns11:def>
-      <wstxns11:def wstxns11:type="ValueSetDef" localId="211" locator="17:1-17:83" name="Assay 2 reactive" id="http://fhir.org/guides/itech-uw/ValueSet/hiv-e-de205" accessLevel="Public">
+      <wstxns11:def wstxns11:type="ValueSetDef" localId="211" locator="17:1-17:86" name="Assay 2 reactive" id="http://fhir.org/guides/who/hiv-dak/ValueSet/hiv-e-de205" accessLevel="Public">
         <wstxns11:annotation>
           <wstxns11:annotation wstxns11:type="Annotation">
             <wstxns15:s xmlns:wstxns15="urn:hl7-org:cql-annotations:r1" r="211">
@@ -393,7 +393,7 @@
                       <s>valueset </s>
                       <s>"Assay 2 reactive"</s>
                       <s>: </s>
-                      <s>'http://fhir.org/guides/itech-uw/ValueSet/hiv-e-de205'</s>
+                      <s>'http://fhir.org/guides/who/hiv-dak/ValueSet/hiv-e-de205'</s>
                     </s>
                   </value>
                   <nil>false</nil>
@@ -405,7 +405,7 @@
           </wstxns11:annotation>
         </wstxns11:annotation>
       </wstxns11:def>
-      <wstxns11:def wstxns11:type="ValueSetDef" localId="212" locator="18:1-18:87" name="Assay 2 non-reactive" id="http://fhir.org/guides/itech-uw/ValueSet/hiv-e-de206" accessLevel="Public">
+      <wstxns11:def wstxns11:type="ValueSetDef" localId="212" locator="18:1-18:90" name="Assay 2 non-reactive" id="http://fhir.org/guides/who/hiv-dak/ValueSet/hiv-e-de206" accessLevel="Public">
         <wstxns11:annotation>
           <wstxns11:annotation wstxns11:type="Annotation">
             <wstxns16:s xmlns:wstxns16="urn:hl7-org:cql-annotations:r1" r="212">
@@ -420,7 +420,7 @@
                       <s>valueset </s>
                       <s>"Assay 2 non-reactive"</s>
                       <s>: </s>
-                      <s>'http://fhir.org/guides/itech-uw/ValueSet/hiv-e-de206'</s>
+                      <s>'http://fhir.org/guides/who/hiv-dak/ValueSet/hiv-e-de206'</s>
                     </s>
                   </value>
                   <nil>false</nil>
@@ -432,7 +432,7 @@
           </wstxns11:annotation>
         </wstxns11:annotation>
       </wstxns11:def>
-      <wstxns11:def wstxns11:type="ValueSetDef" localId="213" locator="19:1-19:73" name="Assay 3" id="http://fhir.org/guides/itech-uw/ValueSet/hiv-b-de92" accessLevel="Public">
+      <wstxns11:def wstxns11:type="ValueSetDef" localId="213" locator="19:1-19:76" name="Assay 3" id="http://fhir.org/guides/who/hiv-dak/ValueSet/hiv-b-de92" accessLevel="Public">
         <wstxns11:annotation>
           <wstxns11:annotation wstxns11:type="Annotation">
             <wstxns17:s xmlns:wstxns17="urn:hl7-org:cql-annotations:r1" r="213">
@@ -447,7 +447,7 @@
                       <s>valueset </s>
                       <s>"Assay 3"</s>
                       <s>: </s>
-                      <s>'http://fhir.org/guides/itech-uw/ValueSet/hiv-b-de92'</s>
+                      <s>'http://fhir.org/guides/who/hiv-dak/ValueSet/hiv-b-de92'</s>
                     </s>
                   </value>
                   <nil>false</nil>
@@ -459,7 +459,7 @@
           </wstxns11:annotation>
         </wstxns11:annotation>
       </wstxns11:def>
-      <wstxns11:def wstxns11:type="ValueSetDef" localId="214" locator="20:1-20:82" name="Assay 1 repeated" id="http://fhir.org/guides/itech-uw/ValueSet/hiv-b-de93" accessLevel="Public">
+      <wstxns11:def wstxns11:type="ValueSetDef" localId="214" locator="20:1-20:85" name="Assay 1 repeated" id="http://fhir.org/guides/who/hiv-dak/ValueSet/hiv-b-de93" accessLevel="Public">
         <wstxns11:annotation>
           <wstxns11:annotation wstxns11:type="Annotation">
             <wstxns18:s xmlns:wstxns18="urn:hl7-org:cql-annotations:r1" r="214">
@@ -474,7 +474,7 @@
                       <s>valueset </s>
                       <s>"Assay 1 repeated"</s>
                       <s>: </s>
-                      <s>'http://fhir.org/guides/itech-uw/ValueSet/hiv-b-de93'</s>
+                      <s>'http://fhir.org/guides/who/hiv-dak/ValueSet/hiv-b-de93'</s>
                     </s>
                   </value>
                   <nil>false</nil>
@@ -486,7 +486,7 @@
           </wstxns11:annotation>
         </wstxns11:annotation>
       </wstxns11:def>
-      <wstxns11:def wstxns11:type="ValueSetDef" localId="215" locator="21:1-21:82" name="HIVtesttypeCodes" id="http://fhir.org/guides/itech-uw/ValueSet/hiv-b-de82" accessLevel="Public">
+      <wstxns11:def wstxns11:type="ValueSetDef" localId="215" locator="21:1-21:85" name="HIVtesttypeCodes" id="http://fhir.org/guides/who/hiv-dak/ValueSet/hiv-b-de82" accessLevel="Public">
         <wstxns11:annotation>
           <wstxns11:annotation wstxns11:type="Annotation">
             <wstxns19:s xmlns:wstxns19="urn:hl7-org:cql-annotations:r1" r="215">
@@ -501,7 +501,7 @@
                       <s>valueset </s>
                       <s>"HIVtesttypeCodes"</s>
                       <s>: </s>
-                      <s>'http://fhir.org/guides/itech-uw/ValueSet/hiv-b-de82'</s>
+                      <s>'http://fhir.org/guides/who/hiv-dak/ValueSet/hiv-b-de82'</s>
                     </s>
                   </value>
                   <nil>false</nil>
@@ -513,7 +513,7 @@
           </wstxns11:annotation>
         </wstxns11:annotation>
       </wstxns11:def>
-      <wstxns11:def wstxns11:type="ValueSetDef" localId="216" locator="22:1-22:75" name="Reactive" id="http://fhir.org/guides/itech-uw/ValueSet/hiv-b-de103" accessLevel="Public">
+      <wstxns11:def wstxns11:type="ValueSetDef" localId="216" locator="22:1-22:78" name="Reactive" id="http://fhir.org/guides/who/hiv-dak/ValueSet/hiv-b-de103" accessLevel="Public">
         <wstxns11:annotation>
           <wstxns11:annotation wstxns11:type="Annotation">
             <wstxns20:s xmlns:wstxns20="urn:hl7-org:cql-annotations:r1" r="216">
@@ -528,7 +528,7 @@
                       <s>valueset </s>
                       <s>"Reactive"</s>
                       <s>: </s>
-                      <s>'http://fhir.org/guides/itech-uw/ValueSet/hiv-b-de103'</s>
+                      <s>'http://fhir.org/guides/who/hiv-dak/ValueSet/hiv-b-de103'</s>
                     </s>
                   </value>
                   <nil>false</nil>
@@ -540,7 +540,7 @@
           </wstxns11:annotation>
         </wstxns11:annotation>
       </wstxns11:def>
-      <wstxns11:def wstxns11:type="ValueSetDef" localId="217" locator="23:1-23:79" name="Non-reactive" id="http://fhir.org/guides/itech-uw/ValueSet/hiv-b-de104" accessLevel="Public">
+      <wstxns11:def wstxns11:type="ValueSetDef" localId="217" locator="23:1-23:82" name="Non-reactive" id="http://fhir.org/guides/who/hiv-dak/ValueSet/hiv-b-de104" accessLevel="Public">
         <wstxns11:annotation>
           <wstxns11:annotation wstxns11:type="Annotation">
             <wstxns21:s xmlns:wstxns21="urn:hl7-org:cql-annotations:r1" r="217">
@@ -555,7 +555,7 @@
                       <s>valueset </s>
                       <s>"Non-reactive"</s>
                       <s>: </s>
-                      <s>'http://fhir.org/guides/itech-uw/ValueSet/hiv-b-de104'</s>
+                      <s>'http://fhir.org/guides/who/hiv-dak/ValueSet/hiv-b-de104'</s>
                     </s>
                   </value>
                   <nil>false</nil>

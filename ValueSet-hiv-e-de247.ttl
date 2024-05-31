@@ -5,20 +5,20 @@
 
 # - resource -------------------------------------------------------------------
 
-<http://fhir.org/guides/who/anc-cds/ValueSet/hiv-e-de247> a fhir:ValueSet ;
+<http://fhir.org/guides/who/hiv-dak/ValueSet/hiv-e-de247> a fhir:ValueSet ;
   fhir:nodeRole fhir:treeRoot ;
   fhir:id [ fhir:v "hiv-e-de247"] ; # 
   fhir:text [
      fhir:status [ fhir:v "extensions" ] ;
-     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Include these codes as defined in <a href=\"CodeSystem-concept-codes.html\"><code>http://fhir.org/guides/itech-uw/who-smart-hiv-dak/CodeSystem/concept-codes</code></a><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td><a href=\"CodeSystem-concept-codes.html#concept-codes-HIV.46E.46DE247\">HIV.E.DE247</a></td><td>A+</td><td>Blood group and Rh factor - A+</td></tr><tr><td><a href=\"CodeSystem-concept-codes.html#concept-codes-HIV.46E.46DE248\">HIV.E.DE248</a></td><td>A-</td><td>Blood group and Rh factor - A-</td></tr><tr><td><a href=\"CodeSystem-concept-codes.html#concept-codes-HIV.46E.46DE249\">HIV.E.DE249</a></td><td>B+</td><td>Blood group and Rh factor - B+</td></tr><tr><td><a href=\"CodeSystem-concept-codes.html#concept-codes-HIV.46E.46DE250\">HIV.E.DE250</a></td><td>B-</td><td>Blood group and Rh factor - B-</td></tr><tr><td><a href=\"CodeSystem-concept-codes.html#concept-codes-HIV.46E.46DE251\">HIV.E.DE251</a></td><td>O+</td><td>Blood group and Rh factor - O+</td></tr><tr><td><a href=\"CodeSystem-concept-codes.html#concept-codes-HIV.46E.46DE252\">HIV.E.DE252</a></td><td>O-</td><td>Blood group and Rh factor - O-</td></tr><tr><td><a href=\"CodeSystem-concept-codes.html#concept-codes-HIV.46E.46DE253\">HIV.E.DE253</a></td><td>AB+</td><td>Blood group and Rh factor - AB+</td></tr><tr><td><a href=\"CodeSystem-concept-codes.html#concept-codes-HIV.46E.46DE254\">HIV.E.DE254</a></td><td>AB-</td><td>Blood group and Rh factor - AB-</td></tr></table></li></ul></div>"
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Include these codes as defined in <a href=\"CodeSystem-concept-codes.html\"><code>http://fhir.org/guides/who/hiv-dak/CodeSystem/HIV-DAKConcepts</code></a><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td><a href=\"CodeSystem-concept-codes.html#concept-codes-HIV.46E.46DE247\">HIV.E.DE247</a></td><td>A+</td><td>Blood group and Rh factor - A+</td></tr><tr><td><a href=\"CodeSystem-concept-codes.html#concept-codes-HIV.46E.46DE248\">HIV.E.DE248</a></td><td>A-</td><td>Blood group and Rh factor - A-</td></tr><tr><td><a href=\"CodeSystem-concept-codes.html#concept-codes-HIV.46E.46DE249\">HIV.E.DE249</a></td><td>B+</td><td>Blood group and Rh factor - B+</td></tr><tr><td><a href=\"CodeSystem-concept-codes.html#concept-codes-HIV.46E.46DE250\">HIV.E.DE250</a></td><td>B-</td><td>Blood group and Rh factor - B-</td></tr><tr><td><a href=\"CodeSystem-concept-codes.html#concept-codes-HIV.46E.46DE251\">HIV.E.DE251</a></td><td>O+</td><td>Blood group and Rh factor - O+</td></tr><tr><td><a href=\"CodeSystem-concept-codes.html#concept-codes-HIV.46E.46DE252\">HIV.E.DE252</a></td><td>O-</td><td>Blood group and Rh factor - O-</td></tr><tr><td><a href=\"CodeSystem-concept-codes.html#concept-codes-HIV.46E.46DE253\">HIV.E.DE253</a></td><td>AB+</td><td>Blood group and Rh factor - AB+</td></tr><tr><td><a href=\"CodeSystem-concept-codes.html#concept-codes-HIV.46E.46DE254\">HIV.E.DE254</a></td><td>AB-</td><td>Blood group and Rh factor - AB-</td></tr></table></li></ul></div>"
   ] ; # 
-  fhir:url [ fhir:v "http://fhir.org/guides/itech-uw/ValueSet/hiv-e-de247"^^xsd:anyURI] ; # 
+  fhir:url [ fhir:v "http://fhir.org/guides/who/hiv-dak/ValueSet/hiv-e-de247"^^xsd:anyURI] ; # 
   fhir:version [ fhir:v "0.3.0"] ; # 
   fhir:name [ fhir:v "BloodgroupandRhfactorCodes"] ; # 
   fhir:title [ fhir:v "Blood group and Rh factor Codes"] ; # 
   fhir:status [ fhir:v "draft"] ; # 
   fhir:experimental [ fhir:v "false"^^xsd:boolean] ; # 
-  fhir:date [ fhir:v "2024-05-31T07:49:07+00:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2024-05-31T12:57:23+00:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "World Health Organization (WHO) "] ; # 
   fhir:contact ( [
      fhir:telecom ( [
@@ -36,7 +36,7 @@
   fhir:immutable [ fhir:v "true"^^xsd:boolean] ; # 
   fhir:compose [
      fhir:include ( [
-       fhir:system [ fhir:v "http://fhir.org/guides/itech-uw/who-smart-hiv-dak/CodeSystem/concept-codes"^^xsd:anyURI ] ;
+       fhir:system [ fhir:v "http://fhir.org/guides/who/hiv-dak/CodeSystem/HIV-DAKConcepts"^^xsd:anyURI ] ;
        fhir:concept ( [
          fhir:code [ fhir:v "HIV.E.DE247" ] ;
          fhir:display [ fhir:v "A+" ]

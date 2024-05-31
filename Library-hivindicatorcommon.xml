@@ -1,6 +1,6 @@
 <?xml version='1.1' encoding='UTF-8'?>
 <Library type="Library" localId="0">
-  <wstxns1:identifier xmlns:wstxns1="urn:hl7-org:elm:r1" wstxns1:type="VersionedIdentifier" id="HIVIndicatorCommon" version="0.01"/>
+  <wstxns1:identifier xmlns:wstxns1="urn:hl7-org:elm:r1" wstxns1:type="VersionedIdentifier" id="HIVIndicatorCommon" version="0.0.1"/>
   <wstxns2:schemaIdentifier xmlns:wstxns2="urn:hl7-org:elm:r1" wstxns2:type="VersionedIdentifier" id="urn:hl7-org:elm" version="r1"/>
   <wstxns3:usings xmlns:wstxns3="urn:hl7-org:elm:r1" wstxns3:type="Library$Usings">
     <wstxns3:def>
@@ -441,7 +441,7 @@
           </wstxns11:annotation>
         </wstxns11:annotation>
       </wstxns11:def>
-      <wstxns11:def wstxns11:type="CodeSystemDef" localId="208" locator="7:1-7:104" name="HIV_DAK_Codes" id="http://fhir.org/guides/itech-uw/who-smart-hiv-dak/CodeSystem/concept-codes" accessLevel="Public">
+      <wstxns11:def wstxns11:type="CodeSystemDef" localId="208" locator="7:1-7:91" name="HIV_DAK_Codes" id="http://fhir.org/guides/who/hiv-dak/CodeSystem/HIV-DAKConcepts" accessLevel="Public">
         <wstxns11:annotation>
           <wstxns11:annotation wstxns11:type="Annotation">
             <wstxns13:s xmlns:wstxns13="urn:hl7-org:cql-annotations:r1" r="208">
@@ -456,7 +456,7 @@
                       <s>codesystem </s>
                       <s>"HIV_DAK_Codes"</s>
                       <s>: </s>
-                      <s>'http://fhir.org/guides/itech-uw/who-smart-hiv-dak/CodeSystem/concept-codes'</s>
+                      <s>'http://fhir.org/guides/who/hiv-dak/CodeSystem/HIV-DAKConcepts'</s>
                     </s>
                   </value>
                   <nil>false</nil>
@@ -549,7 +549,7 @@
           </wstxns11:annotation>
         </wstxns11:annotation>
       </wstxns11:def>
-      <wstxns11:def wstxns11:type="CodeSystemDef" localId="212" locator="12:1-12:97" name="Keypopulationmembertype*Codes" id="http://fhir.org/guides/itech-uw/ValueSet/hiv-b-de51" accessLevel="Public">
+      <wstxns11:def wstxns11:type="CodeSystemDef" localId="212" locator="12:1-12:100" name="Keypopulationmembertype*Codes" id="http://fhir.org/guides/who/hiv-dak/ValueSet/hiv-b-de51" accessLevel="Public">
         <wstxns11:annotation>
           <wstxns11:annotation wstxns11:type="Annotation">
             <wstxns17:s xmlns:wstxns17="urn:hl7-org:cql-annotations:r1" r="212">
@@ -564,7 +564,7 @@
                       <s>codesystem </s>
                       <s>"Keypopulationmembertype*Codes"</s>
                       <s>: </s>
-                      <s>'http://fhir.org/guides/itech-uw/ValueSet/hiv-b-de51'</s>
+                      <s>'http://fhir.org/guides/who/hiv-dak/ValueSet/hiv-b-de51'</s>
                     </s>
                   </value>
                   <nil>false</nil>
@@ -576,7 +576,7 @@
           </wstxns11:annotation>
         </wstxns11:annotation>
       </wstxns11:def>
-      <wstxns11:def wstxns11:type="CodeSystemDef" localId="213" locator="13:1-13:83" name="HIVstatusCodes" id="http://fhir.org/guides/itech-uw/ValueSet/hiv-b-de116" accessLevel="Public">
+      <wstxns11:def wstxns11:type="CodeSystemDef" localId="213" locator="13:1-13:86" name="HIVstatusCodes" id="http://fhir.org/guides/who/hiv-dak/ValueSet/hiv-b-de116" accessLevel="Public">
         <wstxns11:annotation>
           <wstxns11:annotation wstxns11:type="Annotation">
             <wstxns18:s xmlns:wstxns18="urn:hl7-org:cql-annotations:r1" r="213">
@@ -591,7 +591,7 @@
                       <s>codesystem </s>
                       <s>"HIVstatusCodes"</s>
                       <s>: </s>
-                      <s>'http://fhir.org/guides/itech-uw/ValueSet/hiv-b-de116'</s>
+                      <s>'http://fhir.org/guides/who/hiv-dak/ValueSet/hiv-b-de116'</s>
                     </s>
                   </value>
                   <nil>false</nil>
@@ -603,7 +603,7 @@
           </wstxns11:annotation>
         </wstxns11:annotation>
       </wstxns11:def>
-      <wstxns11:def wstxns11:type="CodeSystemDef" localId="214" locator="14:1-14:92" name="HIVtreatmentoutcomeCodes" id="http://fhir.org/guides/itech-uw/ValueSet/hiv-h-de42" accessLevel="Public">
+      <wstxns11:def wstxns11:type="CodeSystemDef" localId="214" locator="14:1-14:95" name="HIVtreatmentoutcomeCodes" id="http://fhir.org/guides/who/hiv-dak/ValueSet/hiv-h-de42" accessLevel="Public">
         <wstxns11:annotation>
           <wstxns11:annotation wstxns11:type="Annotation">
             <wstxns19:s xmlns:wstxns19="urn:hl7-org:cql-annotations:r1" r="214">
@@ -618,7 +618,7 @@
                       <s>codesystem </s>
                       <s>"HIVtreatmentoutcomeCodes"</s>
                       <s>: </s>
-                      <s>'http://fhir.org/guides/itech-uw/ValueSet/hiv-h-de42'</s>
+                      <s>'http://fhir.org/guides/who/hiv-dak/ValueSet/hiv-h-de42'</s>
                     </s>
                   </value>
                   <nil>false</nil>
@@ -798,7 +798,7 @@
           </wstxns23:annotation>
         </wstxns23:annotation>
       </wstxns23:def>
-      <wstxns23:def wstxns23:type="ValueSetDef" localId="253" locator="39:1-39:82" name="HIVtesttypeCodes" id="http://fhir.org/guides/itech-uw/ValueSet/hiv-b-de82" accessLevel="Public">
+      <wstxns23:def wstxns23:type="ValueSetDef" localId="253" locator="39:1-39:85" name="HIVtesttypeCodes" id="http://fhir.org/guides/who/hiv-dak/ValueSet/hiv-b-de82" accessLevel="Public">
         <wstxns23:annotation>
           <wstxns23:annotation wstxns23:type="Annotation">
             <wstxns27:s xmlns:wstxns27="urn:hl7-org:cql-annotations:r1" r="253">
@@ -813,7 +813,7 @@
                       <s>valueset </s>
                       <s>"HIVtesttypeCodes"</s>
                       <s>: </s>
-                      <s>'http://fhir.org/guides/itech-uw/ValueSet/hiv-b-de82'</s>
+                      <s>'http://fhir.org/guides/who/hiv-dak/ValueSet/hiv-b-de82'</s>
                     </s>
                   </value>
                   <nil>false</nil>
@@ -32960,7 +32960,7 @@
             <value>
               <s>
                 <s></s>
-                <s>library HIVIndicatorCommon version '0.01'</s>
+                <s>library HIVIndicatorCommon version '0.0.1'</s>
               </s>
             </value>
             <nil>false</nil>

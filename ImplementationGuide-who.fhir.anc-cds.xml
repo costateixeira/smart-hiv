@@ -3,10 +3,10 @@
 <ImplementationGuide xmlns="http://hl7.org/fhir">
   <id value="who.fhir.anc-cds"/>
   <text>
-    <status value="extensions"/><div xmlns="http://www.w3.org/1999/xhtml"><h2>ANCCDS</h2><p>The official URL for this implementation guide is: </p><pre>http://fhir.org/guides/who/anc-cds/ImplementationGuide/who.fhir.anc-cds</pre><div><p>This implementation guide provides implementation resources and guidance in support of applying the <a href="https://www.who.int/reproductivehealth/publications/maternal_perinatal_health/anc-positive-pregnancy-experience/en/">WHO recommendations on antenatal care for a positive pregnancy experience</a>.&lt;/br&gt;This implementation guide is part of the WHO Smart Guidelines approach to support countries to integrate WHO global data and health recommendations into digital systems accurately and consistently. This new approach to global health in the digital age beings with maternal health and the launch of the <a href="https://www.srhr.org/antenatalcare/">WHO Smart Antenatal Care Guidelines</a>.</p>
+    <status value="extensions"/><div xmlns="http://www.w3.org/1999/xhtml"><h2>ANCCDS</h2><p>The official URL for this implementation guide is: </p><pre>http://fhir.org/guides/who/hiv-dak/ImplementationGuide/who.fhir.anc-cds</pre><div><p>This implementation guide provides implementation resources and guidance in support of applying the <a href="https://www.who.int/reproductivehealth/publications/maternal_perinatal_health/anc-positive-pregnancy-experience/en/">WHO recommendations on antenatal care for a positive pregnancy experience</a>.&lt;/br&gt;This implementation guide is part of the WHO Smart Guidelines approach to support countries to integrate WHO global data and health recommendations into digital systems accurately and consistently. This new approach to global health in the digital age beings with maternal health and the launch of the <a href="https://www.srhr.org/antenatalcare/">WHO Smart Antenatal Care Guidelines</a>.</p>
 </div></div>
   </text>
-  <url value="http://fhir.org/guides/who/anc-cds/ImplementationGuide/who.fhir.anc-cds"/>
+  <url value="http://fhir.org/guides/who/hiv-dak/ImplementationGuide/who.fhir.anc-cds"/>
   <version value="0.3.0"/>
   <name value="ANCCDS"/>
   <title value="SMART WHO HIV Implmementation Guide"/>
@@ -382,7 +382,7 @@
         <valueString value="path-history"/>
       </extension>
       <extension url="value">
-        <valueString value="http://fhir.org/guides/who/anc-cds/history.html"/>
+        <valueString value="http://fhir.org/guides/who/hiv-dak/history.html"/>
       </extension>
     </extension>
     <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
@@ -833,7 +833,7 @@
         <valueCode value="path-history"/>
       </extension>
       <extension url="value">
-        <valueString value="http://fhir.org/guides/who/anc-cds/history.html"/>
+        <valueString value="http://fhir.org/guides/who/hiv-dak/history.html"/>
       </extension>
     </extension>
     <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
@@ -1309,8 +1309,8 @@
       <reference>
         <reference value="CodeSystem/concept-codes"/>
       </reference>
-      <name value="itech-uw Concept Codes"/>
-      <description value="Set of codes representing all concepts used in the implementation guide"/>
+      <name value="HIV-DAK Concepts"/>
+      <description value="Set of codes representing all concepts used in the HIV-DAK implementation guide"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
