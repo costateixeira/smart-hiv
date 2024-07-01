@@ -1,8 +1,8 @@
 {
   "resourceType" : "Bundle",
-  "id" : "41f7961f-fc26-4af5-b61b-1aad58f4dca9",
+  "id" : "7d7b893d-5cd8-4fdb-a07f-e5ef09cf760e",
   "meta" : {
-    "lastUpdated" : "2024-07-01T19:43:16.312+00:00"
+    "lastUpdated" : "2024-07-01T19:47:03.220+00:00"
   },
   "type" : "collection",
   "entry" : [{
@@ -24,10 +24,10 @@
       "title" : "Country of birth ValueSet",
       "status" : "active",
       "experimental" : true,
-      "date" : "2024-07-01T19:43:16+00:00",
+      "date" : "2024-07-01T19:47:03+00:00",
       "expansion" : {
-        "identifier" : "urn:uuid:350c0530-fcfd-4785-b3d4-895a0f18c365",
-        "timestamp" : "2024-07-01T19:44:30+00:00",
+        "identifier" : "urn:uuid:36858faa-bfe8-4135-9a99-50d0cca14393",
+        "timestamp" : "2024-07-01T19:48:18+00:00",
         "total" : 0,
         "offset" : 0,
         "parameter" : [{
@@ -64,10 +64,10 @@
       "title" : "Gender ValueSet",
       "status" : "active",
       "experimental" : true,
-      "date" : "2024-07-01T19:43:16+00:00",
+      "date" : "2024-07-01T19:47:03+00:00",
       "expansion" : {
-        "identifier" : "urn:uuid:e753bcc2-4b9e-44c1-9a71-0ab7c35630b1",
-        "timestamp" : "2024-07-01T19:44:30+00:00",
+        "identifier" : "urn:uuid:171da06f-e076-4c64-97a4-baf40b4518fc",
+        "timestamp" : "2024-07-01T19:48:18+00:00",
         "total" : 5,
         "offset" : 0,
         "parameter" : [{
@@ -137,10 +137,10 @@
       "title" : "Sex ValueSet",
       "status" : "active",
       "experimental" : true,
-      "date" : "2024-07-01T19:43:16+00:00",
+      "date" : "2024-07-01T19:47:03+00:00",
       "expansion" : {
-        "identifier" : "urn:uuid:54002a02-581e-4903-a9c9-1c66fd871e14",
-        "timestamp" : "2024-07-01T19:44:30+00:00",
+        "identifier" : "urn:uuid:8de99637-d74d-4e17-8185-23b92e613731",
+        "timestamp" : "2024-07-01T19:48:18+00:00",
         "total" : 3,
         "offset" : 0,
         "parameter" : [{
@@ -200,10 +200,10 @@
       "title" : "Marital Status ValueSet",
       "status" : "active",
       "experimental" : true,
-      "date" : "2024-07-01T19:43:16+00:00",
+      "date" : "2024-07-01T19:47:03+00:00",
       "expansion" : {
-        "identifier" : "urn:uuid:1113cbac-6e57-4494-9509-a8a5e1803da3",
-        "timestamp" : "2024-07-01T19:44:30+00:00",
+        "identifier" : "urn:uuid:cba253d4-b65b-4bd4-bb63-95f3943a7b65",
+        "timestamp" : "2024-07-01T19:48:18+00:00",
         "total" : 11,
         "offset" : 0,
         "parameter" : [{
@@ -303,10 +303,10 @@
       "title" : "Administrative Area ValueSet",
       "status" : "active",
       "experimental" : true,
-      "date" : "2024-07-01T19:43:16+00:00",
+      "date" : "2024-07-01T19:47:03+00:00",
       "expansion" : {
-        "identifier" : "urn:uuid:f2e2ea63-6ddb-4767-b482-bd220c3d6222",
-        "timestamp" : "2024-07-01T19:44:30+00:00",
+        "identifier" : "urn:uuid:1709b8b9-874d-4c95-aa26-446f0fe9bbba",
+        "timestamp" : "2024-07-01T19:48:18+00:00",
         "total" : 0,
         "offset" : 0,
         "parameter" : [{
@@ -343,10 +343,10 @@
       "title" : "Communication preference(s) ValueSet",
       "status" : "active",
       "experimental" : true,
-      "date" : "2024-07-01T19:43:16+00:00",
+      "date" : "2024-07-01T19:47:03+00:00",
       "expansion" : {
-        "identifier" : "urn:uuid:ea44e5c5-c431-49bf-9402-6fc3e1a991a9",
-        "timestamp" : "2024-07-01T19:44:30+00:00",
+        "identifier" : "urn:uuid:f673a948-3878-42ff-a6d4-f601603b47d8",
+        "timestamp" : "2024-07-01T19:48:18+00:00",
         "total" : 2,
         "offset" : 0,
         "parameter" : [{
@@ -401,10 +401,10 @@
       "title" : "Referred by ValueSet",
       "status" : "active",
       "experimental" : true,
-      "date" : "2024-07-01T19:43:16+00:00",
+      "date" : "2024-07-01T19:47:03+00:00",
       "expansion" : {
-        "identifier" : "urn:uuid:8adb5923-7840-466a-a118-478977668d59",
-        "timestamp" : "2024-07-01T19:44:30+00:00",
+        "identifier" : "urn:uuid:f22df772-5ce3-4a97-9866-1a6681272f32",
+        "timestamp" : "2024-07-01T19:48:18+00:00",
         "total" : 2,
         "offset" : 0,
         "parameter" : [{
@@ -459,10 +459,10 @@
       "title" : "Reason for visit ValueSet",
       "status" : "active",
       "experimental" : true,
-      "date" : "2024-07-01T19:43:16+00:00",
+      "date" : "2024-07-01T19:47:03+00:00",
       "expansion" : {
-        "identifier" : "urn:uuid:67d97f69-b275-484e-a78a-7156a816620e",
-        "timestamp" : "2024-07-01T19:44:30+00:00",
+        "identifier" : "urn:uuid:cc878fb4-eaa8-44bc-baa0-36debb2ee603",
+        "timestamp" : "2024-07-01T19:48:18+00:00",
         "total" : 3,
         "offset" : 0,
         "parameter" : [{
@@ -522,10 +522,10 @@
       "title" : "Test result of HIV assay 3 ValueSet",
       "status" : "active",
       "experimental" : true,
-      "date" : "2024-07-01T19:43:16+00:00",
+      "date" : "2024-07-01T19:47:03+00:00",
       "expansion" : {
-        "identifier" : "urn:uuid:712c5c87-06b1-4673-bf43-459866e236e9",
-        "timestamp" : "2024-07-01T19:44:30+00:00",
+        "identifier" : "urn:uuid:270ebd7d-8f1e-46f3-a9bb-5c78600fb35f",
+        "timestamp" : "2024-07-01T19:48:18+00:00",
         "total" : 3,
         "offset" : 0,
         "parameter" : [{
@@ -585,10 +585,10 @@
       "title" : "Test result of HIV assay 1 repeated ValueSet",
       "status" : "active",
       "experimental" : true,
-      "date" : "2024-07-01T19:43:16+00:00",
+      "date" : "2024-07-01T19:47:03+00:00",
       "expansion" : {
-        "identifier" : "urn:uuid:c53a6910-5ee1-4437-b397-44eb7a98d227",
-        "timestamp" : "2024-07-01T19:44:30+00:00",
+        "identifier" : "urn:uuid:2deaf5c4-20c0-4092-86c2-c98d1918174d",
+        "timestamp" : "2024-07-01T19:48:18+00:00",
         "total" : 3,
         "offset" : 0,
         "parameter" : [{
@@ -648,10 +648,10 @@
       "title" : "HIV test result ValueSet",
       "status" : "active",
       "experimental" : true,
-      "date" : "2024-07-01T19:43:16+00:00",
+      "date" : "2024-07-01T19:47:03+00:00",
       "expansion" : {
-        "identifier" : "urn:uuid:2f8d48b4-c4e3-4684-9913-8d3a768defa9",
-        "timestamp" : "2024-07-01T19:44:30+00:00",
+        "identifier" : "urn:uuid:8ec533ea-93f9-4405-9bf1-b91a7b218be7",
+        "timestamp" : "2024-07-01T19:48:19+00:00",
         "total" : 3,
         "offset" : 0,
         "parameter" : [{
@@ -711,10 +711,10 @@
       "title" : "HIV status ValueSet",
       "status" : "active",
       "experimental" : true,
-      "date" : "2024-07-01T19:43:16+00:00",
+      "date" : "2024-07-01T19:47:03+00:00",
       "expansion" : {
-        "identifier" : "urn:uuid:b6386c65-bb60-46e8-8842-54d9f6030883",
-        "timestamp" : "2024-07-01T19:44:30+00:00",
+        "identifier" : "urn:uuid:667a5fd3-45d6-48bc-916a-a71ac1317308",
+        "timestamp" : "2024-07-01T19:48:19+00:00",
         "total" : 3,
         "offset" : 0,
         "parameter" : [{
@@ -774,10 +774,10 @@
       "title" : "Site where positive HIV test confirmed ValueSet",
       "status" : "active",
       "experimental" : true,
-      "date" : "2024-07-01T19:43:16+00:00",
+      "date" : "2024-07-01T19:47:03+00:00",
       "expansion" : {
-        "identifier" : "urn:uuid:b7c76a12-8239-453f-b445-5208585b6d89",
-        "timestamp" : "2024-07-01T19:44:30+00:00",
+        "identifier" : "urn:uuid:4a8c0f8e-1fae-4424-8d29-c412fa873574",
+        "timestamp" : "2024-07-01T19:48:19+00:00",
         "total" : 0,
         "offset" : 0,
         "parameter" : [{
@@ -814,10 +814,10 @@
       "title" : "Probable route of transmission ValueSet",
       "status" : "active",
       "experimental" : true,
-      "date" : "2024-07-01T19:43:16+00:00",
+      "date" : "2024-07-01T19:47:03+00:00",
       "expansion" : {
-        "identifier" : "urn:uuid:cabda9ed-4df2-4da1-b55e-1e910ef3e56f",
-        "timestamp" : "2024-07-01T19:44:31+00:00",
+        "identifier" : "urn:uuid:4fda2c28-f7d6-475e-88c0-f84566d56143",
+        "timestamp" : "2024-07-01T19:48:19+00:00",
         "total" : 7,
         "offset" : 0,
         "parameter" : [{
@@ -897,10 +897,10 @@
       "title" : "Partner HIV test result ValueSet",
       "status" : "active",
       "experimental" : true,
-      "date" : "2024-07-01T19:43:16+00:00",
+      "date" : "2024-07-01T19:47:03+00:00",
       "expansion" : {
-        "identifier" : "urn:uuid:824f00f5-28de-476d-a514-b73041e2427a",
-        "timestamp" : "2024-07-01T19:44:31+00:00",
+        "identifier" : "urn:uuid:2976f111-8122-40ae-b2c3-d967073fefd5",
+        "timestamp" : "2024-07-01T19:48:19+00:00",
         "total" : 3,
         "offset" : 0,
         "parameter" : [{
@@ -960,10 +960,10 @@
       "title" : "Partner HIV status (confirmed) ValueSet",
       "status" : "active",
       "experimental" : true,
-      "date" : "2024-07-01T19:43:16+00:00",
+      "date" : "2024-07-01T19:47:03+00:00",
       "expansion" : {
-        "identifier" : "urn:uuid:46677b14-3c5a-4ff1-8f0f-bcb9bf923b39",
-        "timestamp" : "2024-07-01T19:44:31+00:00",
+        "identifier" : "urn:uuid:ca5d429c-db51-4c8d-92ba-120b857c1f3f",
+        "timestamp" : "2024-07-01T19:48:19+00:00",
         "total" : 3,
         "offset" : 0,
         "parameter" : [{
@@ -1023,10 +1023,10 @@
       "title" : "Counselling provided ValueSet",
       "status" : "active",
       "experimental" : true,
-      "date" : "2024-07-01T19:43:16+00:00",
+      "date" : "2024-07-01T19:47:03+00:00",
       "expansion" : {
-        "identifier" : "urn:uuid:b21a8a01-bf3a-4e25-b054-40d9ccf322e2",
-        "timestamp" : "2024-07-01T19:44:31+00:00",
+        "identifier" : "urn:uuid:57b79a56-ce26-4f06-a619-3c985be1a73b",
+        "timestamp" : "2024-07-01T19:48:19+00:00",
         "total" : 6,
         "offset" : 0,
         "parameter" : [{
@@ -1101,10 +1101,10 @@
       "title" : "Prevention services offered and referrals ValueSet",
       "status" : "active",
       "experimental" : true,
-      "date" : "2024-07-01T19:43:16+00:00",
+      "date" : "2024-07-01T19:47:03+00:00",
       "expansion" : {
-        "identifier" : "urn:uuid:cc5c86a6-9223-40b0-8f84-e783c0050c28",
-        "timestamp" : "2024-07-01T19:44:31+00:00",
+        "identifier" : "urn:uuid:ccfbef14-cd74-4419-8365-97bbd570d821",
+        "timestamp" : "2024-07-01T19:48:19+00:00",
         "total" : 8,
         "offset" : 0,
         "parameter" : [{
@@ -1189,10 +1189,10 @@
       "title" : "Testing entry point ValueSet",
       "status" : "active",
       "experimental" : true,
-      "date" : "2024-07-01T19:43:16+00:00",
+      "date" : "2024-07-01T19:47:03+00:00",
       "expansion" : {
-        "identifier" : "urn:uuid:9e89791e-46b2-46b8-89ea-d37b8710b0de",
-        "timestamp" : "2024-07-01T19:44:31+00:00",
+        "identifier" : "urn:uuid:05e252c1-2f62-4d6b-8b4a-b28b87f0f22c",
+        "timestamp" : "2024-07-01T19:48:19+00:00",
         "total" : 2,
         "offset" : 0,
         "parameter" : [{
@@ -1247,10 +1247,10 @@
       "title" : "Sexual and reproductive health integrated services ValueSet",
       "status" : "active",
       "experimental" : true,
-      "date" : "2024-07-01T19:43:16+00:00",
+      "date" : "2024-07-01T19:47:03+00:00",
       "expansion" : {
-        "identifier" : "urn:uuid:ee248b7b-da47-4186-a91b-1eb8328b5dbe",
-        "timestamp" : "2024-07-01T19:44:31+00:00",
+        "identifier" : "urn:uuid:68d20315-d63b-41e1-a140-33c1e81f1e98",
+        "timestamp" : "2024-07-01T19:48:19+00:00",
         "total" : 6,
         "offset" : 0,
         "parameter" : [{
@@ -1325,10 +1325,10 @@
       "title" : "Offer other clinical services ValueSet",
       "status" : "active",
       "experimental" : true,
-      "date" : "2024-07-01T19:43:16+00:00",
+      "date" : "2024-07-01T19:47:03+00:00",
       "expansion" : {
-        "identifier" : "urn:uuid:976e08c2-a83a-4c63-95d4-a1a2ce7706cd",
-        "timestamp" : "2024-07-01T19:44:31+00:00",
+        "identifier" : "urn:uuid:f2b610a8-07b7-4da7-8f39-8680f84a1a4d",
+        "timestamp" : "2024-07-01T19:48:19+00:00",
         "total" : 6,
         "offset" : 0,
         "parameter" : [{
@@ -1403,10 +1403,10 @@
       "title" : "Other support services ValueSet",
       "status" : "active",
       "experimental" : true,
-      "date" : "2024-07-01T19:43:16+00:00",
+      "date" : "2024-07-01T19:47:03+00:00",
       "expansion" : {
-        "identifier" : "urn:uuid:f642ea1b-0975-482d-b3aa-98c144d54d3d",
-        "timestamp" : "2024-07-01T19:44:31+00:00",
+        "identifier" : "urn:uuid:275cff7e-0e2a-4b0e-adba-69d2b539f386",
+        "timestamp" : "2024-07-01T19:48:19+00:00",
         "total" : 5,
         "offset" : 0,
         "parameter" : [{
@@ -1476,10 +1476,10 @@
       "title" : "Intimate partner violence enquiry results ValueSet",
       "status" : "active",
       "experimental" : true,
-      "date" : "2024-07-01T19:43:16+00:00",
+      "date" : "2024-07-01T19:47:03+00:00",
       "expansion" : {
-        "identifier" : "urn:uuid:1e5ebe94-d95c-4447-8519-2f6078b9c00a",
-        "timestamp" : "2024-07-01T19:44:31+00:00",
+        "identifier" : "urn:uuid:bfddf205-38cd-4aeb-9d9c-478a559bf8d8",
+        "timestamp" : "2024-07-01T19:48:19+00:00",
         "total" : 4,
         "offset" : 0,
         "parameter" : [{
@@ -1544,10 +1544,10 @@
       "title" : "Entry point for community-level testing ValueSet",
       "status" : "active",
       "experimental" : true,
-      "date" : "2024-07-01T19:43:16+00:00",
+      "date" : "2024-07-01T19:47:03+00:00",
       "expansion" : {
-        "identifier" : "urn:uuid:d68dbdd0-07eb-4fd1-8ce6-8376c341ab56",
-        "timestamp" : "2024-07-01T19:44:31+00:00",
+        "identifier" : "urn:uuid:729dabf4-b609-4972-9d0a-2aac61c70c8d",
+        "timestamp" : "2024-07-01T19:48:19+00:00",
         "total" : 3,
         "offset" : 0,
         "parameter" : [{
@@ -1607,10 +1607,10 @@
       "title" : "Type of follow-up appointment ValueSet",
       "status" : "active",
       "experimental" : true,
-      "date" : "2024-07-01T19:43:16+00:00",
+      "date" : "2024-07-01T19:47:03+00:00",
       "expansion" : {
-        "identifier" : "urn:uuid:5f4d42a7-5c90-4746-a14b-639d4cb8c913",
-        "timestamp" : "2024-07-01T19:44:31+00:00",
+        "identifier" : "urn:uuid:f8e1015b-c431-4219-ab7c-dd38a2f148de",
+        "timestamp" : "2024-07-01T19:48:19+00:00",
         "total" : 2,
         "offset" : 0,
         "parameter" : [{
@@ -1665,10 +1665,10 @@
       "title" : "Adverse event severity ValueSet",
       "status" : "active",
       "experimental" : true,
-      "date" : "2024-07-01T19:43:16+00:00",
+      "date" : "2024-07-01T19:47:03+00:00",
       "expansion" : {
-        "identifier" : "urn:uuid:559b954a-6895-48b6-a3a0-deddd9d603a0",
-        "timestamp" : "2024-07-01T19:44:31+00:00",
+        "identifier" : "urn:uuid:3e24a97e-ae52-442f-9f9a-2496be2b8b65",
+        "timestamp" : "2024-07-01T19:48:19+00:00",
         "total" : 0,
         "offset" : 0,
         "parameter" : [{
@@ -1705,10 +1705,10 @@
       "title" : "Timing of adverse event ValueSet",
       "status" : "active",
       "experimental" : true,
-      "date" : "2024-07-01T19:43:16+00:00",
+      "date" : "2024-07-01T19:47:03+00:00",
       "expansion" : {
-        "identifier" : "urn:uuid:757414eb-a2d9-4539-969a-b227bdee2b99",
-        "timestamp" : "2024-07-01T19:44:31+00:00",
+        "identifier" : "urn:uuid:f36e54ec-d611-4ea5-ab27-50c400ad592f",
+        "timestamp" : "2024-07-01T19:48:19+00:00",
         "total" : 2,
         "offset" : 0,
         "parameter" : [{
@@ -1763,10 +1763,10 @@
       "title" : "Type of adverse VMMC event ValueSet",
       "status" : "active",
       "experimental" : true,
-      "date" : "2024-07-01T19:43:16+00:00",
+      "date" : "2024-07-01T19:47:03+00:00",
       "expansion" : {
-        "identifier" : "urn:uuid:c83711bf-6ae9-469a-aaec-9e8cd9841deb",
-        "timestamp" : "2024-07-01T19:44:31+00:00",
+        "identifier" : "urn:uuid:88498054-5307-42ba-83ec-2db4045a20ea",
+        "timestamp" : "2024-07-01T19:48:20+00:00",
         "total" : 15,
         "offset" : 0,
         "parameter" : [{
@@ -1886,10 +1886,10 @@
       "title" : "Entry point for facility-level testing ValueSet",
       "status" : "active",
       "experimental" : true,
-      "date" : "2024-07-01T19:43:16+00:00",
+      "date" : "2024-07-01T19:47:03+00:00",
       "expansion" : {
-        "identifier" : "urn:uuid:019813c4-e7dc-466a-8e9a-5b034444e86b",
-        "timestamp" : "2024-07-01T19:44:31+00:00",
+        "identifier" : "urn:uuid:7dfab044-d593-498c-a853-a4aa4bd45447",
+        "timestamp" : "2024-07-01T19:48:20+00:00",
         "total" : 6,
         "offset" : 0,
         "parameter" : [{
@@ -1964,10 +1964,10 @@
       "title" : "Syndrome/STI diagnosed ValueSet",
       "status" : "active",
       "experimental" : true,
-      "date" : "2024-07-01T19:43:16+00:00",
+      "date" : "2024-07-01T19:47:03+00:00",
       "expansion" : {
-        "identifier" : "urn:uuid:fe356a4c-0264-4a68-b5a3-823fa5f896e1",
-        "timestamp" : "2024-07-01T19:44:31+00:00",
+        "identifier" : "urn:uuid:cd4350ce-561e-4ba6-ada1-94a7d3d017ca",
+        "timestamp" : "2024-07-01T19:48:20+00:00",
         "total" : 7,
         "offset" : 0,
         "parameter" : [{
@@ -2047,10 +2047,10 @@
       "title" : "STI tested for ValueSet",
       "status" : "active",
       "experimental" : true,
-      "date" : "2024-07-01T19:43:16+00:00",
+      "date" : "2024-07-01T19:47:03+00:00",
       "expansion" : {
-        "identifier" : "urn:uuid:869287f3-72b2-44eb-b621-d58a5ccadcbf",
-        "timestamp" : "2024-07-01T19:44:32+00:00",
+        "identifier" : "urn:uuid:d5578494-61d3-41a9-a437-aa74d54960b8",
+        "timestamp" : "2024-07-01T19:48:20+00:00",
         "total" : 10,
         "offset" : 0,
         "parameter" : [{
@@ -2145,10 +2145,10 @@
       "title" : "Syphilis test result ValueSet",
       "status" : "active",
       "experimental" : true,
-      "date" : "2024-07-01T19:43:16+00:00",
+      "date" : "2024-07-01T19:47:03+00:00",
       "expansion" : {
-        "identifier" : "urn:uuid:48a78d74-7458-4f08-97fc-77e6846ad9c0",
-        "timestamp" : "2024-07-01T19:44:32+00:00",
+        "identifier" : "urn:uuid:7cdca3bb-ab62-43aa-b729-78c6d2dbff2a",
+        "timestamp" : "2024-07-01T19:48:20+00:00",
         "total" : 3,
         "offset" : 0,
         "parameter" : [{
@@ -2208,10 +2208,10 @@
       "title" : "Gonorrhoea test result ValueSet",
       "status" : "active",
       "experimental" : true,
-      "date" : "2024-07-01T19:43:16+00:00",
+      "date" : "2024-07-01T19:47:03+00:00",
       "expansion" : {
-        "identifier" : "urn:uuid:af6a51cb-60e7-4930-ba43-32120e1b7f27",
-        "timestamp" : "2024-07-01T19:44:32+00:00",
+        "identifier" : "urn:uuid:e5852cd3-a92b-46ce-98e5-047dcbdd9d51",
+        "timestamp" : "2024-07-01T19:48:20+00:00",
         "total" : 3,
         "offset" : 0,
         "parameter" : [{
@@ -2271,10 +2271,10 @@
       "title" : "Type of specimen ValueSet",
       "status" : "active",
       "experimental" : true,
-      "date" : "2024-07-01T19:43:16+00:00",
+      "date" : "2024-07-01T19:47:03+00:00",
       "expansion" : {
-        "identifier" : "urn:uuid:55bd3fff-ba12-4744-8f80-14f6bcbd94bc",
-        "timestamp" : "2024-07-01T19:44:32+00:00",
+        "identifier" : "urn:uuid:08f24e17-f60b-4fbb-916e-9c0791b038c6",
+        "timestamp" : "2024-07-01T19:48:20+00:00",
         "total" : 6,
         "offset" : 0,
         "parameter" : [{
@@ -2349,10 +2349,10 @@
       "title" : "Syphilis test type ValueSet",
       "status" : "active",
       "experimental" : true,
-      "date" : "2024-07-01T19:43:16+00:00",
+      "date" : "2024-07-01T19:47:03+00:00",
       "expansion" : {
-        "identifier" : "urn:uuid:407f2ddc-b5f1-477f-a18d-ec8ed6ae1453",
-        "timestamp" : "2024-07-01T19:44:32+00:00",
+        "identifier" : "urn:uuid:8e229c4c-c30e-4bbb-8f3a-ece59141aa96",
+        "timestamp" : "2024-07-01T19:48:20+00:00",
         "total" : 5,
         "offset" : 0,
         "parameter" : [{
@@ -2422,10 +2422,10 @@
       "title" : "Neisseria gonorrhoeae test type ValueSet",
       "status" : "active",
       "experimental" : true,
-      "date" : "2024-07-01T19:43:16+00:00",
+      "date" : "2024-07-01T19:47:03+00:00",
       "expansion" : {
-        "identifier" : "urn:uuid:1f0f3356-7ac9-44e6-b39b-2b4b37e0d01a",
-        "timestamp" : "2024-07-01T19:44:32+00:00",
+        "identifier" : "urn:uuid:d4e14e67-d93f-4900-9dfc-729c8d149fd4",
+        "timestamp" : "2024-07-01T19:48:20+00:00",
         "total" : 5,
         "offset" : 0,
         "parameter" : [{
@@ -2495,10 +2495,10 @@
       "title" : "Chlamydia trachomatis test type ValueSet",
       "status" : "active",
       "experimental" : true,
-      "date" : "2024-07-01T19:43:16+00:00",
+      "date" : "2024-07-01T19:47:03+00:00",
       "expansion" : {
-        "identifier" : "urn:uuid:1ce04ee8-0030-422a-8f76-185cc962806c",
-        "timestamp" : "2024-07-01T19:44:32+00:00",
+        "identifier" : "urn:uuid:1e7cb121-51b8-4865-8d09-0cff4e83d205",
+        "timestamp" : "2024-07-01T19:48:20+00:00",
         "total" : 6,
         "offset" : 0,
         "parameter" : [{
@@ -2573,10 +2573,10 @@
       "title" : "Trichomonas vaginalis test type ValueSet",
       "status" : "active",
       "experimental" : true,
-      "date" : "2024-07-01T19:43:16+00:00",
+      "date" : "2024-07-01T19:47:03+00:00",
       "expansion" : {
-        "identifier" : "urn:uuid:3543f06f-2b30-40b6-8ea8-d5a94f73f5a6",
-        "timestamp" : "2024-07-01T19:44:32+00:00",
+        "identifier" : "urn:uuid:c5ec655b-e9ca-45bc-8898-0ad1a7fb086c",
+        "timestamp" : "2024-07-01T19:48:20+00:00",
         "total" : 5,
         "offset" : 0,
         "parameter" : [{
@@ -2646,10 +2646,10 @@
       "title" : "Herpes simplex virus (HSV) test type ValueSet",
       "status" : "active",
       "experimental" : true,
-      "date" : "2024-07-01T19:43:16+00:00",
+      "date" : "2024-07-01T19:47:03+00:00",
       "expansion" : {
-        "identifier" : "urn:uuid:1b9e4e2f-3d79-4838-955a-d03affa4def2",
-        "timestamp" : "2024-07-01T19:44:32+00:00",
+        "identifier" : "urn:uuid:32361645-b88d-4384-be7f-e720079f5592",
+        "timestamp" : "2024-07-01T19:48:20+00:00",
         "total" : 3,
         "offset" : 0,
         "parameter" : [{
@@ -2709,10 +2709,10 @@
       "title" : "Mycoplasma genitalium test type ValueSet",
       "status" : "active",
       "experimental" : true,
-      "date" : "2024-07-01T19:43:16+00:00",
+      "date" : "2024-07-01T19:47:03+00:00",
       "expansion" : {
-        "identifier" : "urn:uuid:5dd66da9-9190-4544-8b53-2905b63cac7e",
-        "timestamp" : "2024-07-01T19:44:32+00:00",
+        "identifier" : "urn:uuid:c59b7826-511d-498c-9449-4e6f1c4df4b8",
+        "timestamp" : "2024-07-01T19:48:20+00:00",
         "total" : 3,
         "offset" : 0,
         "parameter" : [{
@@ -2772,10 +2772,10 @@
       "title" : "STI test result ValueSet",
       "status" : "active",
       "experimental" : true,
-      "date" : "2024-07-01T19:43:16+00:00",
+      "date" : "2024-07-01T19:47:03+00:00",
       "expansion" : {
-        "identifier" : "urn:uuid:986164a8-8787-47db-ae68-a372e24161fa",
-        "timestamp" : "2024-07-01T19:44:32+00:00",
+        "identifier" : "urn:uuid:168e8e1b-fc1d-4c71-a8ea-edc450ca6221",
+        "timestamp" : "2024-07-01T19:48:20+00:00",
         "total" : 3,
         "offset" : 0,
         "parameter" : [{
@@ -2835,10 +2835,10 @@
       "title" : "Confirmatory syphilis test type ValueSet",
       "status" : "active",
       "experimental" : true,
-      "date" : "2024-07-01T19:43:16+00:00",
+      "date" : "2024-07-01T19:47:03+00:00",
       "expansion" : {
-        "identifier" : "urn:uuid:77f285e2-a0aa-4413-8236-ee7520e3c109",
-        "timestamp" : "2024-07-01T19:44:32+00:00",
+        "identifier" : "urn:uuid:12fe105c-c4b4-4671-85c4-0b4aa9ba42e8",
+        "timestamp" : "2024-07-01T19:48:20+00:00",
         "total" : 5,
         "offset" : 0,
         "parameter" : [{
@@ -2908,10 +2908,10 @@
       "title" : "Confirmatory STI test result ValueSet",
       "status" : "active",
       "experimental" : true,
-      "date" : "2024-07-01T19:43:16+00:00",
+      "date" : "2024-07-01T19:47:03+00:00",
       "expansion" : {
-        "identifier" : "urn:uuid:db20928a-0e0b-4c8b-bfa8-68bf80667b27",
-        "timestamp" : "2024-07-01T19:44:32+00:00",
+        "identifier" : "urn:uuid:dc68250f-9d18-46ac-b8d1-4b5181c14771",
+        "timestamp" : "2024-07-01T19:48:20+00:00",
         "total" : 3,
         "offset" : 0,
         "parameter" : [{
@@ -2971,10 +2971,10 @@
       "title" : "Partner HIV status (reported) ValueSet",
       "status" : "active",
       "experimental" : true,
-      "date" : "2024-07-01T19:43:16+00:00",
+      "date" : "2024-07-01T19:47:03+00:00",
       "expansion" : {
-        "identifier" : "urn:uuid:b9261c2c-e8d5-467a-bc13-e2565589e273",
-        "timestamp" : "2024-07-01T19:44:32+00:00",
+        "identifier" : "urn:uuid:735f2a00-ff0e-4193-b1d2-2349ff3622bd",
+        "timestamp" : "2024-07-01T19:48:20+00:00",
         "total" : 3,
         "offset" : 0,
         "parameter" : [{
@@ -3034,10 +3034,10 @@
       "title" : "Partner is from a key population ValueSet",
       "status" : "active",
       "experimental" : true,
-      "date" : "2024-07-01T19:43:16+00:00",
+      "date" : "2024-07-01T19:47:03+00:00",
       "expansion" : {
-        "identifier" : "urn:uuid:1726278f-ecbd-4c2c-868a-e690229e071c",
-        "timestamp" : "2024-07-01T19:44:32+00:00",
+        "identifier" : "urn:uuid:c9db407d-7fa3-413b-8cf8-fbf51443c9f8",
+        "timestamp" : "2024-07-01T19:48:20+00:00",
         "total" : 5,
         "offset" : 0,
         "parameter" : [{
@@ -3107,10 +3107,10 @@
       "title" : "HIV self-test result ValueSet",
       "status" : "active",
       "experimental" : true,
-      "date" : "2024-07-01T19:43:16+00:00",
+      "date" : "2024-07-01T19:47:03+00:00",
       "expansion" : {
-        "identifier" : "urn:uuid:577b778e-f6a6-4279-841f-f48f6a41741c",
-        "timestamp" : "2024-07-01T19:44:32+00:00",
+        "identifier" : "urn:uuid:c97689b8-04a7-4fc5-a4e3-8d17f45eeb80",
+        "timestamp" : "2024-07-01T19:48:20+00:00",
         "total" : 0,
         "offset" : 0,
         "parameter" : [{
@@ -3147,10 +3147,10 @@
       "title" : "Referred through partner services ValueSet",
       "status" : "active",
       "experimental" : true,
-      "date" : "2024-07-01T19:43:16+00:00",
+      "date" : "2024-07-01T19:47:03+00:00",
       "expansion" : {
-        "identifier" : "urn:uuid:795ccaf7-bf06-496f-beff-8a0b841aaaf8",
-        "timestamp" : "2024-07-01T19:44:32+00:00",
+        "identifier" : "urn:uuid:727b57ba-a71c-4d5a-b7a3-314b5d0b97b8",
+        "timestamp" : "2024-07-01T19:48:20+00:00",
         "total" : 2,
         "offset" : 0,
         "parameter" : [{
@@ -3205,10 +3205,10 @@
       "title" : "Key population member type ValueSet",
       "status" : "active",
       "experimental" : true,
-      "date" : "2024-07-01T19:43:16+00:00",
+      "date" : "2024-07-01T19:47:03+00:00",
       "expansion" : {
-        "identifier" : "urn:uuid:0e678e8d-7648-4740-8d98-d76631e34dc8",
-        "timestamp" : "2024-07-01T19:44:32+00:00",
+        "identifier" : "urn:uuid:2b00ef35-2ec9-464e-84f5-8e2c7dfea503",
+        "timestamp" : "2024-07-01T19:48:21+00:00",
         "total" : 5,
         "offset" : 0,
         "parameter" : [{
@@ -3278,10 +3278,10 @@
       "title" : "HIV exposure type ValueSet",
       "status" : "active",
       "experimental" : true,
-      "date" : "2024-07-01T19:43:16+00:00",
+      "date" : "2024-07-01T19:47:03+00:00",
       "expansion" : {
-        "identifier" : "urn:uuid:ec9ea213-d643-40a3-8225-20b95342654a",
-        "timestamp" : "2024-07-01T19:44:32+00:00",
+        "identifier" : "urn:uuid:554722c9-4c74-4704-ad21-5539b9d67857",
+        "timestamp" : "2024-07-01T19:48:21+00:00",
         "total" : 3,
         "offset" : 0,
         "parameter" : [{
@@ -3341,10 +3341,10 @@
       "title" : "HIV diagnosing facility ValueSet",
       "status" : "active",
       "experimental" : true,
-      "date" : "2024-07-01T19:43:16+00:00",
+      "date" : "2024-07-01T19:47:03+00:00",
       "expansion" : {
-        "identifier" : "urn:uuid:3c8053ed-5133-4f48-ae4b-9fb9f4da923a",
-        "timestamp" : "2024-07-01T19:44:32+00:00",
+        "identifier" : "urn:uuid:2e3745c7-b636-451e-b123-7c748120a044",
+        "timestamp" : "2024-07-01T19:48:21+00:00",
         "total" : 0,
         "offset" : 0,
         "parameter" : [{
@@ -3381,10 +3381,10 @@
       "title" : "HIV serotype ValueSet",
       "status" : "active",
       "experimental" : true,
-      "date" : "2024-07-01T19:43:16+00:00",
+      "date" : "2024-07-01T19:47:03+00:00",
       "expansion" : {
-        "identifier" : "urn:uuid:2d98b41a-fb18-49a6-9c4a-de8aeb692bfd",
-        "timestamp" : "2024-07-01T19:44:32+00:00",
+        "identifier" : "urn:uuid:97575f7f-e28c-4c95-892c-b5306e0e6568",
+        "timestamp" : "2024-07-01T19:48:21+00:00",
         "total" : 2,
         "offset" : 0,
         "parameter" : [{
@@ -3439,10 +3439,10 @@
       "title" : "Type of contact elicited ValueSet",
       "status" : "active",
       "experimental" : true,
-      "date" : "2024-07-01T19:43:16+00:00",
+      "date" : "2024-07-01T19:47:03+00:00",
       "expansion" : {
-        "identifier" : "urn:uuid:9b7ea681-9bc7-463f-8273-d1a7cf7ef372",
-        "timestamp" : "2024-07-01T19:44:32+00:00",
+        "identifier" : "urn:uuid:84552dae-9827-4441-92ef-8beea7b1bbc2",
+        "timestamp" : "2024-07-01T19:48:21+00:00",
         "total" : 4,
         "offset" : 0,
         "parameter" : [{
@@ -3507,10 +3507,10 @@
       "title" : "Type of contact or partner for partner services ValueSet",
       "status" : "active",
       "experimental" : true,
-      "date" : "2024-07-01T19:43:16+00:00",
+      "date" : "2024-07-01T19:47:03+00:00",
       "expansion" : {
-        "identifier" : "urn:uuid:03c30c82-99cb-4c2e-9ae5-8b9e236faf71",
-        "timestamp" : "2024-07-01T19:44:32+00:00",
+        "identifier" : "urn:uuid:a4fecc96-8f55-4b63-93bd-a4bb22827a6f",
+        "timestamp" : "2024-07-01T19:48:21+00:00",
         "total" : 4,
         "offset" : 0,
         "parameter" : [{
@@ -3575,10 +3575,10 @@
       "title" : "HIV test type ValueSet",
       "status" : "active",
       "experimental" : true,
-      "date" : "2024-07-01T19:43:16+00:00",
+      "date" : "2024-07-01T19:47:03+00:00",
       "expansion" : {
-        "identifier" : "urn:uuid:9d052447-6b5b-4ee3-8361-91a5b9f9f8e9",
-        "timestamp" : "2024-07-01T19:44:33+00:00",
+        "identifier" : "urn:uuid:1d61447f-860b-4b56-a927-1ced62629481",
+        "timestamp" : "2024-07-01T19:48:21+00:00",
         "total" : 5,
         "offset" : 0,
         "parameter" : [{
@@ -3648,10 +3648,10 @@
       "title" : "Assay number in testing strategy ValueSet",
       "status" : "active",
       "experimental" : true,
-      "date" : "2024-07-01T19:43:16+00:00",
+      "date" : "2024-07-01T19:47:03+00:00",
       "expansion" : {
-        "identifier" : "urn:uuid:2f7fcb44-5b16-4702-b9dd-32332d668ad8",
-        "timestamp" : "2024-07-01T19:44:33+00:00",
+        "identifier" : "urn:uuid:c0628d7e-9894-461b-9591-51f312d743e2",
+        "timestamp" : "2024-07-01T19:48:21+00:00",
         "total" : 0,
         "offset" : 0,
         "parameter" : [{
@@ -3688,10 +3688,10 @@
       "title" : "Test result of HIV assay 1 ValueSet",
       "status" : "active",
       "experimental" : true,
-      "date" : "2024-07-01T19:43:16+00:00",
+      "date" : "2024-07-01T19:47:03+00:00",
       "expansion" : {
-        "identifier" : "urn:uuid:16d293f7-5bde-4eaf-8119-45729f850580",
-        "timestamp" : "2024-07-01T19:44:33+00:00",
+        "identifier" : "urn:uuid:4a0c1e8f-849f-44a9-8a79-d7e5ae5af333",
+        "timestamp" : "2024-07-01T19:48:21+00:00",
         "total" : 3,
         "offset" : 0,
         "parameter" : [{
@@ -3751,10 +3751,10 @@
       "title" : "Test result of HIV assay 2 ValueSet",
       "status" : "active",
       "experimental" : true,
-      "date" : "2024-07-01T19:43:16+00:00",
+      "date" : "2024-07-01T19:47:03+00:00",
       "expansion" : {
-        "identifier" : "urn:uuid:a47970ec-a286-4441-a5d3-eade3be36e5a",
-        "timestamp" : "2024-07-01T19:44:33+00:00",
+        "identifier" : "urn:uuid:1c7c8415-173d-4b09-890c-285ca2558363",
+        "timestamp" : "2024-07-01T19:48:21+00:00",
         "total" : 3,
         "offset" : 0,
         "parameter" : [{
@@ -3814,10 +3814,10 @@
       "title" : "Reason for PrEP visit ValueSet",
       "status" : "active",
       "experimental" : true,
-      "date" : "2024-07-01T19:43:16+00:00",
+      "date" : "2024-07-01T19:47:03+00:00",
       "expansion" : {
-        "identifier" : "urn:uuid:5893c188-3e3b-4bb4-86a1-d859aeaa66b6",
-        "timestamp" : "2024-07-01T19:44:33+00:00",
+        "identifier" : "urn:uuid:b3a9fe01-d080-4913-a6f9-8955b8ac61b7",
+        "timestamp" : "2024-07-01T19:48:21+00:00",
         "total" : 5,
         "offset" : 0,
         "parameter" : [{
@@ -3887,10 +3887,10 @@
       "title" : "Alternative third PEP drug ValueSet",
       "status" : "active",
       "experimental" : true,
-      "date" : "2024-07-01T19:43:16+00:00",
+      "date" : "2024-07-01T19:47:03+00:00",
       "expansion" : {
-        "identifier" : "urn:uuid:c907e23e-51aa-43d2-b7e2-2f39c6ce8d5e",
-        "timestamp" : "2024-07-01T19:44:33+00:00",
+        "identifier" : "urn:uuid:5561be09-e06f-4b45-a0d1-7ae2cf8f128c",
+        "timestamp" : "2024-07-01T19:48:21+00:00",
         "total" : 4,
         "offset" : 0,
         "parameter" : [{
@@ -3955,10 +3955,10 @@
       "title" : "Sex factor for estimating creatinine clearance ValueSet",
       "status" : "active",
       "experimental" : true,
-      "date" : "2024-07-01T19:43:16+00:00",
+      "date" : "2024-07-01T19:47:03+00:00",
       "expansion" : {
-        "identifier" : "urn:uuid:585982fe-22ce-4f06-ae70-b6abd840e4e2",
-        "timestamp" : "2024-07-01T19:44:33+00:00",
+        "identifier" : "urn:uuid:3b29fcde-552c-4bca-93ff-d1238309dfd7",
+        "timestamp" : "2024-07-01T19:48:21+00:00",
         "total" : 2,
         "offset" : 0,
         "parameter" : [{
@@ -4013,10 +4013,10 @@
       "title" : "PrEP dosing type ValueSet",
       "status" : "active",
       "experimental" : true,
-      "date" : "2024-07-01T19:43:16+00:00",
+      "date" : "2024-07-01T19:47:03+00:00",
       "expansion" : {
-        "identifier" : "urn:uuid:297c6825-e5ee-4598-a5c0-7698518b9bf6",
-        "timestamp" : "2024-07-01T19:44:33+00:00",
+        "identifier" : "urn:uuid:36340d14-311d-451e-9c44-088c026b03ed",
+        "timestamp" : "2024-07-01T19:48:21+00:00",
         "total" : 3,
         "offset" : 0,
         "parameter" : [{
@@ -4076,10 +4076,10 @@
       "title" : "Contraindications to PrEP usage ValueSet",
       "status" : "active",
       "experimental" : true,
-      "date" : "2024-07-01T19:43:16+00:00",
+      "date" : "2024-07-01T19:47:03+00:00",
       "expansion" : {
-        "identifier" : "urn:uuid:514d6691-54dd-4853-bf4c-cc51e0147d17",
-        "timestamp" : "2024-07-01T19:44:33+00:00",
+        "identifier" : "urn:uuid:65d26739-3e2d-4d41-9500-1185a788b8d6",
+        "timestamp" : "2024-07-01T19:48:21+00:00",
         "total" : 6,
         "offset" : 0,
         "parameter" : [{
@@ -4154,10 +4154,10 @@
       "title" : "PrEP regimen prescribed ValueSet",
       "status" : "active",
       "experimental" : true,
-      "date" : "2024-07-01T19:43:16+00:00",
+      "date" : "2024-07-01T19:47:03+00:00",
       "expansion" : {
-        "identifier" : "urn:uuid:b43bdb4a-2f55-4020-a33a-be3bf65f4fa4",
-        "timestamp" : "2024-07-01T19:44:33+00:00",
+        "identifier" : "urn:uuid:ff23425a-202d-447e-bb45-79fb0f592a15",
+        "timestamp" : "2024-07-01T19:48:21+00:00",
         "total" : 0,
         "offset" : 0,
         "parameter" : [{
@@ -4194,10 +4194,10 @@
       "title" : "Type of follow-up appointment ValueSet",
       "status" : "active",
       "experimental" : true,
-      "date" : "2024-07-01T19:43:16+00:00",
+      "date" : "2024-07-01T19:47:03+00:00",
       "expansion" : {
-        "identifier" : "urn:uuid:13c7ddfc-2fd8-45cd-a668-f75894177d8d",
-        "timestamp" : "2024-07-01T19:44:33+00:00",
+        "identifier" : "urn:uuid:bb808aa7-a78a-4473-9d83-b598c25a08e8",
+        "timestamp" : "2024-07-01T19:48:21+00:00",
         "total" : 3,
         "offset" : 0,
         "parameter" : [{
@@ -4257,10 +4257,10 @@
       "title" : "Prevention services offered and referrals ValueSet",
       "status" : "active",
       "experimental" : true,
-      "date" : "2024-07-01T19:43:16+00:00",
+      "date" : "2024-07-01T19:47:03+00:00",
       "expansion" : {
-        "identifier" : "urn:uuid:25320740-dbe3-4a50-ac91-7c0df198bb23",
-        "timestamp" : "2024-07-01T19:44:33+00:00",
+        "identifier" : "urn:uuid:d6236860-5ec4-4225-9d31-30700011003d",
+        "timestamp" : "2024-07-01T19:48:21+00:00",
         "total" : 4,
         "offset" : 0,
         "parameter" : [{
@@ -4325,10 +4325,10 @@
       "title" : "Condom type ValueSet",
       "status" : "active",
       "experimental" : true,
-      "date" : "2024-07-01T19:43:16+00:00",
+      "date" : "2024-07-01T19:47:03+00:00",
       "expansion" : {
-        "identifier" : "urn:uuid:96dae9f4-c758-42ea-b339-4885e0a3c1b4",
-        "timestamp" : "2024-07-01T19:44:33+00:00",
+        "identifier" : "urn:uuid:b7e2f440-566d-42b6-b1b8-9df28d42cdbb",
+        "timestamp" : "2024-07-01T19:48:21+00:00",
         "total" : 2,
         "offset" : 0,
         "parameter" : [{
@@ -4383,10 +4383,10 @@
       "title" : "HIV self-test distributed for use by ValueSet",
       "status" : "active",
       "experimental" : true,
-      "date" : "2024-07-01T19:43:16+00:00",
+      "date" : "2024-07-01T19:47:03+00:00",
       "expansion" : {
-        "identifier" : "urn:uuid:8a4a33fd-ea92-477a-9070-0ac89354eab7",
-        "timestamp" : "2024-07-01T19:44:33+00:00",
+        "identifier" : "urn:uuid:471016b2-102d-4045-abcf-0d1f995e2245",
+        "timestamp" : "2024-07-01T19:48:21+00:00",
         "total" : 5,
         "offset" : 0,
         "parameter" : [{
@@ -4456,10 +4456,10 @@
       "title" : "Sexual and reproductive health integrated services ValueSet",
       "status" : "active",
       "experimental" : true,
-      "date" : "2024-07-01T19:43:16+00:00",
+      "date" : "2024-07-01T19:47:03+00:00",
       "expansion" : {
-        "identifier" : "urn:uuid:0e3e2783-c576-46b3-8097-3e960c99958a",
-        "timestamp" : "2024-07-01T19:44:33+00:00",
+        "identifier" : "urn:uuid:5cd9b2b3-5064-4e04-88ba-f90c48554526",
+        "timestamp" : "2024-07-01T19:48:21+00:00",
         "total" : 6,
         "offset" : 0,
         "parameter" : [{
@@ -4534,10 +4534,10 @@
       "title" : "Offer other clinical services ValueSet",
       "status" : "active",
       "experimental" : true,
-      "date" : "2024-07-01T19:43:16+00:00",
+      "date" : "2024-07-01T19:47:03+00:00",
       "expansion" : {
-        "identifier" : "urn:uuid:7b761029-b7a1-4108-b0cd-e23bd8dda79e",
-        "timestamp" : "2024-07-01T19:44:33+00:00",
+        "identifier" : "urn:uuid:16bec6cd-6941-4f22-9f9a-3f3e6b5ad7b5",
+        "timestamp" : "2024-07-01T19:48:21+00:00",
         "total" : 6,
         "offset" : 0,
         "parameter" : [{
@@ -4612,10 +4612,10 @@
       "title" : "Other support services ValueSet",
       "status" : "active",
       "experimental" : true,
-      "date" : "2024-07-01T19:43:16+00:00",
+      "date" : "2024-07-01T19:47:03+00:00",
       "expansion" : {
-        "identifier" : "urn:uuid:39fe3ffb-45db-466c-8e37-3c75e84730c8",
-        "timestamp" : "2024-07-01T19:44:33+00:00",
+        "identifier" : "urn:uuid:fc5a6b60-6e23-42e9-ad30-ac0306df5c28",
+        "timestamp" : "2024-07-01T19:48:21+00:00",
         "total" : 5,
         "offset" : 0,
         "parameter" : [{
@@ -4685,10 +4685,10 @@
       "title" : "Current PrEP regimen ValueSet",
       "status" : "active",
       "experimental" : true,
-      "date" : "2024-07-01T19:43:16+00:00",
+      "date" : "2024-07-01T19:47:03+00:00",
       "expansion" : {
-        "identifier" : "urn:uuid:5534ee60-389a-4641-a10e-4123c312ecb6",
-        "timestamp" : "2024-07-01T19:44:33+00:00",
+        "identifier" : "urn:uuid:7aeb76ae-6261-437f-8658-934ad3c1b299",
+        "timestamp" : "2024-07-01T19:48:21+00:00",
         "total" : 6,
         "offset" : 0,
         "parameter" : [{
@@ -4763,10 +4763,10 @@
       "title" : "Experience with PrEP ValueSet",
       "status" : "active",
       "experimental" : true,
-      "date" : "2024-07-01T19:43:16+00:00",
+      "date" : "2024-07-01T19:47:03+00:00",
       "expansion" : {
-        "identifier" : "urn:uuid:848683f7-1543-41d3-a964-0521c36af851",
-        "timestamp" : "2024-07-01T19:44:33+00:00",
+        "identifier" : "urn:uuid:d8aa27dc-d0b4-41d0-9c3d-d2d5e80314da",
+        "timestamp" : "2024-07-01T19:48:21+00:00",
         "total" : 3,
         "offset" : 0,
         "parameter" : [{
@@ -4826,10 +4826,10 @@
       "title" : "PEP history ValueSet",
       "status" : "active",
       "experimental" : true,
-      "date" : "2024-07-01T19:43:16+00:00",
+      "date" : "2024-07-01T19:47:03+00:00",
       "expansion" : {
-        "identifier" : "urn:uuid:b6b4f64b-1da7-45cc-ae88-f36c1f7583ba",
-        "timestamp" : "2024-07-01T19:44:33+00:00",
+        "identifier" : "urn:uuid:2c69d69a-ce3c-42d3-81f3-546f6b4a46c6",
+        "timestamp" : "2024-07-01T19:48:22+00:00",
         "total" : 2,
         "offset" : 0,
         "parameter" : [{
@@ -4884,10 +4884,10 @@
       "title" : "Signs of substantial risk of HIV infection ValueSet",
       "status" : "active",
       "experimental" : true,
-      "date" : "2024-07-01T19:43:16+00:00",
+      "date" : "2024-07-01T19:47:03+00:00",
       "expansion" : {
-        "identifier" : "urn:uuid:81beebe0-b3ed-427a-a2bd-210242c9e287",
-        "timestamp" : "2024-07-01T19:44:33+00:00",
+        "identifier" : "urn:uuid:b2c4c8bb-5158-4332-a2ec-bc37f734e1eb",
+        "timestamp" : "2024-07-01T19:48:22+00:00",
         "total" : 4,
         "offset" : 0,
         "parameter" : [{
@@ -4952,10 +4952,10 @@
       "title" : "Pregnancy intention in serodiscordant partnerships ValueSet",
       "status" : "active",
       "experimental" : true,
-      "date" : "2024-07-01T19:43:16+00:00",
+      "date" : "2024-07-01T19:47:03+00:00",
       "expansion" : {
-        "identifier" : "urn:uuid:3a9b1583-acaf-4b28-97c3-6874601ef594",
-        "timestamp" : "2024-07-01T19:44:33+00:00",
+        "identifier" : "urn:uuid:cd346eb2-281b-4690-8421-a209fca83f9b",
+        "timestamp" : "2024-07-01T19:48:22+00:00",
         "total" : 4,
         "offset" : 0,
         "parameter" : [{
@@ -5020,10 +5020,10 @@
       "title" : "Acute HIV infection symptoms ValueSet",
       "status" : "active",
       "experimental" : true,
-      "date" : "2024-07-01T19:43:16+00:00",
+      "date" : "2024-07-01T19:47:03+00:00",
       "expansion" : {
-        "identifier" : "urn:uuid:2b676cee-461d-47bd-b522-3f16ff70294c",
-        "timestamp" : "2024-07-01T19:44:33+00:00",
+        "identifier" : "urn:uuid:0d314d9b-22e8-4c1c-af94-d922c3366db3",
+        "timestamp" : "2024-07-01T19:48:22+00:00",
         "total" : 8,
         "offset" : 0,
         "parameter" : [{
@@ -5108,10 +5108,10 @@
       "title" : "Sex partner's HIV treatment status ValueSet",
       "status" : "active",
       "experimental" : true,
-      "date" : "2024-07-01T19:43:16+00:00",
+      "date" : "2024-07-01T19:47:03+00:00",
       "expansion" : {
-        "identifier" : "urn:uuid:2f632424-b1d5-4fcf-b876-9eed1089e4ac",
-        "timestamp" : "2024-07-01T19:44:33+00:00",
+        "identifier" : "urn:uuid:40e1d0fd-d45f-4dc9-9582-ef99849dfc4e",
+        "timestamp" : "2024-07-01T19:48:22+00:00",
         "total" : 5,
         "offset" : 0,
         "parameter" : [{
@@ -5181,10 +5181,10 @@
       "title" : "Screenings and diagnostics for PrEP users ValueSet",
       "status" : "active",
       "experimental" : true,
-      "date" : "2024-07-01T19:43:16+00:00",
+      "date" : "2024-07-01T19:47:03+00:00",
       "expansion" : {
-        "identifier" : "urn:uuid:255edaf7-7d54-4127-b136-2ff266f48a14",
-        "timestamp" : "2024-07-01T19:44:33+00:00",
+        "identifier" : "urn:uuid:fbb0f30c-6d54-4c17-95a5-c24b29dcfaa3",
+        "timestamp" : "2024-07-01T19:48:22+00:00",
         "total" : 7,
         "offset" : 0,
         "parameter" : [{
@@ -5264,10 +5264,10 @@
       "title" : "Medications prescribed ValueSet",
       "status" : "active",
       "experimental" : true,
-      "date" : "2024-07-01T19:43:16+00:00",
+      "date" : "2024-07-01T19:47:03+00:00",
       "expansion" : {
-        "identifier" : "urn:uuid:be91472f-8fda-423f-b667-46a50855818e",
-        "timestamp" : "2024-07-01T19:44:34+00:00",
+        "identifier" : "urn:uuid:45bdf16c-54c3-4ac1-b28d-ebe8d480bb83",
+        "timestamp" : "2024-07-01T19:48:22+00:00",
         "total" : 3,
         "offset" : 0,
         "parameter" : [{
@@ -5327,10 +5327,10 @@
       "title" : "PrEP product prescribed ValueSet",
       "status" : "active",
       "experimental" : true,
-      "date" : "2024-07-01T19:43:16+00:00",
+      "date" : "2024-07-01T19:47:03+00:00",
       "expansion" : {
-        "identifier" : "urn:uuid:471aaddf-4a47-452e-8276-281714cee0a5",
-        "timestamp" : "2024-07-01T19:44:34+00:00",
+        "identifier" : "urn:uuid:bc44a789-7e79-4831-9348-4b84eb517071",
+        "timestamp" : "2024-07-01T19:48:22+00:00",
         "total" : 4,
         "offset" : 0,
         "parameter" : [{
@@ -5395,10 +5395,10 @@
       "title" : "Preferred PEP backbone regimen ValueSet",
       "status" : "active",
       "experimental" : true,
-      "date" : "2024-07-01T19:43:16+00:00",
+      "date" : "2024-07-01T19:47:03+00:00",
       "expansion" : {
-        "identifier" : "urn:uuid:ce8263da-eabb-4c64-b952-74801699e7f8",
-        "timestamp" : "2024-07-01T19:44:34+00:00",
+        "identifier" : "urn:uuid:826bfb5c-84c1-4768-a21c-b925a6d81b18",
+        "timestamp" : "2024-07-01T19:48:22+00:00",
         "total" : 3,
         "offset" : 0,
         "parameter" : [{
@@ -5458,10 +5458,10 @@
       "title" : "Alternative PEP backbone regimen ValueSet",
       "status" : "active",
       "experimental" : true,
-      "date" : "2024-07-01T19:43:16+00:00",
+      "date" : "2024-07-01T19:47:03+00:00",
       "expansion" : {
-        "identifier" : "urn:uuid:255d37ff-68e9-480c-937d-83d310f893e7",
-        "timestamp" : "2024-07-01T19:44:34+00:00",
+        "identifier" : "urn:uuid:d63ce771-5533-4311-95fa-609151bdee25",
+        "timestamp" : "2024-07-01T19:48:22+00:00",
         "total" : 3,
         "offset" : 0,
         "parameter" : [{
@@ -5521,10 +5521,10 @@
       "title" : "Preferred third PEP drug ValueSet",
       "status" : "active",
       "experimental" : true,
-      "date" : "2024-07-01T19:43:16+00:00",
+      "date" : "2024-07-01T19:47:03+00:00",
       "expansion" : {
-        "identifier" : "urn:uuid:7e5e503d-7215-4e5d-b75b-0c8ba153a1d4",
-        "timestamp" : "2024-07-01T19:44:34+00:00",
+        "identifier" : "urn:uuid:cc4726b8-e7ed-42f4-b4a9-804226e39407",
+        "timestamp" : "2024-07-01T19:48:22+00:00",
         "total" : 1,
         "offset" : 0,
         "parameter" : [{
@@ -5574,10 +5574,10 @@
       "title" : "HIV burden of the setting ValueSet",
       "status" : "active",
       "experimental" : true,
-      "date" : "2024-07-01T19:43:16+00:00",
+      "date" : "2024-07-01T19:47:03+00:00",
       "expansion" : {
-        "identifier" : "urn:uuid:f5595962-7de3-45cb-b759-a852d3d416ff",
-        "timestamp" : "2024-07-01T19:44:34+00:00",
+        "identifier" : "urn:uuid:b292eb65-c4c1-4706-a5cd-e926aee61289",
+        "timestamp" : "2024-07-01T19:48:22+00:00",
         "total" : 2,
         "offset" : 0,
         "parameter" : [{
@@ -5632,10 +5632,10 @@
       "title" : "Other priority populations ValueSet",
       "status" : "active",
       "experimental" : true,
-      "date" : "2024-07-01T19:43:16+00:00",
+      "date" : "2024-07-01T19:47:03+00:00",
       "expansion" : {
-        "identifier" : "urn:uuid:3f336e52-7752-44c6-b4db-e5fce8d4a9e2",
-        "timestamp" : "2024-07-01T19:44:34+00:00",
+        "identifier" : "urn:uuid:28c8fbd8-2000-454f-b5d3-fa84c9d16e04",
+        "timestamp" : "2024-07-01T19:48:22+00:00",
         "total" : 0,
         "offset" : 0,
         "parameter" : [{
@@ -5672,10 +5672,10 @@
       "title" : "Reason for visit ValueSet",
       "status" : "active",
       "experimental" : true,
-      "date" : "2024-07-01T19:43:16+00:00",
+      "date" : "2024-07-01T19:47:03+00:00",
       "expansion" : {
-        "identifier" : "urn:uuid:21afff32-c517-453a-baed-58a785626266",
-        "timestamp" : "2024-07-01T19:44:34+00:00",
+        "identifier" : "urn:uuid:8fa637e6-6db6-4767-abda-0b8fb26dccf2",
+        "timestamp" : "2024-07-01T19:48:22+00:00",
         "total" : 6,
         "offset" : 0,
         "parameter" : [{
@@ -5750,10 +5750,10 @@
       "title" : "TB treatment outcome ValueSet",
       "status" : "active",
       "experimental" : true,
-      "date" : "2024-07-01T19:43:16+00:00",
+      "date" : "2024-07-01T19:47:03+00:00",
       "expansion" : {
-        "identifier" : "urn:uuid:5d4518c2-6607-4e44-bcbb-b850e74bf990",
-        "timestamp" : "2024-07-01T19:44:34+00:00",
+        "identifier" : "urn:uuid:a5da9bb9-8687-4d9b-bf14-016cd1742b1c",
+        "timestamp" : "2024-07-01T19:48:22+00:00",
         "total" : 6,
         "offset" : 0,
         "parameter" : [{
@@ -5828,10 +5828,10 @@
       "title" : "TB treatment regimen composition ValueSet",
       "status" : "active",
       "experimental" : true,
-      "date" : "2024-07-01T19:43:16+00:00",
+      "date" : "2024-07-01T19:47:03+00:00",
       "expansion" : {
-        "identifier" : "urn:uuid:05e6d61d-f14a-4e6b-ba22-029459ea0892",
-        "timestamp" : "2024-07-01T19:44:34+00:00",
+        "identifier" : "urn:uuid:e554f191-cbd1-42e1-8257-bd6fe5ec6a83",
+        "timestamp" : "2024-07-01T19:48:22+00:00",
         "total" : 6,
         "offset" : 0,
         "parameter" : [{
@@ -5906,10 +5906,10 @@
       "title" : "TB status at ART start ValueSet",
       "status" : "active",
       "experimental" : true,
-      "date" : "2024-07-01T19:43:16+00:00",
+      "date" : "2024-07-01T19:47:03+00:00",
       "expansion" : {
-        "identifier" : "urn:uuid:98b926c0-d1a4-4560-b054-6e74dbf5614e",
-        "timestamp" : "2024-07-01T19:44:34+00:00",
+        "identifier" : "urn:uuid:50d2cbf6-e0d7-4151-af3a-a96e92ce9ba4",
+        "timestamp" : "2024-07-01T19:48:22+00:00",
         "total" : 3,
         "offset" : 0,
         "parameter" : [{
@@ -5968,10 +5968,10 @@
       "title" : "TPT regimen type ValueSet",
       "status" : "active",
       "experimental" : true,
-      "date" : "2024-07-01T19:43:16+00:00",
+      "date" : "2024-07-01T19:47:03+00:00",
       "expansion" : {
-        "identifier" : "urn:uuid:6b23cb72-d39a-459f-b539-edc3700839dd",
-        "timestamp" : "2024-07-01T19:44:34+00:00",
+        "identifier" : "urn:uuid:7aa514cd-bb97-4ee5-b1aa-7b5ef6f30f5f",
+        "timestamp" : "2024-07-01T19:48:22+00:00",
         "total" : 5,
         "offset" : 0,
         "parameter" : [{
@@ -6041,10 +6041,10 @@
       "title" : "TB preventive treatment (TPT) status ValueSet",
       "status" : "active",
       "experimental" : true,
-      "date" : "2024-07-01T19:43:16+00:00",
+      "date" : "2024-07-01T19:47:03+00:00",
       "expansion" : {
-        "identifier" : "urn:uuid:47b593f6-b5db-4bdc-bfea-67769a159dc8",
-        "timestamp" : "2024-07-01T19:44:34+00:00",
+        "identifier" : "urn:uuid:de30ac55-cd04-4645-b774-748fd2145eda",
+        "timestamp" : "2024-07-01T19:48:22+00:00",
         "total" : 5,
         "offset" : 0,
         "parameter" : [{
@@ -6114,10 +6114,10 @@
       "title" : "ART regimen composition ValueSet",
       "status" : "active",
       "experimental" : true,
-      "date" : "2024-07-01T19:43:16+00:00",
+      "date" : "2024-07-01T19:47:03+00:00",
       "expansion" : {
-        "identifier" : "urn:uuid:7fd984a4-8a73-4def-9b14-49393f097fa3",
-        "timestamp" : "2024-07-01T19:44:34+00:00",
+        "identifier" : "urn:uuid:d439645c-2d15-4234-86af-581e64ce9422",
+        "timestamp" : "2024-07-01T19:48:22+00:00",
         "total" : 17,
         "offset" : 0,
         "parameter" : [{
@@ -6247,10 +6247,10 @@
       "title" : "ART regimen drug class ValueSet",
       "status" : "active",
       "experimental" : true,
-      "date" : "2024-07-01T19:43:16+00:00",
+      "date" : "2024-07-01T19:47:03+00:00",
       "expansion" : {
-        "identifier" : "urn:uuid:66213823-a6e9-4976-a196-fdd206107307",
-        "timestamp" : "2024-07-01T19:44:34+00:00",
+        "identifier" : "urn:uuid:25e7d6a2-6a01-4a6d-b633-0c83623f1e02",
+        "timestamp" : "2024-07-01T19:48:22+00:00",
         "total" : 5,
         "offset" : 0,
         "parameter" : [{
@@ -6320,10 +6320,10 @@
       "title" : "Prevention services offered and referrals ValueSet",
       "status" : "active",
       "experimental" : true,
-      "date" : "2024-07-01T19:43:16+00:00",
+      "date" : "2024-07-01T19:47:03+00:00",
       "expansion" : {
-        "identifier" : "urn:uuid:5fc37dac-5bf8-4c10-803a-4056e0315a4d",
-        "timestamp" : "2024-07-01T19:44:34+00:00",
+        "identifier" : "urn:uuid:6d7a6ec9-2c1d-4ee4-a79d-3e287ea3e164",
+        "timestamp" : "2024-07-01T19:48:22+00:00",
         "total" : 3,
         "offset" : 0,
         "parameter" : [{
@@ -6383,10 +6383,10 @@
       "title" : "Sexual and reproductive health integrated services ValueSet",
       "status" : "active",
       "experimental" : true,
-      "date" : "2024-07-01T19:43:16+00:00",
+      "date" : "2024-07-01T19:47:03+00:00",
       "expansion" : {
-        "identifier" : "urn:uuid:29d05b7c-10e8-4bf3-bf09-47fc4ed538bc",
-        "timestamp" : "2024-07-01T19:44:34+00:00",
+        "identifier" : "urn:uuid:4e8dd118-de7e-4b9f-8ae8-9df0ad025c1c",
+        "timestamp" : "2024-07-01T19:48:22+00:00",
         "total" : 4,
         "offset" : 0,
         "parameter" : [{
@@ -6451,10 +6451,10 @@
       "title" : "HBsAg test result ValueSet",
       "status" : "active",
       "experimental" : true,
-      "date" : "2024-07-01T19:43:16+00:00",
+      "date" : "2024-07-01T19:47:03+00:00",
       "expansion" : {
-        "identifier" : "urn:uuid:2d84010d-d1fd-4700-8110-20c42fc85e52",
-        "timestamp" : "2024-07-01T19:44:34+00:00",
+        "identifier" : "urn:uuid:5ad8394e-d47a-486b-9e36-452d5c912291",
+        "timestamp" : "2024-07-01T19:48:22+00:00",
         "total" : 3,
         "offset" : 0,
         "parameter" : [{
@@ -6514,10 +6514,10 @@
       "title" : "HBV treatment regimen prescribed ValueSet",
       "status" : "active",
       "experimental" : true,
-      "date" : "2024-07-01T19:43:16+00:00",
+      "date" : "2024-07-01T19:47:03+00:00",
       "expansion" : {
-        "identifier" : "urn:uuid:dba2bfb5-a05e-43a2-8a67-37114593aec7",
-        "timestamp" : "2024-07-01T19:44:34+00:00",
+        "identifier" : "urn:uuid:e07bb9b3-dad8-460d-a027-97b60b3e1b5a",
+        "timestamp" : "2024-07-01T19:48:22+00:00",
         "total" : 0,
         "offset" : 0,
         "parameter" : [{
@@ -6554,10 +6554,10 @@
       "title" : "Signs of serious illness ValueSet",
       "status" : "active",
       "experimental" : true,
-      "date" : "2024-07-01T19:43:16+00:00",
+      "date" : "2024-07-01T19:47:03+00:00",
       "expansion" : {
-        "identifier" : "urn:uuid:e5e9569d-c78d-4970-a813-45c20e45e524",
-        "timestamp" : "2024-07-01T19:44:34+00:00",
+        "identifier" : "urn:uuid:9a87d39d-b52b-436e-acfd-f0dbe128f381",
+        "timestamp" : "2024-07-01T19:48:22+00:00",
         "total" : 12,
         "offset" : 0,
         "parameter" : [{
@@ -6662,10 +6662,10 @@
       "title" : "HCV test result ValueSet",
       "status" : "active",
       "experimental" : true,
-      "date" : "2024-07-01T19:43:16+00:00",
+      "date" : "2024-07-01T19:47:03+00:00",
       "expansion" : {
-        "identifier" : "urn:uuid:925f432e-ac94-4a23-ab93-c19f74d9b7fd",
-        "timestamp" : "2024-07-01T19:44:34+00:00",
+        "identifier" : "urn:uuid:aee1647f-d065-48a2-8d06-e2ccda580e8a",
+        "timestamp" : "2024-07-01T19:48:23+00:00",
         "total" : 3,
         "offset" : 0,
         "parameter" : [{
@@ -6725,10 +6725,10 @@
       "title" : "HCV treatment regimen prescribed ValueSet",
       "status" : "active",
       "experimental" : true,
-      "date" : "2024-07-01T19:43:16+00:00",
+      "date" : "2024-07-01T19:47:03+00:00",
       "expansion" : {
-        "identifier" : "urn:uuid:81f0fa0c-cdf9-4b96-a7f8-ad62cd75ac61",
-        "timestamp" : "2024-07-01T19:44:34+00:00",
+        "identifier" : "urn:uuid:38f711b1-905a-494b-aea9-ba2b76a947dd",
+        "timestamp" : "2024-07-01T19:48:23+00:00",
         "total" : 0,
         "offset" : 0,
         "parameter" : [{
@@ -6765,10 +6765,10 @@
       "title" : "HCV viral load test result ValueSet",
       "status" : "active",
       "experimental" : true,
-      "date" : "2024-07-01T19:43:16+00:00",
+      "date" : "2024-07-01T19:47:03+00:00",
       "expansion" : {
-        "identifier" : "urn:uuid:00039625-ab37-434c-9741-c14d98ac8875",
-        "timestamp" : "2024-07-01T19:44:34+00:00",
+        "identifier" : "urn:uuid:ff8f8615-05e0-4f4a-bd92-afa15d7da8a6",
+        "timestamp" : "2024-07-01T19:48:23+00:00",
         "total" : 2,
         "offset" : 0,
         "parameter" : [{
@@ -6823,10 +6823,10 @@
       "title" : "HCV medicine type ValueSet",
       "status" : "active",
       "experimental" : true,
-      "date" : "2024-07-01T19:43:16+00:00",
+      "date" : "2024-07-01T19:47:03+00:00",
       "expansion" : {
-        "identifier" : "urn:uuid:c305d04a-8b61-44af-a5f8-7ce689894e9c",
-        "timestamp" : "2024-07-01T19:44:34+00:00",
+        "identifier" : "urn:uuid:8e94bbdb-4241-4189-875b-0bb4f9bd477e",
+        "timestamp" : "2024-07-01T19:48:23+00:00",
         "total" : 2,
         "offset" : 0,
         "parameter" : [{
@@ -6881,10 +6881,10 @@
       "title" : "HIV clinical stage ValueSet",
       "status" : "active",
       "experimental" : true,
-      "date" : "2024-07-01T19:43:16+00:00",
+      "date" : "2024-07-01T19:47:03+00:00",
       "expansion" : {
-        "identifier" : "urn:uuid:4d755025-a55f-4d6c-ad30-556cc74e50f8",
-        "timestamp" : "2024-07-01T19:44:34+00:00",
+        "identifier" : "urn:uuid:9c0be818-0548-4f25-a798-76fe84e75203",
+        "timestamp" : "2024-07-01T19:48:23+00:00",
         "total" : 4,
         "offset" : 0,
         "parameter" : [{
@@ -6949,10 +6949,10 @@
       "title" : "Reason(s) for adherence problem ValueSet",
       "status" : "active",
       "experimental" : true,
-      "date" : "2024-07-01T19:43:16+00:00",
+      "date" : "2024-07-01T19:47:03+00:00",
       "expansion" : {
-        "identifier" : "urn:uuid:c6740632-e8ad-47f1-b7f3-e9fcb9881624",
-        "timestamp" : "2024-07-01T19:44:34+00:00",
+        "identifier" : "urn:uuid:8cf240a8-ff75-4145-96ff-2d17a88415df",
+        "timestamp" : "2024-07-01T19:48:23+00:00",
         "total" : 18,
         "offset" : 0,
         "parameter" : [{
@@ -7087,10 +7087,10 @@
       "title" : "Reason ART stopped ValueSet",
       "status" : "active",
       "experimental" : true,
-      "date" : "2024-07-01T19:43:16+00:00",
+      "date" : "2024-07-01T19:47:03+00:00",
       "expansion" : {
-        "identifier" : "urn:uuid:ff07fdf3-924a-4503-bbe5-b20b30284cf8",
-        "timestamp" : "2024-07-01T19:44:34+00:00",
+        "identifier" : "urn:uuid:296a3764-5516-49f8-a0f1-309d860880b0",
+        "timestamp" : "2024-07-01T19:48:23+00:00",
         "total" : 6,
         "offset" : 0,
         "parameter" : [{
@@ -7165,10 +7165,10 @@
       "title" : "Treatment failure ValueSet",
       "status" : "active",
       "experimental" : true,
-      "date" : "2024-07-01T19:43:16+00:00",
+      "date" : "2024-07-01T19:47:03+00:00",
       "expansion" : {
-        "identifier" : "urn:uuid:7e782b98-a138-468d-aa64-da55e53ece85",
-        "timestamp" : "2024-07-01T19:44:35+00:00",
+        "identifier" : "urn:uuid:f8298f59-73ce-4d17-89b6-c7b72eeb3cb3",
+        "timestamp" : "2024-07-01T19:48:23+00:00",
         "total" : 3,
         "offset" : 0,
         "parameter" : [{
@@ -7228,10 +7228,10 @@
       "title" : "General care activities recommended ValueSet",
       "status" : "active",
       "experimental" : true,
-      "date" : "2024-07-01T19:43:16+00:00",
+      "date" : "2024-07-01T19:47:03+00:00",
       "expansion" : {
-        "identifier" : "urn:uuid:9bb5bafc-7f69-47be-83d4-a8526034ede4",
-        "timestamp" : "2024-07-01T19:44:35+00:00",
+        "identifier" : "urn:uuid:1ecd84fc-c7f9-42de-ad9e-9753289a35a9",
+        "timestamp" : "2024-07-01T19:48:23+00:00",
         "total" : 17,
         "offset" : 0,
         "parameter" : [{
@@ -7361,10 +7361,10 @@
       "title" : "Preventing and treating coinfections ValueSet",
       "status" : "active",
       "experimental" : true,
-      "date" : "2024-07-01T19:43:16+00:00",
+      "date" : "2024-07-01T19:47:03+00:00",
       "expansion" : {
-        "identifier" : "urn:uuid:a829a27b-c318-467e-8ee9-f2bceed35245",
-        "timestamp" : "2024-07-01T19:44:35+00:00",
+        "identifier" : "urn:uuid:b7974088-4340-451b-a691-10c00b382504",
+        "timestamp" : "2024-07-01T19:48:23+00:00",
         "total" : 11,
         "offset" : 0,
         "parameter" : [{
@@ -7464,10 +7464,10 @@
       "title" : "Risk factors, comorbidities and coinfections signs and symptoms ValueSet",
       "status" : "active",
       "experimental" : true,
-      "date" : "2024-07-01T19:43:16+00:00",
+      "date" : "2024-07-01T19:47:03+00:00",
       "expansion" : {
-        "identifier" : "urn:uuid:6610421f-65f5-47a7-906e-e8117d1744fe",
-        "timestamp" : "2024-07-01T19:44:35+00:00",
+        "identifier" : "urn:uuid:82879303-4c75-470c-b788-19beaedb12b8",
+        "timestamp" : "2024-07-01T19:48:23+00:00",
         "total" : 28,
         "offset" : 0,
         "parameter" : [{
@@ -7652,10 +7652,10 @@
       "title" : "WHO HIV clinical stage condition or symptom ValueSet",
       "status" : "active",
       "experimental" : true,
-      "date" : "2024-07-01T19:43:16+00:00",
+      "date" : "2024-07-01T19:47:03+00:00",
       "expansion" : {
-        "identifier" : "urn:uuid:763f3881-0a8b-4315-922d-a3788abb477d",
-        "timestamp" : "2024-07-01T19:44:35+00:00",
+        "identifier" : "urn:uuid:11cddf11-4097-410c-84ea-ed00c05bb2dc",
+        "timestamp" : "2024-07-01T19:48:23+00:00",
         "total" : 68,
         "offset" : 0,
         "parameter" : [{
@@ -8040,10 +8040,10 @@
       "title" : "Clinical stage at start of ART ValueSet",
       "status" : "active",
       "experimental" : true,
-      "date" : "2024-07-01T19:43:16+00:00",
+      "date" : "2024-07-01T19:47:03+00:00",
       "expansion" : {
-        "identifier" : "urn:uuid:48cb1066-0581-46cb-b51b-3a702dae3280",
-        "timestamp" : "2024-07-01T19:44:35+00:00",
+        "identifier" : "urn:uuid:fa3a9d91-d6ab-4c77-b943-f8fc20b04dd0",
+        "timestamp" : "2024-07-01T19:48:23+00:00",
         "total" : 4,
         "offset" : 0,
         "parameter" : [{
@@ -8108,10 +8108,10 @@
       "title" : "Reasons for delayed ART initiation ValueSet",
       "status" : "active",
       "experimental" : true,
-      "date" : "2024-07-01T19:43:16+00:00",
+      "date" : "2024-07-01T19:47:03+00:00",
       "expansion" : {
-        "identifier" : "urn:uuid:545fb333-4111-422e-9d7a-225ce541f1ac",
-        "timestamp" : "2024-07-01T19:44:35+00:00",
+        "identifier" : "urn:uuid:451ba71b-46c3-4069-b9a9-9261c31b71d7",
+        "timestamp" : "2024-07-01T19:48:23+00:00",
         "total" : 10,
         "offset" : 0,
         "parameter" : [{
@@ -8206,10 +8206,10 @@
       "title" : "Time to start ART ValueSet",
       "status" : "active",
       "experimental" : true,
-      "date" : "2024-07-01T19:43:16+00:00",
+      "date" : "2024-07-01T19:47:03+00:00",
       "expansion" : {
-        "identifier" : "urn:uuid:cf49d3e2-2608-4af9-809d-7397eb0696e6",
-        "timestamp" : "2024-07-01T19:44:35+00:00",
+        "identifier" : "urn:uuid:d405d5e2-6b2a-4c90-97b1-ce6647facb5c",
+        "timestamp" : "2024-07-01T19:48:23+00:00",
         "total" : 3,
         "offset" : 0,
         "parameter" : [{
@@ -8269,10 +8269,10 @@
       "title" : "Reason for HIV viral load test ValueSet",
       "status" : "active",
       "experimental" : true,
-      "date" : "2024-07-01T19:43:16+00:00",
+      "date" : "2024-07-01T19:47:03+00:00",
       "expansion" : {
-        "identifier" : "urn:uuid:177ca233-6022-4282-99b3-0f669c532f14",
-        "timestamp" : "2024-07-01T19:44:35+00:00",
+        "identifier" : "urn:uuid:2f216fce-1e03-4f8d-b034-331a3fd9dcb7",
+        "timestamp" : "2024-07-01T19:48:23+00:00",
         "total" : 4,
         "offset" : 0,
         "parameter" : [{
@@ -8337,10 +8337,10 @@
       "title" : "Monitoring examinations ValueSet",
       "status" : "active",
       "experimental" : true,
-      "date" : "2024-07-01T19:43:16+00:00",
+      "date" : "2024-07-01T19:47:03+00:00",
       "expansion" : {
-        "identifier" : "urn:uuid:76e60b34-f884-491f-9ed0-e62ff6941309",
-        "timestamp" : "2024-07-01T19:44:35+00:00",
+        "identifier" : "urn:uuid:9b44150c-8eac-4055-8590-8bec080ad41a",
+        "timestamp" : "2024-07-01T19:48:23+00:00",
         "total" : 13,
         "offset" : 0,
         "parameter" : [{
@@ -8450,10 +8450,10 @@
       "title" : "Reason for ARV drug regimen substitution ValueSet",
       "status" : "active",
       "experimental" : true,
-      "date" : "2024-07-01T19:43:16+00:00",
+      "date" : "2024-07-01T19:47:03+00:00",
       "expansion" : {
-        "identifier" : "urn:uuid:15ac5374-7f9c-4c0e-b48a-c22c69eef74d",
-        "timestamp" : "2024-07-01T19:44:35+00:00",
+        "identifier" : "urn:uuid:fbb9e04c-d6df-4462-82cb-8e2be9f5ba6f",
+        "timestamp" : "2024-07-01T19:48:24+00:00",
         "total" : 7,
         "offset" : 0,
         "parameter" : [{
@@ -8533,10 +8533,10 @@
       "title" : "ART start type ValueSet",
       "status" : "active",
       "experimental" : true,
-      "date" : "2024-07-01T19:43:16+00:00",
+      "date" : "2024-07-01T19:47:03+00:00",
       "expansion" : {
-        "identifier" : "urn:uuid:b8af8dcb-8c10-406c-b7fb-8b84962e0834",
-        "timestamp" : "2024-07-01T19:44:35+00:00",
+        "identifier" : "urn:uuid:2685c592-052e-41d9-9452-c337f0e8cf2b",
+        "timestamp" : "2024-07-01T19:48:24+00:00",
         "total" : 2,
         "offset" : 0,
         "parameter" : [{
@@ -8591,10 +8591,10 @@
       "title" : "Reason for regimen switch ValueSet",
       "status" : "active",
       "experimental" : true,
-      "date" : "2024-07-01T19:43:16+00:00",
+      "date" : "2024-07-01T19:47:03+00:00",
       "expansion" : {
-        "identifier" : "urn:uuid:041e45db-5009-487e-9e96-c14fcceeaf7a",
-        "timestamp" : "2024-07-01T19:44:35+00:00",
+        "identifier" : "urn:uuid:cd758b4c-dc99-4b2f-95b5-ea66a4cd0201",
+        "timestamp" : "2024-07-01T19:48:24+00:00",
         "total" : 4,
         "offset" : 0,
         "parameter" : [{
@@ -8659,10 +8659,10 @@
       "title" : "ART regimen prescribed ValueSet",
       "status" : "active",
       "experimental" : true,
-      "date" : "2024-07-01T19:43:16+00:00",
+      "date" : "2024-07-01T19:47:03+00:00",
       "expansion" : {
-        "identifier" : "urn:uuid:b2186ad2-4d2b-411f-8e41-9a45758f7d44",
-        "timestamp" : "2024-07-01T19:44:35+00:00",
+        "identifier" : "urn:uuid:022dbe17-158b-4bf6-b627-4908417a3dbe",
+        "timestamp" : "2024-07-01T19:48:24+00:00",
         "total" : 0,
         "offset" : 0,
         "parameter" : [{
@@ -8699,10 +8699,10 @@
       "title" : "Coinfection status at ART start ValueSet",
       "status" : "active",
       "experimental" : true,
-      "date" : "2024-07-01T19:43:16+00:00",
+      "date" : "2024-07-01T19:47:03+00:00",
       "expansion" : {
-        "identifier" : "urn:uuid:4247c38a-3764-4526-802b-7ad16c50cd5a",
-        "timestamp" : "2024-07-01T19:44:35+00:00",
+        "identifier" : "urn:uuid:1bc008f1-e329-4b28-9cf3-8ae49bf94332",
+        "timestamp" : "2024-07-01T19:48:24+00:00",
         "total" : 2,
         "offset" : 0,
         "parameter" : [{
@@ -8757,10 +8757,10 @@
       "title" : "Pregnant and breastfeeding status at ART start ValueSet",
       "status" : "active",
       "experimental" : true,
-      "date" : "2024-07-01T19:43:16+00:00",
+      "date" : "2024-07-01T19:47:03+00:00",
       "expansion" : {
-        "identifier" : "urn:uuid:de9c8780-d0b5-4935-9a44-f94528124340",
-        "timestamp" : "2024-07-01T19:44:35+00:00",
+        "identifier" : "urn:uuid:220b0c4b-5295-47c7-ab4e-08522f8c5a31",
+        "timestamp" : "2024-07-01T19:48:24+00:00",
         "total" : 4,
         "offset" : 0,
         "parameter" : [{
@@ -8825,10 +8825,10 @@
       "title" : "Medications prescribed ValueSet",
       "status" : "active",
       "experimental" : true,
-      "date" : "2024-07-01T19:43:16+00:00",
+      "date" : "2024-07-01T19:47:03+00:00",
       "expansion" : {
-        "identifier" : "urn:uuid:905a2254-6739-4505-b78c-f81aa43bd65a",
-        "timestamp" : "2024-07-01T19:44:35+00:00",
+        "identifier" : "urn:uuid:cf6dca19-b79b-4d93-b0cc-b7455a2b1927",
+        "timestamp" : "2024-07-01T19:48:24+00:00",
         "total" : 0,
         "offset" : 0,
         "parameter" : [{
@@ -8865,10 +8865,10 @@
       "title" : "Medications dispensed ValueSet",
       "status" : "active",
       "experimental" : true,
-      "date" : "2024-07-01T19:43:16+00:00",
+      "date" : "2024-07-01T19:47:03+00:00",
       "expansion" : {
-        "identifier" : "urn:uuid:aae2365b-5c7d-4cb0-b584-ba369b2be372",
-        "timestamp" : "2024-07-01T19:44:35+00:00",
+        "identifier" : "urn:uuid:eab13c81-11e7-4222-8a8b-9893229686f2",
+        "timestamp" : "2024-07-01T19:48:24+00:00",
         "total" : 0,
         "offset" : 0,
         "parameter" : [{
@@ -8905,10 +8905,10 @@
       "title" : "Type of treatment-limiting toxicity ValueSet",
       "status" : "active",
       "experimental" : true,
-      "date" : "2024-07-01T19:43:16+00:00",
+      "date" : "2024-07-01T19:47:03+00:00",
       "expansion" : {
-        "identifier" : "urn:uuid:b623d207-ed05-4576-b8a3-5ab2e48bc956",
-        "timestamp" : "2024-07-01T19:44:35+00:00",
+        "identifier" : "urn:uuid:74bd5ca5-1230-44d6-81f3-a6eee6916203",
+        "timestamp" : "2024-07-01T19:48:24+00:00",
         "total" : 13,
         "offset" : 0,
         "parameter" : [{
@@ -9018,10 +9018,10 @@
       "title" : "Reason(s) for substitution within first-line regimen ValueSet",
       "status" : "active",
       "experimental" : true,
-      "date" : "2024-07-01T19:43:16+00:00",
+      "date" : "2024-07-01T19:47:03+00:00",
       "expansion" : {
-        "identifier" : "urn:uuid:abee1892-5580-44f3-a548-abb7b1e734a7",
-        "timestamp" : "2024-07-01T19:44:35+00:00",
+        "identifier" : "urn:uuid:6efd0106-6d5a-4824-b5fc-e936af59a99b",
+        "timestamp" : "2024-07-01T19:48:24+00:00",
         "total" : 0,
         "offset" : 0,
         "parameter" : [{
@@ -9058,10 +9058,10 @@
       "title" : "New antiretroviral regimen after substitution within first-line regimen ValueSet",
       "status" : "active",
       "experimental" : true,
-      "date" : "2024-07-01T19:43:16+00:00",
+      "date" : "2024-07-01T19:47:03+00:00",
       "expansion" : {
-        "identifier" : "urn:uuid:54165778-855c-42b2-83fb-1d3d21930928",
-        "timestamp" : "2024-07-01T19:44:35+00:00",
+        "identifier" : "urn:uuid:539f3b8d-1e17-406e-87d0-99941f2e79fd",
+        "timestamp" : "2024-07-01T19:48:24+00:00",
         "total" : 0,
         "offset" : 0,
         "parameter" : [{
@@ -9098,10 +9098,10 @@
       "title" : "New regimen after switch to second-line regimen ValueSet",
       "status" : "active",
       "experimental" : true,
-      "date" : "2024-07-01T19:43:16+00:00",
+      "date" : "2024-07-01T19:47:03+00:00",
       "expansion" : {
-        "identifier" : "urn:uuid:dc157454-93cf-4125-b14a-10401d7e0617",
-        "timestamp" : "2024-07-01T19:44:35+00:00",
+        "identifier" : "urn:uuid:b552236b-a3ab-4285-b624-1a991cf33619",
+        "timestamp" : "2024-07-01T19:48:24+00:00",
         "total" : 0,
         "offset" : 0,
         "parameter" : [{
@@ -9138,10 +9138,10 @@
       "title" : "Reason for switch to second-line regimen ValueSet",
       "status" : "active",
       "experimental" : true,
-      "date" : "2024-07-01T19:43:16+00:00",
+      "date" : "2024-07-01T19:47:03+00:00",
       "expansion" : {
-        "identifier" : "urn:uuid:e95edf72-78b1-4b46-8305-06819e860072",
-        "timestamp" : "2024-07-01T19:44:36+00:00",
+        "identifier" : "urn:uuid:ad79d38e-e285-40a4-96f3-83fe253cb57a",
+        "timestamp" : "2024-07-01T19:48:24+00:00",
         "total" : 0,
         "offset" : 0,
         "parameter" : [{
@@ -9178,10 +9178,10 @@
       "title" : "Reason(s) for substitution within second-line regimen ValueSet",
       "status" : "active",
       "experimental" : true,
-      "date" : "2024-07-01T19:43:16+00:00",
+      "date" : "2024-07-01T19:47:03+00:00",
       "expansion" : {
-        "identifier" : "urn:uuid:78fd8c26-044a-4273-a8ce-f67892749efe",
-        "timestamp" : "2024-07-01T19:44:36+00:00",
+        "identifier" : "urn:uuid:210395db-52dd-4e80-86cf-1425851defdf",
+        "timestamp" : "2024-07-01T19:48:24+00:00",
         "total" : 0,
         "offset" : 0,
         "parameter" : [{
@@ -9218,10 +9218,10 @@
       "title" : "New regimen(s) after substitution within second-line regimen ValueSet",
       "status" : "active",
       "experimental" : true,
-      "date" : "2024-07-01T19:43:16+00:00",
+      "date" : "2024-07-01T19:47:03+00:00",
       "expansion" : {
-        "identifier" : "urn:uuid:d4d4cd03-9634-4267-8962-b8cbb4642feb",
-        "timestamp" : "2024-07-01T19:44:36+00:00",
+        "identifier" : "urn:uuid:98066cd6-6923-4dd3-ada8-ff06aebdd91a",
+        "timestamp" : "2024-07-01T19:48:24+00:00",
         "total" : 0,
         "offset" : 0,
         "parameter" : [{
@@ -9258,10 +9258,10 @@
       "title" : "New regimen after switch to third-line regimen ValueSet",
       "status" : "active",
       "experimental" : true,
-      "date" : "2024-07-01T19:43:16+00:00",
+      "date" : "2024-07-01T19:47:03+00:00",
       "expansion" : {
-        "identifier" : "urn:uuid:d529fc1d-3bdd-4978-b142-e935d7d20c3e",
-        "timestamp" : "2024-07-01T19:44:36+00:00",
+        "identifier" : "urn:uuid:e856e988-4a0f-4789-adab-7c9424bdaf3b",
+        "timestamp" : "2024-07-01T19:48:24+00:00",
         "total" : 0,
         "offset" : 0,
         "parameter" : [{
@@ -9298,10 +9298,10 @@
       "title" : "Reason for switch to third-line regimen ValueSet",
       "status" : "active",
       "experimental" : true,
-      "date" : "2024-07-01T19:43:16+00:00",
+      "date" : "2024-07-01T19:47:03+00:00",
       "expansion" : {
-        "identifier" : "urn:uuid:2075706d-6cb9-48d3-9107-3c5505aeaed1",
-        "timestamp" : "2024-07-01T19:44:36+00:00",
+        "identifier" : "urn:uuid:ff42db0c-bfdf-43de-bb8d-0a5418c0a930",
+        "timestamp" : "2024-07-01T19:48:24+00:00",
         "total" : 0,
         "offset" : 0,
         "parameter" : [{
@@ -9338,10 +9338,10 @@
       "title" : "Reason(s) for substitution within third-line regimen ValueSet",
       "status" : "active",
       "experimental" : true,
-      "date" : "2024-07-01T19:43:16+00:00",
+      "date" : "2024-07-01T19:47:03+00:00",
       "expansion" : {
-        "identifier" : "urn:uuid:f37a0f3d-181a-4303-98b0-77112d1c5c07",
-        "timestamp" : "2024-07-01T19:44:36+00:00",
+        "identifier" : "urn:uuid:34afdef2-7f1a-43a7-9fe6-ca5ddbefa3e1",
+        "timestamp" : "2024-07-01T19:48:24+00:00",
         "total" : 0,
         "offset" : 0,
         "parameter" : [{
@@ -9378,10 +9378,10 @@
       "title" : "New regimen(s) after substitution within third-line regimen ValueSet",
       "status" : "active",
       "experimental" : true,
-      "date" : "2024-07-01T19:43:16+00:00",
+      "date" : "2024-07-01T19:47:03+00:00",
       "expansion" : {
-        "identifier" : "urn:uuid:101d7b90-ce2b-49c3-9f67-339a963cff35",
-        "timestamp" : "2024-07-01T19:44:36+00:00",
+        "identifier" : "urn:uuid:b87ccb12-2b53-463d-abc8-f3ea39fdaa8a",
+        "timestamp" : "2024-07-01T19:48:24+00:00",
         "total" : 0,
         "offset" : 0,
         "parameter" : [{
@@ -9418,10 +9418,10 @@
       "title" : "HIV status of family member ValueSet",
       "status" : "active",
       "experimental" : true,
-      "date" : "2024-07-01T19:43:16+00:00",
+      "date" : "2024-07-01T19:47:03+00:00",
       "expansion" : {
-        "identifier" : "urn:uuid:560492b6-bc22-42f5-9980-23bc9de54c21",
-        "timestamp" : "2024-07-01T19:44:36+00:00",
+        "identifier" : "urn:uuid:97e4fe3b-e0dc-4807-ab23-dc1c79ea64b0",
+        "timestamp" : "2024-07-01T19:48:24+00:00",
         "total" : 0,
         "offset" : 0,
         "parameter" : [{
@@ -9458,10 +9458,10 @@
       "title" : "Other support services ValueSet",
       "status" : "active",
       "experimental" : true,
-      "date" : "2024-07-01T19:43:16+00:00",
+      "date" : "2024-07-01T19:47:03+00:00",
       "expansion" : {
-        "identifier" : "urn:uuid:8c8c01bb-6fb5-4b76-b7fc-6df5278f1721",
-        "timestamp" : "2024-07-01T19:44:36+00:00",
+        "identifier" : "urn:uuid:2b8c69f3-cf77-491c-a42f-a973d7b7ef7a",
+        "timestamp" : "2024-07-01T19:48:24+00:00",
         "total" : 4,
         "offset" : 0,
         "parameter" : [{
@@ -9526,10 +9526,10 @@
       "title" : "Facility transferred from ValueSet",
       "status" : "active",
       "experimental" : true,
-      "date" : "2024-07-01T19:43:16+00:00",
+      "date" : "2024-07-01T19:47:03+00:00",
       "expansion" : {
-        "identifier" : "urn:uuid:a994ae26-b524-404e-888a-b757f86d12a6",
-        "timestamp" : "2024-07-01T19:44:36+00:00",
+        "identifier" : "urn:uuid:d5f80229-902f-40d3-83ec-461f11a78cae",
+        "timestamp" : "2024-07-01T19:48:24+00:00",
         "total" : 0,
         "offset" : 0,
         "parameter" : [{
@@ -9566,10 +9566,10 @@
       "title" : "Type of follow-up appointment ValueSet",
       "status" : "active",
       "experimental" : true,
-      "date" : "2024-07-01T19:43:16+00:00",
+      "date" : "2024-07-01T19:47:03+00:00",
       "expansion" : {
-        "identifier" : "urn:uuid:20eccd97-7345-45e8-bb8b-27551e486e43",
-        "timestamp" : "2024-07-01T19:44:36+00:00",
+        "identifier" : "urn:uuid:0a4e7221-de36-48e5-bc11-57c9ac1a2c0b",
+        "timestamp" : "2024-07-01T19:48:24+00:00",
         "total" : 4,
         "offset" : 0,
         "parameter" : [{
@@ -9634,10 +9634,10 @@
       "title" : "Reason blood pressure reading not done ValueSet",
       "status" : "active",
       "experimental" : true,
-      "date" : "2024-07-01T19:43:16+00:00",
+      "date" : "2024-07-01T19:47:03+00:00",
       "expansion" : {
-        "identifier" : "urn:uuid:bfbab660-6605-44ca-8d7c-3c522097ac84",
-        "timestamp" : "2024-07-01T19:44:36+00:00",
+        "identifier" : "urn:uuid:22602fb8-60ef-48dc-97be-476e37169c82",
+        "timestamp" : "2024-07-01T19:48:24+00:00",
         "total" : 2,
         "offset" : 0,
         "parameter" : [{
@@ -9692,10 +9692,10 @@
       "title" : "Current medications ValueSet",
       "status" : "active",
       "experimental" : true,
-      "date" : "2024-07-01T19:43:16+00:00",
+      "date" : "2024-07-01T19:47:03+00:00",
       "expansion" : {
-        "identifier" : "urn:uuid:8eed6e52-9c00-4300-baa4-e1ebe1ab349f",
-        "timestamp" : "2024-07-01T19:44:36+00:00",
+        "identifier" : "urn:uuid:28847d6f-c79d-4e18-8060-121485269cfe",
+        "timestamp" : "2024-07-01T19:48:24+00:00",
         "total" : 21,
         "offset" : 0,
         "parameter" : [{
@@ -9845,10 +9845,10 @@
       "title" : "Facility where client first enrolled in HIV care ValueSet",
       "status" : "active",
       "experimental" : true,
-      "date" : "2024-07-01T19:43:16+00:00",
+      "date" : "2024-07-01T19:47:03+00:00",
       "expansion" : {
-        "identifier" : "urn:uuid:c533d673-3680-4da1-890f-47227faeb145",
-        "timestamp" : "2024-07-01T19:44:36+00:00",
+        "identifier" : "urn:uuid:41b5b58c-52c7-4ab8-93d8-0935d92686a6",
+        "timestamp" : "2024-07-01T19:48:24+00:00",
         "total" : 0,
         "offset" : 0,
         "parameter" : [{
@@ -9885,10 +9885,10 @@
       "title" : "Antiretroviral (ARV) drugs received prior to enrolment ValueSet",
       "status" : "active",
       "experimental" : true,
-      "date" : "2024-07-01T19:43:16+00:00",
+      "date" : "2024-07-01T19:47:03+00:00",
       "expansion" : {
-        "identifier" : "urn:uuid:9abb097e-5033-405f-94b6-f26f325d6dbc",
-        "timestamp" : "2024-07-01T19:44:36+00:00",
+        "identifier" : "urn:uuid:524f1383-05ab-4e0a-90cf-56de0b99e4df",
+        "timestamp" : "2024-07-01T19:48:24+00:00",
         "total" : 5,
         "offset" : 0,
         "parameter" : [{
@@ -9958,10 +9958,10 @@
       "title" : "Allergies ValueSet",
       "status" : "active",
       "experimental" : true,
-      "date" : "2024-07-01T19:43:16+00:00",
+      "date" : "2024-07-01T19:47:03+00:00",
       "expansion" : {
-        "identifier" : "urn:uuid:a34a21d0-cc5f-41db-8788-cd536ba7d3c1",
-        "timestamp" : "2024-07-01T19:44:36+00:00",
+        "identifier" : "urn:uuid:078e15e3-2566-414e-9aad-438fcb701015",
+        "timestamp" : "2024-07-01T19:48:24+00:00",
         "total" : 7,
         "offset" : 0,
         "parameter" : [{
@@ -10041,10 +10041,10 @@
       "title" : "Family planning method used ValueSet",
       "status" : "active",
       "experimental" : true,
-      "date" : "2024-07-01T19:43:16+00:00",
+      "date" : "2024-07-01T19:47:03+00:00",
       "expansion" : {
-        "identifier" : "urn:uuid:ea434501-954d-4b98-a719-11dcf0d1ebad",
-        "timestamp" : "2024-07-01T19:44:36+00:00",
+        "identifier" : "urn:uuid:c8ff682d-ecab-488e-a78e-1a5c5e2bb2ff",
+        "timestamp" : "2024-07-01T19:48:25+00:00",
         "total" : 23,
         "offset" : 0,
         "parameter" : [{
@@ -10204,10 +10204,10 @@
       "title" : "Medication status ValueSet",
       "status" : "active",
       "experimental" : true,
-      "date" : "2024-07-01T19:43:16+00:00",
+      "date" : "2024-07-01T19:47:03+00:00",
       "expansion" : {
-        "identifier" : "urn:uuid:98349b11-d85d-47b2-9c99-d87780869226",
-        "timestamp" : "2024-07-01T19:44:36+00:00",
+        "identifier" : "urn:uuid:c8aef1a6-d453-4fc0-8f6d-52ffefcb3077",
+        "timestamp" : "2024-07-01T19:48:25+00:00",
         "total" : 8,
         "offset" : 0,
         "parameter" : [{
@@ -10292,10 +10292,10 @@
       "title" : "Vaccine brand ValueSet",
       "status" : "active",
       "experimental" : true,
-      "date" : "2024-07-01T19:43:16+00:00",
+      "date" : "2024-07-01T19:47:03+00:00",
       "expansion" : {
-        "identifier" : "urn:uuid:ef7427c9-dfac-48a6-812b-80ae2b4c5d2d",
-        "timestamp" : "2024-07-01T19:44:36+00:00",
+        "identifier" : "urn:uuid:16f78346-646f-4c8e-ada4-3847b33c952b",
+        "timestamp" : "2024-07-01T19:48:25+00:00",
         "total" : 0,
         "offset" : 0,
         "parameter" : [{
@@ -10332,10 +10332,10 @@
       "title" : "Vaccine type ValueSet",
       "status" : "active",
       "experimental" : true,
-      "date" : "2024-07-01T19:43:16+00:00",
+      "date" : "2024-07-01T19:47:03+00:00",
       "expansion" : {
-        "identifier" : "urn:uuid:0a58c09b-b914-49ef-bccc-36fe9adb0637",
-        "timestamp" : "2024-07-01T19:44:36+00:00",
+        "identifier" : "urn:uuid:f5f6998f-fdf4-4eaf-9063-04f59919bac1",
+        "timestamp" : "2024-07-01T19:48:25+00:00",
         "total" : 0,
         "offset" : 0,
         "parameter" : [{
@@ -10372,10 +10372,10 @@
       "title" : "Vaccination location ValueSet",
       "status" : "active",
       "experimental" : true,
-      "date" : "2024-07-01T19:43:16+00:00",
+      "date" : "2024-07-01T19:47:03+00:00",
       "expansion" : {
-        "identifier" : "urn:uuid:f334d818-f538-4f0b-a4fe-0cfddf9bf7e6",
-        "timestamp" : "2024-07-01T19:44:36+00:00",
+        "identifier" : "urn:uuid:aae8c883-a661-4e7a-8fb3-e73af996fa71",
+        "timestamp" : "2024-07-01T19:48:25+00:00",
         "total" : 0,
         "offset" : 0,
         "parameter" : [{
@@ -10412,10 +10412,10 @@
       "title" : "Disease targeted ValueSet",
       "status" : "active",
       "experimental" : true,
-      "date" : "2024-07-01T19:43:16+00:00",
+      "date" : "2024-07-01T19:47:03+00:00",
       "expansion" : {
-        "identifier" : "urn:uuid:0793899d-509c-42ca-aa28-06f1b5359260",
-        "timestamp" : "2024-07-01T19:44:36+00:00",
+        "identifier" : "urn:uuid:8e05bc2c-51eb-4e6c-8b6b-49ea9a0a52f5",
+        "timestamp" : "2024-07-01T19:48:25+00:00",
         "total" : 25,
         "offset" : 0,
         "parameter" : [{
@@ -10585,10 +10585,10 @@
       "title" : "Location ARV drugs received prior to enrolment ValueSet",
       "status" : "active",
       "experimental" : true,
-      "date" : "2024-07-01T19:43:16+00:00",
+      "date" : "2024-07-01T19:47:03+00:00",
       "expansion" : {
-        "identifier" : "urn:uuid:f114f5c6-a84d-43b8-95a3-a5ac1006b203",
-        "timestamp" : "2024-07-01T19:44:36+00:00",
+        "identifier" : "urn:uuid:c95efb2c-1880-4476-b5e2-d5878ec8f89a",
+        "timestamp" : "2024-07-01T19:48:25+00:00",
         "total" : 0,
         "offset" : 0,
         "parameter" : [{
@@ -10625,10 +10625,10 @@
       "title" : "Reason immunization was not provided ValueSet",
       "status" : "active",
       "experimental" : true,
-      "date" : "2024-07-01T19:43:16+00:00",
+      "date" : "2024-07-01T19:47:03+00:00",
       "expansion" : {
-        "identifier" : "urn:uuid:b45df759-77fd-4c34-8590-a3e47efb7cf2",
-        "timestamp" : "2024-07-01T19:44:36+00:00",
+        "identifier" : "urn:uuid:7e2499bf-8e85-4d19-a820-d330b80f524e",
+        "timestamp" : "2024-07-01T19:48:25+00:00",
         "total" : 5,
         "offset" : 0,
         "parameter" : [{
@@ -10698,10 +10698,10 @@
       "title" : "ARV drug regimen received prior to enrolment ValueSet",
       "status" : "active",
       "experimental" : true,
-      "date" : "2024-07-01T19:43:16+00:00",
+      "date" : "2024-07-01T19:47:03+00:00",
       "expansion" : {
-        "identifier" : "urn:uuid:b67b0c6e-81da-4600-9388-4e803b79fe57",
-        "timestamp" : "2024-07-01T19:44:36+00:00",
+        "identifier" : "urn:uuid:7ef6242d-b06f-40ff-9167-68343a9c0799",
+        "timestamp" : "2024-07-01T19:48:25+00:00",
         "total" : 0,
         "offset" : 0,
         "parameter" : [{
@@ -10738,10 +10738,10 @@
       "title" : "Reason malaria prophylaxis not provided ValueSet",
       "status" : "active",
       "experimental" : true,
-      "date" : "2024-07-01T19:43:16+00:00",
+      "date" : "2024-07-01T19:47:03+00:00",
       "expansion" : {
-        "identifier" : "urn:uuid:c30bba5a-dbae-4f6e-82c7-79084972b0db",
-        "timestamp" : "2024-07-01T19:44:36+00:00",
+        "identifier" : "urn:uuid:e1a6b9f2-b405-4366-8ef7-2619fa4a0f30",
+        "timestamp" : "2024-07-01T19:48:25+00:00",
         "total" : 4,
         "offset" : 0,
         "parameter" : [{
@@ -10806,10 +10806,10 @@
       "title" : "Existing chronic health conditions ValueSet",
       "status" : "active",
       "experimental" : true,
-      "date" : "2024-07-01T19:43:16+00:00",
+      "date" : "2024-07-01T19:47:03+00:00",
       "expansion" : {
-        "identifier" : "urn:uuid:fd462630-ddd2-4f8f-a885-aa6d81b27219",
-        "timestamp" : "2024-07-01T19:44:36+00:00",
+        "identifier" : "urn:uuid:9bee0111-e997-498e-8b6c-3ef7c0d929d7",
+        "timestamp" : "2024-07-01T19:48:25+00:00",
         "total" : 7,
         "offset" : 0,
         "parameter" : [{
@@ -10889,10 +10889,10 @@
       "title" : "Cervical cancer primary screening test type ValueSet",
       "status" : "active",
       "experimental" : true,
-      "date" : "2024-07-01T19:43:16+00:00",
+      "date" : "2024-07-01T19:47:03+00:00",
       "expansion" : {
-        "identifier" : "urn:uuid:ca480ce3-a88c-484b-b043-ce921e9b5081",
-        "timestamp" : "2024-07-01T19:44:37+00:00",
+        "identifier" : "urn:uuid:8efbfada-b81e-4e9b-9f5b-ea0390498560",
+        "timestamp" : "2024-07-01T19:48:25+00:00",
         "total" : 4,
         "offset" : 0,
         "parameter" : [{
@@ -10957,10 +10957,10 @@
       "title" : "HPV-DNA cervical cancer screening test result ValueSet",
       "status" : "active",
       "experimental" : true,
-      "date" : "2024-07-01T19:43:16+00:00",
+      "date" : "2024-07-01T19:47:03+00:00",
       "expansion" : {
-        "identifier" : "urn:uuid:edcf04b6-d25a-446d-8459-d6f98efa0950",
-        "timestamp" : "2024-07-01T19:44:37+00:00",
+        "identifier" : "urn:uuid:1b19ff9a-c8eb-4e33-a69a-8f686579834c",
+        "timestamp" : "2024-07-01T19:48:25+00:00",
         "total" : 3,
         "offset" : 0,
         "parameter" : [{
@@ -11020,10 +11020,10 @@
       "title" : "VIA cervical cancer screening test result ValueSet",
       "status" : "active",
       "experimental" : true,
-      "date" : "2024-07-01T19:43:16+00:00",
+      "date" : "2024-07-01T19:47:03+00:00",
       "expansion" : {
-        "identifier" : "urn:uuid:ea85ad22-43da-421a-9df6-80e730c4681b",
-        "timestamp" : "2024-07-01T19:44:37+00:00",
+        "identifier" : "urn:uuid:622c2af6-c33c-48f4-970b-831915a86803",
+        "timestamp" : "2024-07-01T19:48:25+00:00",
         "total" : 4,
         "offset" : 0,
         "parameter" : [{
@@ -11088,10 +11088,10 @@
       "title" : "Cervical cytology screening test result ValueSet",
       "status" : "active",
       "experimental" : true,
-      "date" : "2024-07-01T19:43:16+00:00",
+      "date" : "2024-07-01T19:47:03+00:00",
       "expansion" : {
-        "identifier" : "urn:uuid:ecdb2861-386f-46ff-a1f0-0cd54e4c350c",
-        "timestamp" : "2024-07-01T19:44:37+00:00",
+        "identifier" : "urn:uuid:4ecb70ae-1a98-4048-82bb-529d2fd55e63",
+        "timestamp" : "2024-07-01T19:48:25+00:00",
         "total" : 6,
         "offset" : 0,
         "parameter" : [{
@@ -11166,10 +11166,10 @@
       "title" : "Cervical cancer triage test type ValueSet",
       "status" : "active",
       "experimental" : true,
-      "date" : "2024-07-01T19:43:16+00:00",
+      "date" : "2024-07-01T19:47:03+00:00",
       "expansion" : {
-        "identifier" : "urn:uuid:b988d065-cda1-4270-95a6-9d7a6c37ed89",
-        "timestamp" : "2024-07-01T19:44:37+00:00",
+        "identifier" : "urn:uuid:c8546369-f24f-43c5-9b0b-f423b293b20f",
+        "timestamp" : "2024-07-01T19:48:25+00:00",
         "total" : 5,
         "offset" : 0,
         "parameter" : [{
@@ -11239,10 +11239,10 @@
       "title" : "HPV16/18 test result ValueSet",
       "status" : "active",
       "experimental" : true,
-      "date" : "2024-07-01T19:43:16+00:00",
+      "date" : "2024-07-01T19:47:03+00:00",
       "expansion" : {
-        "identifier" : "urn:uuid:12426abc-fd2c-4d02-b228-bfbde436a62d",
-        "timestamp" : "2024-07-01T19:44:37+00:00",
+        "identifier" : "urn:uuid:b3a3b5a4-1266-4454-b117-d929f23c8c95",
+        "timestamp" : "2024-07-01T19:48:25+00:00",
         "total" : 2,
         "offset" : 0,
         "parameter" : [{
@@ -11297,10 +11297,10 @@
       "title" : "Cervical cancer colposcopy result ValueSet",
       "status" : "active",
       "experimental" : true,
-      "date" : "2024-07-01T19:43:16+00:00",
+      "date" : "2024-07-01T19:47:03+00:00",
       "expansion" : {
-        "identifier" : "urn:uuid:57448b6b-aa9d-4052-b52d-ba51039a1188",
-        "timestamp" : "2024-07-01T19:44:37+00:00",
+        "identifier" : "urn:uuid:4d9f7589-3cb2-4ce2-9462-3681b47c6725",
+        "timestamp" : "2024-07-01T19:48:25+00:00",
         "total" : 5,
         "offset" : 0,
         "parameter" : [{
@@ -11370,10 +11370,10 @@
       "title" : "Cervical cancer histopathology result ValueSet",
       "status" : "active",
       "experimental" : true,
-      "date" : "2024-07-01T19:43:16+00:00",
+      "date" : "2024-07-01T19:47:03+00:00",
       "expansion" : {
-        "identifier" : "urn:uuid:a255b5e2-b6ee-48ae-875f-6fa66e7f9ce9",
-        "timestamp" : "2024-07-01T19:44:37+00:00",
+        "identifier" : "urn:uuid:23dbe0ed-d9fb-438a-8fc8-5788c7f5432c",
+        "timestamp" : "2024-07-01T19:48:25+00:00",
         "total" : 4,
         "offset" : 0,
         "parameter" : [{
@@ -11438,10 +11438,10 @@
       "title" : "Cervical cancer screening outcome ValueSet",
       "status" : "active",
       "experimental" : true,
-      "date" : "2024-07-01T19:43:16+00:00",
+      "date" : "2024-07-01T19:47:03+00:00",
       "expansion" : {
-        "identifier" : "urn:uuid:9123387a-b5fd-4c61-9576-67b96a472821",
-        "timestamp" : "2024-07-01T19:44:37+00:00",
+        "identifier" : "urn:uuid:fcf66859-feb2-420b-b50c-062cedd04a42",
+        "timestamp" : "2024-07-01T19:48:25+00:00",
         "total" : 2,
         "offset" : 0,
         "parameter" : [{
@@ -11496,10 +11496,10 @@
       "title" : "Cervical cancer diagnosis ValueSet",
       "status" : "active",
       "experimental" : true,
-      "date" : "2024-07-01T19:43:16+00:00",
+      "date" : "2024-07-01T19:47:03+00:00",
       "expansion" : {
-        "identifier" : "urn:uuid:d7a45f7f-da41-4e2d-aa2a-a549489088f6",
-        "timestamp" : "2024-07-01T19:44:37+00:00",
+        "identifier" : "urn:uuid:00ee0082-bdb6-4644-95c9-21ba992b031c",
+        "timestamp" : "2024-07-01T19:48:25+00:00",
         "total" : 2,
         "offset" : 0,
         "parameter" : [{
@@ -11554,10 +11554,10 @@
       "title" : "Cervical cancer stage at diagnosis ValueSet",
       "status" : "active",
       "experimental" : true,
-      "date" : "2024-07-01T19:43:16+00:00",
+      "date" : "2024-07-01T19:47:03+00:00",
       "expansion" : {
-        "identifier" : "urn:uuid:10a878ff-58f4-451c-9009-1e7db7624ee3",
-        "timestamp" : "2024-07-01T19:44:37+00:00",
+        "identifier" : "urn:uuid:77fa1f5a-b9e6-4516-a722-d4e9bde2970e",
+        "timestamp" : "2024-07-01T19:48:25+00:00",
         "total" : 5,
         "offset" : 0,
         "parameter" : [{
@@ -11627,10 +11627,10 @@
       "title" : "Treatment method for cervical precancer lesions ValueSet",
       "status" : "active",
       "experimental" : true,
-      "date" : "2024-07-01T19:43:16+00:00",
+      "date" : "2024-07-01T19:47:03+00:00",
       "expansion" : {
-        "identifier" : "urn:uuid:1898aed7-6e88-4146-914f-20b156fb96cc",
-        "timestamp" : "2024-07-01T19:44:37+00:00",
+        "identifier" : "urn:uuid:46d4ccf4-3407-4bac-aa9c-74e6e07672a8",
+        "timestamp" : "2024-07-01T19:48:25+00:00",
         "total" : 7,
         "offset" : 0,
         "parameter" : [{
@@ -11710,10 +11710,10 @@
       "title" : "Invasive cervical cancer treatment method ValueSet",
       "status" : "active",
       "experimental" : true,
-      "date" : "2024-07-01T19:43:16+00:00",
+      "date" : "2024-07-01T19:47:03+00:00",
       "expansion" : {
-        "identifier" : "urn:uuid:5cf73f8f-d995-4a45-82b4-20b128ba9cd9",
-        "timestamp" : "2024-07-01T19:44:37+00:00",
+        "identifier" : "urn:uuid:62e3319a-c117-4347-98e8-ae6adb576241",
+        "timestamp" : "2024-07-01T19:48:25+00:00",
         "total" : 8,
         "offset" : 0,
         "parameter" : [{
@@ -11798,10 +11798,10 @@
       "title" : "Original first-line ART regimen ValueSet",
       "status" : "active",
       "experimental" : true,
-      "date" : "2024-07-01T19:43:16+00:00",
+      "date" : "2024-07-01T19:47:03+00:00",
       "expansion" : {
-        "identifier" : "urn:uuid:45ffcf74-3e7b-42ac-900f-993a59ed69c9",
-        "timestamp" : "2024-07-01T19:44:37+00:00",
+        "identifier" : "urn:uuid:6e5b3b64-7f03-480f-b74a-91d6d8f855b6",
+        "timestamp" : "2024-07-01T19:48:25+00:00",
         "total" : 0,
         "offset" : 0,
         "parameter" : [{
@@ -11838,10 +11838,10 @@
       "title" : "Entry point for facility-level testing ValueSet",
       "status" : "active",
       "experimental" : true,
-      "date" : "2024-07-01T19:43:16+00:00",
+      "date" : "2024-07-01T19:47:03+00:00",
       "expansion" : {
-        "identifier" : "urn:uuid:ce1f7d86-7290-4b85-9e27-915904592727",
-        "timestamp" : "2024-07-01T19:44:37+00:00",
+        "identifier" : "urn:uuid:160f25a7-288d-484a-bd9e-a64529bea5b7",
+        "timestamp" : "2024-07-01T19:48:25+00:00",
         "total" : 6,
         "offset" : 0,
         "parameter" : [{
@@ -11916,10 +11916,10 @@
       "title" : "Current ART regimen ValueSet",
       "status" : "active",
       "experimental" : true,
-      "date" : "2024-07-01T19:43:16+00:00",
+      "date" : "2024-07-01T19:47:03+00:00",
       "expansion" : {
-        "identifier" : "urn:uuid:bad76e0e-ee22-479b-a61f-87bfb0f7775e",
-        "timestamp" : "2024-07-01T19:44:37+00:00",
+        "identifier" : "urn:uuid:80062d3c-f6c1-4779-83c9-f8acd93a0398",
+        "timestamp" : "2024-07-01T19:48:26+00:00",
         "total" : 0,
         "offset" : 0,
         "parameter" : [{
@@ -11956,10 +11956,10 @@
       "title" : "Offer other clinical services ValueSet",
       "status" : "active",
       "experimental" : true,
-      "date" : "2024-07-01T19:43:16+00:00",
+      "date" : "2024-07-01T19:47:03+00:00",
       "expansion" : {
-        "identifier" : "urn:uuid:b746fefb-623e-449c-91bd-e32c87ae13d4",
-        "timestamp" : "2024-07-01T19:44:37+00:00",
+        "identifier" : "urn:uuid:ae0571d7-64d6-4015-a879-d8023117f4b2",
+        "timestamp" : "2024-07-01T19:48:26+00:00",
         "total" : 6,
         "offset" : 0,
         "parameter" : [{
@@ -12034,10 +12034,10 @@
       "title" : "DSD ART model(s) ValueSet",
       "status" : "active",
       "experimental" : true,
-      "date" : "2024-07-01T19:43:16+00:00",
+      "date" : "2024-07-01T19:47:03+00:00",
       "expansion" : {
-        "identifier" : "urn:uuid:9282609b-9b1d-4de3-a2ea-65d9acb3e9cd",
-        "timestamp" : "2024-07-01T19:44:37+00:00",
+        "identifier" : "urn:uuid:1b1aa67a-5acd-4bf0-ad6c-8ef5b659f9ec",
+        "timestamp" : "2024-07-01T19:48:26+00:00",
         "total" : 6,
         "offset" : 0,
         "parameter" : [{
@@ -12112,10 +12112,10 @@
       "title" : "Preferred first-line ART regimen ValueSet",
       "status" : "active",
       "experimental" : true,
-      "date" : "2024-07-01T19:43:16+00:00",
+      "date" : "2024-07-01T19:47:03+00:00",
       "expansion" : {
-        "identifier" : "urn:uuid:e727488f-e743-408b-a415-064e409e84bc",
-        "timestamp" : "2024-07-01T19:44:37+00:00",
+        "identifier" : "urn:uuid:41696830-86ba-48eb-9cc9-6d270d811f32",
+        "timestamp" : "2024-07-01T19:48:26+00:00",
         "total" : 0,
         "offset" : 0,
         "parameter" : [{
@@ -12152,10 +12152,10 @@
       "title" : "Syndrome/STI diagnosed ValueSet",
       "status" : "active",
       "experimental" : true,
-      "date" : "2024-07-01T19:43:16+00:00",
+      "date" : "2024-07-01T19:47:03+00:00",
       "expansion" : {
-        "identifier" : "urn:uuid:dd4d8b87-a879-4e08-beb7-26a4fc9de3f0",
-        "timestamp" : "2024-07-01T19:44:37+00:00",
+        "identifier" : "urn:uuid:81913670-63ae-4cfa-9622-cc420b39f62d",
+        "timestamp" : "2024-07-01T19:48:26+00:00",
         "total" : 7,
         "offset" : 0,
         "parameter" : [{
@@ -12235,10 +12235,10 @@
       "title" : "Alternative first-line ART regimen ValueSet",
       "status" : "active",
       "experimental" : true,
-      "date" : "2024-07-01T19:43:16+00:00",
+      "date" : "2024-07-01T19:47:03+00:00",
       "expansion" : {
-        "identifier" : "urn:uuid:d2527e1a-dac2-4aed-a1a8-678a8ca79719",
-        "timestamp" : "2024-07-01T19:44:37+00:00",
+        "identifier" : "urn:uuid:ee720dc9-d653-4854-8a5f-a25fdbdf2ba1",
+        "timestamp" : "2024-07-01T19:48:26+00:00",
         "total" : 0,
         "offset" : 0,
         "parameter" : [{
@@ -12275,10 +12275,10 @@
       "title" : "STI tested for ValueSet",
       "status" : "active",
       "experimental" : true,
-      "date" : "2024-07-01T19:43:16+00:00",
+      "date" : "2024-07-01T19:47:03+00:00",
       "expansion" : {
-        "identifier" : "urn:uuid:12f56336-d30a-4972-9cc1-5232bb79e4d8",
-        "timestamp" : "2024-07-01T19:44:37+00:00",
+        "identifier" : "urn:uuid:fc157d68-1228-49f4-8c9d-69fc48e5d939",
+        "timestamp" : "2024-07-01T19:48:26+00:00",
         "total" : 10,
         "offset" : 0,
         "parameter" : [{
@@ -12373,10 +12373,10 @@
       "title" : "First-line ART regimen under special circumstances ValueSet",
       "status" : "active",
       "experimental" : true,
-      "date" : "2024-07-01T19:43:16+00:00",
+      "date" : "2024-07-01T19:47:03+00:00",
       "expansion" : {
-        "identifier" : "urn:uuid:7994b7f8-474f-417c-ba20-16b05fcb9228",
-        "timestamp" : "2024-07-01T19:44:37+00:00",
+        "identifier" : "urn:uuid:bf9a863e-39a1-4bca-af78-cade02056d12",
+        "timestamp" : "2024-07-01T19:48:26+00:00",
         "total" : 0,
         "offset" : 0,
         "parameter" : [{
@@ -12413,10 +12413,10 @@
       "title" : "Preferred second-line ART regimen ValueSet",
       "status" : "active",
       "experimental" : true,
-      "date" : "2024-07-01T19:43:16+00:00",
+      "date" : "2024-07-01T19:47:03+00:00",
       "expansion" : {
-        "identifier" : "urn:uuid:63ea0ab6-bc6c-4cb2-b08f-a838571f829c",
-        "timestamp" : "2024-07-01T19:44:37+00:00",
+        "identifier" : "urn:uuid:acfb7ae6-459f-4374-b4b1-59ca6843e976",
+        "timestamp" : "2024-07-01T19:48:26+00:00",
         "total" : 0,
         "offset" : 0,
         "parameter" : [{
@@ -12453,10 +12453,10 @@
       "title" : "Syphilis test result ValueSet",
       "status" : "active",
       "experimental" : true,
-      "date" : "2024-07-01T19:43:16+00:00",
+      "date" : "2024-07-01T19:47:03+00:00",
       "expansion" : {
-        "identifier" : "urn:uuid:69c4cb18-51e2-418c-93eb-6044faba17c1",
-        "timestamp" : "2024-07-01T19:44:37+00:00",
+        "identifier" : "urn:uuid:51e4e129-959c-41c5-85ce-2a680abd8ac3",
+        "timestamp" : "2024-07-01T19:48:26+00:00",
         "total" : 3,
         "offset" : 0,
         "parameter" : [{
@@ -12516,10 +12516,10 @@
       "title" : "Gonorrhoea test result ValueSet",
       "status" : "active",
       "experimental" : true,
-      "date" : "2024-07-01T19:43:16+00:00",
+      "date" : "2024-07-01T19:47:03+00:00",
       "expansion" : {
-        "identifier" : "urn:uuid:726924e0-5094-426e-9a0b-b6aedafc6601",
-        "timestamp" : "2024-07-01T19:44:37+00:00",
+        "identifier" : "urn:uuid:39585d85-d42c-41ca-b4f9-f66f3f8547ec",
+        "timestamp" : "2024-07-01T19:48:26+00:00",
         "total" : 3,
         "offset" : 0,
         "parameter" : [{
@@ -12579,10 +12579,10 @@
       "title" : "Alternative second-line ART regimen ValueSet",
       "status" : "active",
       "experimental" : true,
-      "date" : "2024-07-01T19:43:16+00:00",
+      "date" : "2024-07-01T19:47:03+00:00",
       "expansion" : {
-        "identifier" : "urn:uuid:406f6bff-a73e-4ad8-9b1e-720bcadf194a",
-        "timestamp" : "2024-07-01T19:44:37+00:00",
+        "identifier" : "urn:uuid:a11dfdce-5007-420b-a22d-ec24120fdc7d",
+        "timestamp" : "2024-07-01T19:48:26+00:00",
         "total" : 0,
         "offset" : 0,
         "parameter" : [{
@@ -12619,10 +12619,10 @@
       "title" : "Type of specimen ValueSet",
       "status" : "active",
       "experimental" : true,
-      "date" : "2024-07-01T19:43:16+00:00",
+      "date" : "2024-07-01T19:47:03+00:00",
       "expansion" : {
-        "identifier" : "urn:uuid:5ee10476-3876-47bc-9e9a-6343282a5cb4",
-        "timestamp" : "2024-07-01T19:44:37+00:00",
+        "identifier" : "urn:uuid:cbf2a2aa-d829-436c-92cc-254931f12fb4",
+        "timestamp" : "2024-07-01T19:48:26+00:00",
         "total" : 6,
         "offset" : 0,
         "parameter" : [{
@@ -12697,10 +12697,10 @@
       "title" : "Optimal regimen for transition ValueSet",
       "status" : "active",
       "experimental" : true,
-      "date" : "2024-07-01T19:43:16+00:00",
+      "date" : "2024-07-01T19:47:03+00:00",
       "expansion" : {
-        "identifier" : "urn:uuid:230299b7-c386-4e02-a57b-877c9c62c045",
-        "timestamp" : "2024-07-01T19:44:37+00:00",
+        "identifier" : "urn:uuid:5e7e47f9-8461-488e-9ee2-2b00e80cc07b",
+        "timestamp" : "2024-07-01T19:48:26+00:00",
         "total" : 0,
         "offset" : 0,
         "parameter" : [{
@@ -12737,10 +12737,10 @@
       "title" : "Syphilis test type ValueSet",
       "status" : "active",
       "experimental" : true,
-      "date" : "2024-07-01T19:43:16+00:00",
+      "date" : "2024-07-01T19:47:03+00:00",
       "expansion" : {
-        "identifier" : "urn:uuid:a74c92c3-9194-466d-9306-f691dac1c063",
-        "timestamp" : "2024-07-01T19:44:38+00:00",
+        "identifier" : "urn:uuid:720e8bb6-cd34-4260-aa2a-af9c730330e0",
+        "timestamp" : "2024-07-01T19:48:26+00:00",
         "total" : 5,
         "offset" : 0,
         "parameter" : [{
@@ -12810,10 +12810,10 @@
       "title" : "Neisseria gonorrhoeae test type ValueSet",
       "status" : "active",
       "experimental" : true,
-      "date" : "2024-07-01T19:43:16+00:00",
+      "date" : "2024-07-01T19:47:03+00:00",
       "expansion" : {
-        "identifier" : "urn:uuid:1dabb811-f190-44d4-87db-8689db6edeb1",
-        "timestamp" : "2024-07-01T19:44:38+00:00",
+        "identifier" : "urn:uuid:e03d51a1-5329-43db-94d2-589f07d99ff1",
+        "timestamp" : "2024-07-01T19:48:26+00:00",
         "total" : 5,
         "offset" : 0,
         "parameter" : [{
@@ -12883,10 +12883,10 @@
       "title" : "Current ART regimen (first-, second-, or third-line) ValueSet",
       "status" : "active",
       "experimental" : true,
-      "date" : "2024-07-01T19:43:16+00:00",
+      "date" : "2024-07-01T19:47:03+00:00",
       "expansion" : {
-        "identifier" : "urn:uuid:a3212c9c-089a-4444-84f4-2fb34d9006df",
-        "timestamp" : "2024-07-01T19:44:38+00:00",
+        "identifier" : "urn:uuid:ec77d8f3-ff46-4a79-a56b-b4dc5fff713e",
+        "timestamp" : "2024-07-01T19:48:26+00:00",
         "total" : 6,
         "offset" : 0,
         "parameter" : [{
@@ -12961,10 +12961,10 @@
       "title" : "Chlamydia trachomatis test type ValueSet",
       "status" : "active",
       "experimental" : true,
-      "date" : "2024-07-01T19:43:16+00:00",
+      "date" : "2024-07-01T19:47:03+00:00",
       "expansion" : {
-        "identifier" : "urn:uuid:5c47e81a-f71d-41df-b3fd-b1688d7f4001",
-        "timestamp" : "2024-07-01T19:44:38+00:00",
+        "identifier" : "urn:uuid:ca304ff2-c162-43f1-bd2b-b83206085809",
+        "timestamp" : "2024-07-01T19:48:26+00:00",
         "total" : 6,
         "offset" : 0,
         "parameter" : [{
@@ -13039,10 +13039,10 @@
       "title" : "Trichomonas vaginalis test type ValueSet",
       "status" : "active",
       "experimental" : true,
-      "date" : "2024-07-01T19:43:16+00:00",
+      "date" : "2024-07-01T19:47:03+00:00",
       "expansion" : {
-        "identifier" : "urn:uuid:b7caa0a9-f5b3-4c5d-92b9-34172c95c231",
-        "timestamp" : "2024-07-01T19:44:38+00:00",
+        "identifier" : "urn:uuid:dcebf380-95d6-4fc4-a737-413f84065484",
+        "timestamp" : "2024-07-01T19:48:26+00:00",
         "total" : 5,
         "offset" : 0,
         "parameter" : [{
@@ -13112,10 +13112,10 @@
       "title" : "Herpes simplex virus (HSV) test type ValueSet",
       "status" : "active",
       "experimental" : true,
-      "date" : "2024-07-01T19:43:16+00:00",
+      "date" : "2024-07-01T19:47:03+00:00",
       "expansion" : {
-        "identifier" : "urn:uuid:250ee37e-2263-4860-be1e-089b1afe42f5",
-        "timestamp" : "2024-07-01T19:44:38+00:00",
+        "identifier" : "urn:uuid:a5957cb3-733f-46d4-9200-59cde95be5fc",
+        "timestamp" : "2024-07-01T19:48:26+00:00",
         "total" : 3,
         "offset" : 0,
         "parameter" : [{
@@ -13175,10 +13175,10 @@
       "title" : "Mycoplasma genitalium test type ValueSet",
       "status" : "active",
       "experimental" : true,
-      "date" : "2024-07-01T19:43:16+00:00",
+      "date" : "2024-07-01T19:47:03+00:00",
       "expansion" : {
-        "identifier" : "urn:uuid:b4472c02-4490-4c6d-9f89-e10c3255d8f2",
-        "timestamp" : "2024-07-01T19:44:38+00:00",
+        "identifier" : "urn:uuid:7180d3e4-eb64-49b8-a0c6-0648076c2753",
+        "timestamp" : "2024-07-01T19:48:26+00:00",
         "total" : 3,
         "offset" : 0,
         "parameter" : [{
@@ -13238,10 +13238,10 @@
       "title" : "STI test result ValueSet",
       "status" : "active",
       "experimental" : true,
-      "date" : "2024-07-01T19:43:16+00:00",
+      "date" : "2024-07-01T19:47:03+00:00",
       "expansion" : {
-        "identifier" : "urn:uuid:259c9515-6010-4aa1-a880-08747191c99b",
-        "timestamp" : "2024-07-01T19:44:38+00:00",
+        "identifier" : "urn:uuid:012d6614-be46-4185-9e9f-a76effc7bed1",
+        "timestamp" : "2024-07-01T19:48:26+00:00",
         "total" : 3,
         "offset" : 0,
         "parameter" : [{
@@ -13301,10 +13301,10 @@
       "title" : "Confirmatory syphilis test type ValueSet",
       "status" : "active",
       "experimental" : true,
-      "date" : "2024-07-01T19:43:16+00:00",
+      "date" : "2024-07-01T19:47:03+00:00",
       "expansion" : {
-        "identifier" : "urn:uuid:b0bb82df-9856-4fe1-93cb-349b8337c92b",
-        "timestamp" : "2024-07-01T19:44:38+00:00",
+        "identifier" : "urn:uuid:b767ae03-ca6b-46d4-9b45-922232a70974",
+        "timestamp" : "2024-07-01T19:48:26+00:00",
         "total" : 5,
         "offset" : 0,
         "parameter" : [{
@@ -13374,10 +13374,10 @@
       "title" : "Confirmatory STI test result ValueSet",
       "status" : "active",
       "experimental" : true,
-      "date" : "2024-07-01T19:43:16+00:00",
+      "date" : "2024-07-01T19:47:03+00:00",
       "expansion" : {
-        "identifier" : "urn:uuid:4b146f90-47e8-471b-af70-ef64611a8c0b",
-        "timestamp" : "2024-07-01T19:44:38+00:00",
+        "identifier" : "urn:uuid:9b5341aa-bba4-416b-821a-6d14b4f42a08",
+        "timestamp" : "2024-07-01T19:48:26+00:00",
         "total" : 3,
         "offset" : 0,
         "parameter" : [{
@@ -13437,10 +13437,10 @@
       "title" : "Staging of liver disease ValueSet",
       "status" : "active",
       "experimental" : true,
-      "date" : "2024-07-01T19:43:16+00:00",
+      "date" : "2024-07-01T19:47:03+00:00",
       "expansion" : {
-        "identifier" : "urn:uuid:bc8bd2a8-5c30-47fe-b336-01ac8a30082e",
-        "timestamp" : "2024-07-01T19:44:38+00:00",
+        "identifier" : "urn:uuid:99794667-b3b9-4811-a380-e36a7ec3a6ee",
+        "timestamp" : "2024-07-01T19:48:26+00:00",
         "total" : 2,
         "offset" : 0,
         "parameter" : [{
@@ -13495,10 +13495,10 @@
       "title" : "WHO functional status ValueSet",
       "status" : "active",
       "experimental" : true,
-      "date" : "2024-07-01T19:43:16+00:00",
+      "date" : "2024-07-01T19:47:03+00:00",
       "expansion" : {
-        "identifier" : "urn:uuid:f73b93a1-6df8-4611-904e-440503e80789",
-        "timestamp" : "2024-07-01T19:44:38+00:00",
+        "identifier" : "urn:uuid:e724a933-9c74-4bd3-be07-0f5bcbc30eb3",
+        "timestamp" : "2024-07-01T19:48:26+00:00",
         "total" : 3,
         "offset" : 0,
         "parameter" : [{
@@ -13558,10 +13558,10 @@
       "title" : "ART regimen ValueSet",
       "status" : "active",
       "experimental" : true,
-      "date" : "2024-07-01T19:43:16+00:00",
+      "date" : "2024-07-01T19:47:03+00:00",
       "expansion" : {
-        "identifier" : "urn:uuid:7152a446-4a9a-45ba-a0d9-6b04ae1fdb9d",
-        "timestamp" : "2024-07-01T19:44:38+00:00",
+        "identifier" : "urn:uuid:c35e44ec-5367-448f-af0f-bf9b5d4cebb3",
+        "timestamp" : "2024-07-01T19:48:26+00:00",
         "total" : 36,
         "offset" : 0,
         "parameter" : [{
@@ -13786,10 +13786,10 @@
       "title" : "Medication/drug ValueSet",
       "status" : "active",
       "experimental" : true,
-      "date" : "2024-07-01T19:43:16+00:00",
+      "date" : "2024-07-01T19:47:03+00:00",
       "expansion" : {
-        "identifier" : "urn:uuid:78cb35d3-8d55-4e05-8aae-a96c22774b1b",
-        "timestamp" : "2024-07-01T19:44:38+00:00",
+        "identifier" : "urn:uuid:c6caf5ab-dd17-485d-a3cb-ffbd0fdbeae7",
+        "timestamp" : "2024-07-01T19:48:26+00:00",
         "total" : 28,
         "offset" : 0,
         "parameter" : [{
@@ -13974,10 +13974,10 @@
       "title" : "WHO HIV clinical stage condition or symptom ValueSet",
       "status" : "active",
       "experimental" : true,
-      "date" : "2024-07-01T19:43:16+00:00",
+      "date" : "2024-07-01T19:47:03+00:00",
       "expansion" : {
-        "identifier" : "urn:uuid:02185ba6-9bc3-4e31-bc58-d478ed9a5dad",
-        "timestamp" : "2024-07-01T19:44:38+00:00",
+        "identifier" : "urn:uuid:cb591016-b31b-4f77-a61f-9f969a98400f",
+        "timestamp" : "2024-07-01T19:48:27+00:00",
         "total" : 3,
         "offset" : 0,
         "parameter" : [{
@@ -14037,10 +14037,10 @@
       "title" : "TB diagnosis result ValueSet",
       "status" : "active",
       "experimental" : true,
-      "date" : "2024-07-01T19:43:16+00:00",
+      "date" : "2024-07-01T19:47:03+00:00",
       "expansion" : {
-        "identifier" : "urn:uuid:d4ab45f3-6766-4a7b-a12b-7f7c8ec3f3fb",
-        "timestamp" : "2024-07-01T19:44:38+00:00",
+        "identifier" : "urn:uuid:ff91b4ce-1b2e-4da5-b7a4-0ce042139c0d",
+        "timestamp" : "2024-07-01T19:48:27+00:00",
         "total" : 2,
         "offset" : 0,
         "parameter" : [{
@@ -14095,10 +14095,10 @@
       "title" : "Method of TB diagnosis ValueSet",
       "status" : "active",
       "experimental" : true,
-      "date" : "2024-07-01T19:43:16+00:00",
+      "date" : "2024-07-01T19:47:03+00:00",
       "expansion" : {
-        "identifier" : "urn:uuid:55ccf348-1119-4f12-bbf1-48510fbf99aa",
-        "timestamp" : "2024-07-01T19:44:38+00:00",
+        "identifier" : "urn:uuid:48435688-f856-454a-8642-b38bb9d8625f",
+        "timestamp" : "2024-07-01T19:48:27+00:00",
         "total" : 2,
         "offset" : 0,
         "parameter" : [{
@@ -14153,10 +14153,10 @@
       "title" : "TB treatment history ValueSet",
       "status" : "active",
       "experimental" : true,
-      "date" : "2024-07-01T19:43:16+00:00",
+      "date" : "2024-07-01T19:47:03+00:00",
       "expansion" : {
-        "identifier" : "urn:uuid:0d798223-db25-4ac6-8c4a-b44bb84c86d9",
-        "timestamp" : "2024-07-01T19:44:38+00:00",
+        "identifier" : "urn:uuid:4230bf72-322e-403e-b76e-47dffe56d591",
+        "timestamp" : "2024-07-01T19:48:27+00:00",
         "total" : 4,
         "offset" : 0,
         "parameter" : [{
@@ -14221,10 +14221,10 @@
       "title" : "TB screening algorithm ValueSet",
       "status" : "active",
       "experimental" : true,
-      "date" : "2024-07-01T19:43:16+00:00",
+      "date" : "2024-07-01T19:47:03+00:00",
       "expansion" : {
-        "identifier" : "urn:uuid:717b56ec-5270-4e19-af22-ab24efcd3712",
-        "timestamp" : "2024-07-01T19:44:38+00:00",
+        "identifier" : "urn:uuid:d539977f-8a6c-4d56-8ab6-c0b6afce99c0",
+        "timestamp" : "2024-07-01T19:48:27+00:00",
         "total" : 14,
         "offset" : 0,
         "parameter" : [{
@@ -14339,10 +14339,10 @@
       "title" : "Symptoms of TB ValueSet",
       "status" : "active",
       "experimental" : true,
-      "date" : "2024-07-01T19:43:16+00:00",
+      "date" : "2024-07-01T19:47:03+00:00",
       "expansion" : {
-        "identifier" : "urn:uuid:93be2f0b-0d10-4bb5-a229-06d6a422789d",
-        "timestamp" : "2024-07-01T19:44:38+00:00",
+        "identifier" : "urn:uuid:72e90450-9e12-4c97-b062-bb963a907264",
+        "timestamp" : "2024-07-01T19:48:27+00:00",
         "total" : 11,
         "offset" : 0,
         "parameter" : [{
@@ -14441,10 +14441,10 @@
       "title" : "TB screening result ValueSet",
       "status" : "active",
       "experimental" : true,
-      "date" : "2024-07-01T19:43:16+00:00",
+      "date" : "2024-07-01T19:47:03+00:00",
       "expansion" : {
-        "identifier" : "urn:uuid:be2ce31d-fff4-4aa3-8ba5-77e07ceb2b41",
-        "timestamp" : "2024-07-01T19:44:38+00:00",
+        "identifier" : "urn:uuid:bfe1b9d7-c39e-474f-a217-8c0c6361ba66",
+        "timestamp" : "2024-07-01T19:48:27+00:00",
         "total" : 3,
         "offset" : 0,
         "parameter" : [{
@@ -14504,10 +14504,10 @@
       "title" : "TB diagnostic test category ValueSet",
       "status" : "active",
       "experimental" : true,
-      "date" : "2024-07-01T19:43:16+00:00",
+      "date" : "2024-07-01T19:47:03+00:00",
       "expansion" : {
-        "identifier" : "urn:uuid:3dad30fd-2ca8-4f7f-912d-83bdbd006c81",
-        "timestamp" : "2024-07-01T19:44:38+00:00",
+        "identifier" : "urn:uuid:610a9510-0536-4f0d-8234-941455898ba5",
+        "timestamp" : "2024-07-01T19:48:27+00:00",
         "total" : 4,
         "offset" : 0,
         "parameter" : [{
@@ -14572,10 +14572,10 @@
       "title" : "Maternal HIV test result ValueSet",
       "status" : "active",
       "experimental" : true,
-      "date" : "2024-07-01T19:43:16+00:00",
+      "date" : "2024-07-01T19:47:03+00:00",
       "expansion" : {
-        "identifier" : "urn:uuid:b5d78f63-05ba-48bc-b8c6-94a1467e0b2f",
-        "timestamp" : "2024-07-01T19:44:38+00:00",
+        "identifier" : "urn:uuid:a0c68813-668e-43f6-ba8e-21d5257f89d0",
+        "timestamp" : "2024-07-01T19:48:27+00:00",
         "total" : 3,
         "offset" : 0,
         "parameter" : [{
@@ -14635,10 +14635,10 @@
       "title" : "Infant or child exposure to HIV ValueSet",
       "status" : "active",
       "experimental" : true,
-      "date" : "2024-07-01T19:43:16+00:00",
+      "date" : "2024-07-01T19:47:03+00:00",
       "expansion" : {
-        "identifier" : "urn:uuid:c2057926-e841-4e2f-9a4f-1f54181d2713",
-        "timestamp" : "2024-07-01T19:44:39+00:00",
+        "identifier" : "urn:uuid:17294e6c-b53f-4fc6-8170-52abaaf001a7",
+        "timestamp" : "2024-07-01T19:48:27+00:00",
         "total" : 3,
         "offset" : 0,
         "parameter" : [{
@@ -14698,10 +14698,10 @@
       "title" : "Key population member type ValueSet",
       "status" : "active",
       "experimental" : true,
-      "date" : "2024-07-01T19:43:16+00:00",
+      "date" : "2024-07-01T19:47:03+00:00",
       "expansion" : {
-        "identifier" : "urn:uuid:041ae50d-f854-45a5-b47c-e602d18f8245",
-        "timestamp" : "2024-07-01T19:44:39+00:00",
+        "identifier" : "urn:uuid:ec6d73fd-7fc0-4a6b-8dec-c298b650bfff",
+        "timestamp" : "2024-07-01T19:48:27+00:00",
         "total" : 4,
         "offset" : 0,
         "parameter" : [{
@@ -14766,10 +14766,10 @@
       "title" : "Infant feeding practice ValueSet",
       "status" : "active",
       "experimental" : true,
-      "date" : "2024-07-01T19:43:16+00:00",
+      "date" : "2024-07-01T19:47:03+00:00",
       "expansion" : {
-        "identifier" : "urn:uuid:6e39276b-26ef-4885-b0ca-b6e2e69d36a3",
-        "timestamp" : "2024-07-01T19:44:39+00:00",
+        "identifier" : "urn:uuid:4f172eaf-58b7-4dca-b555-71f5b29f8e18",
+        "timestamp" : "2024-07-01T19:48:27+00:00",
         "total" : 3,
         "offset" : 0,
         "parameter" : [{
@@ -14829,10 +14829,10 @@
       "title" : "Type of iron supplement dosage provided ValueSet",
       "status" : "active",
       "experimental" : true,
-      "date" : "2024-07-01T19:43:16+00:00",
+      "date" : "2024-07-01T19:47:03+00:00",
       "expansion" : {
-        "identifier" : "urn:uuid:d42dd1a9-23ea-402d-ac5f-7cce42156287",
-        "timestamp" : "2024-07-01T19:44:39+00:00",
+        "identifier" : "urn:uuid:6517a2af-4052-4d47-abc9-c05a3fcd3ddc",
+        "timestamp" : "2024-07-01T19:48:27+00:00",
         "total" : 2,
         "offset" : 0,
         "parameter" : [{
@@ -14887,10 +14887,10 @@
       "title" : "Maternal HIV status ValueSet",
       "status" : "active",
       "experimental" : true,
-      "date" : "2024-07-01T19:43:16+00:00",
+      "date" : "2024-07-01T19:47:03+00:00",
       "expansion" : {
-        "identifier" : "urn:uuid:09ec0757-5dc0-4258-84c0-dc08f1c087fe",
-        "timestamp" : "2024-07-01T19:44:39+00:00",
+        "identifier" : "urn:uuid:5b242515-20ce-48b1-b682-f2140df97450",
+        "timestamp" : "2024-07-01T19:48:27+00:00",
         "total" : 3,
         "offset" : 0,
         "parameter" : [{
@@ -14950,10 +14950,10 @@
       "title" : "Maternal HIV status at first ANC visit ValueSet",
       "status" : "active",
       "experimental" : true,
-      "date" : "2024-07-01T19:43:16+00:00",
+      "date" : "2024-07-01T19:47:03+00:00",
       "expansion" : {
-        "identifier" : "urn:uuid:be62544e-40d0-4e93-b145-d6e20c99e358",
-        "timestamp" : "2024-07-01T19:44:39+00:00",
+        "identifier" : "urn:uuid:25e1fff6-3c82-4542-ad07-6ae900733075",
+        "timestamp" : "2024-07-01T19:48:27+00:00",
         "total" : 3,
         "offset" : 0,
         "parameter" : [{
@@ -15013,10 +15013,10 @@
       "title" : "Maternal syphilis test result ValueSet",
       "status" : "active",
       "experimental" : true,
-      "date" : "2024-07-01T19:43:16+00:00",
+      "date" : "2024-07-01T19:47:03+00:00",
       "expansion" : {
-        "identifier" : "urn:uuid:238e9ed5-ae3c-4e07-b2b7-d4adbf65c127",
-        "timestamp" : "2024-07-01T19:44:39+00:00",
+        "identifier" : "urn:uuid:b2c9e669-e0bf-43a0-834c-1bc55cef7c2f",
+        "timestamp" : "2024-07-01T19:48:27+00:00",
         "total" : 3,
         "offset" : 0,
         "parameter" : [{
@@ -15076,10 +15076,10 @@
       "title" : "Signs of substantial risk of HIV infection ValueSet",
       "status" : "active",
       "experimental" : true,
-      "date" : "2024-07-01T19:43:16+00:00",
+      "date" : "2024-07-01T19:47:03+00:00",
       "expansion" : {
-        "identifier" : "urn:uuid:944e261d-9b17-4e85-bc70-1271bc8076c8",
-        "timestamp" : "2024-07-01T19:44:39+00:00",
+        "identifier" : "urn:uuid:b34fa8c1-2451-4052-bad2-8793f93a1ab2",
+        "timestamp" : "2024-07-01T19:48:27+00:00",
         "total" : 4,
         "offset" : 0,
         "parameter" : [{
@@ -15144,10 +15144,10 @@
       "title" : "HIV test type ValueSet",
       "status" : "active",
       "experimental" : true,
-      "date" : "2024-07-01T19:43:16+00:00",
+      "date" : "2024-07-01T19:47:03+00:00",
       "expansion" : {
-        "identifier" : "urn:uuid:2396ff89-5159-4706-b898-77bff21defb7",
-        "timestamp" : "2024-07-01T19:44:39+00:00",
+        "identifier" : "urn:uuid:bf661986-f5bd-4236-a72f-92673bf19f76",
+        "timestamp" : "2024-07-01T19:48:27+00:00",
         "total" : 4,
         "offset" : 0,
         "parameter" : [{
@@ -15212,10 +15212,10 @@
       "title" : "Past pregnancy complications ValueSet",
       "status" : "active",
       "experimental" : true,
-      "date" : "2024-07-01T19:43:16+00:00",
+      "date" : "2024-07-01T19:47:03+00:00",
       "expansion" : {
-        "identifier" : "urn:uuid:43dc8aeb-f615-4831-a852-637c207bbad9",
-        "timestamp" : "2024-07-01T19:44:39+00:00",
+        "identifier" : "urn:uuid:451692e0-6597-455d-8ba4-c005b1e21e70",
+        "timestamp" : "2024-07-01T19:48:27+00:00",
         "total" : 17,
         "offset" : 0,
         "parameter" : [{
@@ -15345,10 +15345,10 @@
       "title" : "Maternal and child health service visit ValueSet",
       "status" : "active",
       "experimental" : true,
-      "date" : "2024-07-01T19:43:16+00:00",
+      "date" : "2024-07-01T19:47:03+00:00",
       "expansion" : {
-        "identifier" : "urn:uuid:2b017a70-688a-4e9b-b177-bb4e876d5546",
-        "timestamp" : "2024-07-01T19:44:39+00:00",
+        "identifier" : "urn:uuid:2434b138-db53-48d4-861d-2f56115e651a",
+        "timestamp" : "2024-07-01T19:48:27+00:00",
         "total" : 3,
         "offset" : 0,
         "parameter" : [{
@@ -15408,10 +15408,10 @@
       "title" : "EID sample number ValueSet",
       "status" : "active",
       "experimental" : true,
-      "date" : "2024-07-01T19:43:16+00:00",
+      "date" : "2024-07-01T19:47:03+00:00",
       "expansion" : {
-        "identifier" : "urn:uuid:61972264-2bbe-439a-8178-3fca901f6018",
-        "timestamp" : "2024-07-01T19:44:39+00:00",
+        "identifier" : "urn:uuid:bb621367-665b-4550-b71b-25339f1f11dd",
+        "timestamp" : "2024-07-01T19:48:27+00:00",
         "total" : 0,
         "offset" : 0,
         "parameter" : [{
@@ -15448,10 +15448,10 @@
       "title" : "EID test number ValueSet",
       "status" : "active",
       "experimental" : true,
-      "date" : "2024-07-01T19:43:16+00:00",
+      "date" : "2024-07-01T19:47:03+00:00",
       "expansion" : {
-        "identifier" : "urn:uuid:464976f6-bddb-49d9-87a6-97b40f2280b4",
-        "timestamp" : "2024-07-01T19:44:39+00:00",
+        "identifier" : "urn:uuid:91d78afc-382b-45fa-88b8-6f5d20166490",
+        "timestamp" : "2024-07-01T19:48:27+00:00",
         "total" : 0,
         "offset" : 0,
         "parameter" : [{
@@ -15488,10 +15488,10 @@
       "title" : "EID test number 1 test result ValueSet",
       "status" : "active",
       "experimental" : true,
-      "date" : "2024-07-01T19:43:16+00:00",
+      "date" : "2024-07-01T19:47:03+00:00",
       "expansion" : {
-        "identifier" : "urn:uuid:f5d168e3-5187-4de8-be1e-ee08db00a886",
-        "timestamp" : "2024-07-01T19:44:39+00:00",
+        "identifier" : "urn:uuid:86dfeee1-fc49-42a3-b664-62c15fc7cd71",
+        "timestamp" : "2024-07-01T19:48:27+00:00",
         "total" : 3,
         "offset" : 0,
         "parameter" : [{
@@ -15551,10 +15551,10 @@
       "title" : "EID test number 2 test result ValueSet",
       "status" : "active",
       "experimental" : true,
-      "date" : "2024-07-01T19:43:16+00:00",
+      "date" : "2024-07-01T19:47:03+00:00",
       "expansion" : {
-        "identifier" : "urn:uuid:a6297211-5877-44f2-a44a-d24549ebb043",
-        "timestamp" : "2024-07-01T19:44:39+00:00",
+        "identifier" : "urn:uuid:d7771330-ccf5-402e-b6e3-429976657410",
+        "timestamp" : "2024-07-01T19:48:27+00:00",
         "total" : 3,
         "offset" : 0,
         "parameter" : [{
@@ -15614,10 +15614,10 @@
       "title" : "Assay number in testing strategy ValueSet",
       "status" : "active",
       "experimental" : true,
-      "date" : "2024-07-01T19:43:16+00:00",
+      "date" : "2024-07-01T19:47:03+00:00",
       "expansion" : {
-        "identifier" : "urn:uuid:bc458fed-5a72-4a14-9226-c44e8fef9fb1",
-        "timestamp" : "2024-07-01T19:44:39+00:00",
+        "identifier" : "urn:uuid:cb4b5bd9-2db0-4674-a439-c6d51a0e0d9e",
+        "timestamp" : "2024-07-01T19:48:27+00:00",
         "total" : 0,
         "offset" : 0,
         "parameter" : [{
@@ -15654,10 +15654,10 @@
       "title" : "Test result of HIV assay 1 ValueSet",
       "status" : "active",
       "experimental" : true,
-      "date" : "2024-07-01T19:43:16+00:00",
+      "date" : "2024-07-01T19:47:03+00:00",
       "expansion" : {
-        "identifier" : "urn:uuid:c838c4b7-2175-4d15-9266-0fcf452c5165",
-        "timestamp" : "2024-07-01T19:44:39+00:00",
+        "identifier" : "urn:uuid:f22b847b-76fd-4ccc-8a0b-a559a0e8ce36",
+        "timestamp" : "2024-07-01T19:48:27+00:00",
         "total" : 3,
         "offset" : 0,
         "parameter" : [{
@@ -15717,10 +15717,10 @@
       "title" : "Test result of HIV assay 2 ValueSet",
       "status" : "active",
       "experimental" : true,
-      "date" : "2024-07-01T19:43:16+00:00",
+      "date" : "2024-07-01T19:47:03+00:00",
       "expansion" : {
-        "identifier" : "urn:uuid:94a742a8-6996-4754-a56a-3925a491b59c",
-        "timestamp" : "2024-07-01T19:44:39+00:00",
+        "identifier" : "urn:uuid:c96a12f0-6b9c-48d9-810d-894f6765a364",
+        "timestamp" : "2024-07-01T19:48:28+00:00",
         "total" : 3,
         "offset" : 0,
         "parameter" : [{
@@ -15780,10 +15780,10 @@
       "title" : "Test result of HIV assay 3 ValueSet",
       "status" : "active",
       "experimental" : true,
-      "date" : "2024-07-01T19:43:16+00:00",
+      "date" : "2024-07-01T19:47:03+00:00",
       "expansion" : {
-        "identifier" : "urn:uuid:6c7dac4a-038f-45b7-ad71-e001a907b392",
-        "timestamp" : "2024-07-01T19:44:39+00:00",
+        "identifier" : "urn:uuid:0676c284-1092-472d-8dec-b2af2a1c590a",
+        "timestamp" : "2024-07-01T19:48:28+00:00",
         "total" : 3,
         "offset" : 0,
         "parameter" : [{
@@ -15843,10 +15843,10 @@
       "title" : "Test result of HIV assay 1 repeated ValueSet",
       "status" : "active",
       "experimental" : true,
-      "date" : "2024-07-01T19:43:16+00:00",
+      "date" : "2024-07-01T19:47:03+00:00",
       "expansion" : {
-        "identifier" : "urn:uuid:9b4dd047-66a4-4e90-8c61-455ee7ab1535",
-        "timestamp" : "2024-07-01T19:44:39+00:00",
+        "identifier" : "urn:uuid:be5c90a4-21c6-45f2-8991-cfed3ed59beb",
+        "timestamp" : "2024-07-01T19:48:28+00:00",
         "total" : 3,
         "offset" : 0,
         "parameter" : [{
@@ -15906,10 +15906,10 @@
       "title" : "Test result of syphilis assay 1 ValueSet",
       "status" : "active",
       "experimental" : true,
-      "date" : "2024-07-01T19:43:16+00:00",
+      "date" : "2024-07-01T19:47:03+00:00",
       "expansion" : {
-        "identifier" : "urn:uuid:285986b9-ec86-45d8-825d-8a22791e0df9",
-        "timestamp" : "2024-07-01T19:44:39+00:00",
+        "identifier" : "urn:uuid:f4901875-ad38-43da-bf96-1db6ad1b1752",
+        "timestamp" : "2024-07-01T19:48:28+00:00",
         "total" : 3,
         "offset" : 0,
         "parameter" : [{
@@ -15969,10 +15969,10 @@
       "title" : "Test result of syphilis assay 1 repeated ValueSet",
       "status" : "active",
       "experimental" : true,
-      "date" : "2024-07-01T19:43:16+00:00",
+      "date" : "2024-07-01T19:47:03+00:00",
       "expansion" : {
-        "identifier" : "urn:uuid:cb59b09b-c8f4-4e0b-a413-ca80098d03d1",
-        "timestamp" : "2024-07-01T19:44:39+00:00",
+        "identifier" : "urn:uuid:c14ae27d-4575-4c4d-9716-87803cc1d5b6",
+        "timestamp" : "2024-07-01T19:48:28+00:00",
         "total" : 3,
         "offset" : 0,
         "parameter" : [{
@@ -16032,10 +16032,10 @@
       "title" : "Infant HIV status ValueSet",
       "status" : "active",
       "experimental" : true,
-      "date" : "2024-07-01T19:43:16+00:00",
+      "date" : "2024-07-01T19:47:03+00:00",
       "expansion" : {
-        "identifier" : "urn:uuid:eeede7c4-315c-46eb-8c8e-c72fd3765b99",
-        "timestamp" : "2024-07-01T19:44:39+00:00",
+        "identifier" : "urn:uuid:b77792b5-348b-4343-acc8-36f8b2f09bad",
+        "timestamp" : "2024-07-01T19:48:28+00:00",
         "total" : 3,
         "offset" : 0,
         "parameter" : [{
@@ -16095,10 +16095,10 @@
       "title" : "Final diagnosis of HIV-exposed infant ValueSet",
       "status" : "active",
       "experimental" : true,
-      "date" : "2024-07-01T19:43:16+00:00",
+      "date" : "2024-07-01T19:47:03+00:00",
       "expansion" : {
-        "identifier" : "urn:uuid:3bcc2ee4-ffae-4f98-b143-fb42a5d261ed",
-        "timestamp" : "2024-07-01T19:44:39+00:00",
+        "identifier" : "urn:uuid:054650ea-3644-4989-af7b-e7131a2faf09",
+        "timestamp" : "2024-07-01T19:48:28+00:00",
         "total" : 3,
         "offset" : 0,
         "parameter" : [{
@@ -16158,10 +16158,10 @@
       "title" : "HIV-exposed infant reason for unknown final status ValueSet",
       "status" : "active",
       "experimental" : true,
-      "date" : "2024-07-01T19:43:16+00:00",
+      "date" : "2024-07-01T19:47:03+00:00",
       "expansion" : {
-        "identifier" : "urn:uuid:9ce07a0f-527b-4310-ac0a-19217ca3816f",
-        "timestamp" : "2024-07-01T19:44:39+00:00",
+        "identifier" : "urn:uuid:8f282fa1-322e-4924-92e4-a69034568587",
+        "timestamp" : "2024-07-01T19:48:28+00:00",
         "total" : 4,
         "offset" : 0,
         "parameter" : [{
@@ -16226,10 +16226,10 @@
       "title" : "Cause of death of infant ValueSet",
       "status" : "active",
       "experimental" : true,
-      "date" : "2024-07-01T19:43:16+00:00",
+      "date" : "2024-07-01T19:47:03+00:00",
       "expansion" : {
-        "identifier" : "urn:uuid:092960c2-8167-474f-a002-1863140b3287",
-        "timestamp" : "2024-07-01T19:44:39+00:00",
+        "identifier" : "urn:uuid:efb8f2be-79ba-4321-b1a0-c196327b54ba",
+        "timestamp" : "2024-07-01T19:48:28+00:00",
         "total" : 0,
         "offset" : 0,
         "parameter" : [{
@@ -16266,10 +16266,10 @@
       "title" : "Blood group and Rh factor ValueSet",
       "status" : "active",
       "experimental" : true,
-      "date" : "2024-07-01T19:43:16+00:00",
+      "date" : "2024-07-01T19:47:03+00:00",
       "expansion" : {
-        "identifier" : "urn:uuid:58e381f1-e1aa-4a85-8d06-265ce6a85894",
-        "timestamp" : "2024-07-01T19:44:39+00:00",
+        "identifier" : "urn:uuid:bf60767f-b6b6-4f44-bd46-8f38c6b3a333",
+        "timestamp" : "2024-07-01T19:48:28+00:00",
         "total" : 8,
         "offset" : 0,
         "parameter" : [{
@@ -16354,10 +16354,10 @@
       "title" : "Asymptomatic bacteriuria (ASB) test result ValueSet",
       "status" : "active",
       "experimental" : true,
-      "date" : "2024-07-01T19:43:16+00:00",
+      "date" : "2024-07-01T19:47:03+00:00",
       "expansion" : {
-        "identifier" : "urn:uuid:6b657dae-7b8a-4032-8fd6-4fd289b5b619",
-        "timestamp" : "2024-07-01T19:44:40+00:00",
+        "identifier" : "urn:uuid:c484b397-cade-4777-9b9a-d27890edc8cf",
+        "timestamp" : "2024-07-01T19:48:28+00:00",
         "total" : 3,
         "offset" : 0,
         "parameter" : [{
@@ -16417,10 +16417,10 @@
       "title" : "Urine protein test result ValueSet",
       "status" : "active",
       "experimental" : true,
-      "date" : "2024-07-01T19:43:16+00:00",
+      "date" : "2024-07-01T19:47:03+00:00",
       "expansion" : {
-        "identifier" : "urn:uuid:fc1bc678-719d-40f7-abb5-2cbc1a7cbbda",
-        "timestamp" : "2024-07-01T19:44:40+00:00",
+        "identifier" : "urn:uuid:fd3409b8-2ca3-4420-a39c-e340cd81393f",
+        "timestamp" : "2024-07-01T19:48:28+00:00",
         "total" : 4,
         "offset" : 0,
         "parameter" : [{
@@ -16485,10 +16485,10 @@
       "title" : "Type of hypertensive disorder ValueSet",
       "status" : "active",
       "experimental" : true,
-      "date" : "2024-07-01T19:43:16+00:00",
+      "date" : "2024-07-01T19:47:03+00:00",
       "expansion" : {
-        "identifier" : "urn:uuid:b6769d74-462b-4dc3-bfe0-41a0e2da284f",
-        "timestamp" : "2024-07-01T19:44:40+00:00",
+        "identifier" : "urn:uuid:f5542d26-1093-4ebb-b179-c8311c55f075",
+        "timestamp" : "2024-07-01T19:48:28+00:00",
         "total" : 9,
         "offset" : 0,
         "parameter" : [{
@@ -16578,10 +16578,10 @@
       "title" : "Timing of ART initiation ValueSet",
       "status" : "active",
       "experimental" : true,
-      "date" : "2024-07-01T19:43:16+00:00",
+      "date" : "2024-07-01T19:47:03+00:00",
       "expansion" : {
-        "identifier" : "urn:uuid:464356ed-7657-4fee-b7dc-71afec5651f7",
-        "timestamp" : "2024-07-01T19:44:40+00:00",
+        "identifier" : "urn:uuid:57881275-be81-4579-9acf-8a9fd9e8fb8a",
+        "timestamp" : "2024-07-01T19:48:28+00:00",
         "total" : 3,
         "offset" : 0,
         "parameter" : [{
@@ -16641,10 +16641,10 @@
       "title" : "Pregnancy outcome ValueSet",
       "status" : "active",
       "experimental" : true,
-      "date" : "2024-07-01T19:43:16+00:00",
+      "date" : "2024-07-01T19:47:03+00:00",
       "expansion" : {
-        "identifier" : "urn:uuid:0dd5d341-a624-477c-b906-b5d67d462771",
-        "timestamp" : "2024-07-01T19:44:40+00:00",
+        "identifier" : "urn:uuid:733c5dfc-493a-44b1-8bda-663fcbf7a2c7",
+        "timestamp" : "2024-07-01T19:48:28+00:00",
         "total" : 4,
         "offset" : 0,
         "parameter" : [{
@@ -16709,10 +16709,10 @@
       "title" : "Delivery mode ValueSet",
       "status" : "active",
       "experimental" : true,
-      "date" : "2024-07-01T19:43:16+00:00",
+      "date" : "2024-07-01T19:47:03+00:00",
       "expansion" : {
-        "identifier" : "urn:uuid:c40f3f5a-92f4-43c2-b615-bdc10c88d263",
-        "timestamp" : "2024-07-01T19:44:40+00:00",
+        "identifier" : "urn:uuid:26cadb9d-58de-4d32-b1b6-02a44135aeb7",
+        "timestamp" : "2024-07-01T19:48:28+00:00",
         "total" : 3,
         "offset" : 0,
         "parameter" : [{
@@ -16772,10 +16772,10 @@
       "title" : "Source of gestational age ValueSet",
       "status" : "active",
       "experimental" : true,
-      "date" : "2024-07-01T19:43:16+00:00",
+      "date" : "2024-07-01T19:47:03+00:00",
       "expansion" : {
-        "identifier" : "urn:uuid:22160a18-c66a-4de9-8739-950230f15330",
-        "timestamp" : "2024-07-01T19:44:40+00:00",
+        "identifier" : "urn:uuid:a302f437-3860-42f5-ba8f-b900704ac6a0",
+        "timestamp" : "2024-07-01T19:48:28+00:00",
         "total" : 3,
         "offset" : 0,
         "parameter" : [{
@@ -16835,10 +16835,10 @@
       "title" : "Preterm birth status ValueSet",
       "status" : "active",
       "experimental" : true,
-      "date" : "2024-07-01T19:43:16+00:00",
+      "date" : "2024-07-01T19:47:03+00:00",
       "expansion" : {
-        "identifier" : "urn:uuid:ffaa1bdb-4b42-4605-ab5e-1a024ed1b220",
-        "timestamp" : "2024-07-01T19:44:40+00:00",
+        "identifier" : "urn:uuid:b587c1e9-0a4d-4ab0-890b-9ce1a8e1c7b7",
+        "timestamp" : "2024-07-01T19:48:28+00:00",
         "total" : 3,
         "offset" : 0,
         "parameter" : [{
@@ -16898,10 +16898,10 @@
       "title" : "Place of delivery ValueSet",
       "status" : "active",
       "experimental" : true,
-      "date" : "2024-07-01T19:43:16+00:00",
+      "date" : "2024-07-01T19:47:03+00:00",
       "expansion" : {
-        "identifier" : "urn:uuid:527a7c29-f8d6-41b8-83d6-164c93952968",
-        "timestamp" : "2024-07-01T19:44:40+00:00",
+        "identifier" : "urn:uuid:b9d52db4-b6ca-4539-83ea-790da32bf52f",
+        "timestamp" : "2024-07-01T19:48:28+00:00",
         "total" : 3,
         "offset" : 0,
         "parameter" : [{
@@ -16961,10 +16961,10 @@
       "title" : "Cause of death of mother ValueSet",
       "status" : "active",
       "experimental" : true,
-      "date" : "2024-07-01T19:43:16+00:00",
+      "date" : "2024-07-01T19:47:03+00:00",
       "expansion" : {
-        "identifier" : "urn:uuid:9a1c165e-327e-41b7-8875-1bcc9f8e4385",
-        "timestamp" : "2024-07-01T19:44:40+00:00",
+        "identifier" : "urn:uuid:40c581bd-1d5e-457f-8cfd-03959ef36a9c",
+        "timestamp" : "2024-07-01T19:48:28+00:00",
         "total" : 0,
         "offset" : 0,
         "parameter" : [{
@@ -17001,10 +17001,10 @@
       "title" : "Gender of infant ValueSet",
       "status" : "active",
       "experimental" : true,
-      "date" : "2024-07-01T19:43:16+00:00",
+      "date" : "2024-07-01T19:47:03+00:00",
       "expansion" : {
-        "identifier" : "urn:uuid:f73a1df7-1024-426f-b74f-026aa2568562",
-        "timestamp" : "2024-07-01T19:44:40+00:00",
+        "identifier" : "urn:uuid:f5c5572b-1919-4644-a674-7920c57df516",
+        "timestamp" : "2024-07-01T19:48:28+00:00",
         "total" : 3,
         "offset" : 0,
         "parameter" : [{
@@ -17064,10 +17064,10 @@
       "title" : "HIV viral load specimen type ValueSet",
       "status" : "active",
       "experimental" : true,
-      "date" : "2024-07-01T19:43:16+00:00",
+      "date" : "2024-07-01T19:47:03+00:00",
       "expansion" : {
-        "identifier" : "urn:uuid:cbed6508-cb35-4594-bea3-1fe07b214b60",
-        "timestamp" : "2024-07-01T19:44:40+00:00",
+        "identifier" : "urn:uuid:24b11880-8993-4582-88e5-6c526c9d4168",
+        "timestamp" : "2024-07-01T19:48:28+00:00",
         "total" : 3,
         "offset" : 0,
         "parameter" : [{
@@ -17127,10 +17127,10 @@
       "title" : "HBsAg test result ValueSet",
       "status" : "active",
       "experimental" : true,
-      "date" : "2024-07-01T19:43:16+00:00",
+      "date" : "2024-07-01T19:47:03+00:00",
       "expansion" : {
-        "identifier" : "urn:uuid:e2dc36c8-3c48-4ff7-8728-294202cd61e1",
-        "timestamp" : "2024-07-01T19:44:40+00:00",
+        "identifier" : "urn:uuid:e739cecb-0c92-40cc-a87f-292dd9ff4e89",
+        "timestamp" : "2024-07-01T19:48:28+00:00",
         "total" : 3,
         "offset" : 0,
         "parameter" : [{
@@ -17190,10 +17190,10 @@
       "title" : "Reason Hepatitis B test not conducted ValueSet",
       "status" : "active",
       "experimental" : true,
-      "date" : "2024-07-01T19:43:16+00:00",
+      "date" : "2024-07-01T19:47:03+00:00",
       "expansion" : {
-        "identifier" : "urn:uuid:32ab65dc-ca48-43e8-a7a6-98e2969db52e",
-        "timestamp" : "2024-07-01T19:44:40+00:00",
+        "identifier" : "urn:uuid:802116aa-a300-4e59-aa01-05dd9199966f",
+        "timestamp" : "2024-07-01T19:48:28+00:00",
         "total" : 5,
         "offset" : 0,
         "parameter" : [{
@@ -17263,10 +17263,10 @@
       "title" : "Hepatitis B diagnosis ValueSet",
       "status" : "active",
       "experimental" : true,
-      "date" : "2024-07-01T19:43:16+00:00",
+      "date" : "2024-07-01T19:47:03+00:00",
       "expansion" : {
-        "identifier" : "urn:uuid:24cd9f50-597c-4b1f-abcc-662f3d560b70",
-        "timestamp" : "2024-07-01T19:44:40+00:00",
+        "identifier" : "urn:uuid:a3753b0f-57d9-4fe0-8299-912e862fbc2b",
+        "timestamp" : "2024-07-01T19:48:28+00:00",
         "total" : 2,
         "offset" : 0,
         "parameter" : [{
@@ -17321,10 +17321,10 @@
       "title" : "Reason Hepatitis C test not done ValueSet",
       "status" : "active",
       "experimental" : true,
-      "date" : "2024-07-01T19:43:16+00:00",
+      "date" : "2024-07-01T19:47:03+00:00",
       "expansion" : {
-        "identifier" : "urn:uuid:167d6bc0-c5de-48c9-a6d5-ed43af6e2828",
-        "timestamp" : "2024-07-01T19:44:40+00:00",
+        "identifier" : "urn:uuid:3a4b211d-29e6-4fcb-8e68-259d32c88840",
+        "timestamp" : "2024-07-01T19:48:28+00:00",
         "total" : 5,
         "offset" : 0,
         "parameter" : [{
@@ -17394,10 +17394,10 @@
       "title" : "HCV test result ValueSet",
       "status" : "active",
       "experimental" : true,
-      "date" : "2024-07-01T19:43:16+00:00",
+      "date" : "2024-07-01T19:47:03+00:00",
       "expansion" : {
-        "identifier" : "urn:uuid:f4f856e1-1a24-4412-b746-955eef0d5ad4",
-        "timestamp" : "2024-07-01T19:44:40+00:00",
+        "identifier" : "urn:uuid:e890ae39-7caa-40bf-9aee-b4c27161464d",
+        "timestamp" : "2024-07-01T19:48:28+00:00",
         "total" : 3,
         "offset" : 0,
         "parameter" : [{
@@ -17457,10 +17457,10 @@
       "title" : "HCV viral load test result ValueSet",
       "status" : "active",
       "experimental" : true,
-      "date" : "2024-07-01T19:43:16+00:00",
+      "date" : "2024-07-01T19:47:03+00:00",
       "expansion" : {
-        "identifier" : "urn:uuid:9f95bc42-91ec-42c1-a411-cd6aef83c975",
-        "timestamp" : "2024-07-01T19:44:40+00:00",
+        "identifier" : "urn:uuid:2d7db860-7d76-4550-9b07-92155d4fda41",
+        "timestamp" : "2024-07-01T19:48:28+00:00",
         "total" : 2,
         "offset" : 0,
         "parameter" : [{
@@ -17515,10 +17515,10 @@
       "title" : "Hepatitis C diagnosis ValueSet",
       "status" : "active",
       "experimental" : true,
-      "date" : "2024-07-01T19:43:16+00:00",
+      "date" : "2024-07-01T19:47:03+00:00",
       "expansion" : {
-        "identifier" : "urn:uuid:590e3436-3cd1-471a-bcbc-de1b919cb96b",
-        "timestamp" : "2024-07-01T19:44:40+00:00",
+        "identifier" : "urn:uuid:92255124-8142-4bad-a934-7d44f9b4b059",
+        "timestamp" : "2024-07-01T19:48:29+00:00",
         "total" : 2,
         "offset" : 0,
         "parameter" : [{
@@ -17573,10 +17573,10 @@
       "title" : "Syphilis test type ValueSet",
       "status" : "active",
       "experimental" : true,
-      "date" : "2024-07-01T19:43:16+00:00",
+      "date" : "2024-07-01T19:47:03+00:00",
       "expansion" : {
-        "identifier" : "urn:uuid:fb02befd-81ae-46bc-bf5a-fcc3d4ae11e7",
-        "timestamp" : "2024-07-01T19:44:40+00:00",
+        "identifier" : "urn:uuid:fbecb796-40d0-407f-b645-1a63b2b1cba3",
+        "timestamp" : "2024-07-01T19:48:29+00:00",
         "total" : 5,
         "offset" : 0,
         "parameter" : [{
@@ -17646,10 +17646,10 @@
       "title" : "Reason syphilis test not done ValueSet",
       "status" : "active",
       "experimental" : true,
-      "date" : "2024-07-01T19:43:16+00:00",
+      "date" : "2024-07-01T19:47:03+00:00",
       "expansion" : {
-        "identifier" : "urn:uuid:0c88c60f-b729-4bc4-8b2a-64b23417c008",
-        "timestamp" : "2024-07-01T19:44:40+00:00",
+        "identifier" : "urn:uuid:e01753f3-b0b0-466b-ad93-5e81c24e04f3",
+        "timestamp" : "2024-07-01T19:48:29+00:00",
         "total" : 5,
         "offset" : 0,
         "parameter" : [{
@@ -17719,10 +17719,10 @@
       "title" : "Syphilis test result ValueSet",
       "status" : "active",
       "experimental" : true,
-      "date" : "2024-07-01T19:43:16+00:00",
+      "date" : "2024-07-01T19:47:03+00:00",
       "expansion" : {
-        "identifier" : "urn:uuid:9921d16d-7213-4050-bffd-eca063692db9",
-        "timestamp" : "2024-07-01T19:44:40+00:00",
+        "identifier" : "urn:uuid:d154134d-a6d3-4c02-8a11-19ad61dadeba",
+        "timestamp" : "2024-07-01T19:48:29+00:00",
         "total" : 3,
         "offset" : 0,
         "parameter" : [{
@@ -17782,10 +17782,10 @@
       "title" : "Syphilis diagnosis ValueSet",
       "status" : "active",
       "experimental" : true,
-      "date" : "2024-07-01T19:43:16+00:00",
+      "date" : "2024-07-01T19:47:03+00:00",
       "expansion" : {
-        "identifier" : "urn:uuid:c0ab204c-a603-49c8-b345-0d44b7ff67b2",
-        "timestamp" : "2024-07-01T19:44:40+00:00",
+        "identifier" : "urn:uuid:b0d92c8a-3568-46c8-812e-3cea3b6b2a4b",
+        "timestamp" : "2024-07-01T19:48:29+00:00",
         "total" : 2,
         "offset" : 0,
         "parameter" : [{
@@ -17840,10 +17840,10 @@
       "title" : "Reason for follow-up ValueSet",
       "status" : "active",
       "experimental" : true,
-      "date" : "2024-07-01T19:43:16+00:00",
+      "date" : "2024-07-01T19:47:03+00:00",
       "expansion" : {
-        "identifier" : "urn:uuid:3bdb735e-1285-4623-bda8-1099e30f93f0",
-        "timestamp" : "2024-07-01T19:44:40+00:00",
+        "identifier" : "urn:uuid:cd47701f-1d85-429f-b619-aca1b58feceb",
+        "timestamp" : "2024-07-01T19:48:29+00:00",
         "total" : 7,
         "offset" : 0,
         "parameter" : [{
@@ -17923,10 +17923,10 @@
       "title" : "Contact method ValueSet",
       "status" : "active",
       "experimental" : true,
-      "date" : "2024-07-01T19:43:16+00:00",
+      "date" : "2024-07-01T19:47:03+00:00",
       "expansion" : {
-        "identifier" : "urn:uuid:fe781627-102f-4b80-abc8-887050e5e231",
-        "timestamp" : "2024-07-01T19:44:40+00:00",
+        "identifier" : "urn:uuid:4399599c-6a25-46a5-907f-8ccb9319fbbd",
+        "timestamp" : "2024-07-01T19:48:29+00:00",
         "total" : 3,
         "offset" : 0,
         "parameter" : [{
@@ -17986,10 +17986,10 @@
       "title" : "Source of information ValueSet",
       "status" : "active",
       "experimental" : true,
-      "date" : "2024-07-01T19:43:16+00:00",
+      "date" : "2024-07-01T19:47:03+00:00",
       "expansion" : {
-        "identifier" : "urn:uuid:e7b2e417-d660-49ac-b81b-0ba00960a601",
-        "timestamp" : "2024-07-01T19:44:40+00:00",
+        "identifier" : "urn:uuid:a8eed79e-ce87-4b9c-9004-60d04f456d60",
+        "timestamp" : "2024-07-01T19:48:29+00:00",
         "total" : 4,
         "offset" : 0,
         "parameter" : [{
@@ -18054,10 +18054,10 @@
       "title" : "Outcome from outreach attempt ValueSet",
       "status" : "active",
       "experimental" : true,
-      "date" : "2024-07-01T19:43:16+00:00",
+      "date" : "2024-07-01T19:47:03+00:00",
       "expansion" : {
-        "identifier" : "urn:uuid:a9e1da63-9879-48eb-b77c-9bec2d496bc9",
-        "timestamp" : "2024-07-01T19:44:40+00:00",
+        "identifier" : "urn:uuid:964bae47-aa77-4e00-85e1-f7bf5d666848",
+        "timestamp" : "2024-07-01T19:48:29+00:00",
         "total" : 6,
         "offset" : 0,
         "parameter" : [{
@@ -18132,10 +18132,10 @@
       "title" : "HIV status of partner or contact ValueSet",
       "status" : "active",
       "experimental" : true,
-      "date" : "2024-07-01T19:43:16+00:00",
+      "date" : "2024-07-01T19:47:03+00:00",
       "expansion" : {
-        "identifier" : "urn:uuid:8e547909-10b9-4ea2-b412-9522062e0972",
-        "timestamp" : "2024-07-01T19:44:40+00:00",
+        "identifier" : "urn:uuid:7840b022-2a5f-439c-8127-688f9224fffb",
+        "timestamp" : "2024-07-01T19:48:29+00:00",
         "total" : 3,
         "offset" : 0,
         "parameter" : [{
@@ -18195,10 +18195,10 @@
       "title" : "HIV treatment outcome ValueSet",
       "status" : "active",
       "experimental" : true,
-      "date" : "2024-07-01T19:43:16+00:00",
+      "date" : "2024-07-01T19:47:03+00:00",
       "expansion" : {
-        "identifier" : "urn:uuid:65a2f2a7-5376-4d6b-8e06-6cd9c2def4ef",
-        "timestamp" : "2024-07-01T19:44:41+00:00",
+        "identifier" : "urn:uuid:3220c455-212b-4c5c-9b13-f4ea1f28db43",
+        "timestamp" : "2024-07-01T19:48:29+00:00",
         "total" : 4,
         "offset" : 0,
         "parameter" : [{
@@ -18263,10 +18263,10 @@
       "title" : "Transfer to facility ValueSet",
       "status" : "active",
       "experimental" : true,
-      "date" : "2024-07-01T19:43:16+00:00",
+      "date" : "2024-07-01T19:47:03+00:00",
       "expansion" : {
-        "identifier" : "urn:uuid:ffeafd06-c20c-439c-bb0c-c7bc07eb42a4",
-        "timestamp" : "2024-07-01T19:44:41+00:00",
+        "identifier" : "urn:uuid:78ff3a79-9cf0-4932-bff7-30b93548f0cb",
+        "timestamp" : "2024-07-01T19:48:29+00:00",
         "total" : 0,
         "offset" : 0,
         "parameter" : [{
@@ -18303,10 +18303,10 @@
       "title" : "Reason(s) for adherence problem ValueSet",
       "status" : "active",
       "experimental" : true,
-      "date" : "2024-07-01T19:43:16+00:00",
+      "date" : "2024-07-01T19:47:03+00:00",
       "expansion" : {
-        "identifier" : "urn:uuid:166c227d-945a-4ed1-a533-830a50074566",
-        "timestamp" : "2024-07-01T19:44:41+00:00",
+        "identifier" : "urn:uuid:70aafab0-8169-4517-b526-ff5ae8ad782f",
+        "timestamp" : "2024-07-01T19:48:29+00:00",
         "total" : 18,
         "offset" : 0,
         "parameter" : [{
@@ -18441,10 +18441,10 @@
       "title" : "Reason ART stopped ValueSet",
       "status" : "active",
       "experimental" : true,
-      "date" : "2024-07-01T19:43:16+00:00",
+      "date" : "2024-07-01T19:47:03+00:00",
       "expansion" : {
-        "identifier" : "urn:uuid:163cd379-90a0-41bb-9a7f-aedec95d5507",
-        "timestamp" : "2024-07-01T19:44:41+00:00",
+        "identifier" : "urn:uuid:e74982ef-cdb7-40f6-901b-271edc7bb73e",
+        "timestamp" : "2024-07-01T19:48:29+00:00",
         "total" : 6,
         "offset" : 0,
         "parameter" : [{
@@ -18519,10 +18519,10 @@
       "title" : "Reason for referral ValueSet",
       "status" : "active",
       "experimental" : true,
-      "date" : "2024-07-01T19:43:16+00:00",
+      "date" : "2024-07-01T19:47:03+00:00",
       "expansion" : {
-        "identifier" : "urn:uuid:6fcaa01a-8ddb-41f9-81c1-b50d652f052a",
-        "timestamp" : "2024-07-01T19:44:41+00:00",
+        "identifier" : "urn:uuid:ecbbbac9-3c8f-41b5-bd72-ea1e0a357130",
+        "timestamp" : "2024-07-01T19:48:29+00:00",
         "total" : 5,
         "offset" : 0,
         "parameter" : [{
@@ -18592,10 +18592,10 @@
       "title" : "HIV status of contact ValueSet",
       "status" : "active",
       "experimental" : true,
-      "date" : "2024-07-01T19:43:16+00:00",
+      "date" : "2024-07-01T19:47:03+00:00",
       "expansion" : {
-        "identifier" : "urn:uuid:29d6fc14-9746-45d2-b7ca-bcba2450fee7",
-        "timestamp" : "2024-07-01T19:44:41+00:00",
+        "identifier" : "urn:uuid:80466389-f7e8-41a9-9c7d-732b3c38a19d",
+        "timestamp" : "2024-07-01T19:48:29+00:00",
         "total" : 3,
         "offset" : 0,
         "parameter" : [{
@@ -18655,10 +18655,10 @@
       "title" : "HIV prevention intervention ValueSet",
       "status" : "active",
       "experimental" : true,
-      "date" : "2024-07-01T19:43:16+00:00",
+      "date" : "2024-07-01T19:47:03+00:00",
       "expansion" : {
-        "identifier" : "urn:uuid:0ce8b481-c0af-4a20-ae4a-e9d2ff78a202",
-        "timestamp" : "2024-07-01T19:44:41+00:00",
+        "identifier" : "urn:uuid:55adbd86-dd53-4935-8e85-0d819b6cd60e",
+        "timestamp" : "2024-07-01T19:48:29+00:00",
         "total" : 6,
         "offset" : 0,
         "parameter" : [{
