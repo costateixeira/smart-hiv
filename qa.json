@@ -5,15 +5,15 @@
   "description" : "The implementation guide for the SMART WHO HIV guidelines, translated from the WHO HIV L2 artifacts and HIV DAK.",
   "status" : "draft",
   "package-id" : "smart.who.int.hiv",
-  "ig-ver" : "0.1.0",
-  "date" : "Mon, 08 Jul, 2024 21:31:51 +0000",
-  "dateISO8601" : "2024-07-08T21:31:51+00:00",
-  "errs" : 306,
-  "warnings" : 139,
-  "hints" : 2042,
+  "ig-ver" : "0.2.0",
+  "date" : "Sat, 13 Jul, 2024 00:07:23 +0000",
+  "dateISO8601" : "2024-07-13T00:07:23+00:00",
+  "errs" : 612,
+  "warnings" : 536,
+  "hints" : 2273,
   "suppressed-hints" : 0,
   "suppressed-warnings" : 0,
   "version" : "4.0.1",
   "tool" : "5.0.0 (3)",
-  "maxMemory" : 2612061784
+  "maxMemory" : 3099946944
 }
