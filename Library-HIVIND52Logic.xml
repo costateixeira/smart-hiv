@@ -176,7 +176,7 @@ define &quot;Stratification&quot;:
     <valueCode value="computable"/>
   </extension>
   <url value="http://smart.who.int/hiv/Library/HIVIND52Logic"/>
-  <version value="0.2.0"/>
+  <version value="0.3.0"/>
   <name value="HIVIND52Logic"/>
   <title value="HIV.IND.52 Logic"/>
   <status value="draft"/>
@@ -187,7 +187,7 @@ define &quot;Stratification&quot;:
       <code value="logic-library"/>
     </coding>
   </type>
-  <date value="2024-08-18T18:57:20+00:00"/>
+  <date value="2024-08-18T19:14:17+00:00"/>
   <publisher value="WHO"/>
   <contact>
     <name value="WHO"/>

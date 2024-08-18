@@ -16,7 +16,7 @@
     "valueCode" : "computable"
   }],
   "url" : "http://smart.who.int/hiv/Library/HIVIND87Logic",
-  "version" : "0.2.0",
+  "version" : "0.3.0",
   "name" : "HIVIND87Logic",
   "title" : "HIV.IND.87 Logic",
   "status" : "draft",
@@ -27,7 +27,7 @@
       "code" : "logic-library"
     }]
   },
-  "date" : "2024-08-18T18:57:20+00:00",
+  "date" : "2024-08-18T19:14:17+00:00",
   "publisher" : "WHO",
   "contact" : [{
     "name" : "WHO",
