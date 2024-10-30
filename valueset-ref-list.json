@@ -156,8 +156,8 @@
       "systems" : ["http://smart.who.int/hiv/CodeSystem/HIVConcepts"],
       "uses" : {
       },
-      "StructureDefinition-HIVBHTSvisit.html" : "HIV.B HTS visit",
-      "StructureDefinition-HivTest.html" : "HIV Test"
+      "StructureDefinition-HivTest.html" : "HIV Test",
+      "StructureDefinition-HIVBHTSvisit.html" : "HIV.B HTS visit"
     },
     {
       "url" : "http://smart.who.int/hiv/ValueSet/HIV.B.DE115",
@@ -170,8 +170,8 @@
       "uses" : {
       },
       "StructureDefinition-HivStatusObservation.html" : "HIV Status Observation",
-      "StructureDefinition-HIVBHTSvisit.html" : "HIV.B HTS visit",
-      "StructureDefinition-HivStatusCondition.html" : "HIV Status Condition"
+      "StructureDefinition-HivStatusCondition.html" : "HIV Status Condition",
+      "StructureDefinition-HIVBHTSvisit.html" : "HIV.B HTS visit"
     },
     {
       "url" : "http://smart.who.int/hiv/ValueSet/HIV.B.DE120",
@@ -600,8 +600,8 @@
       "systems" : ["http://smart.who.int/hiv/CodeSystem/HIVConcepts"],
       "uses" : {
       },
-      "StructureDefinition-HIVBHTSvisit.html" : "HIV.B HTS visit",
-      "StructureDefinition-HivKeyPopulation.html" : "Patient Key Population Status"
+      "StructureDefinition-HivKeyPopulation.html" : "Patient Key Population Status",
+      "StructureDefinition-HIVBHTSvisit.html" : "HIV.B HTS visit"
     },
     {
       "url" : "http://smart.who.int/hiv/ValueSet/HIV.B.DE61",
@@ -875,8 +875,8 @@
       "systems" : ["http://smart.who.int/hiv/CodeSystem/HIVConcepts"],
       "uses" : {
       },
-      "StructureDefinition-HIVCPrEPvisit.html" : "HIV.C PrEP visit",
-      "StructureDefinition-HivCurrentPrepRegimenPrescription.html" : "Current PrEP Regimen Prescription"
+      "StructureDefinition-HivCurrentPrepRegimenPrescription.html" : "Current PrEP Regimen Prescription",
+      "StructureDefinition-HIVCPrEPvisit.html" : "HIV.C PrEP visit"
     },
     {
       "url" : "http://smart.who.int/hiv/ValueSet/HIV.C.DE24",
@@ -984,9 +984,9 @@
       "systems" : ["http://smart.who.int/hiv/CodeSystem/HIVConcepts"],
       "uses" : {
       },
-      "StructureDefinition-HIVCPrEPvisit.html" : "HIV.C PrEP visit",
       "StructureDefinition-HivPrepActive.html" : "HIV Prep Active",
-      "StructureDefinition-HivPrepProductPrescription.html" : "PrEP Product Prescription"
+      "StructureDefinition-HivPrepProductPrescription.html" : "PrEP Product Prescription",
+      "StructureDefinition-HIVCPrEPvisit.html" : "HIV.C PrEP visit"
     },
     {
       "url" : "http://smart.who.int/hiv/ValueSet/HIV.C.DE91",
