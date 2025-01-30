@@ -3,7 +3,7 @@
 <html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml" lang="en">
   <head>
     <meta content="text/html;charset=utf-8" http-equiv="Content-Type"/>
-    <title>HIV.IND.42 Logic - WHO SMART Guidelines - HIV v0.4.0</title>
+    <title>HIV.IND.42 Logic - WHO SMART Guidelines - HIV v0.4.1</title>
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <meta name="author" content="http://hl7.org/fhir"/>
@@ -217,7 +217,7 @@
         <div id="ig-status" class="ig-status-draft">
           <p><span style="font-size:12pt;font-weight:bold">WHO SMART Guidelines - HIV</span>
             <br/>
-            <span style="display:inline-block;">0.4.0 - ci-build
+            <span style="display:inline-block;">0.4.1 - ci-build
 
 
             </span>
@@ -245,7 +245,7 @@
           <div class="inner-wrapper">
 
 <div class="col-12">
-  <!--ReleaseHeader--><p id="publish-box">WHO SMART Guidelines - HIV - Local Development build (v0.4.0) built by the FHIR (HL7® FHIR® Standard) Build Tools. See the <a href="http://smart.who.int/hiv/history.html">Directory of published versions</a></p><!--EndReleaseHeader-->
+  <!--ReleaseHeader--><p id="publish-box">WHO SMART Guidelines - HIV - Local Development build (v0.4.1) built by the FHIR (HL7® FHIR® Standard) Build Tools. See the <a href="http://smart.who.int/hiv/history.html">Directory of published versions</a></p><!--EndReleaseHeader-->
   
 
 
@@ -299,7 +299,7 @@
       <td colspan="4"><i>Official URL</i>: <span class="copy-text">http://smart.who.int/hiv/Library/HIVIND42Logic<button title="Click to copy URL" class="btn-copy" data-clipboard-text="http://smart.who.int/hiv/Library/HIVIND42Logic"/></span>
       </td>
       <td><i>Version</i>:
-      <span class="copy-text">0.4.0<button title="Click to copy versioned URL" class="btn-copy" data-clipboard-text="http://smart.who.int/hiv/Library/HIVIND42Logic|0.4.0"/></span>
+      <span class="copy-text">0.4.1<button title="Click to copy versioned URL" class="btn-copy" data-clipboard-text="http://smart.who.int/hiv/Library/HIVIND42Logic|0.4.1"/></span>
       </td>
     </tr>
 
@@ -315,7 +315,7 @@
         
           Draft
           
-            as of 2025-01-13
+            as of 2025-01-30
           
         
       </td>
@@ -372,7 +372,7 @@
         
         <tr>
             <th scope="row"><b>Version: </b></th>
-            <td style="padding-left: 4px;">0.4.0</td>
+            <td style="padding-left: 4px;">0.4.1</td>
         </tr>
         
 
@@ -430,7 +430,7 @@
         
         <tr>
             <th scope="row"><b>Date: </b></th>
-            <td style="padding-left: 4px;">2025-01-13 20:12:32+0000</td>
+            <td style="padding-left: 4px;">2025-01-30 04:55:08+0000</td>
         </tr>
         
 
@@ -483,6 +483,10 @@
                   
                     <li><a href="Library-WHOCommon.html">WHOCommon</a></li>
                   
+                    <li><a href="Library-HIVElements.html">HIVElements</a></li>
+                  
+                    <li><a href="Library-HIVIndicatorElements.html">HIVIndicatorElements</a></li>
+                  
                 </ul>
                 
                 
@@ -509,6 +513,12 @@
                 <tr><th>Numerator</th><th>boolean</th><th>0</th><th>1</th><th>Out</th></tr>
               
                 <tr><th>Denominator</th><th>boolean</th><th>0</th><th>1</th><th>Out</th></tr>
+              
+                <tr><th>Geographic Region Stratifier</th><th>string</th><th>0</th><th>1</th><th>Out</th></tr>
+              
+                <tr><th>HIV Status Stratifier infant</th><th>Coding</th><th>0</th><th>1</th><th>Out</th></tr>
+              
+                <tr><th>Stratification</th><th>string</th><th>0</th><th>1</th><th>Out</th></tr>
               
             </table>
           </td>
@@ -588,6 +598,10 @@ include FHIRHelpers version '4.0.1'
 
 include WHOCommon called WCom
 
+include HIVElements called HE
+include HIVIndicatorElements called HIE
+
+
 // Indicator Definition
 parameter &quot;Measurement Period&quot; Interval&lt;Date&gt; default Interval[@2023-01-01, @2023-01-30]
 
@@ -609,7 +623,17 @@ define &quot;Initial Population&quot;:
  */
 
 define &quot;Numerator&quot;:
-  true
+  HIE.&quot;is HIV-exposed infant or child E.DE112&quot;
+  and
+  (exists(HIE.&quot;Live Birth Delivery&quot; B where months between end of B.effective.toInterval() and end of  &quot;Measurement Period&quot; &lt; 12 months)
+  or 
+  (
+  exists(HIE.&quot;Breastfeeding B.DE32&quot; B) and
+  exists(HIE.&quot;Live Birth Delivery&quot; B where months between end of B.effective.toInterval() and end of  &quot;Measurement Period&quot; &lt; 24 months)
+  )
+  )
+  and HIE.&quot;Registered in birth cohort&quot;
+  and HE.&quot;Final diagnosis of HIV-exposed infant E.DE230&quot; is not null
 
 
 /**
@@ -620,10 +644,36 @@ define &quot;Numerator&quot;:
  */
 
 define &quot;Denominator&quot;:
-  true
+  HIE.&quot;is HIV-exposed infant or child E.DE112&quot;
+  and
+  (exists(HIE.&quot;Live Birth Delivery&quot; B where months between end of B.effective.toInterval() and end of  &quot;Measurement Period&quot; &lt; 12 months)
+  or 
+  (
+  exists(HIE.&quot;Breastfeeding B.DE32&quot; B) and
+  exists(HIE.&quot;Live Birth Delivery&quot; B where months between end of B.effective.toInterval() and end of  &quot;Measurement Period&quot; &lt; 24 months)
+  )
+  )
+  and HIE.&quot;Registered in birth cohort&quot;
     
 
 /* end Populations */
+
+/* 
+ * Disaggregators
+ */
+  
+define &quot;Geographic Region Stratifier&quot;:
+	HIE.&quot;By Geographic Region Stratifier&quot;
+
+define &quot;HIV Status Stratifier infant&quot;:
+  HIE.&quot;HIV Status Stratifier infant&quot;
+
+define &quot;Stratification&quot;:
+HIE.&quot;HIV Status Stratifier infant&quot;.code
++ ':' + HIE.&quot;By Geographic Region Stratifier&quot;
+
+
+
 
 </code></pre></td></tr>
             </table>
@@ -638,7 +688,7 @@ define &quot;Denominator&quot;:
           <td colspan="2">
             <table>
               <tr><th><b>Content: </b> application/elm+xml</th></tr>
-              <tr><td><pre><code>Encoded data (16344 characters)</code></pre></td></tr>
+              <tr><td><pre><code>Encoded data (67852 characters)</code></pre></td></tr>
             </table>
           </td>
         </tr>
@@ -650,7 +700,7 @@ define &quot;Denominator&quot;:
           <td colspan="2">
             <table>
               <tr><th><b>Content: </b> application/elm+json</th></tr>
-              <tr><td><pre><code>Encoded data (21452 characters)</code></pre></td></tr>
+              <tr><td><pre><code>Encoded data (117876 characters)</code></pre></td></tr>
             </table>
           </td>
         </tr>
@@ -683,7 +733,7 @@ define &quot;Denominator&quot;:
 
       <div class="inner-wrapper">
         <p>
-          IG &#169; 2025+ <a style="color:var(--footer-hyperlink-text-color)" href="http://who.int">WHO</a>.  Package smart.who.int.hiv#0.4.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Mon, Jan 13, 2025 20:12+0000">2025-01-13</span>
+          IG &#169; 2025+ <a style="color:var(--footer-hyperlink-text-color)" href="http://who.int">WHO</a>.  Package smart.who.int.hiv#0.4.1 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Thu, Jan 30, 2025 04:55+0000">2025-01-30</span>
           <br/>
           <span style="color: var(--footer-highlight-text-color)">
                       Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |

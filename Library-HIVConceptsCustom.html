@@ -3,7 +3,7 @@
 <html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml" lang="en">
   <head>
     <meta content="text/html;charset=utf-8" http-equiv="Content-Type"/>
-    <title>HIVConceptsCustom - WHO SMART Guidelines - HIV v0.4.0</title>
+    <title>HIVConceptsCustom - WHO SMART Guidelines - HIV v0.4.1</title>
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <meta name="author" content="http://hl7.org/fhir"/>
@@ -217,7 +217,7 @@
         <div id="ig-status" class="ig-status-draft">
           <p><span style="font-size:12pt;font-weight:bold">WHO SMART Guidelines - HIV</span>
             <br/>
-            <span style="display:inline-block;">0.4.0 - ci-build
+            <span style="display:inline-block;">0.4.1 - ci-build
 
 
             </span>
@@ -245,7 +245,7 @@
           <div class="inner-wrapper">
 
 <div class="col-12">
-  <!--ReleaseHeader--><p id="publish-box">WHO SMART Guidelines - HIV - Local Development build (v0.4.0) built by the FHIR (HL7® FHIR® Standard) Build Tools. See the <a href="http://smart.who.int/hiv/history.html">Directory of published versions</a></p><!--EndReleaseHeader-->
+  <!--ReleaseHeader--><p id="publish-box">WHO SMART Guidelines - HIV - Local Development build (v0.4.1) built by the FHIR (HL7® FHIR® Standard) Build Tools. See the <a href="http://smart.who.int/hiv/history.html">Directory of published versions</a></p><!--EndReleaseHeader-->
   
 
 
@@ -299,7 +299,7 @@
       <td colspan="4"><i>Official URL</i>: <span class="copy-text">http://smart.who.int/hiv/Library/HIVConceptsCustom<button title="Click to copy URL" class="btn-copy" data-clipboard-text="http://smart.who.int/hiv/Library/HIVConceptsCustom"/></span>
       </td>
       <td><i>Version</i>:
-      <span class="copy-text">0.4.0<button title="Click to copy versioned URL" class="btn-copy" data-clipboard-text="http://smart.who.int/hiv/Library/HIVConceptsCustom|0.4.0"/></span>
+      <span class="copy-text">0.4.1<button title="Click to copy versioned URL" class="btn-copy" data-clipboard-text="http://smart.who.int/hiv/Library/HIVConceptsCustom|0.4.1"/></span>
       </td>
     </tr>
 
@@ -315,7 +315,7 @@
         
           Draft
           
-            as of 2025-01-13
+            as of 2025-01-30
           
         
       </td>
@@ -372,7 +372,7 @@
         
         <tr>
             <th scope="row"><b>Version: </b></th>
-            <td style="padding-left: 4px;">0.4.0</td>
+            <td style="padding-left: 4px;">0.4.1</td>
         </tr>
         
 
@@ -430,7 +430,7 @@
         
         <tr>
             <th scope="row"><b>Date: </b></th>
-            <td style="padding-left: 4px;">2025-01-13 20:12:32+0000</td>
+            <td style="padding-left: 4px;">2025-01-30 04:55:08+0000</td>
         </tr>
         
 
@@ -479,21 +479,19 @@
                 <p><b>Dependencies</b></p>
                 <ul>
                   
-                    <li><code>http://smart.who.int/hiv/CodeSystem/HIVConceptsCustom</code></li>
-                  
                     <li><a href="http://terminology.hl7.org/6.0.2/CodeSystem-condition-category.html">Condition Category Codes</a></li>
                   
                     <li><a href="http://terminology.hl7.org/6.0.2/CodeSystem-condition-clinical.html">Condition Clinical Status Codes</a></li>
                   
                     <li><a href="http://terminology.hl7.org/6.0.2/CodeSystem-observation-category.html">Observation Category Codes</a></li>
                   
-                    <li><code>missing concepts</code></li>
+                    <li><code>https://worldhealthorganization.github.io/smart-hiv/CodeSystem/missing-concepts</code></li>
                   
                     <li><a href="http://hl7.org/fhir/R4/codesystem-device-statement-status.html">DeviceUseStatementStatus</a></li>
                   
-                    <li><code>urn:oid:2.16.840.1.113883.6.96|urn:hl7:version:2018-03</code></li>
+                    <li><code>http://snomed.info/sct|2018-03</code></li>
                   
-                    <li><code>urn:oid:2.16.840.1.113883.6.96</code></li>
+                    <li><a href="http://hl7.org/fhir/R4/codesystem-snomedct.html">SNOMED CT (all versions)</a></li>
                   
                     <li><a href="http://terminology.hl7.org/6.0.2/CodeSystem-adverse-event-severity.html">AdverseEventSeverity</a></li>
                   
@@ -521,16 +519,16 @@
           <td colspan="2">
             <table>
               <tr><th><a id="cql-content"><b>Content: </b></a> text/cql</th></tr>
-              <tr><td><pre><code class="language-cql">library HIVConceptsCustom
-codesystem &quot;HIVConceptsCustom&quot;: 'http://smart.who.int/hiv/CodeSystem/HIVConceptsCustom'
+              <tr><td><pre><code class="language-cql">library HIVConceptsCustom version '0.0.1'
+// codesystem &quot;HIVConceptsCustom&quot;: 'http://smart.who.int/hiv/CodeSystem/HIVConceptsCustom'
 
 codesystem &quot;ConditionCategoryCodes&quot;: 'http://terminology.hl7.org/CodeSystem/condition-category'
 codesystem &quot;ConditionClinicalStatusCodes&quot;: 'http://terminology.hl7.org/CodeSystem/condition-clinical'
 codesystem &quot;ObservationCategoryCodes&quot;: 'http://terminology.hl7.org/CodeSystem/observation-category'
-codesystem &quot;missing concepts&quot;: 'missing concepts'
+codesystem &quot;missing concepts&quot;: 'https://worldhealthorganization.github.io/smart-hiv/CodeSystem/missing-concepts'
 codesystem &quot;Devicestatement-status&quot;: 'http://hl7.org/fhir/device-statement-status'
-codesystem &quot;SNOMEDCT:2018-03&quot;: 'urn:oid:2.16.840.1.113883.6.96' version 'urn:hl7:version:2018-03'
-codesystem &quot;SNOMEDCT&quot;: 'urn:oid:2.16.840.1.113883.6.96'
+codesystem &quot;SNOMEDCT:2018-03&quot;: 'http://snomed.info/sct' version '2018-03'
+codesystem &quot;SNOMEDCT&quot;: 'http://snomed.info/sct'
 codesystem &quot;AdverseEventSeverity&quot;: 'http://terminology.hl7.org/CodeSystem/adverse-event-severity'
 codesystem &quot;RoleCode&quot;: 'http://terminology.hl7.org/CodeSystem/v3-RoleCode'
 
@@ -584,7 +582,7 @@ code &quot;Two to four times a day (qualifier value)&quot;: '396111001' from &qu
 
 
 // Encounter Types
-code &quot;HTS Visit&quot;: 'HTS Visit' from &quot;HIVConceptsCustom&quot;
+code &quot;HTS Visit&quot;: 'HTS Visit' from &quot;missing concepts&quot;
 
 //not currently provided
 code &quot;needle-syringe&quot;: 'needle syringe' from &quot;missing concepts&quot;
@@ -606,9 +604,7 @@ code &quot;cervical cancer screening test&quot; : 'cervical cancer screening tes
 code &quot;cervical precancer lesion treatment&quot; : 'cervical precancer lesion treatment' from &quot;missing concepts&quot;
 code &quot;Invasive cervical cancer treatment&quot; : 'Invasive cervical cancer treatment' from &quot;missing concepts&quot;
 code &quot;Antenatal care contact&quot;: 'Antenatal care contact' from &quot;missing concepts&quot;
-
-
-</code></pre></td></tr>
+code &quot;No longer breastfeeding&quot;: 'No longer breasfeeding' from &quot;missing concepts&quot;</code></pre></td></tr>
             </table>
           </td>
         </tr>
@@ -621,7 +617,7 @@ code &quot;Antenatal care contact&quot;: 'Antenatal care contact' from &quot;mis
           <td colspan="2">
             <table>
               <tr><th><b>Content: </b> application/elm+xml</th></tr>
-              <tr><td><pre><code>Encoded data (48788 characters)</code></pre></td></tr>
+              <tr><td><pre><code>Encoded data (49240 characters)</code></pre></td></tr>
             </table>
           </td>
         </tr>
@@ -633,7 +629,7 @@ code &quot;Antenatal care contact&quot;: 'Antenatal care contact' from &quot;mis
           <td colspan="2">
             <table>
               <tr><th><b>Content: </b> application/elm+json</th></tr>
-              <tr><td><pre><code>Encoded data (76780 characters)</code></pre></td></tr>
+              <tr><td><pre><code>Encoded data (77440 characters)</code></pre></td></tr>
             </table>
           </td>
         </tr>
@@ -666,7 +662,7 @@ code &quot;Antenatal care contact&quot;: 'Antenatal care contact' from &quot;mis
 
       <div class="inner-wrapper">
         <p>
-          IG &#169; 2025+ <a style="color:var(--footer-hyperlink-text-color)" href="http://who.int">WHO</a>.  Package smart.who.int.hiv#0.4.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Mon, Jan 13, 2025 20:12+0000">2025-01-13</span>
+          IG &#169; 2025+ <a style="color:var(--footer-hyperlink-text-color)" href="http://who.int">WHO</a>.  Package smart.who.int.hiv#0.4.1 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Thu, Jan 30, 2025 04:55+0000">2025-01-30</span>
           <br/>
           <span style="color: var(--footer-highlight-text-color)">
                       Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |
