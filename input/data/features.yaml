@@ -1,4 +1,9 @@
 ---
 github:
-  repo_owner: "WorldHealthOrganization"   
+  repo_owner: "costateixeira"   
   repo_name: "smart-hiv"   
+feedback:
+  active: true
+  type: github
+  issueLabel: feedback
+  repoSource: https://github.com/costateixeira/smart-hiv

@@ -1,13 +1,12 @@
 {
-    "name": "who.fhir.smart-ig-empty-local",
+    "name": "voc.template",
     "version": "0.0.1",
     "type": "fhir.template",
     "license": "CC0-1.0",
-    "description": "Local template extension for WHO SMART FHIR IG",
-    "author": "http://who.int",
+    "description": "Local template extension for Vocabulary",
+    "author": "http://hl7.org/fhir",
       "base":  "who.template.root",
     "dependencies": {
       "who.template.root": "current"
     }
   }
-  
