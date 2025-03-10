@@ -1,7 +1,7 @@
 <!--badges-->
 [![Deploy IG](https://github.com/WorldHealthOrganization/smart-hiv/actions/workflows/deploy.yml/badge.svg)](https://github.com/WorldHealthOrganization/smart-hiv/actions/workflows/deploy.yml)  
 <!--/badges-->   
-
+ 
 # WHO SMART GUIDELINES - HIV Implementation Guide
 
 Click to visit the Implementation Guide [here](https://worldhealthorganization.github.io/smart-hiv/)
