@@ -315,7 +315,7 @@
         
           Draft
           
-            as of 2025-02-02
+            as of 2025-03-10
           
         
       </td>
@@ -356,7 +356,7 @@ Five key populations are included in this kit: (1) men who have sex with men, (2
   
 
 
-  <div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: ActorDefinition KeyPopulations</b></p><a name="KeyPopulations"> </a><a name="hcKeyPopulations"> </a><a name="KeyPopulations-en-US"> </a><table class="grid"><tr><td><b>Actor: KeyPopulations </b></td><td>Key populations</td><td>Type: person </td></tr><tr><td colspan="3"/></tr></table></div>
+  <div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: ActorDefinition KeyPopulations</b></p><a name="KeyPopulations"> </a><a name="hcKeyPopulations"> </a><a name="KeyPopulations-en-US"> </a><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px"/><p style="margin-bottom: 0px">Profile: <code>http://smart.who.int/smart-base/StructureDefinition/SGPersona</code></p></div><table class="grid"><tr><td><b>Actor: KeyPopulations </b></td><td>Key populations</td><td>Type: person </td></tr><tr><td colspan="3"/></tr></table></div>
 
   <!-- insert notes if present -->
   
@@ -381,7 +381,7 @@ Five key populations are included in this kit: (1) men who have sex with men, (2
 
       <div class="inner-wrapper">
         <p>
-          IG &#169; 2025+ <a style="color:var(--footer-hyperlink-text-color)" href="http://who.int">WHO</a>.  Package smart.who.int.hiv#0.4.3 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Sun, Feb 2, 2025 03:11+0000">2025-02-02</span>
+          IG &#169; 2025+ <a style="color:var(--footer-hyperlink-text-color)" href="http://who.int">WHO</a>.  Package smart.who.int.hiv#0.4.3 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Mon, Mar 10, 2025 17:43+0000">2025-03-10</span>
           <br/>
           <span style="color: var(--footer-highlight-text-color)">
                       Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |
@@ -412,6 +412,87 @@ Five key populations are included in this kit: (1) men who have sex with men, (2
   <script type="text/javascript" src="assets/js/anchor-hover.js"> </script>
   <!-- Analytics Below
   ================================================== -->
-  </body>
-</html>
 
+  
+  <div id="feedback-config"
+       data-repo-owner=""
+       data-repo-name=""
+       data-repo-source="https://github.com/costateixeira/smart-hiv"
+       data-issue-label="feedback"
+       style="display:none;"></div>
+  
+  <script src="assets/js/feedback.js"></script>
+  
+  
+<!-- 
+  
+  
+  <p>FEEDBACK ON</p>
+  <script type="text/javascript">
+  $(document).ready(function() {
+    const repoOwner = 'costateixeira';
+    const repoName = 'issues';
+    const issueLabel = 'feedback';
+  
+    $(':header[id]').each(function() {
+      const id = $(this).attr('id');
+      const section = $(this).text().trim();
+  
+      const feedbackLink = $('<a/>', {
+        href: '#',
+        text: 'Feedback ',
+        class: 'feedback',
+        click: function(e) {
+          e.preventDefault();
+          submitFeedback(section, id);
+        }
+      });
+  
+      $(this).append(feedbackLink);
+    });
+  
+    // window.createGitHubIssue = function(title, section, body) {
+    //   const url = `https://github.com///issues/new?` +
+    //     `title=${encodeURIComponent(title)}` +
+    //     `&labels=${encodeURIComponent(issueLabel)}` +
+    //     `&body=${encodeURIComponent(body)}`;
+    //   window.open(url, '_blank');
+    // };
+  
+    function submitFeedback(section, id) {
+      const title = prompt("Issue title:", "");
+      if (!title) return;
+
+      const content = prompt("Please describe your feedback in detail:", "");
+      if (!content) return;
+
+      const body = `### Section\n${section}\n\n### Page\n${document.title}\n\n### Feedback\n${content}\n\n[Link to section](${window.location.href}#${id})`;
+
+      const url = `https://github.com/${repoOwner}/${repoName}/issues/new?` +
+        `title=${encodeURIComponent(title)}` +
+        `&labels=${encodeURIComponent(issueLabel)}` +
+        `&body=${encodeURIComponent(body)}`;
+
+      window.open(url, '_blank');
+    }
+
+    // // Bind click
+    // $('a.feedback').click(function(e) {
+    //   e.preventDefault();
+    //   const id = $(this).parent().attr('id');
+    //   const section = $(this).parent().text().trim();
+    //   const title = prompt('Issue Title:', '');
+    //   if (!title) return;
+    //   const content = prompt('Please provide details:', '');
+    //   if (!content) return;
+  
+    //   const body = `### Section\n${section}\n\n### Details\n${content}\n\n[Link to section](${location.href}#${id})`;
+  
+    //   const url = `https://github.com///issues/new?title=${encodeURIComponent(title)}&labels=${encodeURIComponent(issueLabel)}&body=${encodeURIComponent(body)}`;
+  
+    //   window.open(url, '_blank');
+    // });
+  });
+  
+  
+   -->

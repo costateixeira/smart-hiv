@@ -336,7 +336,7 @@
         
           Draft
           
-            as of 2025-02-02
+            as of 2025-03-10
           
         
       </td>
@@ -366,7 +366,7 @@
   "<a href="http://hl7.org/fhir/R4/structuredefinition.html#StructureDefinition.name">name</a>" : "HivHivTest",
   "<a href="http://hl7.org/fhir/R4/structuredefinition.html#StructureDefinition.title">title</a>" : "HIV Test",
   "<a href="http://hl7.org/fhir/R4/structuredefinition.html#StructureDefinition.status">status</a>" : "draft",
-  "<a href="http://hl7.org/fhir/R4/structuredefinition.html#StructureDefinition.date">date</a>" : "2025-02-02T03:11:41+00:00",
+  "<a href="http://hl7.org/fhir/R4/structuredefinition.html#StructureDefinition.date">date</a>" : "2025-03-10T17:41:12+00:00",
   "<a href="http://hl7.org/fhir/R4/structuredefinition.html#StructureDefinition.publisher">publisher</a>" : "WHO",
   "<a href="http://hl7.org/fhir/R4/structuredefinition.html#StructureDefinition.contact">contact</a>" : [
     {
@@ -419,6 +419,12 @@
   "<a href="http://hl7.org/fhir/R4/structuredefinition.html#StructureDefinition.baseDefinition">baseDefinition</a>" : "http://smart.who.int/hiv/StructureDefinition/HivLabTestObservation",
   "<a href="http://hl7.org/fhir/R4/structuredefinition.html#StructureDefinition.derivation">derivation</a>" : "constraint",
   "<a href="http://hl7.org/fhir/R4/structuredefinition.html#StructureDefinition.snapshot">snapshot</a>" : {
+    "<a href="http://hl7.org/fhir/R4/structuredefinition.html#StructureDefinition.snapshot.extension">extension</a>" : [
+      {
+        "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">url</a>" : "http://hl7.org/fhir/tools/StructureDefinition/snapshot-base-version",
+        "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value[x]">valueString</a>" : "0.4.3"
+      }
+    ],
     "<a href="http://hl7.org/fhir/R4/structuredefinition.html#StructureDefinition.snapshot.element">element</a>" : [
       {
         "<a href="http://hl7.org/fhir/R4/datatypes.html#ElementDefinition#ElementDefinition.id">id</a>" : "Observation",
@@ -3078,7 +3084,7 @@
 
       <div class="inner-wrapper">
         <p>
-          IG &#169; 2025+ <a style="color:var(--footer-hyperlink-text-color)" href="http://who.int">WHO</a>.  Package smart.who.int.hiv#0.4.3 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Sun, Feb 2, 2025 03:11+0000">2025-02-02</span>
+          IG &#169; 2025+ <a style="color:var(--footer-hyperlink-text-color)" href="http://who.int">WHO</a>.  Package smart.who.int.hiv#0.4.3 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Mon, Mar 10, 2025 17:43+0000">2025-03-10</span>
           <br/>
           <span style="color: var(--footer-highlight-text-color)">
                       Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |
@@ -3109,6 +3115,87 @@
   <script type="text/javascript" src="assets/js/anchor-hover.js"> </script>
   <!-- Analytics Below
   ================================================== -->
-  </body>
-</html>
 
+  
+  <div id="feedback-config"
+       data-repo-owner=""
+       data-repo-name=""
+       data-repo-source="https://github.com/costateixeira/smart-hiv"
+       data-issue-label="feedback"
+       style="display:none;"></div>
+  
+  <script src="assets/js/feedback.js"></script>
+  
+  
+<!-- 
+  
+  
+  <p>FEEDBACK ON</p>
+  <script type="text/javascript">
+  $(document).ready(function() {
+    const repoOwner = 'costateixeira';
+    const repoName = 'issues';
+    const issueLabel = 'feedback';
+  
+    $(':header[id]').each(function() {
+      const id = $(this).attr('id');
+      const section = $(this).text().trim();
+  
+      const feedbackLink = $('<a/>', {
+        href: '#',
+        text: 'Feedback ',
+        class: 'feedback',
+        click: function(e) {
+          e.preventDefault();
+          submitFeedback(section, id);
+        }
+      });
+  
+      $(this).append(feedbackLink);
+    });
+  
+    // window.createGitHubIssue = function(title, section, body) {
+    //   const url = `https://github.com///issues/new?` +
+    //     `title=${encodeURIComponent(title)}` +
+    //     `&labels=${encodeURIComponent(issueLabel)}` +
+    //     `&body=${encodeURIComponent(body)}`;
+    //   window.open(url, '_blank');
+    // };
+  
+    function submitFeedback(section, id) {
+      const title = prompt("Issue title:", "");
+      if (!title) return;
+
+      const content = prompt("Please describe your feedback in detail:", "");
+      if (!content) return;
+
+      const body = `### Section\n${section}\n\n### Page\n${document.title}\n\n### Feedback\n${content}\n\n[Link to section](${window.location.href}#${id})`;
+
+      const url = `https://github.com/${repoOwner}/${repoName}/issues/new?` +
+        `title=${encodeURIComponent(title)}` +
+        `&labels=${encodeURIComponent(issueLabel)}` +
+        `&body=${encodeURIComponent(body)}`;
+
+      window.open(url, '_blank');
+    }
+
+    // // Bind click
+    // $('a.feedback').click(function(e) {
+    //   e.preventDefault();
+    //   const id = $(this).parent().attr('id');
+    //   const section = $(this).parent().text().trim();
+    //   const title = prompt('Issue Title:', '');
+    //   if (!title) return;
+    //   const content = prompt('Please provide details:', '');
+    //   if (!content) return;
+  
+    //   const body = `### Section\n${section}\n\n### Details\n${content}\n\n[Link to section](${location.href}#${id})`;
+  
+    //   const url = `https://github.com///issues/new?title=${encodeURIComponent(title)}&labels=${encodeURIComponent(issueLabel)}&body=${encodeURIComponent(body)}`;
+  
+    //   window.open(url, '_blank');
+    // });
+  });
+  
+  
+   -->
