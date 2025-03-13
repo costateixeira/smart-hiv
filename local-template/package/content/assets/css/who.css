@@ -690,3 +690,16 @@ div.markdown-toc {
 	padding-left: 3px;
 	padding-right: 3px;
   }
+
+  .feedback-dropdown a {
+    display: block;
+    padding: 5px;
+    text-decoration: none;
+    color: black;
+}
+
+.feedback-dropdown a:hover {
+    background-color: #f0f0f0;  /* Light gray background */
+    color: #000;  /* Black text */
+    cursor: pointer;
+}

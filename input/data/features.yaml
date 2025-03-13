@@ -3,7 +3,12 @@ github:
   repo_owner: "costateixeira"   
   repo_name: "smart-hiv"   
 feedback:
-  active: true
-  type: github
-  issueLabel: feedback
-  repoSource: https://github.com/costateixeira/smart-hiv
+  - form: https://github.com/costateixeira/issues/issues/new
+    type: GitHub
+    sectionid: section
+    pageid: page
+  
+  - form: https://forms.office.com/e/WKxJWQMEcx
+    type: Form
+    sectionid: r275a700d161d41d182d84c2e58947298
+

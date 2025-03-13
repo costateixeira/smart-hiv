@@ -69,17 +69,18 @@
   <!-- Analytics Below
   ================================================== -->
 
-  {% if site.data.features.feedback.active and site.data.features.feedback.type == 'github' %}
+  {% if site.data.features.feedback %}
   <div id="feedback-config"
-       data-repo-owner="{{ site.data.features.feedback.repoOwner }}"
-       data-repo-name="{{ site.data.features.feedback.repoName }}"
-       data-repo-source="{{ site.data.features.feedback.repoSource }}"
-       data-issue-label="{{ site.data.features.feedback.issueLabel | default: 'feedback' }}"
+       data-repo-owner="{{ site.data.github.repo_owner }}"
+       data-repo-name="{{ site.data.github.repo_name }}"
+       data-repo-source="{{ site.data.features.feedback[0].form | default: '' }}"
+       data-issue-label="{{ site.data.features.feedback[0].issueLabel | default: 'feedback' }}"
+       data-feedback-options="{{ site.data.features.feedback | jsonify | escape }}"
        style="display:none;"></div>
-  
+
   <script src="assets/js/feedback.js"></script>
-  {% endif %}
-  
+{% endif %}
+
 <!-- 
   
   {% if site.data.features.feedback.active and site.data.features.feedback.type == 'github' %}
