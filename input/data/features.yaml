@@ -2,7 +2,6 @@
 github:
   repo_owner: "WorldHealthOrganization"   
   repo_name: "smart-hiv"   
----
 feedback:
   - form: https://github.com/WorldHealthOrganization/smart-hiv/issues/new?template=feedback.yml
     type: GitHub
