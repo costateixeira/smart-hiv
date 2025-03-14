@@ -8,7 +8,6 @@ body:
     attributes:
       label: Page URL
       description: "Link to the page you're giving feedback on (auto-filled)."
-      placeholder: "e.g., https://your-ig.org/medication/page.html#section"
     validations:
       required: true
 
@@ -17,7 +16,7 @@ body:
     attributes:
       label: Section
       description: "Name of the section your feedback relates to."
-      placeholder: "e.g., Medication Dispensing"
+      placeholder: "e.g., Profiles, ValueSets, Operations, etc."
     validations:
       required: true
 
