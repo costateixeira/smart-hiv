@@ -1,0 +1,20 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "http://smart.who.int/hiv/ValueSet-HIV.PRV.DE2.schema.json",
+  "title": "HIV prevention intervention ValueSet Schema",
+  "description": "JSON Schema for HIV prevention intervention ValueSet ValueSet codes. Generated from FHIR expansions using IRI format.",
+  "type": "string",
+  "enum": [
+    "http://smart.who.int/hiv/CodeSystem/HIVConcepts#HIV.PRV.DE3",
+    "http://smart.who.int/hiv/CodeSystem/HIVConcepts#HIV.PRV.DE4",
+    "http://smart.who.int/hiv/CodeSystem/HIVConcepts#HIV.PRV.DE5",
+    "http://smart.who.int/hiv/CodeSystem/HIVConcepts#HIV.PRV.DE6",
+    "http://smart.who.int/hiv/CodeSystem/HIVConcepts#HIV.PRV.DE7",
+    "http://smart.who.int/hiv/CodeSystem/HIVConcepts#HIV.PRV.DE8"
+  ],
+  "narrative": "This schema validates IRI-formatted codes for the HIV prevention intervention ValueSet ValueSet. Each enum value includes the system URI in the format {systemuri}#{code} to match JSON-LD enumeration IRIs. Display values are available at http://smart.who.int/hiv/ValueSet-HIV.PRV.DE2.displays.json. For a complete listing of all ValueSets, see artifacts.html#terminology-value-sets.",
+  "fhir:displays": "http://smart.who.int/hiv/ValueSet-HIV.PRV.DE2.displays.json",
+  "fhir:valueSet": "http://smart.who.int/hiv/ValueSet/HIV.PRV.DE2",
+  "fhir:version": "0.4.4",
+  "fhir:expansionTimestamp": "2026-03-03T20:47:42+00:00"
+}

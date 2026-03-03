@@ -1,0 +1,77 @@
+{
+  "@context": {
+    "@version": 1.1,
+    "name": "http://www.w3.org/2000/01/rdf-schema#label",
+    "fhir": "https://smart.who.int/base/DataTypes.jsonld#",
+    "id": "@id",
+    "generatedAt": {
+      "@id": "http://www.w3.org/ns/prov#generatedAtTime",
+      "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
+    }
+  },
+  "@id": "http://smart.who.int/hiv/ValueSet-HIV.D.DE370.jsonld",
+  "@type": "http://www.w3.org/ns/prov#Entity",
+  "generatedAt": "2026-03-03T20:52:45.711853Z",
+  "@graph": [
+    {
+      "id": "http://smart.who.int/hiv/ValueSet-HIV.D.DE370.jsonld#HIV.D.DE371",
+      "name": "Patient self-reported as not ready/willing",
+      "fhir:code": "HIV.D.DE371",
+      "fhir:CodeSystem": "http://smart.who.int/hiv/CodeSystem-HIVConcepts"
+    },
+    {
+      "id": "http://smart.who.int/hiv/ValueSet-HIV.D.DE370.jsonld#HIV.D.DE372",
+      "name": "Not completed education, support and preparation for ART",
+      "fhir:code": "HIV.D.DE372",
+      "fhir:CodeSystem": "http://smart.who.int/hiv/CodeSystem-HIVConcepts"
+    },
+    {
+      "id": "http://smart.who.int/hiv/ValueSet-HIV.D.DE370.jsonld#HIV.D.DE373",
+      "name": "Fear of disclosure",
+      "fhir:code": "HIV.D.DE373",
+      "fhir:CodeSystem": "http://smart.who.int/hiv/CodeSystem-HIVConcepts"
+    },
+    {
+      "id": "http://smart.who.int/hiv/ValueSet-HIV.D.DE370.jsonld#HIV.D.DE374",
+      "name": "Patient lacks finances",
+      "fhir:code": "HIV.D.DE374",
+      "fhir:CodeSystem": "http://smart.who.int/hiv/CodeSystem-HIVConcepts"
+    },
+    {
+      "id": "http://smart.who.int/hiv/ValueSet-HIV.D.DE370.jsonld#HIV.D.DE375",
+      "name": "Initiated on TB treatment",
+      "fhir:code": "HIV.D.DE375",
+      "fhir:CodeSystem": "http://smart.who.int/hiv/CodeSystem-HIVConcepts"
+    },
+    {
+      "id": "http://smart.who.int/hiv/ValueSet-HIV.D.DE370.jsonld#HIV.D.DE376",
+      "name": "Patient initiated on treatment for TB meningitis",
+      "fhir:code": "HIV.D.DE376",
+      "fhir:CodeSystem": "http://smart.who.int/hiv/CodeSystem-HIVConcepts"
+    },
+    {
+      "id": "http://smart.who.int/hiv/ValueSet-HIV.D.DE370.jsonld#HIV.D.DE377",
+      "name": "Patient diagnosed with cryptococcal meningitis",
+      "fhir:code": "HIV.D.DE377",
+      "fhir:CodeSystem": "http://smart.who.int/hiv/CodeSystem-HIVConcepts"
+    },
+    {
+      "id": "http://smart.who.int/hiv/ValueSet-HIV.D.DE370.jsonld#HIV.D.DE378",
+      "name": "Patient diagnosed with histoplasmosis",
+      "fhir:code": "HIV.D.DE378",
+      "fhir:CodeSystem": "http://smart.who.int/hiv/CodeSystem-HIVConcepts"
+    },
+    {
+      "id": "http://smart.who.int/hiv/ValueSet-HIV.D.DE370.jsonld#HIV.D.DE379",
+      "name": "Patient critically/severely ill",
+      "fhir:code": "HIV.D.DE379",
+      "fhir:CodeSystem": "http://smart.who.int/hiv/CodeSystem-HIVConcepts"
+    },
+    {
+      "id": "http://smart.who.int/hiv/ValueSet-HIV.D.DE370.jsonld#HIV.D.DE380",
+      "name": "Other",
+      "fhir:code": "HIV.D.DE380",
+      "fhir:CodeSystem": "http://smart.who.int/hiv/CodeSystem-HIVConcepts"
+    }
+  ]
+}

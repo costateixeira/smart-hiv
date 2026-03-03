@@ -1,0 +1,83 @@
+{
+  "@context": {
+    "@version": 1.1,
+    "name": "http://www.w3.org/2000/01/rdf-schema#label",
+    "fhir": "https://smart.who.int/base/DataTypes.jsonld#",
+    "id": "@id",
+    "generatedAt": {
+      "@id": "http://www.w3.org/ns/prov#generatedAtTime",
+      "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
+    }
+  },
+  "@id": "http://smart.who.int/hiv/ValueSet-HIV.D.DE247.jsonld",
+  "@type": "http://www.w3.org/ns/prov#Entity",
+  "generatedAt": "2026-03-03T20:52:45.709220Z",
+  "@graph": [
+    {
+      "id": "http://smart.who.int/hiv/ValueSet-HIV.D.DE247.jsonld#HIV.D.DE248",
+      "name": "Provide co-trimoxazole preventive therapy (CPT)",
+      "fhir:code": "HIV.D.DE248",
+      "fhir:CodeSystem": "http://smart.who.int/hiv/CodeSystem-HIVConcepts"
+    },
+    {
+      "id": "http://smart.who.int/hiv/ValueSet-HIV.D.DE247.jsonld#HIV.D.DE249",
+      "name": "Intensified TB case finding and linkage to TB treatment",
+      "fhir:code": "HIV.D.DE249",
+      "fhir:CodeSystem": "http://smart.who.int/hiv/CodeSystem-HIVConcepts"
+    },
+    {
+      "id": "http://smart.who.int/hiv/ValueSet-HIV.D.DE247.jsonld#HIV.D.DE250",
+      "name": "Provide isoniazid preventive therapy",
+      "fhir:code": "HIV.D.DE250",
+      "fhir:CodeSystem": "http://smart.who.int/hiv/CodeSystem-HIVConcepts"
+    },
+    {
+      "id": "http://smart.who.int/hiv/ValueSet-HIV.D.DE247.jsonld#HIV.D.DE251",
+      "name": "Screen for cryptococcal infection and fungal prophylaxis",
+      "fhir:code": "HIV.D.DE251",
+      "fhir:CodeSystem": "http://smart.who.int/hiv/CodeSystem-HIVConcepts"
+    },
+    {
+      "id": "http://smart.who.int/hiv/ValueSet-HIV.D.DE247.jsonld#HIV.D.DE252",
+      "name": "Screen for hepatitis B",
+      "fhir:code": "HIV.D.DE252",
+      "fhir:CodeSystem": "http://smart.who.int/hiv/CodeSystem-HIVConcepts"
+    },
+    {
+      "id": "http://smart.who.int/hiv/ValueSet-HIV.D.DE247.jsonld#HIV.D.DE253",
+      "name": "Screen for hepatitis C",
+      "fhir:code": "HIV.D.DE253",
+      "fhir:CodeSystem": "http://smart.who.int/hiv/CodeSystem-HIVConcepts"
+    },
+    {
+      "id": "http://smart.who.int/hiv/ValueSet-HIV.D.DE247.jsonld#HIV.D.DE254",
+      "name": "Prevent malaria",
+      "fhir:code": "HIV.D.DE254",
+      "fhir:CodeSystem": "http://smart.who.int/hiv/CodeSystem-HIVConcepts"
+    },
+    {
+      "id": "http://smart.who.int/hiv/ValueSet-HIV.D.DE247.jsonld#HIV.D.DE255",
+      "name": "Screen for STIs",
+      "fhir:code": "HIV.D.DE255",
+      "fhir:CodeSystem": "http://smart.who.int/hiv/CodeSystem-HIVConcepts"
+    },
+    {
+      "id": "http://smart.who.int/hiv/ValueSet-HIV.D.DE247.jsonld#HIV.D.DE256",
+      "name": "Prevent and screen for cervical cancer",
+      "fhir:code": "HIV.D.DE256",
+      "fhir:CodeSystem": "http://smart.who.int/hiv/CodeSystem-HIVConcepts"
+    },
+    {
+      "id": "http://smart.who.int/hiv/ValueSet-HIV.D.DE247.jsonld#HIV.D.DE257",
+      "name": "Anal cancer screening (for men who have sex with men)",
+      "fhir:code": "HIV.D.DE257",
+      "fhir:CodeSystem": "http://smart.who.int/hiv/CodeSystem-HIVConcepts"
+    },
+    {
+      "id": "http://smart.who.int/hiv/ValueSet-HIV.D.DE247.jsonld#HIV.D.DE258",
+      "name": "Assessment and provision of vaccinations",
+      "fhir:code": "HIV.D.DE258",
+      "fhir:CodeSystem": "http://smart.who.int/hiv/CodeSystem-HIVConcepts"
+    }
+  ]
+}

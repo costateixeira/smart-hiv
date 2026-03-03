@@ -1,0 +1,31 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "http://smart.who.int/hiv/ValueSet-HIV.E.DE17.schema.json",
+  "title": "Past pregnancy complications ValueSet Schema",
+  "description": "JSON Schema for Past pregnancy complications ValueSet ValueSet codes. Generated from FHIR expansions using IRI format.",
+  "type": "string",
+  "enum": [
+    "http://smart.who.int/hiv/CodeSystem/HIVConcepts#HIV.E.DE18",
+    "http://smart.who.int/hiv/CodeSystem/HIVConcepts#HIV.E.DE19",
+    "http://smart.who.int/hiv/CodeSystem/HIVConcepts#HIV.E.DE20",
+    "http://smart.who.int/hiv/CodeSystem/HIVConcepts#HIV.E.DE21",
+    "http://smart.who.int/hiv/CodeSystem/HIVConcepts#HIV.E.DE22",
+    "http://smart.who.int/hiv/CodeSystem/HIVConcepts#HIV.E.DE23",
+    "http://smart.who.int/hiv/CodeSystem/HIVConcepts#HIV.E.DE24",
+    "http://smart.who.int/hiv/CodeSystem/HIVConcepts#HIV.E.DE25",
+    "http://smart.who.int/hiv/CodeSystem/HIVConcepts#HIV.E.DE26",
+    "http://smart.who.int/hiv/CodeSystem/HIVConcepts#HIV.E.DE27",
+    "http://smart.who.int/hiv/CodeSystem/HIVConcepts#HIV.E.DE28",
+    "http://smart.who.int/hiv/CodeSystem/HIVConcepts#HIV.E.DE29",
+    "http://smart.who.int/hiv/CodeSystem/HIVConcepts#HIV.E.DE30",
+    "http://smart.who.int/hiv/CodeSystem/HIVConcepts#HIV.E.DE31",
+    "http://smart.who.int/hiv/CodeSystem/HIVConcepts#HIV.E.DE32",
+    "http://smart.who.int/hiv/CodeSystem/HIVConcepts#HIV.E.DE33",
+    "http://smart.who.int/hiv/CodeSystem/HIVConcepts#HIV.E.DE34"
+  ],
+  "narrative": "This schema validates IRI-formatted codes for the Past pregnancy complications ValueSet ValueSet. Each enum value includes the system URI in the format {systemuri}#{code} to match JSON-LD enumeration IRIs. Display values are available at http://smart.who.int/hiv/ValueSet-HIV.E.DE17.displays.json. For a complete listing of all ValueSets, see artifacts.html#terminology-value-sets.",
+  "fhir:displays": "http://smart.who.int/hiv/ValueSet-HIV.E.DE17.displays.json",
+  "fhir:valueSet": "http://smart.who.int/hiv/ValueSet/HIV.E.DE17",
+  "fhir:version": "0.4.4",
+  "fhir:expansionTimestamp": "2026-03-03T20:47:48+00:00"
+}

@@ -1,0 +1,75 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "http://smart.who.int/hiv/ValueSet-HIV.D.DE247.displays.json",
+  "title": "Preventing and treating coinfections ValueSet Display Values",
+  "description": "Display values for Preventing and treating coinfections ValueSet ValueSet codes. Generated from FHIR expansions.",
+  "type": "object",
+  "properties": {
+    "fhir:displays": {
+      "type": "object",
+      "description": "Multilingual display values for ValueSet codes using IRI format to match JSON schema enum values",
+      "patternProperties": {
+        "^https?://.*": {
+          "type": "object",
+          "description": "Display values for a specific IRI-formatted code by language",
+          "properties": {
+            "en": {
+              "type": "string",
+              "description": "English display value"
+            }
+          },
+          "patternProperties": {
+            "^[a-z]{2}(-[A-Z]{2})?$": {
+              "type": "string",
+              "description": "Display value in the specified language (ISO 639-1 code)"
+            }
+          },
+          "additionalProperties": false
+        }
+      },
+      "additionalProperties": false
+    }
+  },
+  "required": [
+    "fhir:displays"
+  ],
+  "additionalProperties": true,
+  "fhir:displays": {
+    "http://smart.who.int/hiv/CodeSystem/HIVConcepts#HIV.D.DE248": {
+      "en": "Provide co-trimoxazole preventive therapy (CPT)"
+    },
+    "http://smart.who.int/hiv/CodeSystem/HIVConcepts#HIV.D.DE249": {
+      "en": "Intensified TB case finding and linkage to TB treatment"
+    },
+    "http://smart.who.int/hiv/CodeSystem/HIVConcepts#HIV.D.DE250": {
+      "en": "Provide isoniazid preventive therapy"
+    },
+    "http://smart.who.int/hiv/CodeSystem/HIVConcepts#HIV.D.DE251": {
+      "en": "Screen for cryptococcal infection and fungal prophylaxis"
+    },
+    "http://smart.who.int/hiv/CodeSystem/HIVConcepts#HIV.D.DE252": {
+      "en": "Screen for hepatitis B"
+    },
+    "http://smart.who.int/hiv/CodeSystem/HIVConcepts#HIV.D.DE253": {
+      "en": "Screen for hepatitis C"
+    },
+    "http://smart.who.int/hiv/CodeSystem/HIVConcepts#HIV.D.DE254": {
+      "en": "Prevent malaria"
+    },
+    "http://smart.who.int/hiv/CodeSystem/HIVConcepts#HIV.D.DE255": {
+      "en": "Screen for STIs"
+    },
+    "http://smart.who.int/hiv/CodeSystem/HIVConcepts#HIV.D.DE256": {
+      "en": "Prevent and screen for cervical cancer"
+    },
+    "http://smart.who.int/hiv/CodeSystem/HIVConcepts#HIV.D.DE257": {
+      "en": "Anal cancer screening (for men who have sex with men)"
+    },
+    "http://smart.who.int/hiv/CodeSystem/HIVConcepts#HIV.D.DE258": {
+      "en": "Assessment and provision of vaccinations"
+    }
+  },
+  "fhir:valueSet": "http://smart.who.int/hiv/ValueSet/HIV.D.DE247",
+  "fhir:version": "0.4.4",
+  "fhir:expansionTimestamp": "2026-03-03T20:47:47+00:00"
+}

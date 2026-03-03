@@ -1,0 +1,25 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "53532621-7232-4b34-8fdd-ba7f33ef96b0-927",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/53532621-7232-4b34-8fdd-ba7f33ef96b0-927",
+  "name" : "IntersectionHIVEDE108AndHIVEDE108",
+  "title" : "Intersection of Infant or child exposure to HIV ValueSet And Infant or child exposure to HIV ValueSet",
+  "status" : "active",
+  "date" : "2026-03-03T20:45:16+00:00",
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "HIV.E.DE109",
+        "display" : "Not exposed"
+      },
+      {
+        "code" : "HIV.E.DE110",
+        "display" : "HIV-exposed"
+      },
+      {
+        "code" : "HIV.E.DE111",
+        "display" : "Unknown HIV exposure"
+      }]
+    }]
+  }
+}

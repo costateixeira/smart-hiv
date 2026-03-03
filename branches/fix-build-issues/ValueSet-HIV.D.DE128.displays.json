@@ -1,0 +1,93 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "http://smart.who.int/hiv/ValueSet-HIV.D.DE128.displays.json",
+  "title": "ART regimen composition ValueSet Display Values",
+  "description": "Display values for ART regimen composition ValueSet ValueSet codes. Generated from FHIR expansions.",
+  "type": "object",
+  "properties": {
+    "fhir:displays": {
+      "type": "object",
+      "description": "Multilingual display values for ValueSet codes using IRI format to match JSON schema enum values",
+      "patternProperties": {
+        "^https?://.*": {
+          "type": "object",
+          "description": "Display values for a specific IRI-formatted code by language",
+          "properties": {
+            "en": {
+              "type": "string",
+              "description": "English display value"
+            }
+          },
+          "patternProperties": {
+            "^[a-z]{2}(-[A-Z]{2})?$": {
+              "type": "string",
+              "description": "Display value in the specified language (ISO 639-1 code)"
+            }
+          },
+          "additionalProperties": false
+        }
+      },
+      "additionalProperties": false
+    }
+  },
+  "required": [
+    "fhir:displays"
+  ],
+  "additionalProperties": true,
+  "fhir:displays": {
+    "http://smart.who.int/hiv/CodeSystem/HIVConcepts#HIV.D.DE129": {
+      "en": "ABC"
+    },
+    "http://smart.who.int/hiv/CodeSystem/HIVConcepts#HIV.D.DE130": {
+      "en": "FTC"
+    },
+    "http://smart.who.int/hiv/CodeSystem/HIVConcepts#HIV.D.DE131": {
+      "en": "3TC"
+    },
+    "http://smart.who.int/hiv/CodeSystem/HIVConcepts#HIV.D.DE132": {
+      "en": "AZT"
+    },
+    "http://smart.who.int/hiv/CodeSystem/HIVConcepts#HIV.D.DE133": {
+      "en": "DDI"
+    },
+    "http://smart.who.int/hiv/CodeSystem/HIVConcepts#HIV.D.DE134": {
+      "en": "D4T"
+    },
+    "http://smart.who.int/hiv/CodeSystem/HIVConcepts#HIV.D.DE135": {
+      "en": "TDF"
+    },
+    "http://smart.who.int/hiv/CodeSystem/HIVConcepts#HIV.D.DE136": {
+      "en": "EFV"
+    },
+    "http://smart.who.int/hiv/CodeSystem/HIVConcepts#HIV.D.DE137": {
+      "en": "ETV"
+    },
+    "http://smart.who.int/hiv/CodeSystem/HIVConcepts#HIV.D.DE138": {
+      "en": "NVP"
+    },
+    "http://smart.who.int/hiv/CodeSystem/HIVConcepts#HIV.D.DE139": {
+      "en": "RIL"
+    },
+    "http://smart.who.int/hiv/CodeSystem/HIVConcepts#HIV.D.DE140": {
+      "en": "ATV/r"
+    },
+    "http://smart.who.int/hiv/CodeSystem/HIVConcepts#HIV.D.DE141": {
+      "en": "LPV/r"
+    },
+    "http://smart.who.int/hiv/CodeSystem/HIVConcepts#HIV.D.DE142": {
+      "en": "DRV/r"
+    },
+    "http://smart.who.int/hiv/CodeSystem/HIVConcepts#HIV.D.DE143": {
+      "en": "RTV"
+    },
+    "http://smart.who.int/hiv/CodeSystem/HIVConcepts#HIV.D.DE144": {
+      "en": "DTG"
+    },
+    "http://smart.who.int/hiv/CodeSystem/HIVConcepts#HIV.D.DE145": {
+      "en": "RAL"
+    }
+  },
+  "fhir:valueSet": "http://smart.who.int/hiv/ValueSet/HIV.D.DE128",
+  "fhir:version": "0.4.4",
+  "fhir:expansionTimestamp": "2026-03-03T20:47:46+00:00"
+}

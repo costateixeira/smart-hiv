@@ -1,0 +1,41 @@
+{
+  "@context": {
+    "@version": 1.1,
+    "name": "http://www.w3.org/2000/01/rdf-schema#label",
+    "fhir": "https://smart.who.int/base/DataTypes.jsonld#",
+    "id": "@id",
+    "generatedAt": {
+      "@id": "http://www.w3.org/ns/prov#generatedAtTime",
+      "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
+    }
+  },
+  "@id": "http://smart.who.int/hiv/ValueSet-HIV.D.DE992.jsonld",
+  "@type": "http://www.w3.org/ns/prov#Entity",
+  "generatedAt": "2026-03-03T20:52:45.742247Z",
+  "@graph": [
+    {
+      "id": "http://smart.who.int/hiv/ValueSet-HIV.D.DE992.jsonld#HIV.D.DE993",
+      "name": "LF-LAM",
+      "fhir:code": "HIV.D.DE993",
+      "fhir:CodeSystem": "http://smart.who.int/hiv/CodeSystem-HIVConcepts"
+    },
+    {
+      "id": "http://smart.who.int/hiv/ValueSet-HIV.D.DE992.jsonld#HIV.D.DE994",
+      "name": "mWRD test for TB",
+      "fhir:code": "HIV.D.DE994",
+      "fhir:CodeSystem": "http://smart.who.int/hiv/CodeSystem-HIVConcepts"
+    },
+    {
+      "id": "http://smart.who.int/hiv/ValueSet-HIV.D.DE992.jsonld#HIV.D.DE995",
+      "name": "Microscopy - Sputum acid-fast bacilli (AFB)",
+      "fhir:code": "HIV.D.DE995",
+      "fhir:CodeSystem": "http://smart.who.int/hiv/CodeSystem-HIVConcepts"
+    },
+    {
+      "id": "http://smart.who.int/hiv/ValueSet-HIV.D.DE992.jsonld#HIV.D.DE996",
+      "name": "TB Culture",
+      "fhir:code": "HIV.D.DE996",
+      "fhir:CodeSystem": "http://smart.who.int/hiv/CodeSystem-HIVConcepts"
+    }
+  ]
+}

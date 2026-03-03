@@ -1,0 +1,167 @@
+{
+  "@context": {
+    "@version": 1.1,
+    "name": "http://www.w3.org/2000/01/rdf-schema#label",
+    "fhir": "https://smart.who.int/base/DataTypes.jsonld#",
+    "id": "@id",
+    "generatedAt": {
+      "@id": "http://www.w3.org/ns/prov#generatedAtTime",
+      "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
+    }
+  },
+  "@id": "http://smart.who.int/hiv/ValueSet-HIV.D.DE610.jsonld",
+  "@type": "http://www.w3.org/ns/prov#Entity",
+  "generatedAt": "2026-03-03T20:52:45.722234Z",
+  "@graph": [
+    {
+      "id": "http://smart.who.int/hiv/ValueSet-HIV.D.DE610.jsonld#HIV.D.DE611",
+      "name": "Hepatitis A",
+      "fhir:code": "HIV.D.DE611",
+      "fhir:CodeSystem": "http://smart.who.int/hiv/CodeSystem-HIVConcepts"
+    },
+    {
+      "id": "http://smart.who.int/hiv/ValueSet-HIV.D.DE610.jsonld#HIV.D.DE612",
+      "name": "Hepatitis B",
+      "fhir:code": "HIV.D.DE612",
+      "fhir:CodeSystem": "http://smart.who.int/hiv/CodeSystem-HIVConcepts"
+    },
+    {
+      "id": "http://smart.who.int/hiv/ValueSet-HIV.D.DE610.jsonld#HIV.D.DE613",
+      "name": "Tetanus",
+      "fhir:code": "HIV.D.DE613",
+      "fhir:CodeSystem": "http://smart.who.int/hiv/CodeSystem-HIVConcepts"
+    },
+    {
+      "id": "http://smart.who.int/hiv/ValueSet-HIV.D.DE610.jsonld#HIV.D.DE614",
+      "name": "COVID-19",
+      "fhir:code": "HIV.D.DE614",
+      "fhir:CodeSystem": "http://smart.who.int/hiv/CodeSystem-HIVConcepts"
+    },
+    {
+      "id": "http://smart.who.int/hiv/ValueSet-HIV.D.DE610.jsonld#HIV.D.DE615",
+      "name": "Influenza due to influenza B virus",
+      "fhir:code": "HIV.D.DE615",
+      "fhir:CodeSystem": "http://smart.who.int/hiv/CodeSystem-HIVConcepts"
+    },
+    {
+      "id": "http://smart.who.int/hiv/ValueSet-HIV.D.DE610.jsonld#HIV.D.DE616",
+      "name": "Tuberculosis",
+      "fhir:code": "HIV.D.DE616",
+      "fhir:CodeSystem": "http://smart.who.int/hiv/CodeSystem-HIVConcepts"
+    },
+    {
+      "id": "http://smart.who.int/hiv/ValueSet-HIV.D.DE610.jsonld#HIV.D.DE617",
+      "name": "Acute poliomyelitis",
+      "fhir:code": "HIV.D.DE617",
+      "fhir:CodeSystem": "http://smart.who.int/hiv/CodeSystem-HIVConcepts"
+    },
+    {
+      "id": "http://smart.who.int/hiv/ValueSet-HIV.D.DE610.jsonld#HIV.D.DE618",
+      "name": "Measles",
+      "fhir:code": "HIV.D.DE618",
+      "fhir:CodeSystem": "http://smart.who.int/hiv/CodeSystem-HIVConcepts"
+    },
+    {
+      "id": "http://smart.who.int/hiv/ValueSet-HIV.D.DE610.jsonld#HIV.D.DE619",
+      "name": "Diptheria",
+      "fhir:code": "HIV.D.DE619",
+      "fhir:CodeSystem": "http://smart.who.int/hiv/CodeSystem-HIVConcepts"
+    },
+    {
+      "id": "http://smart.who.int/hiv/ValueSet-HIV.D.DE610.jsonld#HIV.D.DE620",
+      "name": "Rabies",
+      "fhir:code": "HIV.D.DE620",
+      "fhir:CodeSystem": "http://smart.who.int/hiv/CodeSystem-HIVConcepts"
+    },
+    {
+      "id": "http://smart.who.int/hiv/ValueSet-HIV.D.DE610.jsonld#HIV.D.DE621",
+      "name": "Cholera",
+      "fhir:code": "HIV.D.DE621",
+      "fhir:CodeSystem": "http://smart.who.int/hiv/CodeSystem-HIVConcepts"
+    },
+    {
+      "id": "http://smart.who.int/hiv/ValueSet-HIV.D.DE610.jsonld#HIV.D.DE622",
+      "name": "Mumps",
+      "fhir:code": "HIV.D.DE622",
+      "fhir:CodeSystem": "http://smart.who.int/hiv/CodeSystem-HIVConcepts"
+    },
+    {
+      "id": "http://smart.who.int/hiv/ValueSet-HIV.D.DE610.jsonld#HIV.D.DE623",
+      "name": "HPV infection",
+      "fhir:code": "HIV.D.DE623",
+      "fhir:CodeSystem": "http://smart.who.int/hiv/CodeSystem-HIVConcepts"
+    },
+    {
+      "id": "http://smart.who.int/hiv/ValueSet-HIV.D.DE610.jsonld#HIV.D.DE624",
+      "name": "Haemophilus influenzae type B",
+      "fhir:code": "HIV.D.DE624",
+      "fhir:CodeSystem": "http://smart.who.int/hiv/CodeSystem-HIVConcepts"
+    },
+    {
+      "id": "http://smart.who.int/hiv/ValueSet-HIV.D.DE610.jsonld#HIV.D.DE625",
+      "name": "Varicella",
+      "fhir:code": "HIV.D.DE625",
+      "fhir:CodeSystem": "http://smart.who.int/hiv/CodeSystem-HIVConcepts"
+    },
+    {
+      "id": "http://smart.who.int/hiv/ValueSet-HIV.D.DE610.jsonld#HIV.D.DE626",
+      "name": "Dengue",
+      "fhir:code": "HIV.D.DE626",
+      "fhir:CodeSystem": "http://smart.who.int/hiv/CodeSystem-HIVConcepts"
+    },
+    {
+      "id": "http://smart.who.int/hiv/ValueSet-HIV.D.DE610.jsonld#HIV.D.DE627",
+      "name": "Yellow fever",
+      "fhir:code": "HIV.D.DE627",
+      "fhir:CodeSystem": "http://smart.who.int/hiv/CodeSystem-HIVConcepts"
+    },
+    {
+      "id": "http://smart.who.int/hiv/ValueSet-HIV.D.DE610.jsonld#HIV.D.DE628",
+      "name": "Japanese Encephalitis",
+      "fhir:code": "HIV.D.DE628",
+      "fhir:CodeSystem": "http://smart.who.int/hiv/CodeSystem-HIVConcepts"
+    },
+    {
+      "id": "http://smart.who.int/hiv/ValueSet-HIV.D.DE610.jsonld#HIV.D.DE629",
+      "name": "Rubella",
+      "fhir:code": "HIV.D.DE629",
+      "fhir:CodeSystem": "http://smart.who.int/hiv/CodeSystem-HIVConcepts"
+    },
+    {
+      "id": "http://smart.who.int/hiv/ValueSet-HIV.D.DE610.jsonld#HIV.D.DE630",
+      "name": "Pertussis",
+      "fhir:code": "HIV.D.DE630",
+      "fhir:CodeSystem": "http://smart.who.int/hiv/CodeSystem-HIVConcepts"
+    },
+    {
+      "id": "http://smart.who.int/hiv/ValueSet-HIV.D.DE610.jsonld#HIV.D.DE631",
+      "name": "Enteritis due to rotavirus",
+      "fhir:code": "HIV.D.DE631",
+      "fhir:CodeSystem": "http://smart.who.int/hiv/CodeSystem-HIVConcepts"
+    },
+    {
+      "id": "http://smart.who.int/hiv/ValueSet-HIV.D.DE610.jsonld#HIV.D.DE632",
+      "name": "Pneumococcal disease",
+      "fhir:code": "HIV.D.DE632",
+      "fhir:CodeSystem": "http://smart.who.int/hiv/CodeSystem-HIVConcepts"
+    },
+    {
+      "id": "http://smart.who.int/hiv/ValueSet-HIV.D.DE610.jsonld#HIV.D.DE633",
+      "name": "Meningococcal disease",
+      "fhir:code": "HIV.D.DE633",
+      "fhir:CodeSystem": "http://smart.who.int/hiv/CodeSystem-HIVConcepts"
+    },
+    {
+      "id": "http://smart.who.int/hiv/ValueSet-HIV.D.DE610.jsonld#HIV.D.DE634",
+      "name": "Tick-borne encephalitis",
+      "fhir:code": "HIV.D.DE634",
+      "fhir:CodeSystem": "http://smart.who.int/hiv/CodeSystem-HIVConcepts"
+    },
+    {
+      "id": "http://smart.who.int/hiv/ValueSet-HIV.D.DE610.jsonld#HIV.D.DE635",
+      "name": "Typhoid",
+      "fhir:code": "HIV.D.DE635",
+      "fhir:CodeSystem": "http://smart.who.int/hiv/CodeSystem-HIVConcepts"
+    }
+  ]
+}

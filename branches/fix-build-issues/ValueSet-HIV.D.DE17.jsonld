@@ -1,0 +1,89 @@
+{
+  "@context": {
+    "@version": 1.1,
+    "name": "http://www.w3.org/2000/01/rdf-schema#label",
+    "fhir": "https://smart.who.int/base/DataTypes.jsonld#",
+    "id": "@id",
+    "generatedAt": {
+      "@id": "http://www.w3.org/ns/prov#generatedAtTime",
+      "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
+    }
+  },
+  "@id": "http://smart.who.int/hiv/ValueSet-HIV.D.DE17.jsonld",
+  "@type": "http://www.w3.org/ns/prov#Entity",
+  "generatedAt": "2026-03-03T20:52:45.705293Z",
+  "@graph": [
+    {
+      "id": "http://smart.who.int/hiv/ValueSet-HIV.D.DE17.jsonld#HIV.D.DE18",
+      "name": "Fever of 39 C or greater",
+      "fhir:code": "HIV.D.DE18",
+      "fhir:CodeSystem": "http://smart.who.int/hiv/CodeSystem-HIVConcepts"
+    },
+    {
+      "id": "http://smart.who.int/hiv/ValueSet-HIV.D.DE17.jsonld#HIV.D.DE19",
+      "name": "Tachycardia",
+      "fhir:code": "HIV.D.DE19",
+      "fhir:CodeSystem": "http://smart.who.int/hiv/CodeSystem-HIVConcepts"
+    },
+    {
+      "id": "http://smart.who.int/hiv/ValueSet-HIV.D.DE17.jsonld#HIV.D.DE20",
+      "name": "Tachypnea",
+      "fhir:code": "HIV.D.DE20",
+      "fhir:CodeSystem": "http://smart.who.int/hiv/CodeSystem-HIVConcepts"
+    },
+    {
+      "id": "http://smart.who.int/hiv/ValueSet-HIV.D.DE17.jsonld#HIV.D.DE21",
+      "name": "Unable to walk unaided",
+      "fhir:code": "HIV.D.DE21",
+      "fhir:CodeSystem": "http://smart.who.int/hiv/CodeSystem-HIVConcepts"
+    },
+    {
+      "id": "http://smart.who.int/hiv/ValueSet-HIV.D.DE17.jsonld#HIV.D.DE22",
+      "name": "Lethargy",
+      "fhir:code": "HIV.D.DE22",
+      "fhir:CodeSystem": "http://smart.who.int/hiv/CodeSystem-HIVConcepts"
+    },
+    {
+      "id": "http://smart.who.int/hiv/ValueSet-HIV.D.DE17.jsonld#HIV.D.DE23",
+      "name": "Unconsciousness",
+      "fhir:code": "HIV.D.DE23",
+      "fhir:CodeSystem": "http://smart.who.int/hiv/CodeSystem-HIVConcepts"
+    },
+    {
+      "id": "http://smart.who.int/hiv/ValueSet-HIV.D.DE17.jsonld#HIV.D.DE24",
+      "name": "Convulsions",
+      "fhir:code": "HIV.D.DE24",
+      "fhir:CodeSystem": "http://smart.who.int/hiv/CodeSystem-HIVConcepts"
+    },
+    {
+      "id": "http://smart.who.int/hiv/ValueSet-HIV.D.DE17.jsonld#HIV.D.DE25",
+      "name": "Unable to drink",
+      "fhir:code": "HIV.D.DE25",
+      "fhir:CodeSystem": "http://smart.who.int/hiv/CodeSystem-HIVConcepts"
+    },
+    {
+      "id": "http://smart.who.int/hiv/ValueSet-HIV.D.DE17.jsonld#HIV.D.DE26",
+      "name": "Unable to breastfeed",
+      "fhir:code": "HIV.D.DE26",
+      "fhir:CodeSystem": "http://smart.who.int/hiv/CodeSystem-HIVConcepts"
+    },
+    {
+      "id": "http://smart.who.int/hiv/ValueSet-HIV.D.DE17.jsonld#HIV.D.DE27",
+      "name": "Repeated vomiting",
+      "fhir:code": "HIV.D.DE27",
+      "fhir:CodeSystem": "http://smart.who.int/hiv/CodeSystem-HIVConcepts"
+    },
+    {
+      "id": "http://smart.who.int/hiv/ValueSet-HIV.D.DE17.jsonld#HIV.D.DE28",
+      "name": "Headache",
+      "fhir:code": "HIV.D.DE28",
+      "fhir:CodeSystem": "http://smart.who.int/hiv/CodeSystem-HIVConcepts"
+    },
+    {
+      "id": "http://smart.who.int/hiv/ValueSet-HIV.D.DE17.jsonld#HIV.D.DE29",
+      "name": "Other sign of serious illness",
+      "fhir:code": "HIV.D.DE29",
+      "fhir:CodeSystem": "http://smart.who.int/hiv/CodeSystem-HIVConcepts"
+    }
+  ]
+}

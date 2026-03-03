@@ -1,0 +1,29 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "53532621-7232-4b34-8fdd-ba7f33ef96b0-764",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/53532621-7232-4b34-8fdd-ba7f33ef96b0-764",
+  "name" : "UnionHIVDDE646AndHIVDDE646",
+  "title" : "Union of Reason malaria prophylaxis not provided ValueSet And Reason malaria prophylaxis not provided ValueSet",
+  "status" : "active",
+  "date" : "2026-03-03T20:45:16+00:00",
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "HIV.D.DE647",
+        "display" : "Client was referred"
+      },
+      {
+        "code" : "HIV.D.DE648",
+        "display" : "Stock out"
+      },
+      {
+        "code" : "HIV.D.DE649",
+        "display" : "Expired"
+      },
+      {
+        "code" : "HIV.D.DE650",
+        "display" : "Other reason not provided"
+      }]
+    }]
+  }
+}

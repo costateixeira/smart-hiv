@@ -1,0 +1,26 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "http://smart.who.int/hiv/ValueSet-HIV.D.DE17.schema.json",
+  "title": "Signs of serious illness ValueSet Schema",
+  "description": "JSON Schema for Signs of serious illness ValueSet ValueSet codes. Generated from FHIR expansions using IRI format.",
+  "type": "string",
+  "enum": [
+    "http://smart.who.int/hiv/CodeSystem/HIVConcepts#HIV.D.DE18",
+    "http://smart.who.int/hiv/CodeSystem/HIVConcepts#HIV.D.DE19",
+    "http://smart.who.int/hiv/CodeSystem/HIVConcepts#HIV.D.DE20",
+    "http://smart.who.int/hiv/CodeSystem/HIVConcepts#HIV.D.DE21",
+    "http://smart.who.int/hiv/CodeSystem/HIVConcepts#HIV.D.DE22",
+    "http://smart.who.int/hiv/CodeSystem/HIVConcepts#HIV.D.DE23",
+    "http://smart.who.int/hiv/CodeSystem/HIVConcepts#HIV.D.DE24",
+    "http://smart.who.int/hiv/CodeSystem/HIVConcepts#HIV.D.DE25",
+    "http://smart.who.int/hiv/CodeSystem/HIVConcepts#HIV.D.DE26",
+    "http://smart.who.int/hiv/CodeSystem/HIVConcepts#HIV.D.DE27",
+    "http://smart.who.int/hiv/CodeSystem/HIVConcepts#HIV.D.DE28",
+    "http://smart.who.int/hiv/CodeSystem/HIVConcepts#HIV.D.DE29"
+  ],
+  "narrative": "This schema validates IRI-formatted codes for the Signs of serious illness ValueSet ValueSet. Each enum value includes the system URI in the format {systemuri}#{code} to match JSON-LD enumeration IRIs. Display values are available at http://smart.who.int/hiv/ValueSet-HIV.D.DE17.displays.json. For a complete listing of all ValueSets, see artifacts.html#terminology-value-sets.",
+  "fhir:displays": "http://smart.who.int/hiv/ValueSet-HIV.D.DE17.displays.json",
+  "fhir:valueSet": "http://smart.who.int/hiv/ValueSet/HIV.D.DE17",
+  "fhir:version": "0.4.4",
+  "fhir:expansionTimestamp": "2026-03-03T20:47:47+00:00"
+}

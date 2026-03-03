@@ -1,0 +1,21 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "http://smart.who.int/hiv/ValueSet-HIV.B.DE121.schema.json",
+  "title": "Probable route of transmission ValueSet Schema",
+  "description": "JSON Schema for Probable route of transmission ValueSet ValueSet codes. Generated from FHIR expansions using IRI format.",
+  "type": "string",
+  "enum": [
+    "http://smart.who.int/hiv/CodeSystem/HIVConcepts#HIV.B.DE122",
+    "http://smart.who.int/hiv/CodeSystem/HIVConcepts#HIV.B.DE123",
+    "http://smart.who.int/hiv/CodeSystem/HIVConcepts#HIV.B.DE124",
+    "http://smart.who.int/hiv/CodeSystem/HIVConcepts#HIV.B.DE125",
+    "http://smart.who.int/hiv/CodeSystem/HIVConcepts#HIV.B.DE126",
+    "http://smart.who.int/hiv/CodeSystem/HIVConcepts#HIV.B.DE127",
+    "http://smart.who.int/hiv/CodeSystem/HIVConcepts#HIV.B.DE128"
+  ],
+  "narrative": "This schema validates IRI-formatted codes for the Probable route of transmission ValueSet ValueSet. Each enum value includes the system URI in the format {systemuri}#{code} to match JSON-LD enumeration IRIs. Display values are available at http://smart.who.int/hiv/ValueSet-HIV.B.DE121.displays.json. For a complete listing of all ValueSets, see artifacts.html#terminology-value-sets.",
+  "fhir:displays": "http://smart.who.int/hiv/ValueSet-HIV.B.DE121.displays.json",
+  "fhir:valueSet": "http://smart.who.int/hiv/ValueSet/HIV.B.DE121",
+  "fhir:version": "0.4.4",
+  "fhir:expansionTimestamp": "2026-03-03T20:47:44+00:00"
+}

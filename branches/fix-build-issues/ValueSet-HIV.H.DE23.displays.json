@@ -1,0 +1,60 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "http://smart.who.int/hiv/ValueSet-HIV.H.DE23.displays.json",
+  "title": "Outcome from outreach attempt ValueSet Display Values",
+  "description": "Display values for Outcome from outreach attempt ValueSet ValueSet codes. Generated from FHIR expansions.",
+  "type": "object",
+  "properties": {
+    "fhir:displays": {
+      "type": "object",
+      "description": "Multilingual display values for ValueSet codes using IRI format to match JSON schema enum values",
+      "patternProperties": {
+        "^https?://.*": {
+          "type": "object",
+          "description": "Display values for a specific IRI-formatted code by language",
+          "properties": {
+            "en": {
+              "type": "string",
+              "description": "English display value"
+            }
+          },
+          "patternProperties": {
+            "^[a-z]{2}(-[A-Z]{2})?$": {
+              "type": "string",
+              "description": "Display value in the specified language (ISO 639-1 code)"
+            }
+          },
+          "additionalProperties": false
+        }
+      },
+      "additionalProperties": false
+    }
+  },
+  "required": [
+    "fhir:displays"
+  ],
+  "additionalProperties": true,
+  "fhir:displays": {
+    "http://smart.who.int/hiv/CodeSystem/HIVConcepts#HIV.H.DE24": {
+      "en": "Returning to clinic"
+    },
+    "http://smart.who.int/hiv/CodeSystem/HIVConcepts#HIV.H.DE25": {
+      "en": "Self-transferred out"
+    },
+    "http://smart.who.int/hiv/CodeSystem/HIVConcepts#HIV.H.DE26": {
+      "en": "Hospitalized"
+    },
+    "http://smart.who.int/hiv/CodeSystem/HIVConcepts#HIV.H.DE27": {
+      "en": "Refused to return"
+    },
+    "http://smart.who.int/hiv/CodeSystem/HIVConcepts#HIV.H.DE28": {
+      "en": "Not located"
+    },
+    "http://smart.who.int/hiv/CodeSystem/HIVConcepts#HIV.H.DE29": {
+      "en": "Died (reported)"
+    }
+  },
+  "fhir:valueSet": "http://smart.who.int/hiv/ValueSet/HIV.H.DE23",
+  "fhir:version": "0.4.4",
+  "fhir:expansionTimestamp": "2026-03-03T20:47:49+00:00"
+}

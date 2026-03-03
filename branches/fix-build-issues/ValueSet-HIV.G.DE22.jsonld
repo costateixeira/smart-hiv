@@ -1,0 +1,47 @@
+{
+  "@context": {
+    "@version": 1.1,
+    "name": "http://www.w3.org/2000/01/rdf-schema#label",
+    "fhir": "https://smart.who.int/base/DataTypes.jsonld#",
+    "id": "@id",
+    "generatedAt": {
+      "@id": "http://www.w3.org/ns/prov#generatedAtTime",
+      "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
+    }
+  },
+  "@id": "http://smart.who.int/hiv/ValueSet-HIV.G.DE22.jsonld",
+  "@type": "http://www.w3.org/ns/prov#Entity",
+  "generatedAt": "2026-03-03T20:52:45.758344Z",
+  "@graph": [
+    {
+      "id": "http://smart.who.int/hiv/ValueSet-HIV.G.DE22.jsonld#HIV.G.DE23",
+      "name": "Test delayed to next contact or referred",
+      "fhir:code": "HIV.G.DE23",
+      "fhir:CodeSystem": "http://smart.who.int/hiv/CodeSystem-HIVConcepts"
+    },
+    {
+      "id": "http://smart.who.int/hiv/ValueSet-HIV.G.DE22.jsonld#HIV.G.DE24",
+      "name": "Stock-out or expired",
+      "fhir:code": "HIV.G.DE24",
+      "fhir:CodeSystem": "http://smart.who.int/hiv/CodeSystem-HIVConcepts"
+    },
+    {
+      "id": "http://smart.who.int/hiv/ValueSet-HIV.G.DE22.jsonld#HIV.G.DE25",
+      "name": "Machine or technician not available or machine not functioning",
+      "fhir:code": "HIV.G.DE25",
+      "fhir:CodeSystem": "http://smart.who.int/hiv/CodeSystem-HIVConcepts"
+    },
+    {
+      "id": "http://smart.who.int/hiv/ValueSet-HIV.G.DE22.jsonld#HIV.G.DE26",
+      "name": "Client declined / refused test",
+      "fhir:code": "HIV.G.DE26",
+      "fhir:CodeSystem": "http://smart.who.int/hiv/CodeSystem-HIVConcepts"
+    },
+    {
+      "id": "http://smart.who.int/hiv/ValueSet-HIV.G.DE22.jsonld#HIV.G.DE27",
+      "name": "Other",
+      "fhir:code": "HIV.G.DE27",
+      "fhir:CodeSystem": "http://smart.who.int/hiv/CodeSystem-HIVConcepts"
+    }
+  ]
+}

@@ -1,0 +1,95 @@
+{
+  "@context": {
+    "@version": 1.1,
+    "name": "http://www.w3.org/2000/01/rdf-schema#label",
+    "fhir": "https://smart.who.int/base/DataTypes.jsonld#",
+    "id": "@id",
+    "generatedAt": {
+      "@id": "http://www.w3.org/ns/prov#generatedAtTime",
+      "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
+    }
+  },
+  "@id": "http://smart.who.int/hiv/ValueSet-HIV.D.DE466.jsonld",
+  "@type": "http://www.w3.org/ns/prov#Entity",
+  "generatedAt": "2026-03-03T20:52:45.716314Z",
+  "@graph": [
+    {
+      "id": "http://smart.who.int/hiv/ValueSet-HIV.D.DE466.jsonld#HIV.D.DE467",
+      "name": "Gastrointestinal",
+      "fhir:code": "HIV.D.DE467",
+      "fhir:CodeSystem": "http://smart.who.int/hiv/CodeSystem-HIVConcepts"
+    },
+    {
+      "id": "http://smart.who.int/hiv/ValueSet-HIV.D.DE466.jsonld#HIV.D.DE468",
+      "name": "Skin issues",
+      "fhir:code": "HIV.D.DE468",
+      "fhir:CodeSystem": "http://smart.who.int/hiv/CodeSystem-HIVConcepts"
+    },
+    {
+      "id": "http://smart.who.int/hiv/ValueSet-HIV.D.DE466.jsonld#HIV.D.DE469",
+      "name": "Peripheral neuropathy",
+      "fhir:code": "HIV.D.DE469",
+      "fhir:CodeSystem": "http://smart.who.int/hiv/CodeSystem-HIVConcepts"
+    },
+    {
+      "id": "http://smart.who.int/hiv/ValueSet-HIV.D.DE466.jsonld#HIV.D.DE470",
+      "name": "Central nervous system symptoms",
+      "fhir:code": "HIV.D.DE470",
+      "fhir:CodeSystem": "http://smart.who.int/hiv/CodeSystem-HIVConcepts"
+    },
+    {
+      "id": "http://smart.who.int/hiv/ValueSet-HIV.D.DE466.jsonld#HIV.D.DE471",
+      "name": "Weight gain",
+      "fhir:code": "HIV.D.DE471",
+      "fhir:CodeSystem": "http://smart.who.int/hiv/CodeSystem-HIVConcepts"
+    },
+    {
+      "id": "http://smart.who.int/hiv/ValueSet-HIV.D.DE466.jsonld#HIV.D.DE472",
+      "name": "Hepatic dysfunction",
+      "fhir:code": "HIV.D.DE472",
+      "fhir:CodeSystem": "http://smart.who.int/hiv/CodeSystem-HIVConcepts"
+    },
+    {
+      "id": "http://smart.who.int/hiv/ValueSet-HIV.D.DE466.jsonld#HIV.D.DE473",
+      "name": "Haematological disorders",
+      "fhir:code": "HIV.D.DE473",
+      "fhir:CodeSystem": "http://smart.who.int/hiv/CodeSystem-HIVConcepts"
+    },
+    {
+      "id": "http://smart.who.int/hiv/ValueSet-HIV.D.DE466.jsonld#HIV.D.DE474",
+      "name": "Fatigue",
+      "fhir:code": "HIV.D.DE474",
+      "fhir:CodeSystem": "http://smart.who.int/hiv/CodeSystem-HIVConcepts"
+    },
+    {
+      "id": "http://smart.who.int/hiv/ValueSet-HIV.D.DE466.jsonld#HIV.D.DE475",
+      "name": "Headache",
+      "fhir:code": "HIV.D.DE475",
+      "fhir:CodeSystem": "http://smart.who.int/hiv/CodeSystem-HIVConcepts"
+    },
+    {
+      "id": "http://smart.who.int/hiv/ValueSet-HIV.D.DE466.jsonld#HIV.D.DE476",
+      "name": "Bone dysfunction",
+      "fhir:code": "HIV.D.DE476",
+      "fhir:CodeSystem": "http://smart.who.int/hiv/CodeSystem-HIVConcepts"
+    },
+    {
+      "id": "http://smart.who.int/hiv/ValueSet-HIV.D.DE466.jsonld#HIV.D.DE477",
+      "name": "Metabolic symptoms",
+      "fhir:code": "HIV.D.DE477",
+      "fhir:CodeSystem": "http://smart.who.int/hiv/CodeSystem-HIVConcepts"
+    },
+    {
+      "id": "http://smart.who.int/hiv/ValueSet-HIV.D.DE466.jsonld#HIV.D.DE478",
+      "name": "Kidney dysfunction",
+      "fhir:code": "HIV.D.DE478",
+      "fhir:CodeSystem": "http://smart.who.int/hiv/CodeSystem-HIVConcepts"
+    },
+    {
+      "id": "http://smart.who.int/hiv/ValueSet-HIV.D.DE466.jsonld#HIV.D.DE479",
+      "name": "Unexpected adverse drug reaction",
+      "fhir:code": "HIV.D.DE479",
+      "fhir:CodeSystem": "http://smart.who.int/hiv/CodeSystem-HIVConcepts"
+    }
+  ]
+}

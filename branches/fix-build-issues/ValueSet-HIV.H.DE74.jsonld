@@ -1,0 +1,53 @@
+{
+  "@context": {
+    "@version": 1.1,
+    "name": "http://www.w3.org/2000/01/rdf-schema#label",
+    "fhir": "https://smart.who.int/base/DataTypes.jsonld#",
+    "id": "@id",
+    "generatedAt": {
+      "@id": "http://www.w3.org/ns/prov#generatedAtTime",
+      "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
+    }
+  },
+  "@id": "http://smart.who.int/hiv/ValueSet-HIV.H.DE74.jsonld",
+  "@type": "http://www.w3.org/ns/prov#Entity",
+  "generatedAt": "2026-03-03T20:52:45.765229Z",
+  "@graph": [
+    {
+      "id": "http://smart.who.int/hiv/ValueSet-HIV.H.DE74.jsonld#HIV.H.DE75",
+      "name": "Toxicity/side effects",
+      "fhir:code": "HIV.H.DE75",
+      "fhir:CodeSystem": "http://smart.who.int/hiv/CodeSystem-HIVConcepts"
+    },
+    {
+      "id": "http://smart.who.int/hiv/ValueSet-HIV.H.DE74.jsonld#HIV.H.DE76",
+      "name": "Severe illness, hospitalization",
+      "fhir:code": "HIV.H.DE76",
+      "fhir:CodeSystem": "http://smart.who.int/hiv/CodeSystem-HIVConcepts"
+    },
+    {
+      "id": "http://smart.who.int/hiv/ValueSet-HIV.H.DE74.jsonld#HIV.H.DE77",
+      "name": "Drugs out of stock",
+      "fhir:code": "HIV.H.DE77",
+      "fhir:CodeSystem": "http://smart.who.int/hiv/CodeSystem-HIVConcepts"
+    },
+    {
+      "id": "http://smart.who.int/hiv/ValueSet-HIV.H.DE74.jsonld#HIV.H.DE78",
+      "name": "Client lacks finances",
+      "fhir:code": "HIV.H.DE78",
+      "fhir:CodeSystem": "http://smart.who.int/hiv/CodeSystem-HIVConcepts"
+    },
+    {
+      "id": "http://smart.who.int/hiv/ValueSet-HIV.H.DE74.jsonld#HIV.H.DE79",
+      "name": "Excluded HIV infection in infant",
+      "fhir:code": "HIV.H.DE79",
+      "fhir:CodeSystem": "http://smart.who.int/hiv/CodeSystem-HIVConcepts"
+    },
+    {
+      "id": "http://smart.who.int/hiv/ValueSet-HIV.H.DE74.jsonld#HIV.H.DE80",
+      "name": "Other reason for stopping ART",
+      "fhir:code": "HIV.H.DE80",
+      "fhir:CodeSystem": "http://smart.who.int/hiv/CodeSystem-HIVConcepts"
+    }
+  ]
+}

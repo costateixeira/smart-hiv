@@ -1,0 +1,17 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "53532621-7232-4b34-8fdd-ba7f33ef96b0-1095",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/53532621-7232-4b34-8fdd-ba7f33ef96b0-1095",
+  "name" : "IntersectionHIVHDE50AndHIVHDE50",
+  "title" : "Intersection of Transfer to facility ValueSet And Transfer to facility ValueSet",
+  "status" : "active",
+  "date" : "2026-03-03T20:45:16+00:00",
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "HIV.H.DE51",
+        "display" : "Date of transfer out"
+      }]
+    }]
+  }
+}

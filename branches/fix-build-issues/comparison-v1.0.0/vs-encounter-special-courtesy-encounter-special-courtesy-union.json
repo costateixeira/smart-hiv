@@ -1,0 +1,33 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "53532621-7232-4b34-8fdd-ba7f33ef96b0-77",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/53532621-7232-4b34-8fdd-ba7f33ef96b0-77",
+  "name" : "UnionSpecialCourtesyAndSpecialCourtesy",
+  "title" : "Union of Special courtesy And Special courtesy",
+  "status" : "draft",
+  "date" : "2026-03-03T20:45:16+00:00",
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "EXT"
+      },
+      {
+        "code" : "NRM"
+      },
+      {
+        "code" : "PRF"
+      },
+      {
+        "code" : "STF"
+      },
+      {
+        "code" : "VIP"
+      }]
+    },
+    {
+      "concept" : [{
+        "code" : "UNK"
+      }]
+    }]
+  }
+}

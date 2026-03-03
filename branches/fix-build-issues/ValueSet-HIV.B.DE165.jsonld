@@ -1,0 +1,53 @@
+{
+  "@context": {
+    "@version": 1.1,
+    "name": "http://www.w3.org/2000/01/rdf-schema#label",
+    "fhir": "https://smart.who.int/base/DataTypes.jsonld#",
+    "id": "@id",
+    "generatedAt": {
+      "@id": "http://www.w3.org/ns/prov#generatedAtTime",
+      "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
+    }
+  },
+  "@id": "http://smart.who.int/hiv/ValueSet-HIV.B.DE165.jsonld",
+  "@type": "http://www.w3.org/ns/prov#Entity",
+  "generatedAt": "2026-03-03T20:52:45.676276Z",
+  "@graph": [
+    {
+      "id": "http://smart.who.int/hiv/ValueSet-HIV.B.DE165.jsonld#HIV.B.DE166",
+      "name": "Assessment and provision of vaccinations",
+      "fhir:code": "HIV.B.DE166",
+      "fhir:CodeSystem": "http://smart.who.int/hiv/CodeSystem-HIVConcepts"
+    },
+    {
+      "id": "http://smart.who.int/hiv/ValueSet-HIV.B.DE165.jsonld#HIV.B.DE167",
+      "name": "Hepatitis B (HBV) and hepatitis C virus (HCV) testing and treatment provided",
+      "fhir:code": "HIV.B.DE167",
+      "fhir:CodeSystem": "http://smart.who.int/hiv/CodeSystem-HIVConcepts"
+    },
+    {
+      "id": "http://smart.who.int/hiv/ValueSet-HIV.B.DE165.jsonld#HIV.B.DE168",
+      "name": "Co-trimoxazole chemoprophylaxis to prevent Pneumocystis carinii pneumonia provided",
+      "fhir:code": "HIV.B.DE168",
+      "fhir:CodeSystem": "http://smart.who.int/hiv/CodeSystem-HIVConcepts"
+    },
+    {
+      "id": "http://smart.who.int/hiv/ValueSet-HIV.B.DE165.jsonld#HIV.B.DE169",
+      "name": "Intensified TB case finding and linkage to TB treatment provided",
+      "fhir:code": "HIV.B.DE169",
+      "fhir:CodeSystem": "http://smart.who.int/hiv/CodeSystem-HIVConcepts"
+    },
+    {
+      "id": "http://smart.who.int/hiv/ValueSet-HIV.B.DE165.jsonld#HIV.B.DE170",
+      "name": "Provision of isoniazid preventive therapy if person does not have TB",
+      "fhir:code": "HIV.B.DE170",
+      "fhir:CodeSystem": "http://smart.who.int/hiv/CodeSystem-HIVConcepts"
+    },
+    {
+      "id": "http://smart.who.int/hiv/ValueSet-HIV.B.DE165.jsonld#HIV.B.DE171",
+      "name": "Malaria prevention (such as bed nets and prophylaxis), depending on epidemiology",
+      "fhir:code": "HIV.B.DE171",
+      "fhir:CodeSystem": "http://smart.who.int/hiv/CodeSystem-HIVConcepts"
+    }
+  ]
+}

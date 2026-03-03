@@ -1,0 +1,53 @@
+{
+  "@context": {
+    "@version": 1.1,
+    "name": "http://www.w3.org/2000/01/rdf-schema#label",
+    "fhir": "https://smart.who.int/base/DataTypes.jsonld#",
+    "id": "@id",
+    "generatedAt": {
+      "@id": "http://www.w3.org/ns/prov#generatedAtTime",
+      "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
+    }
+  },
+  "@id": "http://smart.who.int/hiv/ValueSet-HIV.B.DE142.jsonld",
+  "@type": "http://www.w3.org/ns/prov#Entity",
+  "generatedAt": "2026-03-03T20:52:45.674656Z",
+  "@graph": [
+    {
+      "id": "http://smart.who.int/hiv/ValueSet-HIV.B.DE142.jsonld#HIV.B.DE143",
+      "name": "HIV-positive counselling conducted",
+      "fhir:code": "HIV.B.DE143",
+      "fhir:CodeSystem": "http://smart.who.int/hiv/CodeSystem-HIVConcepts"
+    },
+    {
+      "id": "http://smart.who.int/hiv/ValueSet-HIV.B.DE142.jsonld#HIV.B.DE144",
+      "name": "Hepatitis B positive counselling conducted",
+      "fhir:code": "HIV.B.DE144",
+      "fhir:CodeSystem": "http://smart.who.int/hiv/CodeSystem-HIVConcepts"
+    },
+    {
+      "id": "http://smart.who.int/hiv/ValueSet-HIV.B.DE142.jsonld#HIV.B.DE145",
+      "name": "Hepatitis C positive counselling conducted",
+      "fhir:code": "HIV.B.DE145",
+      "fhir:CodeSystem": "http://smart.who.int/hiv/CodeSystem-HIVConcepts"
+    },
+    {
+      "id": "http://smart.who.int/hiv/ValueSet-HIV.B.DE142.jsonld#HIV.B.DE146",
+      "name": "Syphilis counselling, treatment and further testing",
+      "fhir:code": "HIV.B.DE146",
+      "fhir:CodeSystem": "http://smart.who.int/hiv/CodeSystem-HIVConcepts"
+    },
+    {
+      "id": "http://smart.who.int/hiv/ValueSet-HIV.B.DE142.jsonld#HIV.B.DE147",
+      "name": "Linked to enrolment in care and ART initiation",
+      "fhir:code": "HIV.B.DE147",
+      "fhir:CodeSystem": "http://smart.who.int/hiv/CodeSystem-HIVConcepts"
+    },
+    {
+      "id": "http://smart.who.int/hiv/ValueSet-HIV.B.DE142.jsonld#HIV.B.DE148",
+      "name": "VMMC counselling provided",
+      "fhir:code": "HIV.B.DE148",
+      "fhir:CodeSystem": "http://smart.who.int/hiv/CodeSystem-HIVConcepts"
+    }
+  ]
+}

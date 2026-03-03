@@ -1,0 +1,17 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "http://smart.who.int/hiv/ValueSet-HIV.E.DE190.schema.json",
+  "title": "EID test number 2 test result ValueSet Schema",
+  "description": "JSON Schema for EID test number 2 test result ValueSet ValueSet codes. Generated from FHIR expansions using IRI format.",
+  "type": "string",
+  "enum": [
+    "http://smart.who.int/hiv/CodeSystem/HIVConcepts#HIV.E.DE191",
+    "http://smart.who.int/hiv/CodeSystem/HIVConcepts#HIV.E.DE192",
+    "http://smart.who.int/hiv/CodeSystem/HIVConcepts#HIV.E.DE193"
+  ],
+  "narrative": "This schema validates IRI-formatted codes for the EID test number 2 test result ValueSet ValueSet. Each enum value includes the system URI in the format {systemuri}#{code} to match JSON-LD enumeration IRIs. Display values are available at http://smart.who.int/hiv/ValueSet-HIV.E.DE190.displays.json. For a complete listing of all ValueSets, see artifacts.html#terminology-value-sets.",
+  "fhir:displays": "http://smart.who.int/hiv/ValueSet-HIV.E.DE190.displays.json",
+  "fhir:valueSet": "http://smart.who.int/hiv/ValueSet/HIV.E.DE190",
+  "fhir:version": "0.4.4",
+  "fhir:expansionTimestamp": "2026-03-03T20:47:49+00:00"
+}

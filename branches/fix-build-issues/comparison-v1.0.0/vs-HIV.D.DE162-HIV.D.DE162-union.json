@@ -1,0 +1,25 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "53532621-7232-4b34-8fdd-ba7f33ef96b0-593",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/53532621-7232-4b34-8fdd-ba7f33ef96b0-593",
+  "name" : "UnionHIVDDE162AndHIVDDE162",
+  "title" : "Union of HBsAg test result ValueSet And HBsAg test result ValueSet",
+  "status" : "active",
+  "date" : "2026-03-03T20:45:16+00:00",
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "HIV.D.DE163",
+        "display" : "Positive"
+      },
+      {
+        "code" : "HIV.D.DE164",
+        "display" : "Negative"
+      },
+      {
+        "code" : "HIV.D.DE165",
+        "display" : "Indeterminate"
+      }]
+    }]
+  }
+}

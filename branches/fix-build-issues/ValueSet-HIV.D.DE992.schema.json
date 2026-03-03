@@ -1,0 +1,18 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "http://smart.who.int/hiv/ValueSet-HIV.D.DE992.schema.json",
+  "title": "TB diagnostic test category ValueSet Schema",
+  "description": "JSON Schema for TB diagnostic test category ValueSet ValueSet codes. Generated from FHIR expansions using IRI format.",
+  "type": "string",
+  "enum": [
+    "http://smart.who.int/hiv/CodeSystem/HIVConcepts#HIV.D.DE993",
+    "http://smart.who.int/hiv/CodeSystem/HIVConcepts#HIV.D.DE994",
+    "http://smart.who.int/hiv/CodeSystem/HIVConcepts#HIV.D.DE995",
+    "http://smart.who.int/hiv/CodeSystem/HIVConcepts#HIV.D.DE996"
+  ],
+  "narrative": "This schema validates IRI-formatted codes for the TB diagnostic test category ValueSet ValueSet. Each enum value includes the system URI in the format {systemuri}#{code} to match JSON-LD enumeration IRIs. Display values are available at http://smart.who.int/hiv/ValueSet-HIV.D.DE992.displays.json. For a complete listing of all ValueSets, see artifacts.html#terminology-value-sets.",
+  "fhir:displays": "http://smart.who.int/hiv/ValueSet-HIV.D.DE992.displays.json",
+  "fhir:valueSet": "http://smart.who.int/hiv/ValueSet/HIV.D.DE992",
+  "fhir:version": "0.4.4",
+  "fhir:expansionTimestamp": "2026-03-03T20:47:48+00:00"
+}

@@ -1,0 +1,60 @@
+{
+  "openapi": "3.1.0",
+  "info": {
+    "title": "TB screening algorithm ValueSet Schema API",
+    "description": "JSON Schema for TB screening algorithm ValueSet ValueSet codes. Generated from FHIR expansions using IRI format.",
+    "version": "1.0.0"
+  },
+  "paths": {
+    "/ValueSet-HIV.D.DE956.schema.json": {
+      "get": {
+        "summary": "JSON Schema definition for the enumeration ValueSet-HIV.D.DE956",
+        "description": "This endpoint serves the JSON Schema definition for the enumeration ValueSet-HIV.D.DE956.",
+        "responses": {
+          "200": {
+            "description": "The JSON Schema for ValueSet-HIV.D.DE956",
+            "content": {
+              "application/schema+json": {
+                "schema": {
+                  "$ref": "./ValueSet-HIV.D.DE956.schema.json"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "ValueSet-HIV.D.DE956": {
+        "$schema": "https://json-schema.org/draft/2020-12/schema",
+        "$id": "http://smart.who.int/hiv/ValueSet-HIV.D.DE956.schema.json",
+        "title": "TB screening algorithm ValueSet Schema",
+        "description": "JSON Schema for TB screening algorithm ValueSet ValueSet codes. Generated from FHIR expansions using IRI format.",
+        "type": "string",
+        "enum": [
+          "http://smart.who.int/hiv/CodeSystem/HIVConcepts#HIV.D.DE957",
+          "http://smart.who.int/hiv/CodeSystem/HIVConcepts#HIV.D.DE958",
+          "http://smart.who.int/hiv/CodeSystem/HIVConcepts#HIV.D.DE959",
+          "http://smart.who.int/hiv/CodeSystem/HIVConcepts#HIV.D.DE960",
+          "http://smart.who.int/hiv/CodeSystem/HIVConcepts#HIV.D.DE961",
+          "http://smart.who.int/hiv/CodeSystem/HIVConcepts#HIV.D.DE962",
+          "http://smart.who.int/hiv/CodeSystem/HIVConcepts#HIV.D.DE963",
+          "http://smart.who.int/hiv/CodeSystem/HIVConcepts#HIV.D.DE964",
+          "http://smart.who.int/hiv/CodeSystem/HIVConcepts#HIV.D.DE965",
+          "http://smart.who.int/hiv/CodeSystem/HIVConcepts#HIV.D.DE966",
+          "http://smart.who.int/hiv/CodeSystem/HIVConcepts#HIV.D.DE967",
+          "http://smart.who.int/hiv/CodeSystem/HIVConcepts#HIV.D.DE968",
+          "http://smart.who.int/hiv/CodeSystem/HIVConcepts#HIV.D.DE969",
+          "http://smart.who.int/hiv/CodeSystem/HIVConcepts#HIV.D.DE970"
+        ],
+        "narrative": "This schema validates IRI-formatted codes for the TB screening algorithm ValueSet ValueSet. Each enum value includes the system URI in the format {systemuri}#{code} to match JSON-LD enumeration IRIs. Display values are available at http://smart.who.int/hiv/ValueSet-HIV.D.DE956.displays.json. For a complete listing of all ValueSets, see artifacts.html#terminology-value-sets.",
+        "fhir:displays": "http://smart.who.int/hiv/ValueSet-HIV.D.DE956.displays.json",
+        "fhir:valueSet": "http://smart.who.int/hiv/ValueSet/HIV.D.DE956",
+        "fhir:version": "0.4.4",
+        "fhir:expansionTimestamp": "2026-03-03T20:47:48+00:00"
+      }
+    }
+  }
+}

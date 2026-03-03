@@ -1,0 +1,65 @@
+{
+  "@context": {
+    "@version": 1.1,
+    "name": "http://www.w3.org/2000/01/rdf-schema#label",
+    "fhir": "https://smart.who.int/base/DataTypes.jsonld#",
+    "id": "@id",
+    "generatedAt": {
+      "@id": "http://www.w3.org/ns/prov#generatedAtTime",
+      "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
+    }
+  },
+  "@id": "http://smart.who.int/hiv/ValueSet-HIV.D.DE731.jsonld",
+  "@type": "http://www.w3.org/ns/prov#Entity",
+  "generatedAt": "2026-03-03T20:52:45.728755Z",
+  "@graph": [
+    {
+      "id": "http://smart.who.int/hiv/ValueSet-HIV.D.DE731.jsonld#HIV.D.DE732",
+      "name": "Conization",
+      "fhir:code": "HIV.D.DE732",
+      "fhir:CodeSystem": "http://smart.who.int/hiv/CodeSystem-HIVConcepts"
+    },
+    {
+      "id": "http://smart.who.int/hiv/ValueSet-HIV.D.DE731.jsonld#HIV.D.DE733",
+      "name": "Trachelectomy",
+      "fhir:code": "HIV.D.DE733",
+      "fhir:CodeSystem": "http://smart.who.int/hiv/CodeSystem-HIVConcepts"
+    },
+    {
+      "id": "http://smart.who.int/hiv/ValueSet-HIV.D.DE731.jsonld#HIV.D.DE734",
+      "name": "Hysterectomy",
+      "fhir:code": "HIV.D.DE734",
+      "fhir:CodeSystem": "http://smart.who.int/hiv/CodeSystem-HIVConcepts"
+    },
+    {
+      "id": "http://smart.who.int/hiv/ValueSet-HIV.D.DE731.jsonld#HIV.D.DE735",
+      "name": "Management of invasive cervical cancer",
+      "fhir:code": "HIV.D.DE735",
+      "fhir:CodeSystem": "http://smart.who.int/hiv/CodeSystem-HIVConcepts"
+    },
+    {
+      "id": "http://smart.who.int/hiv/ValueSet-HIV.D.DE731.jsonld#HIV.D.DE736",
+      "name": "Radiotherapy",
+      "fhir:code": "HIV.D.DE736",
+      "fhir:CodeSystem": "http://smart.who.int/hiv/CodeSystem-HIVConcepts"
+    },
+    {
+      "id": "http://smart.who.int/hiv/ValueSet-HIV.D.DE731.jsonld#HIV.D.DE737",
+      "name": "Chemotherapy",
+      "fhir:code": "HIV.D.DE737",
+      "fhir:CodeSystem": "http://smart.who.int/hiv/CodeSystem-HIVConcepts"
+    },
+    {
+      "id": "http://smart.who.int/hiv/ValueSet-HIV.D.DE731.jsonld#HIV.D.DE738",
+      "name": "Chemoradiation",
+      "fhir:code": "HIV.D.DE738",
+      "fhir:CodeSystem": "http://smart.who.int/hiv/CodeSystem-HIVConcepts"
+    },
+    {
+      "id": "http://smart.who.int/hiv/ValueSet-HIV.D.DE731.jsonld#HIV.D.DE739",
+      "name": "Other",
+      "fhir:code": "HIV.D.DE739",
+      "fhir:CodeSystem": "http://smart.who.int/hiv/CodeSystem-HIVConcepts"
+    }
+  ]
+}

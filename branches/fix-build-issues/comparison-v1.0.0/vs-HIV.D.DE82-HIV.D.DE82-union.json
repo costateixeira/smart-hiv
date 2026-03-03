@@ -1,0 +1,9 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "53532621-7232-4b34-8fdd-ba7f33ef96b0-854",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/53532621-7232-4b34-8fdd-ba7f33ef96b0-854",
+  "name" : "UnionHIVDDE82AndHIVDDE82",
+  "title" : "Union of Optimal regimen for transition ValueSet And Optimal regimen for transition ValueSet",
+  "status" : "active",
+  "date" : "2026-03-03T20:45:16+00:00"
+}

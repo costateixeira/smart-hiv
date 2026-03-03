@@ -1,0 +1,83 @@
+{
+  "@context": {
+    "@version": 1.1,
+    "name": "http://www.w3.org/2000/01/rdf-schema#label",
+    "fhir": "https://smart.who.int/base/DataTypes.jsonld#",
+    "id": "@id",
+    "generatedAt": {
+      "@id": "http://www.w3.org/ns/prov#generatedAtTime",
+      "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
+    }
+  },
+  "@id": "http://smart.who.int/hiv/ValueSet-HIV.D.DE973.jsonld",
+  "@type": "http://www.w3.org/ns/prov#Entity",
+  "generatedAt": "2026-03-03T20:52:45.741417Z",
+  "@graph": [
+    {
+      "id": "http://smart.who.int/hiv/ValueSet-HIV.D.DE973.jsonld#HIV.D.DE974",
+      "name": "Current cough",
+      "fhir:code": "HIV.D.DE974",
+      "fhir:CodeSystem": "http://smart.who.int/hiv/CodeSystem-HIVConcepts"
+    },
+    {
+      "id": "http://smart.who.int/hiv/ValueSet-HIV.D.DE973.jsonld#HIV.D.DE975",
+      "name": "Prolonged cough (>=2w)",
+      "fhir:code": "HIV.D.DE975",
+      "fhir:CodeSystem": "http://smart.who.int/hiv/CodeSystem-HIVConcepts"
+    },
+    {
+      "id": "http://smart.who.int/hiv/ValueSet-HIV.D.DE973.jsonld#HIV.D.DE976",
+      "name": "Fever of 39 °C or greater",
+      "fhir:code": "HIV.D.DE976",
+      "fhir:CodeSystem": "http://smart.who.int/hiv/CodeSystem-HIVConcepts"
+    },
+    {
+      "id": "http://smart.who.int/hiv/ValueSet-HIV.D.DE973.jsonld#HIV.D.DE977",
+      "name": "Weight loss (reported)",
+      "fhir:code": "HIV.D.DE977",
+      "fhir:CodeSystem": "http://smart.who.int/hiv/CodeSystem-HIVConcepts"
+    },
+    {
+      "id": "http://smart.who.int/hiv/ValueSet-HIV.D.DE973.jsonld#HIV.D.DE978",
+      "name": "Night sweats",
+      "fhir:code": "HIV.D.DE978",
+      "fhir:CodeSystem": "http://smart.who.int/hiv/CodeSystem-HIVConcepts"
+    },
+    {
+      "id": "http://smart.who.int/hiv/ValueSet-HIV.D.DE973.jsonld#HIV.D.DE979",
+      "name": "Poor weight gain",
+      "fhir:code": "HIV.D.DE979",
+      "fhir:CodeSystem": "http://smart.who.int/hiv/CodeSystem-HIVConcepts"
+    },
+    {
+      "id": "http://smart.who.int/hiv/ValueSet-HIV.D.DE973.jsonld#HIV.D.DE980",
+      "name": "Reduced playfulness",
+      "fhir:code": "HIV.D.DE980",
+      "fhir:CodeSystem": "http://smart.who.int/hiv/CodeSystem-HIVConcepts"
+    },
+    {
+      "id": "http://smart.who.int/hiv/ValueSet-HIV.D.DE973.jsonld#HIV.D.DE981",
+      "name": "Chest pain",
+      "fhir:code": "HIV.D.DE981",
+      "fhir:CodeSystem": "http://smart.who.int/hiv/CodeSystem-HIVConcepts"
+    },
+    {
+      "id": "http://smart.who.int/hiv/ValueSet-HIV.D.DE973.jsonld#HIV.D.DE982",
+      "name": "Haemoptysis",
+      "fhir:code": "HIV.D.DE982",
+      "fhir:CodeSystem": "http://smart.who.int/hiv/CodeSystem-HIVConcepts"
+    },
+    {
+      "id": "http://smart.who.int/hiv/ValueSet-HIV.D.DE973.jsonld#HIV.D.DE983",
+      "name": "Lethargy",
+      "fhir:code": "HIV.D.DE983",
+      "fhir:CodeSystem": "http://smart.who.int/hiv/CodeSystem-HIVConcepts"
+    },
+    {
+      "id": "http://smart.who.int/hiv/ValueSet-HIV.D.DE973.jsonld#HIV.D.DE984",
+      "name": "None",
+      "fhir:code": "HIV.D.DE984",
+      "fhir:CodeSystem": "http://smart.who.int/hiv/CodeSystem-HIVConcepts"
+    }
+  ]
+}

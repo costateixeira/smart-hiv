@@ -1,0 +1,27 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "http://smart.who.int/hiv/ValueSet-HIV.D.DE399.schema.json",
+  "title": "Monitoring examinations ValueSet Schema",
+  "description": "JSON Schema for Monitoring examinations ValueSet ValueSet codes. Generated from FHIR expansions using IRI format.",
+  "type": "string",
+  "enum": [
+    "http://smart.who.int/hiv/CodeSystem/HIVConcepts#HIV.D.DE400",
+    "http://smart.who.int/hiv/CodeSystem/HIVConcepts#HIV.D.DE401",
+    "http://smart.who.int/hiv/CodeSystem/HIVConcepts#HIV.D.DE402",
+    "http://smart.who.int/hiv/CodeSystem/HIVConcepts#HIV.D.DE403",
+    "http://smart.who.int/hiv/CodeSystem/HIVConcepts#HIV.D.DE404",
+    "http://smart.who.int/hiv/CodeSystem/HIVConcepts#HIV.D.DE405",
+    "http://smart.who.int/hiv/CodeSystem/HIVConcepts#HIV.D.DE406",
+    "http://smart.who.int/hiv/CodeSystem/HIVConcepts#HIV.D.DE407",
+    "http://smart.who.int/hiv/CodeSystem/HIVConcepts#HIV.D.DE408",
+    "http://smart.who.int/hiv/CodeSystem/HIVConcepts#HIV.D.DE409",
+    "http://smart.who.int/hiv/CodeSystem/HIVConcepts#HIV.D.DE410",
+    "http://smart.who.int/hiv/CodeSystem/HIVConcepts#HIV.D.DE411",
+    "http://smart.who.int/hiv/CodeSystem/HIVConcepts#HIV.D.DE412"
+  ],
+  "narrative": "This schema validates IRI-formatted codes for the Monitoring examinations ValueSet ValueSet. Each enum value includes the system URI in the format {systemuri}#{code} to match JSON-LD enumeration IRIs. Display values are available at http://smart.who.int/hiv/ValueSet-HIV.D.DE399.displays.json. For a complete listing of all ValueSets, see artifacts.html#terminology-value-sets.",
+  "fhir:displays": "http://smart.who.int/hiv/ValueSet-HIV.D.DE399.displays.json",
+  "fhir:valueSet": "http://smart.who.int/hiv/ValueSet/HIV.D.DE399",
+  "fhir:version": "0.4.4",
+  "fhir:expansionTimestamp": "2026-03-03T20:47:47+00:00"
+}

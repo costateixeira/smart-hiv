@@ -1,0 +1,53 @@
+{
+  "@context": {
+    "@version": 1.1,
+    "name": "http://www.w3.org/2000/01/rdf-schema#label",
+    "fhir": "https://smart.who.int/base/DataTypes.jsonld#",
+    "id": "@id",
+    "generatedAt": {
+      "@id": "http://www.w3.org/ns/prov#generatedAtTime",
+      "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
+    }
+  },
+  "@id": "http://smart.who.int/hiv/ValueSet-HIV.PRV.DE2.jsonld",
+  "@type": "http://www.w3.org/ns/prov#Entity",
+  "generatedAt": "2026-03-03T20:52:45.766445Z",
+  "@graph": [
+    {
+      "id": "http://smart.who.int/hiv/ValueSet-HIV.PRV.DE2.jsonld#HIV.PRV.DE3",
+      "name": "PrEP service",
+      "fhir:code": "HIV.PRV.DE3",
+      "fhir:CodeSystem": "http://smart.who.int/hiv/CodeSystem-HIVConcepts"
+    },
+    {
+      "id": "http://smart.who.int/hiv/ValueSet-HIV.PRV.DE2.jsonld#HIV.PRV.DE4",
+      "name": "OAMT",
+      "fhir:code": "HIV.PRV.DE4",
+      "fhir:CodeSystem": "http://smart.who.int/hiv/CodeSystem-HIVConcepts"
+    },
+    {
+      "id": "http://smart.who.int/hiv/ValueSet-HIV.PRV.DE2.jsonld#HIV.PRV.DE5",
+      "name": "NSP",
+      "fhir:code": "HIV.PRV.DE5",
+      "fhir:CodeSystem": "http://smart.who.int/hiv/CodeSystem-HIVConcepts"
+    },
+    {
+      "id": "http://smart.who.int/hiv/ValueSet-HIV.PRV.DE2.jsonld#HIV.PRV.DE6",
+      "name": "STI services",
+      "fhir:code": "HIV.PRV.DE6",
+      "fhir:CodeSystem": "http://smart.who.int/hiv/CodeSystem-HIVConcepts"
+    },
+    {
+      "id": "http://smart.who.int/hiv/ValueSet-HIV.PRV.DE2.jsonld#HIV.PRV.DE7",
+      "name": "VMMC",
+      "fhir:code": "HIV.PRV.DE7",
+      "fhir:CodeSystem": "http://smart.who.int/hiv/CodeSystem-HIVConcepts"
+    },
+    {
+      "id": "http://smart.who.int/hiv/ValueSet-HIV.PRV.DE2.jsonld#HIV.PRV.DE8",
+      "name": "Other",
+      "fhir:code": "HIV.PRV.DE8",
+      "fhir:CodeSystem": "http://smart.who.int/hiv/CodeSystem-HIVConcepts"
+    }
+  ]
+}

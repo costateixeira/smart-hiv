@@ -1,0 +1,59 @@
+{
+  "@context": {
+    "@version": 1.1,
+    "name": "http://www.w3.org/2000/01/rdf-schema#label",
+    "fhir": "https://smart.who.int/base/DataTypes.jsonld#",
+    "id": "@id",
+    "generatedAt": {
+      "@id": "http://www.w3.org/ns/prov#generatedAtTime",
+      "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
+    }
+  },
+  "@id": "http://smart.who.int/hiv/ValueSet-HIV.C.DE63.jsonld",
+  "@type": "http://www.w3.org/ns/prov#Entity",
+  "generatedAt": "2026-03-03T20:52:45.698036Z",
+  "@graph": [
+    {
+      "id": "http://smart.who.int/hiv/ValueSet-HIV.C.DE63.jsonld#HIV.C.DE64",
+      "name": "Serum creatinine test",
+      "fhir:code": "HIV.C.DE64",
+      "fhir:CodeSystem": "http://smart.who.int/hiv/CodeSystem-HIVConcepts"
+    },
+    {
+      "id": "http://smart.who.int/hiv/ValueSet-HIV.C.DE63.jsonld#HIV.C.DE65",
+      "name": "Hepatitis B test",
+      "fhir:code": "HIV.C.DE65",
+      "fhir:CodeSystem": "http://smart.who.int/hiv/CodeSystem-HIVConcepts"
+    },
+    {
+      "id": "http://smart.who.int/hiv/ValueSet-HIV.C.DE63.jsonld#HIV.C.DE66",
+      "name": "Hepatitis C test",
+      "fhir:code": "HIV.C.DE66",
+      "fhir:CodeSystem": "http://smart.who.int/hiv/CodeSystem-HIVConcepts"
+    },
+    {
+      "id": "http://smart.who.int/hiv/ValueSet-HIV.C.DE63.jsonld#HIV.C.DE67",
+      "name": "Syphilis test",
+      "fhir:code": "HIV.C.DE67",
+      "fhir:CodeSystem": "http://smart.who.int/hiv/CodeSystem-HIVConcepts"
+    },
+    {
+      "id": "http://smart.who.int/hiv/ValueSet-HIV.C.DE63.jsonld#HIV.C.DE68",
+      "name": "Other screening for STIs",
+      "fhir:code": "HIV.C.DE68",
+      "fhir:CodeSystem": "http://smart.who.int/hiv/CodeSystem-HIVConcepts"
+    },
+    {
+      "id": "http://smart.who.int/hiv/ValueSet-HIV.C.DE63.jsonld#HIV.C.DE69",
+      "name": "Pregnancy testing",
+      "fhir:code": "HIV.C.DE69",
+      "fhir:CodeSystem": "http://smart.who.int/hiv/CodeSystem-HIVConcepts"
+    },
+    {
+      "id": "http://smart.who.int/hiv/ValueSet-HIV.C.DE63.jsonld#HIV.C.DE70",
+      "name": "Review vaccination history",
+      "fhir:code": "HIV.C.DE70",
+      "fhir:CodeSystem": "http://smart.who.int/hiv/CodeSystem-HIVConcepts"
+    }
+  ]
+}

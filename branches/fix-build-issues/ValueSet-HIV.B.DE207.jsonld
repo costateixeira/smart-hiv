@@ -1,0 +1,107 @@
+{
+  "@context": {
+    "@version": 1.1,
+    "name": "http://www.w3.org/2000/01/rdf-schema#label",
+    "fhir": "https://smart.who.int/base/DataTypes.jsonld#",
+    "id": "@id",
+    "generatedAt": {
+      "@id": "http://www.w3.org/ns/prov#generatedAtTime",
+      "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
+    }
+  },
+  "@id": "http://smart.who.int/hiv/ValueSet-HIV.B.DE207.jsonld",
+  "@type": "http://www.w3.org/ns/prov#Entity",
+  "generatedAt": "2026-03-03T20:52:45.678973Z",
+  "@graph": [
+    {
+      "id": "http://smart.who.int/hiv/ValueSet-HIV.B.DE207.jsonld#HIV.B.DE208",
+      "name": "Abnormal pain",
+      "fhir:code": "HIV.B.DE208",
+      "fhir:CodeSystem": "http://smart.who.int/hiv/CodeSystem-HIVConcepts"
+    },
+    {
+      "id": "http://smart.who.int/hiv/ValueSet-HIV.B.DE207.jsonld#HIV.B.DE209",
+      "name": "Anaesthesia-related effects",
+      "fhir:code": "HIV.B.DE209",
+      "fhir:CodeSystem": "http://smart.who.int/hiv/CodeSystem-HIVConcepts"
+    },
+    {
+      "id": "http://smart.who.int/hiv/ValueSet-HIV.B.DE207.jsonld#HIV.B.DE210",
+      "name": "Bleeding",
+      "fhir:code": "HIV.B.DE210",
+      "fhir:CodeSystem": "http://smart.who.int/hiv/CodeSystem-HIVConcepts"
+    },
+    {
+      "id": "http://smart.who.int/hiv/ValueSet-HIV.B.DE207.jsonld#HIV.B.DE211",
+      "name": "Damage to the penis",
+      "fhir:code": "HIV.B.DE211",
+      "fhir:CodeSystem": "http://smart.who.int/hiv/CodeSystem-HIVConcepts"
+    },
+    {
+      "id": "http://smart.who.int/hiv/ValueSet-HIV.B.DE207.jsonld#HIV.B.DE212",
+      "name": "Difficulty urinating",
+      "fhir:code": "HIV.B.DE212",
+      "fhir:CodeSystem": "http://smart.who.int/hiv/CodeSystem-HIVConcepts"
+    },
+    {
+      "id": "http://smart.who.int/hiv/ValueSet-HIV.B.DE207.jsonld#HIV.B.DE213",
+      "name": "Excessive bleeding",
+      "fhir:code": "HIV.B.DE213",
+      "fhir:CodeSystem": "http://smart.who.int/hiv/CodeSystem-HIVConcepts"
+    },
+    {
+      "id": "http://smart.who.int/hiv/ValueSet-HIV.B.DE207.jsonld#HIV.B.DE214",
+      "name": "Excessive skin removal",
+      "fhir:code": "HIV.B.DE214",
+      "fhir:CodeSystem": "http://smart.who.int/hiv/CodeSystem-HIVConcepts"
+    },
+    {
+      "id": "http://smart.who.int/hiv/ValueSet-HIV.B.DE207.jsonld#HIV.B.DE215",
+      "name": "Excessive swelling",
+      "fhir:code": "HIV.B.DE215",
+      "fhir:CodeSystem": "http://smart.who.int/hiv/CodeSystem-HIVConcepts"
+    },
+    {
+      "id": "http://smart.who.int/hiv/ValueSet-HIV.B.DE207.jsonld#HIV.B.DE216",
+      "name": "Haematoma",
+      "fhir:code": "HIV.B.DE216",
+      "fhir:CodeSystem": "http://smart.who.int/hiv/CodeSystem-HIVConcepts"
+    },
+    {
+      "id": "http://smart.who.int/hiv/ValueSet-HIV.B.DE207.jsonld#HIV.B.DE217",
+      "name": "Infection",
+      "fhir:code": "HIV.B.DE217",
+      "fhir:CodeSystem": "http://smart.who.int/hiv/CodeSystem-HIVConcepts"
+    },
+    {
+      "id": "http://smart.who.int/hiv/ValueSet-HIV.B.DE207.jsonld#HIV.B.DE218",
+      "name": "Injury to glans",
+      "fhir:code": "HIV.B.DE218",
+      "fhir:CodeSystem": "http://smart.who.int/hiv/CodeSystem-HIVConcepts"
+    },
+    {
+      "id": "http://smart.who.int/hiv/ValueSet-HIV.B.DE207.jsonld#HIV.B.DE219",
+      "name": "Scar or disfigurement",
+      "fhir:code": "HIV.B.DE219",
+      "fhir:CodeSystem": "http://smart.who.int/hiv/CodeSystem-HIVConcepts"
+    },
+    {
+      "id": "http://smart.who.int/hiv/ValueSet-HIV.B.DE207.jsonld#HIV.B.DE220",
+      "name": "Sharps injury to personnel",
+      "fhir:code": "HIV.B.DE220",
+      "fhir:CodeSystem": "http://smart.who.int/hiv/CodeSystem-HIVConcepts"
+    },
+    {
+      "id": "http://smart.who.int/hiv/ValueSet-HIV.B.DE207.jsonld#HIV.B.DE221",
+      "name": "Wound disruption",
+      "fhir:code": "HIV.B.DE221",
+      "fhir:CodeSystem": "http://smart.who.int/hiv/CodeSystem-HIVConcepts"
+    },
+    {
+      "id": "http://smart.who.int/hiv/ValueSet-HIV.B.DE207.jsonld#HIV.B.DE222",
+      "name": "Other",
+      "fhir:code": "HIV.B.DE222",
+      "fhir:CodeSystem": "http://smart.who.int/hiv/CodeSystem-HIVConcepts"
+    }
+  ]
+}

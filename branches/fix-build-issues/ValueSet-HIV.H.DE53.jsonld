@@ -1,0 +1,125 @@
+{
+  "@context": {
+    "@version": 1.1,
+    "name": "http://www.w3.org/2000/01/rdf-schema#label",
+    "fhir": "https://smart.who.int/base/DataTypes.jsonld#",
+    "id": "@id",
+    "generatedAt": {
+      "@id": "http://www.w3.org/ns/prov#generatedAtTime",
+      "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
+    }
+  },
+  "@id": "http://smart.who.int/hiv/ValueSet-HIV.H.DE53.jsonld",
+  "@type": "http://www.w3.org/ns/prov#Entity",
+  "generatedAt": "2026-03-03T20:52:45.764742Z",
+  "@graph": [
+    {
+      "id": "http://smart.who.int/hiv/ValueSet-HIV.H.DE53.jsonld#HIV.H.DE54",
+      "name": "Forgot",
+      "fhir:code": "HIV.H.DE54",
+      "fhir:CodeSystem": "http://smart.who.int/hiv/CodeSystem-HIVConcepts"
+    },
+    {
+      "id": "http://smart.who.int/hiv/ValueSet-HIV.H.DE53.jsonld#HIV.H.DE55",
+      "name": "Toxicity/side effects",
+      "fhir:code": "HIV.H.DE55",
+      "fhir:CodeSystem": "http://smart.who.int/hiv/CodeSystem-HIVConcepts"
+    },
+    {
+      "id": "http://smart.who.int/hiv/ValueSet-HIV.H.DE53.jsonld#HIV.H.DE56",
+      "name": "Busy",
+      "fhir:code": "HIV.H.DE56",
+      "fhir:CodeSystem": "http://smart.who.int/hiv/CodeSystem-HIVConcepts"
+    },
+    {
+      "id": "http://smart.who.int/hiv/ValueSet-HIV.H.DE53.jsonld#HIV.H.DE57",
+      "name": "Change of routine",
+      "fhir:code": "HIV.H.DE57",
+      "fhir:CodeSystem": "http://smart.who.int/hiv/CodeSystem-HIVConcepts"
+    },
+    {
+      "id": "http://smart.who.int/hiv/ValueSet-HIV.H.DE53.jsonld#HIV.H.DE58",
+      "name": "Travel cost",
+      "fhir:code": "HIV.H.DE58",
+      "fhir:CodeSystem": "http://smart.who.int/hiv/CodeSystem-HIVConcepts"
+    },
+    {
+      "id": "http://smart.who.int/hiv/ValueSet-HIV.H.DE53.jsonld#HIV.H.DE59",
+      "name": "Distance to clinic",
+      "fhir:code": "HIV.H.DE59",
+      "fhir:CodeSystem": "http://smart.who.int/hiv/CodeSystem-HIVConcepts"
+    },
+    {
+      "id": "http://smart.who.int/hiv/ValueSet-HIV.H.DE53.jsonld#HIV.H.DE60",
+      "name": "Client lost/ran out of pills",
+      "fhir:code": "HIV.H.DE60",
+      "fhir:CodeSystem": "http://smart.who.int/hiv/CodeSystem-HIVConcepts"
+    },
+    {
+      "id": "http://smart.who.int/hiv/ValueSet-HIV.H.DE53.jsonld#HIV.H.DE61",
+      "name": "Stock-out",
+      "fhir:code": "HIV.H.DE61",
+      "fhir:CodeSystem": "http://smart.who.int/hiv/CodeSystem-HIVConcepts"
+    },
+    {
+      "id": "http://smart.who.int/hiv/ValueSet-HIV.H.DE53.jsonld#HIV.H.DE62",
+      "name": "Too ill",
+      "fhir:code": "HIV.H.DE62",
+      "fhir:CodeSystem": "http://smart.who.int/hiv/CodeSystem-HIVConcepts"
+    },
+    {
+      "id": "http://smart.who.int/hiv/ValueSet-HIV.H.DE53.jsonld#HIV.H.DE63",
+      "name": "Pill burden",
+      "fhir:code": "HIV.H.DE63",
+      "fhir:CodeSystem": "http://smart.who.int/hiv/CodeSystem-HIVConcepts"
+    },
+    {
+      "id": "http://smart.who.int/hiv/ValueSet-HIV.H.DE53.jsonld#HIV.H.DE64",
+      "name": "Felt well",
+      "fhir:code": "HIV.H.DE64",
+      "fhir:CodeSystem": "http://smart.who.int/hiv/CodeSystem-HIVConcepts"
+    },
+    {
+      "id": "http://smart.who.int/hiv/ValueSet-HIV.H.DE53.jsonld#HIV.H.DE65",
+      "name": "Depression",
+      "fhir:code": "HIV.H.DE65",
+      "fhir:CodeSystem": "http://smart.who.int/hiv/CodeSystem-HIVConcepts"
+    },
+    {
+      "id": "http://smart.who.int/hiv/ValueSet-HIV.H.DE53.jsonld#HIV.H.DE66",
+      "name": "Alcohol use",
+      "fhir:code": "HIV.H.DE66",
+      "fhir:CodeSystem": "http://smart.who.int/hiv/CodeSystem-HIVConcepts"
+    },
+    {
+      "id": "http://smart.who.int/hiv/ValueSet-HIV.H.DE53.jsonld#HIV.H.DE67",
+      "name": "Substance use",
+      "fhir:code": "HIV.H.DE67",
+      "fhir:CodeSystem": "http://smart.who.int/hiv/CodeSystem-HIVConcepts"
+    },
+    {
+      "id": "http://smart.who.int/hiv/ValueSet-HIV.H.DE53.jsonld#HIV.H.DE68",
+      "name": "Stigma/disclosure concerns",
+      "fhir:code": "HIV.H.DE68",
+      "fhir:CodeSystem": "http://smart.who.int/hiv/CodeSystem-HIVConcepts"
+    },
+    {
+      "id": "http://smart.who.int/hiv/ValueSet-HIV.H.DE53.jsonld#HIV.H.DE69",
+      "name": "Lack of food",
+      "fhir:code": "HIV.H.DE69",
+      "fhir:CodeSystem": "http://smart.who.int/hiv/CodeSystem-HIVConcepts"
+    },
+    {
+      "id": "http://smart.who.int/hiv/ValueSet-HIV.H.DE53.jsonld#HIV.H.DE70",
+      "name": "Poor palatability",
+      "fhir:code": "HIV.H.DE70",
+      "fhir:CodeSystem": "http://smart.who.int/hiv/CodeSystem-HIVConcepts"
+    },
+    {
+      "id": "http://smart.who.int/hiv/ValueSet-HIV.H.DE53.jsonld#HIV.H.DE71",
+      "name": "Other",
+      "fhir:code": "HIV.H.DE71",
+      "fhir:CodeSystem": "http://smart.who.int/hiv/CodeSystem-HIVConcepts"
+    }
+  ]
+}

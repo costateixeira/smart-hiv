@@ -1,0 +1,1120 @@
+
+
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE HTML>
+<html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml" lang="en">
+  <head>
+    <meta content="text/html;charset=utf-8" http-equiv="Content-Type"/>
+    <title>HIV.IND.42 Final outcome of PMTCT - JSON Representation - WHO SMART Guidelines - HIV v0.4.4</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta name="author" content="http://hl7.org/fhir"/>
+
+    <link href="fhir.css" rel="stylesheet"/>
+    <link href="assets/css/fa-all.css" rel="stylesheet" type="text/css" />
+    <!-- Bootstrap core CSS -->
+    <link href="assets/css/bootstrap-fhir.css" rel="stylesheet"/>
+
+    <!-- Project extras -->
+    <link href="assets/css/project.css" rel="stylesheet"/>
+    <link href="assets/css/pygments-manni.css" rel="stylesheet"/>
+    <link href="assets/css/jquery-ui.css" rel="stylesheet"/>
+  	<link href="assets/css/prism.css" rel="stylesheet" />
+    <!-- Placeholder for child template CSS declarations -->
+    <link href="assets/css/who.css" rel="stylesheet"/>
+    <link href="assets/css/lforms.min.css" rel="stylesheet"/>
+
+
+    <script type="text/javascript" src="fhir-table-scripts.js"> </script>
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+    <script src="assets/js/html5shiv.js"></script>
+    <script src="assets/js/respond.min.js"></script>
+    <![endif]-->
+
+    <!-- Favicons -->
+    <link rel="fhir-logo" sizes="144x144" href="assets/ico/icon-fhir-144.png"/>
+    <link rel="fhir-logo" sizes="114x114" href="assets/ico/icon-fhir-114.png"/>
+    <link rel="fhir-logo" sizes="72x72" href="assets/ico/icon-fhir-72.png"/>
+    <link rel="fhir-logo" href="assets/ico/icon-fhir-57.png"/>
+    <link rel="shortcut icon" href="assets/ico/favicon.png"/>
+  </head>
+  <body onload="document.body.style.opacity='1'">
+
+	  <script src="assets/js/prism.js"></script>
+
+    <style type="text/css">h2{--heading-prefix:"5.1.574"}
+    h3,h4,h5,h6{--heading-prefix:"5.1.574"}</style>
+    <div id="segment-header" class="segment">  <!-- segment-header -->
+
+      <div id="segment-navbar" class="segment">  <!-- segment-navbar -->
+        <div id="stripe"> </div>
+        <div class="container">  <!-- container -->
+          <!-- HEADER CONTENT -->
+  
+          <nav class="navbar navbar-inverse">
+            <!--status-bar-->
+            <div class="container">
+              <button data-target=".navbar-inverse-collapse" class="navbar-toggle" data-toggle="collapse" type="button">
+                <span class="icon-bar"> </span>
+                <span class="icon-bar"> </span>
+                <span class="icon-bar"> </span>
+              </button>
+              <a class="navbar-brand hidden" href="http://hl7.org/fhir/R4/index.html">FHIR</a>
+              <div class="nav-collapse collapse navbar-inverse-collapse">
+                <!-- menu.xml  -->
+
+<ul xmlns="http://www.w3.org/1999/xhtml" class="nav navbar-nav">
+  <li class="dropdown">
+    <a data-toggle="dropdown" href="#" class="dropdown-toggle">Home
+      <b class="caret"></b>
+    </a>
+    <ul class="dropdown-menu">
+      <li>
+        <a href="index.html">Summary</a>
+      </li>
+      <li>
+        <a href="changes.html">Changes</a>
+      </li>
+      <li>
+        <a href="dependencies.html">Dependencies</a>
+      </li>
+      <li>
+        <a href="references.html">References</a>
+      </li>
+      <li>
+        <a href="adapting.html">Adapting Guidelines for Country use</a>
+      </li>
+    </ul>
+  </li>
+  <li class="dropdown">
+    <a data-toggle="dropdown" href="#" class="dropdown-toggle">Business Requirements
+      <b class="caret"></b>
+    </a>
+    <ul class="dropdown-menu">
+      <li>
+        <a href="concepts.html">Concepts</a>
+      </li>
+      <li>
+        <a href="personas.html">Generic Personas</a>
+      </li>
+      <li>
+        <a href="scenarios.html">User Scenarios</a>
+      </li>
+      <li>
+        <a href="business-processes.html">Business Processes</a>
+      </li>
+      <li>
+        <a href="dictionary.html">Data Dictionary</a>
+      </li>
+      <li>
+        <a href="decision-logic.html">Decision-support Logic</a>
+      </li>
+      <li>
+        <a href="indicators.html">Indicator and Performance Metrics</a>
+      </li>
+      <li>
+        <a href="functional-requirements.html">Functional Requirements</a>
+      </li>
+      <li>
+        <a href="non-functional-requirements.html">Non-functional Requirements</a>
+      </li>
+    </ul>
+  </li>
+  <li class="dropdown">
+    <a data-toggle="dropdown" href="#" class="dropdown-toggle">Data Models and Exchange
+      <b class="caret"></b>
+    </a>
+    <ul class="dropdown-menu">
+      <li>
+        <a href="system-actors.html">System Actors</a>
+      </li>
+      <li>
+        <a href="sequence-diagrams.html">Sequence Diagrams</a>
+      </li>
+      <li>
+        <a href="transactions.html">Transactions</a>
+      </li>
+      <li>
+        <a href="indicators-measures.html">Indicators and Measures</a>
+      </li>
+      <li>
+        <a href="codings.html">Codings</a>
+      </li>
+    </ul>
+  </li>
+  <li class="dropdown">
+    <a data-toggle="dropdown" href="#" class="dropdown-toggle">Deployment
+      <b class="caret"></b>
+    </a>
+    <ul class="dropdown-menu">
+      <li>
+        <a href="security-privacy.html">Security and Privacy Considerations</a>
+      </li>
+      <li>
+        <a href="testing.html">Testing</a>
+      </li>
+      <li>
+        <a href="test-data.html">Test Data</a>
+      </li>
+      <li>
+        <a href="reference-implementations.html">Reference Implementations</a>
+      </li>
+      <li>
+        <a href="downloads.html">Downloads</a>
+      </li>
+    </ul>
+  </li>
+  <li class="dropdown">
+    <a data-toggle="dropdown" href="#" class="dropdown-toggle">Indices
+      <b class="caret"></b>
+    </a>
+    <ul class="dropdown-menu">
+      <li>
+        <a href="artifacts.html">Artifact Index</a>
+      </li>
+      <li>
+        <a href="maps.html">Mappings</a>
+      </li>
+      <li>
+        <a href="dak-api.html">DAK API</a>
+      </li>
+    </ul>
+  </li>
+</ul>
+              </div>  <!-- /.nav-collapse -->
+
+              <div class="sf_colsIn col-md-8  navbar-right-container" data-sf-element="LanguageSelectorSearch" data-placeholder-label="Language Selector and Search" style="display: flex; justify-content: flex-end; align-items: center;">
+                <!-- This div will be pushed to the right -->
+                <div class="language-selector" style="margin-left: auto; background-color: #00477d; color: white;">
+                  <i class="fa fa-language fa-lg"></i>
+                  <label for="language-selector"> </label>
+                  <select onChange="openLink(value)" id="language-selector" name="language-selector">
+                    <option disabled selected>Select language</option>
+                    <option value="en" class="selected">English</option>
+                  </select>
+                  <i class="fas fa-angle-down"></i>
+                </div>
+                <!-- Search Content -->
+              </div>
+            </div>  <!-- /.container -->
+          </nav>  <!-- /.navbar -->
+        <!-- /HEADER CONTENT -->
+        </div>  <!-- /container -->
+      </div>  <!-- /segment-navbar -->
+      
+
+      <div class="container" style=" justify-content: space-between; align-items: left;">
+
+        <!-- Placeholder for child template header declarations -->
+<div id="project-nav">
+    <a id="who-logo" no-external="true" href="index.html">
+        
+    </a>
+</div>
+
+ <div id="family-nav">
+  <a id="fhir-logo" no-external="true" href="http://hl7.org/fhir">  </a>
+</div> 
+
+
+        <div id="ig-status" class="ig-status-draft">
+          <p><span style="font-size:12pt;font-weight:bold">WHO SMART Guidelines - HIV</span>
+            <br/>
+            <span style="display:inline-block;">0.4.4 - ci-build
+
+
+            </span>
+          </p>
+        </div>
+      </div> <!-- /container -->
+    </div>  <!-- /segment-header -->
+
+
+    <!--status-bar-->
+
+    <div id="segment-breadcrumb" class="segment">  <!-- segment-breadcrumb -->
+      <div class="container">  <!-- container -->
+        <ul class="breadcrumb">
+          <li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='indices.html'><b>Indices</b></a></li><li><a href='artifacts.html'><b>Artifact Index</b></a></li><li><b>HIV.IND.42 Final outcome of PMTCT</b></li>
+
+        </ul>
+      </div>  <!-- /container -->
+    </div>  <!-- /segment-breadcrumb -->
+
+    <a name="top"> </a>
+    <div id="segment-content" class="segment">  <!-- segment-content -->
+      <div class="container">  <!-- container -->
+        <div class="row">
+          <div class="inner-wrapper">
+
+<div style="counter-reset: section 8" class="col-12">
+<!--ReleaseHeader--><p id="publish-box">WHO SMART Guidelines - HIV, published by WHO. This guide is not an authorized publication; it is the continuous build for version 0.4.4  built by the FHIR (HL7&reg; FHIR&reg; Standard) CI Build. This version is based on the current content of <a href='https://github.com/costateixeira/smart-hiv/tree/fix-build-issues'>https://github.com/costateixeira/smart-hiv/tree/fix-build-issues</a> and changes regularly. See the <a href='http://smart.who.int/hiv/history.html'>Directory of published versions</a></p><!--EndReleaseHeader-->
+
+
+
+
+
+
+
+
+
+<ul class="nav nav-tabs">
+
+  <li>
+    <a href="Measure-HIVIND42.html">Narrative Content</a>
+  </li>
+
+
+
+  
+    <li>
+      <a href="Measure-HIVIND42.xml.html">XML</a>
+    </li>
+  
+
+
+  
+    <li class="active">
+      <a href="#">JSON</a>
+    </li>
+  
+
+
+  
+    <li>
+      <a href="Measure-HIVIND42.ttl.html">TTL</a>
+    </li>
+  
+
+
+
+</ul>
+
+
+<a name="root"> </a>
+
+
+<h2 id="root">: HIV.IND.42 Final outcome of PMTCT - JSON Representation</h2>
+
+  <table class="colsd">
+    <tr>
+
+      <td colspan="2">
+        
+          Draft
+          
+            as of 2024-08-18
+          
+        
+      </td>
+
+    </tr>
+  </table>
+
+
+<p><a href="Measure-HIVIND42.json" no-download="true">Raw json</a> | <a href="Measure-HIVIND42.json" download>Download</a></p>
+
+  <!-- insert intro if present -->
+  
+
+
+
+  <pre class="json" data-fhir="generated" style="white-space: pre; text-wrap: nowrap; width: auto;"><code style="white-space: pre; text-wrap: nowrap;">{
+  "<a href="http://hl7.org/fhir/R4/measure.html#Measure">resourceType</a>" : "Measure",
+  "<a href="http://hl7.org/fhir/R4/resource.html#Measure.id">id</a>" : "HIVIND42",
+  "<a href="http://hl7.org/fhir/R4/resource.html#Measure.meta">meta</a>" : {
+    "<a href="http://hl7.org/fhir/R4/datatypes.html#Meta#Meta.profile">profile</a>" : [
+      <a href="http://hl7.org/fhir/us/cqfmeasures/STU5/StructureDefinition-proportion-measure-cqfm.html" style="color: Maroon">&#x1F517;</a> "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/proportion-measure-cqfm"<a href="http://hl7.org/fhir/uv/crmi/STU1/StructureDefinition-crmi-shareablemeasure.html" style="color: Maroon">&#x1F517;</a> ,
+      "http://hl7.org/fhir/uv/crmi/StructureDefinition/crmi-shareablemeasure"<a href="http://hl7.org/fhir/uv/crmi/STU1/StructureDefinition-crmi-publishablemeasure.html" style="color: Maroon">&#x1F517;</a> ,
+      "http://hl7.org/fhir/uv/crmi/StructureDefinition/crmi-publishablemeasure"
+    ]
+  },
+  "<a href="http://hl7.org/fhir/R4/domainresource.html#Measure.text">text</a>" : {
+    "<a href="http://hl7.org/fhir/R4/datatypes.html#Narrative#Narrative.status">status</a>" : "extensions",
+    "<a href="http://hl7.org/fhir/R4/datatypes.html#Narrative#Narrative.div">div</a>" : "&lt;div xmlns=\&quot;http://www.w3.org/1999/xhtml\&quot;&gt;\n  &lt;table class=\&quot;narrative-table\&quot;&gt;\n    &lt;tbody&gt;\n&lt;tr&gt;\n\n&lt;th colspan=\&quot;2\&quot; scope=\&quot;row\&quot; class=\&quot;row-header\&quot;&gt;Knowledge Artifact Metadata&lt;/th&gt;\n\n&lt;/tr&gt;\n\n&lt;tr&gt;\n\n&lt;th scope=\&quot;row\&quot; class=\&quot;row-header\&quot;&gt;Name (machine-readable)&lt;/th&gt;\n\n&lt;td class=\&quot;content-container\&quot;&gt;HIVIND42&lt;/td&gt;\n&lt;/tr&gt;\n\n\n&lt;tr&gt;\n\n&lt;th scope=\&quot;row\&quot; class=\&quot;row-header\&quot;&gt;Title (human-readable)&lt;/th&gt;\n\n&lt;td class=\&quot;content-container\&quot;&gt;HIV.IND.42 Final outcome of PMTCT&lt;/td&gt;\n&lt;/tr&gt;\n\n\n\n&lt;tr&gt;\n\n&lt;th scope=\&quot;row\&quot; class=\&quot;row-header\&quot;&gt;Status&lt;/th&gt;\n\n&lt;td class=\&quot;content-container\&quot;&gt;Draft&lt;/td&gt;\n&lt;/tr&gt;\n\n\n&lt;tr&gt;\n\n&lt;th scope=\&quot;row\&quot; class=\&quot;row-header\&quot;&gt;Experimental&lt;/th&gt;\n\n&lt;td class=\&quot;content-container\&quot;&gt;true&lt;/td&gt;\n&lt;/tr&gt;\n\n\n&lt;tr&gt;\n\n&lt;th scope=\&quot;row\&quot; class=\&quot;row-header\&quot;&gt;Description&lt;/th&gt;\n\n&lt;td class=\&quot;content-container\&quot;&gt;&lt;div&gt;&lt;p&gt;% of HIV-exposed infants whose final HIV outcome status is known&lt;/p&gt;\n&lt;/div&gt;&lt;/td&gt;\n&lt;/tr&gt;\n\n\n\n\n\n\n\n\n\n\n\n\n&lt;tr&gt;\n\n&lt;th scope=\&quot;row\&quot; class=\&quot;row-header\&quot;&gt;Measure Steward&lt;/th&gt;\n\n&lt;td class=\&quot;content-container\&quot;&gt;WHO&lt;/td&gt;\n&lt;/tr&gt;\n\n\n&lt;tr&gt;\n\n&lt;th scope=\&quot;row\&quot; class=\&quot;row-header\&quot;&gt;Steward Contact Details&lt;/th&gt;\n\n&lt;td class=\&quot;content-container\&quot;&gt;WHO: &lt;a href=\&quot;http://who.int\&quot;&gt;http://who.int&lt;/a&gt;&lt;/td&gt;\n&lt;/tr&gt;\n\n\n\n\n\n\n\n\n\n\n\n&lt;tr&gt;\n\n&lt;th colspan=\&quot;2\&quot; scope=\&quot;row\&quot; class=\&quot;row-header\&quot;&gt;Measure Metadata&lt;/th&gt;\n\n&lt;/tr&gt;\n\n\n\n\n\n\n&lt;tr&gt;\n\n&lt;th scope=\&quot;row\&quot; class=\&quot;row-header\&quot;&gt;Version Number&lt;/th&gt;\n\n&lt;td class=\&quot;content-container\&quot;&gt;0.4.4&lt;/td&gt;\n&lt;/tr&gt;\n\n\n&lt;tr&gt;\n\n&lt;th scope=\&quot;row\&quot; class=\&quot;row-header\&quot;&gt;Measure Scoring&lt;/th&gt;\n\n&lt;td class=\&quot;content-container\&quot;&gt;&lt;span title=\&quot;Codes:{http://terminology.hl7.org/CodeSystem/measure-scoring proportion}\&quot;&gt;Proportion&lt;/span&gt;&lt;/td&gt;\n&lt;/tr&gt;\n\n\n\n\n\n\n\n\n&lt;tr&gt;\n\n&lt;th scope=\&quot;row\&quot; class=\&quot;row-header\&quot;&gt;Improvement Notation&lt;/th&gt;\n\n&lt;td class=\&quot;content-container\&quot;&gt;&lt;span title=\&quot;Codes:{http://terminology.hl7.org/CodeSystem/measure-improvement-notation increase}\&quot;&gt;Increased score indicates improvement&lt;/span&gt;&lt;/td&gt;\n&lt;/tr&gt;\n\n\n\n\n\n  \n&lt;tr&gt;\n\n&lt;th scope=\&quot;row\&quot; class=\&quot;row-header\&quot;&gt;Population Basis&lt;/th&gt;\n\n&lt;td class=\&quot;content-container\&quot;&gt;boolean&lt;/td&gt;\n&lt;/tr&gt;\n\n\n\n\n\n  \n    &lt;tr&gt;\n\n&lt;th colspan=\&quot;2\&quot; scope=\&quot;row\&quot; class=\&quot;row-header\&quot;&gt;Measure Population Criteria&lt;/th&gt;\n\n&lt;/tr&gt;\n  \n  \n  \n  \n    &lt;tr&gt;\n      \n        \n&lt;th scope=\&quot;row\&quot; class=\&quot;row-header\&quot;&gt;Initial Population&lt;/th&gt;\n\n      \n      &lt;td class=\&quot;content-container\&quot;&gt;\n        \n        &lt;em&gt;ID&lt;/em&gt;: HIV.IND.42.IP\n        &lt;br/&gt;\n        \n        \n          &lt;em&gt;Description&lt;/em&gt;:\n          &lt;p style=\&quot;white-space: pre-line\&quot; class=\&quot;tab-one\&quot;&gt;Initial Population&lt;/p&gt;\n        \n        \n          \n            \n            &lt;em&gt;Logic Definition&lt;/em&gt;: &lt;a href=\&quot;#hivind42logic-initial-population\&quot;&gt;Initial Population&lt;/a&gt; \n          \n        \n      &lt;/td&gt;\n    &lt;/tr&gt;\n  \n\n  \n    &lt;tr&gt;\n      \n        \n&lt;th scope=\&quot;row\&quot; class=\&quot;row-header\&quot;&gt;Denominator&lt;/th&gt;\n\n      \n      &lt;td class=\&quot;content-container\&quot;&gt;\n        \n        &lt;em&gt;ID&lt;/em&gt;: HIV.IND.42.DEN\n        &lt;br/&gt;\n        \n        \n          &lt;em&gt;Description&lt;/em&gt;:\n          &lt;p style=\&quot;white-space: pre-line\&quot; class=\&quot;tab-one\&quot;&gt;a) Programme-based/service delivery denominator | Number of HIV-exposed infants who were born within the 12 months (or 24 months in breastfeeding settings) prior to the reporting period and registered in the birth cohort | For example, for the reporting period January to December 2021 the denominator would be the number of HIV-exposed infants born between January to December 2020 in non-breast feeding settings and January to December 2019 in breastfeeding settings. |  | b) Population-based denominator | Estimated number of HIV-positive women who delivered within the past 12 months | (or 24 months in breastfeeding settings)&lt;/p&gt;\n        \n        \n          \n            \n            &lt;em&gt;Logic Definition&lt;/em&gt;: &lt;a href=\&quot;#hivind42logic-denominator\&quot;&gt;Denominator&lt;/a&gt; \n          \n        \n      &lt;/td&gt;\n    &lt;/tr&gt;\n  \n\n  \n    &lt;tr&gt;\n      \n        \n&lt;th scope=\&quot;row\&quot; class=\&quot;row-header\&quot;&gt;Numerator&lt;/th&gt;\n\n      \n      &lt;td class=\&quot;content-container\&quot;&gt;\n        \n        &lt;em&gt;ID&lt;/em&gt;: HIV.IND.42.NUM\n        &lt;br/&gt;\n        \n        \n          &lt;em&gt;Description&lt;/em&gt;:\n          &lt;p style=\&quot;white-space: pre-line\&quot; class=\&quot;tab-one\&quot;&gt;HIV-exposed infants born within the past 12 months (or 24 months in breastfeeding settings) who have known final HIV outcome status&lt;/p&gt;\n        \n        \n          \n            \n            &lt;em&gt;Logic Definition&lt;/em&gt;: &lt;a href=\&quot;#hivind42logic-numerator\&quot;&gt;Numerator&lt;/a&gt; \n          \n        \n      &lt;/td&gt;\n    &lt;/tr&gt;\n  \n\n  \n  \n\n\n\n\n\n\n\n\n\n\n\n\n\n&lt;tr&gt;\n\n&lt;th colspan=\&quot;2\&quot; scope=\&quot;row\&quot; class=\&quot;row-header\&quot;&gt;Measure Logic&lt;/th&gt;\n\n&lt;/tr&gt;\n\n&lt;tr&gt;\n\n&lt;th scope=\&quot;row\&quot; class=\&quot;row-header\&quot;&gt;Primary Library&lt;/th&gt;\n\n&lt;td class=\&quot;content-container\&quot;&gt;&lt;a href=\&quot;Library-HIVIND42Logic.html\&quot;&gt;HIV.IND.42 Logic&lt;/a&gt;&lt;/td&gt;\n&lt;/tr&gt;\n\n\n\n\n  \n  \n\n&lt;tr&gt;\n  \n  \n  \n  \n  \n&lt;th scope=\&quot;row\&quot; class=\&quot;row-header\&quot;&gt;Dependency&lt;/th&gt;\n\n  \n  &lt;td class=\&quot;content-container\&quot;&gt;\n    \n    &lt;em&gt;Description&lt;/em&gt;: FHIR model information\n    \n    &lt;br/&gt;\n    \n    \n    \n    \n    \n    \n    &lt;em&gt;Resource&lt;/em&gt;: &lt;a href=\&quot;http://fhir.org/guides/cqf/common/4.0.1/4.0.1/Library-FHIR-ModelInfo.html\&quot;&gt;http://fhir.org/guides/cqf/common/Library/FHIR-ModelInfo|4.0.1&lt;/a&gt;\n    &lt;br/&gt;\n    &lt;em&gt;Canonical URL&lt;/em&gt;: &lt;tt&gt;http://fhir.org/guides/cqf/common/Library/FHIR-ModelInfo|4.0.1&lt;/tt&gt;\n    \n  &lt;/td&gt;\n&lt;/tr&gt;\n\n&lt;tr&gt;\n  \n  \n  \n  \n  \n&lt;th scope=\&quot;row\&quot; class=\&quot;row-header\&quot;&gt;Dependency&lt;/th&gt;\n\n  \n  &lt;td class=\&quot;content-container\&quot;&gt;\n    \n    &lt;em&gt;Description&lt;/em&gt;: Library HIE\n    \n    &lt;br/&gt;\n    \n    \n    \n    \n    \n    \n    &lt;em&gt;Resource&lt;/em&gt;: &lt;a href=\&quot;Library-HIVIndicatorElements.html\&quot;&gt;HIVIndicatorElements&lt;/a&gt;\n    &lt;br/&gt;\n    &lt;em&gt;Canonical URL&lt;/em&gt;: &lt;tt&gt;http://smart.who.int/hiv/Library/HIVIndicatorElements&lt;/tt&gt;\n    \n  &lt;/td&gt;\n&lt;/tr&gt;\n\n&lt;tr&gt;\n  \n  \n  \n  \n  \n&lt;th scope=\&quot;row\&quot; class=\&quot;row-header\&quot;&gt;Dependency&lt;/th&gt;\n\n  \n  &lt;td class=\&quot;content-container\&quot;&gt;\n    \n    &lt;em&gt;Description&lt;/em&gt;: Library FHIRHelpers\n    \n    &lt;br/&gt;\n    \n    \n    \n    \n    \n    \n    &lt;em&gt;Resource&lt;/em&gt;: &lt;a href=\&quot;http://fhir.org/guides/cqf/common/4.0.1/4.0.1/Library-FHIRHelpers.html\&quot;&gt;http://fhir.org/guides/cqf/common/Library/FHIRHelpers|4.0.1&lt;/a&gt;\n    &lt;br/&gt;\n    &lt;em&gt;Canonical URL&lt;/em&gt;: &lt;tt&gt;http://fhir.org/guides/cqf/common/Library/FHIRHelpers|4.0.1&lt;/tt&gt;\n    \n  &lt;/td&gt;\n&lt;/tr&gt;\n\n&lt;tr&gt;\n  \n  \n  \n  \n  \n&lt;th scope=\&quot;row\&quot; class=\&quot;row-header\&quot;&gt;Dependency&lt;/th&gt;\n\n  \n  &lt;td class=\&quot;content-container\&quot;&gt;\n    \n    &lt;em&gt;Description&lt;/em&gt;: Library Elements\n    \n    &lt;br/&gt;\n    \n    \n    \n    \n    \n    \n    &lt;em&gt;Resource&lt;/em&gt;: &lt;a href=\&quot;Library-HIVElements.html\&quot;&gt;HIVElements&lt;/a&gt;\n    &lt;br/&gt;\n    &lt;em&gt;Canonical URL&lt;/em&gt;: &lt;tt&gt;http://smart.who.int/hiv/Library/HIVElements&lt;/tt&gt;\n    \n  &lt;/td&gt;\n&lt;/tr&gt;\n\n&lt;tr&gt;\n  \n  \n  \n  \n  \n&lt;th scope=\&quot;row\&quot; class=\&quot;row-header\&quot;&gt;Dependency&lt;/th&gt;\n\n  \n  &lt;td class=\&quot;content-container\&quot;&gt;\n    \n    &lt;em&gt;Description&lt;/em&gt;: Library Concepts\n    \n    &lt;br/&gt;\n    \n    \n    \n    \n    \n    \n    &lt;em&gt;Resource&lt;/em&gt;: &lt;code&gt;http://smart.who.int/hiv/Library/HIVConcepts|0.0.2&lt;/code&gt;\n    &lt;br/&gt;\n    &lt;em&gt;Canonical URL&lt;/em&gt;: &lt;tt&gt;http://smart.who.int/hiv/Library/HIVConcepts|0.0.2&lt;/tt&gt;\n    \n  &lt;/td&gt;\n&lt;/tr&gt;\n\n&lt;tr&gt;\n  \n  \n  \n  \n  \n&lt;th scope=\&quot;row\&quot; class=\&quot;row-header\&quot;&gt;Dependency&lt;/th&gt;\n\n  \n  &lt;td class=\&quot;content-container\&quot;&gt;\n    \n    &lt;em&gt;Description&lt;/em&gt;: Library WC\n    \n    &lt;br/&gt;\n    \n    \n    \n    \n    \n    \n    &lt;em&gt;Resource&lt;/em&gt;: &lt;a href=\&quot;Library-WHOCommon.html\&quot;&gt;WHOCommon&lt;/a&gt;\n    &lt;br/&gt;\n    &lt;em&gt;Canonical URL&lt;/em&gt;: &lt;tt&gt;http://smart.who.int/hiv/Library/WHOCommon&lt;/tt&gt;\n    \n  &lt;/td&gt;\n&lt;/tr&gt;\n\n&lt;tr&gt;\n  \n  \n  \n  \n  \n&lt;th scope=\&quot;row\&quot; class=\&quot;row-header\&quot;&gt;Dependency&lt;/th&gt;\n\n  \n  &lt;td class=\&quot;content-container\&quot;&gt;\n    \n    &lt;em&gt;Description&lt;/em&gt;: Code system HIVConcepts\n    \n    &lt;br/&gt;\n    \n    \n    \n    \n    \n    \n    &lt;em&gt;Resource&lt;/em&gt;: &lt;a href=\&quot;CodeSystem-HIVConcepts.html\&quot;&gt;WHO SMART HIV Concepts CodeSystem&lt;/a&gt;\n    &lt;br/&gt;\n    &lt;em&gt;Canonical URL&lt;/em&gt;: &lt;tt&gt;http://smart.who.int/hiv/CodeSystem/HIVConcepts&lt;/tt&gt;\n    \n  &lt;/td&gt;\n&lt;/tr&gt;\n\n\n  \n  &lt;tr&gt;\n    &lt;th scope=\&quot;row\&quot; class=\&quot;row-header\&quot;&gt;Direct Reference Code&lt;/th&gt;\n    &lt;td class=\&quot;content-container\&quot;&gt;\n      \n        &lt;em&gt;Display&lt;/em&gt;: HIV-exposed infant or child\n        &lt;br/&gt;\n      \n      &lt;em&gt;Code&lt;/em&gt;: HIV.E.DE112\n      &lt;br/&gt;\n      &lt;em&gt;System&lt;/em&gt;: &lt;tt&gt;http://smart.who.int/hiv/CodeSystem/HIVConcepts&lt;/tt&gt;\n    &lt;/td&gt;\n  &lt;/tr&gt;\n\n  &lt;tr&gt;\n    &lt;th scope=\&quot;row\&quot; class=\&quot;row-header\&quot;&gt;Direct Reference Code&lt;/th&gt;\n    &lt;td class=\&quot;content-container\&quot;&gt;\n      \n        &lt;em&gt;Display&lt;/em&gt;: Live birth\n        &lt;br/&gt;\n      \n      &lt;em&gt;Code&lt;/em&gt;: HIV.E.DE48\n      &lt;br/&gt;\n      &lt;em&gt;System&lt;/em&gt;: &lt;tt&gt;http://smart.who.int/hiv/CodeSystem/HIVConcepts&lt;/tt&gt;\n    &lt;/td&gt;\n  &lt;/tr&gt;\n\n  &lt;tr&gt;\n    &lt;th scope=\&quot;row\&quot; class=\&quot;row-header\&quot;&gt;Direct Reference Code&lt;/th&gt;\n    &lt;td class=\&quot;content-container\&quot;&gt;\n      \n        &lt;em&gt;Display&lt;/em&gt;: Breastfeeding\n        &lt;br/&gt;\n      \n      &lt;em&gt;Code&lt;/em&gt;: HIV.B.DE32\n      &lt;br/&gt;\n      &lt;em&gt;System&lt;/em&gt;: &lt;tt&gt;http://smart.who.int/hiv/CodeSystem/HIVConcepts&lt;/tt&gt;\n    &lt;/td&gt;\n  &lt;/tr&gt;\n\n  &lt;tr&gt;\n    &lt;th scope=\&quot;row\&quot; class=\&quot;row-header\&quot;&gt;Direct Reference Code&lt;/th&gt;\n    &lt;td class=\&quot;content-container\&quot;&gt;\n      \n        &lt;em&gt;Display&lt;/em&gt;: Registered in birth cohort\n        &lt;br/&gt;\n      \n      &lt;em&gt;Code&lt;/em&gt;: HIV.E.DE179\n      &lt;br/&gt;\n      &lt;em&gt;System&lt;/em&gt;: &lt;tt&gt;http://smart.who.int/hiv/CodeSystem/HIVConcepts&lt;/tt&gt;\n    &lt;/td&gt;\n  &lt;/tr&gt;\n\n  &lt;tr&gt;\n    &lt;th scope=\&quot;row\&quot; class=\&quot;row-header\&quot;&gt;Direct Reference Code&lt;/th&gt;\n    &lt;td class=\&quot;content-container\&quot;&gt;\n      \n        &lt;em&gt;Display&lt;/em&gt;: Final diagnosis of HIV-exposed infant\n        &lt;br/&gt;\n      \n      &lt;em&gt;Code&lt;/em&gt;: HIV.E.DE230\n      &lt;br/&gt;\n      &lt;em&gt;System&lt;/em&gt;: &lt;tt&gt;http://smart.who.int/hiv/CodeSystem/HIVConcepts&lt;/tt&gt;\n    &lt;/td&gt;\n  &lt;/tr&gt;\n\n  \n  &lt;tr&gt;\n  \n&lt;th scope=\&quot;row\&quot; class=\&quot;row-header\&quot;&gt;Parameter&lt;/th&gt;\n\n  &lt;td class=\&quot;content-container\&quot;&gt;\n    &lt;em&gt;Name&lt;/em&gt;: Measurement Period\n    &lt;br/&gt;\n    &lt;em&gt;Use&lt;/em&gt;: In\n    &lt;br/&gt;\n    &lt;em&gt;Min Cardinality&lt;/em&gt;: 0\n    &lt;br/&gt;\n    &lt;em&gt;Max Cardinality&lt;/em&gt;: 1\n    &lt;br/&gt;\n    &lt;em&gt;Type&lt;/em&gt;: Period\n  &lt;/td&gt;\n&lt;/tr&gt;\n  \n  &lt;tr&gt;\n  \n&lt;th scope=\&quot;row\&quot; class=\&quot;row-header\&quot;&gt;Parameter&lt;/th&gt;\n\n  &lt;td class=\&quot;content-container\&quot;&gt;\n    &lt;em&gt;Name&lt;/em&gt;: Numerator\n    &lt;br/&gt;\n    &lt;em&gt;Use&lt;/em&gt;: Out\n    &lt;br/&gt;\n    &lt;em&gt;Min Cardinality&lt;/em&gt;: 0\n    &lt;br/&gt;\n    &lt;em&gt;Max Cardinality&lt;/em&gt;: 1\n    &lt;br/&gt;\n    &lt;em&gt;Type&lt;/em&gt;: boolean\n  &lt;/td&gt;\n&lt;/tr&gt;\n  \n  &lt;tr&gt;\n  \n&lt;th scope=\&quot;row\&quot; class=\&quot;row-header\&quot;&gt;Parameter&lt;/th&gt;\n\n  &lt;td class=\&quot;content-container\&quot;&gt;\n    &lt;em&gt;Name&lt;/em&gt;: Denominator\n    &lt;br/&gt;\n    &lt;em&gt;Use&lt;/em&gt;: Out\n    &lt;br/&gt;\n    &lt;em&gt;Min Cardinality&lt;/em&gt;: 0\n    &lt;br/&gt;\n    &lt;em&gt;Max Cardinality&lt;/em&gt;: 1\n    &lt;br/&gt;\n    &lt;em&gt;Type&lt;/em&gt;: boolean\n  &lt;/td&gt;\n&lt;/tr&gt;\n  \n  &lt;tr&gt;\n  \n&lt;th scope=\&quot;row\&quot; class=\&quot;row-header\&quot;&gt;Parameter&lt;/th&gt;\n\n  &lt;td class=\&quot;content-container\&quot;&gt;\n    &lt;em&gt;Name&lt;/em&gt;: Initial Population\n    &lt;br/&gt;\n    &lt;em&gt;Use&lt;/em&gt;: Out\n    &lt;br/&gt;\n    &lt;em&gt;Min Cardinality&lt;/em&gt;: 0\n    &lt;br/&gt;\n    &lt;em&gt;Max Cardinality&lt;/em&gt;: 1\n    &lt;br/&gt;\n    &lt;em&gt;Type&lt;/em&gt;: boolean\n  &lt;/td&gt;\n&lt;/tr&gt;\n  \n  \n  &lt;tr&gt;\n    &lt;th colspan=\&quot;2\&quot; scope=\&quot;row\&quot; class=\&quot;section-header\&quot;&gt;&lt;a name=\&quot;effective-data-requirements\&quot;&gt; &lt;/a&gt;Measure Logic Data Requirements&lt;/th&gt;\n  &lt;/tr&gt;\n  \n  \n&lt;tr&gt;\n  &lt;th scope=\&quot;row\&quot; class=\&quot;row-header\&quot;&gt;Data Requirement&lt;/th&gt;\n  &lt;td class=\&quot;content-container\&quot;&gt;\n    &lt;em&gt;Type&lt;/em&gt;: Patient\n    &lt;br/&gt;\n  \n    &lt;em&gt;Profile(s)&lt;/em&gt;: \n  \n    &lt;a href=\&quot;http://hl7.org/fhir/R4/patient.html\&quot;&gt;Patient&lt;/a&gt;\n    &lt;br/&gt;        \n  \n   \n   \n   \n  &lt;/td&gt;\n&lt;/tr&gt;\n\n&lt;tr&gt;\n  &lt;th scope=\&quot;row\&quot; class=\&quot;row-header\&quot;&gt;Data Requirement&lt;/th&gt;\n  &lt;td class=\&quot;content-container\&quot;&gt;\n    &lt;em&gt;Type&lt;/em&gt;: Observation\n    &lt;br/&gt;\n  \n    &lt;em&gt;Profile(s)&lt;/em&gt;: \n  \n    &lt;a href=\&quot;http://hl7.org/fhir/R4/observation.html\&quot;&gt;Observation&lt;/a&gt;\n    &lt;br/&gt;        \n  \n   \n   \n    &lt;em&gt;Must Support Elements&lt;/em&gt;: code, status, effective\n    &lt;br/&gt;\n   \n  \n    &lt;em&gt;Code Filter(s)&lt;/em&gt;: \n    &lt;br/&gt;\n  \n  \n    &lt;span class=\&quot;tab-one\&quot;&gt;&lt;em&gt;Path&lt;/em&gt;: code&lt;/span&gt;\n    &lt;br/&gt;\n  \n  \n  \n  \n    &lt;span class=\&quot;tab-one\&quot;&gt;&lt;em&gt;Code&lt;/em&gt;: &lt;/span&gt;\n    &lt;br/&gt;\n  \n  \n   \n  &lt;/td&gt;\n&lt;/tr&gt;\n\n&lt;tr&gt;\n  &lt;th scope=\&quot;row\&quot; class=\&quot;row-header\&quot;&gt;Data Requirement&lt;/th&gt;\n  &lt;td class=\&quot;content-container\&quot;&gt;\n    &lt;em&gt;Type&lt;/em&gt;: Observation\n    &lt;br/&gt;\n  \n    &lt;em&gt;Profile(s)&lt;/em&gt;: \n  \n    &lt;a href=\&quot;http://hl7.org/fhir/R4/observation.html\&quot;&gt;Observation&lt;/a&gt;\n    &lt;br/&gt;        \n  \n   \n   \n    &lt;em&gt;Must Support Elements&lt;/em&gt;: code, status, value, effective\n    &lt;br/&gt;\n   \n  \n    &lt;em&gt;Code Filter(s)&lt;/em&gt;: \n    &lt;br/&gt;\n  \n  \n    &lt;span class=\&quot;tab-one\&quot;&gt;&lt;em&gt;Path&lt;/em&gt;: code&lt;/span&gt;\n    &lt;br/&gt;\n  \n  \n  \n  \n    &lt;span class=\&quot;tab-one\&quot;&gt;&lt;em&gt;Code&lt;/em&gt;: &lt;/span&gt;\n    &lt;br/&gt;\n  \n  \n   \n  &lt;/td&gt;\n&lt;/tr&gt;\n\n&lt;tr&gt;\n  &lt;th scope=\&quot;row\&quot; class=\&quot;row-header\&quot;&gt;Data Requirement&lt;/th&gt;\n  &lt;td class=\&quot;content-container\&quot;&gt;\n    &lt;em&gt;Type&lt;/em&gt;: Observation\n    &lt;br/&gt;\n  \n    &lt;em&gt;Profile(s)&lt;/em&gt;: \n  \n    &lt;a href=\&quot;http://hl7.org/fhir/R4/observation.html\&quot;&gt;Observation&lt;/a&gt;\n    &lt;br/&gt;        \n  \n   \n   \n    &lt;em&gt;Must Support Elements&lt;/em&gt;: code, status, value\n    &lt;br/&gt;\n   \n  \n    &lt;em&gt;Code Filter(s)&lt;/em&gt;: \n    &lt;br/&gt;\n  \n  \n    &lt;span class=\&quot;tab-one\&quot;&gt;&lt;em&gt;Path&lt;/em&gt;: code&lt;/span&gt;\n    &lt;br/&gt;\n  \n  \n  \n  \n    &lt;span class=\&quot;tab-one\&quot;&gt;&lt;em&gt;Code&lt;/em&gt;: &lt;/span&gt;\n    &lt;br/&gt;\n  \n  \n   \n  &lt;/td&gt;\n&lt;/tr&gt;\n\n&lt;tr&gt;\n  &lt;th scope=\&quot;row\&quot; class=\&quot;row-header\&quot;&gt;Data Requirement&lt;/th&gt;\n  &lt;td class=\&quot;content-container\&quot;&gt;\n    &lt;em&gt;Type&lt;/em&gt;: Observation\n    &lt;br/&gt;\n  \n    &lt;em&gt;Profile(s)&lt;/em&gt;: \n  \n    &lt;a href=\&quot;http://hl7.org/fhir/R4/observation.html\&quot;&gt;Observation&lt;/a&gt;\n    &lt;br/&gt;        \n  \n   \n   \n    &lt;em&gt;Must Support Elements&lt;/em&gt;: code, status, value, effective\n    &lt;br/&gt;\n   \n  \n    &lt;em&gt;Code Filter(s)&lt;/em&gt;: \n    &lt;br/&gt;\n  \n  \n    &lt;span class=\&quot;tab-one\&quot;&gt;&lt;em&gt;Path&lt;/em&gt;: code&lt;/span&gt;\n    &lt;br/&gt;\n  \n  \n  \n  \n    &lt;span class=\&quot;tab-one\&quot;&gt;&lt;em&gt;Code&lt;/em&gt;: &lt;/span&gt;\n    &lt;br/&gt;\n  \n  \n   \n  &lt;/td&gt;\n&lt;/tr&gt;\n\n&lt;tr&gt;\n  &lt;th scope=\&quot;row\&quot; class=\&quot;row-header\&quot;&gt;Data Requirement&lt;/th&gt;\n  &lt;td class=\&quot;content-container\&quot;&gt;\n    &lt;em&gt;Type&lt;/em&gt;: Observation\n    &lt;br/&gt;\n  \n    &lt;em&gt;Profile(s)&lt;/em&gt;: \n  \n    &lt;a href=\&quot;http://hl7.org/fhir/R4/observation.html\&quot;&gt;Observation&lt;/a&gt;\n    &lt;br/&gt;        \n  \n   \n   \n    &lt;em&gt;Must Support Elements&lt;/em&gt;: code, status, effective\n    &lt;br/&gt;\n   \n  \n    &lt;em&gt;Code Filter(s)&lt;/em&gt;: \n    &lt;br/&gt;\n  \n  \n    &lt;span class=\&quot;tab-one\&quot;&gt;&lt;em&gt;Path&lt;/em&gt;: code&lt;/span&gt;\n    &lt;br/&gt;\n  \n  \n  \n  \n    &lt;span class=\&quot;tab-one\&quot;&gt;&lt;em&gt;Code&lt;/em&gt;: &lt;/span&gt;\n    &lt;br/&gt;\n  \n  \n   \n  &lt;/td&gt;\n&lt;/tr&gt;\n\n  \n  &lt;tr&gt;\n\n&lt;th colspan=\&quot;2\&quot; scope=\&quot;row\&quot; class=\&quot;row-header\&quot;&gt;Measure Logic Definitions&lt;/th&gt;\n\n&lt;/tr&gt;\n  \n          \n&lt;tr&gt;\n  &lt;th scope=\&quot;row\&quot; rowspan=\&quot;2\&quot; class=\&quot;row-header\&quot;&gt;\n    \n      \n      &lt;a name=\&quot;hivindicatorelements-is-infant-patient\&quot;&gt; &lt;/a&gt;\n    \n    Logic Definition\n  &lt;/th&gt;\n\n  &lt;td class=\&quot;content-container\&quot;&gt;&lt;em&gt;Library Name:&lt;/em&gt; HIVIndicatorElements&lt;/td&gt;\n\n&lt;/tr&gt;\n&lt;tr&gt;\n\n  &lt;td&gt;\n    &lt;pre style=\&quot;border: none;\&quot; class=\&quot;content-container highlight language-cql\&quot;&gt;&lt;code class=\&quot;language-cql\&quot;&gt;define &amp;quot;Is Infant Patient&amp;quot;:\n  Patient.birthDate is not null\n  and difference in years between Patient.birthDate and start of &amp;quot;Measurement Period&amp;quot; &amp;lt; 1&lt;/code&gt;&lt;/pre&gt;\n  &lt;/td&gt;\n\n&lt;/tr&gt;\n        \n&lt;tr&gt;\n  &lt;th scope=\&quot;row\&quot; rowspan=\&quot;2\&quot; class=\&quot;row-header\&quot;&gt;\n    \n      \n      &lt;a name=\&quot;hivelements-hiv-exposed-infant-or-child-e.de112\&quot;&gt; &lt;/a&gt;\n    \n    Logic Definition\n  &lt;/th&gt;\n\n  &lt;td class=\&quot;content-container\&quot;&gt;&lt;em&gt;Library Name:&lt;/em&gt; HIVElements&lt;/td&gt;\n\n&lt;/tr&gt;\n&lt;tr&gt;\n\n  &lt;td&gt;\n    &lt;pre style=\&quot;border: none;\&quot; class=\&quot;content-container highlight language-cql\&quot;&gt;&lt;code class=\&quot;language-cql\&quot;&gt;/* End of Age of infant */\n\n/*\n@dataElement: HIV.E.DE112 - HIV-exposed infant or child\n@activity: HIV.F6 Check whether infant/child had HIV exposure\n@description: Whether the infant or child was determined to have had HIV exposure\n*/\ndefine &amp;quot;HIV-exposed infant or child E.DE112&amp;quot;:\n\n  [Observation: Concepts.&amp;quot;HIV-exposed infant or child - HIV.E.DE112&amp;quot;] O\n    where O.status in { 'final', 'amended', 'corrected' }&lt;/code&gt;&lt;/pre&gt;\n  &lt;/td&gt;\n\n&lt;/tr&gt;\n        \n&lt;tr&gt;\n  &lt;th scope=\&quot;row\&quot; rowspan=\&quot;2\&quot; class=\&quot;row-header\&quot;&gt;\n    \n      \n      &lt;a name=\&quot;hivindicatorelements-is-hiv-exposed-infant-or-child-e.de112\&quot;&gt; &lt;/a&gt;\n    \n    Logic Definition\n  &lt;/th&gt;\n\n  &lt;td class=\&quot;content-container\&quot;&gt;&lt;em&gt;Library Name:&lt;/em&gt; HIVIndicatorElements&lt;/td&gt;\n\n&lt;/tr&gt;\n&lt;tr&gt;\n\n  &lt;td&gt;\n    &lt;pre style=\&quot;border: none;\&quot; class=\&quot;content-container highlight language-cql\&quot;&gt;&lt;code class=\&quot;language-cql\&quot;&gt;/* End of Age of infant */\n\n/*\n@dataElement: HIV.E.DE112 - HIV-exposed infant or child\n@activity: HIV.F6 Check whether infant/child had HIV exposure\n@description: Whether the infant or child was determined to have had HIV exposure\n*/\ndefine &amp;quot;is HIV-exposed infant or child E.DE112&amp;quot;:\n  &amp;quot;Is Infant Patient&amp;quot; and \n  exists(Elements.&amp;quot;HIV-exposed infant or child E.DE112&amp;quot; O\n    where O.effective.toInterval() during &amp;quot;Measurement Period&amp;quot;)&lt;/code&gt;&lt;/pre&gt;\n  &lt;/td&gt;\n\n&lt;/tr&gt;\n        \n&lt;tr&gt;\n  &lt;th scope=\&quot;row\&quot; rowspan=\&quot;2\&quot; class=\&quot;row-header\&quot;&gt;\n    \n      \n      &lt;a name=\&quot;hivelements-live-birth-delivery\&quot;&gt; &lt;/a&gt;\n    \n    Logic Definition\n  &lt;/th&gt;\n\n  &lt;td class=\&quot;content-container\&quot;&gt;&lt;em&gt;Library Name:&lt;/em&gt; HIVElements&lt;/td&gt;\n\n&lt;/tr&gt;\n&lt;tr&gt;\n\n  &lt;td&gt;\n    &lt;pre style=\&quot;border: none;\&quot; class=\&quot;content-container highlight language-cql\&quot;&gt;&lt;code class=\&quot;language-cql\&quot;&gt;/* End of Newly on ART during labour and delivery */\n\n/*\n@dataElement: HIV.E.DE46 - Delivery date\n@activity: HIV.E1 Capture or update mother's history\n@description: Date on which the woman delivered\n*/\ndefine &amp;quot;Live Birth Delivery&amp;quot;:\n  [Observation: Concepts.&amp;quot;Live birth&amp;quot;] O\n    where O.status in { 'final', 'amended', 'corrected' }&lt;/code&gt;&lt;/pre&gt;\n  &lt;/td&gt;\n\n&lt;/tr&gt;\n        \n&lt;tr&gt;\n  &lt;th scope=\&quot;row\&quot; rowspan=\&quot;2\&quot; class=\&quot;row-header\&quot;&gt;\n    \n      \n      &lt;a name=\&quot;hivindicatorelements-live-birth-delivery\&quot;&gt; &lt;/a&gt;\n    \n    Logic Definition\n  &lt;/th&gt;\n\n  &lt;td class=\&quot;content-container\&quot;&gt;&lt;em&gt;Library Name:&lt;/em&gt; HIVIndicatorElements&lt;/td&gt;\n\n&lt;/tr&gt;\n&lt;tr&gt;\n\n  &lt;td&gt;\n    &lt;pre style=\&quot;border: none;\&quot; class=\&quot;content-container highlight language-cql\&quot;&gt;&lt;code class=\&quot;language-cql\&quot;&gt;/* End of Newly on ART during labour and delivery */\n\n/*\n@dataElement: HIV.E.DE46 - Delivery date\n@activity: HIV.E1 Capture or update mother's history\n@description: Date on which the woman delivered\n*/\ndefine &amp;quot;Live Birth Delivery&amp;quot;:\n  Elements.&amp;quot;Live Birth Delivery&amp;quot; O\n    where O.effective.toInterval() during &amp;quot;Measurement Period&amp;quot;&lt;/code&gt;&lt;/pre&gt;\n  &lt;/td&gt;\n\n&lt;/tr&gt;\n        \n&lt;tr&gt;\n  &lt;th scope=\&quot;row\&quot; rowspan=\&quot;2\&quot; class=\&quot;row-header\&quot;&gt;\n    \n      \n      &lt;a name=\&quot;hivelements-breastfeeding-b.de32\&quot;&gt; &lt;/a&gt;\n    \n    Logic Definition\n  &lt;/th&gt;\n\n  &lt;td class=\&quot;content-container\&quot;&gt;&lt;em&gt;Library Name:&lt;/em&gt; HIVElements&lt;/td&gt;\n\n&lt;/tr&gt;\n&lt;tr&gt;\n\n  &lt;td&gt;\n    &lt;pre style=\&quot;border: none;\&quot; class=\&quot;content-container highlight language-cql\&quot;&gt;&lt;code class=\&quot;language-cql\&quot;&gt;/* End of Currently pregnant B.DE29 */\n\n/*\n@dataElement: HIV.B.DE32 - Breastfeeding\n@activity: HIV.B6 Capture or update client history\n@description: Infant is being breastfed by mother\n*/\n\ndefine &amp;quot;Breastfeeding B.DE32&amp;quot;:\n  [Observation: Concepts.&amp;quot;Breastfeeding - HIV.B.DE32&amp;quot;] O\n    where O.status in { 'final', 'amended', 'corrected' }\n      and O.value is true&lt;/code&gt;&lt;/pre&gt;\n  &lt;/td&gt;\n\n&lt;/tr&gt;\n        \n&lt;tr&gt;\n  &lt;th scope=\&quot;row\&quot; rowspan=\&quot;2\&quot; class=\&quot;row-header\&quot;&gt;\n    \n      \n      &lt;a name=\&quot;hivindicatorelements-breastfeeding-b.de32\&quot;&gt; &lt;/a&gt;\n    \n    Logic Definition\n  &lt;/th&gt;\n\n  &lt;td class=\&quot;content-container\&quot;&gt;&lt;em&gt;Library Name:&lt;/em&gt; HIVIndicatorElements&lt;/td&gt;\n\n&lt;/tr&gt;\n&lt;tr&gt;\n\n  &lt;td&gt;\n    &lt;pre style=\&quot;border: none;\&quot; class=\&quot;content-container highlight language-cql\&quot;&gt;&lt;code class=\&quot;language-cql\&quot;&gt;/* End of Currently pregnant B.DE29 */\n\n/*\n@dataElement: HIV.B.DE32 - Breastfeeding\n@activity: HIV.B6 Capture or update client history\n@description: Infant is being breastfed by mother\n*/\n\ndefine &amp;quot;Breastfeeding B.DE32&amp;quot;:\n  Elements.&amp;quot;Breastfeeding B.DE32&amp;quot; O\n    where O.effective.toInterval() during &amp;quot;Measurement Period&amp;quot;&lt;/code&gt;&lt;/pre&gt;\n  &lt;/td&gt;\n\n&lt;/tr&gt;\n        \n&lt;tr&gt;\n  &lt;th scope=\&quot;row\&quot; rowspan=\&quot;2\&quot; class=\&quot;row-header\&quot;&gt;\n    \n      \n      &lt;a name=\&quot;hivelements-registered-in-birth-cohort\&quot;&gt; &lt;/a&gt;\n    \n    Logic Definition\n  &lt;/th&gt;\n\n  &lt;td class=\&quot;content-container\&quot;&gt;&lt;em&gt;Library Name:&lt;/em&gt; HIVElements&lt;/td&gt;\n\n&lt;/tr&gt;\n&lt;tr&gt;\n\n  &lt;td&gt;\n    &lt;pre style=\&quot;border: none;\&quot; class=\&quot;content-container highlight language-cql\&quot;&gt;&lt;code class=\&quot;language-cql\&quot;&gt;/* End of First visit after the end of breastfeeding */\n\n/*\n@dataElement: HIV.E.DE179 - Registered in birth cohort\n@activity: HIV.F3 Capture or update infant's/child's history\n@description: Whether the infant has been registered in a birth cohort\n*/\n\ndefine &amp;quot;Registered in birth cohort&amp;quot;:\n  [Observation: Concepts.&amp;quot;Registered in birth cohort&amp;quot;] O\n    where O.status in { 'final', 'amended', 'corrected' }\n      and O.value is true&lt;/code&gt;&lt;/pre&gt;\n  &lt;/td&gt;\n\n&lt;/tr&gt;\n        \n&lt;tr&gt;\n  &lt;th scope=\&quot;row\&quot; rowspan=\&quot;2\&quot; class=\&quot;row-header\&quot;&gt;\n    \n      \n      &lt;a name=\&quot;hivindicatorelements-registered-in-birth-cohort\&quot;&gt; &lt;/a&gt;\n    \n    Logic Definition\n  &lt;/th&gt;\n\n  &lt;td class=\&quot;content-container\&quot;&gt;&lt;em&gt;Library Name:&lt;/em&gt; HIVIndicatorElements&lt;/td&gt;\n\n&lt;/tr&gt;\n&lt;tr&gt;\n\n  &lt;td&gt;\n    &lt;pre style=\&quot;border: none;\&quot; class=\&quot;content-container highlight language-cql\&quot;&gt;&lt;code class=\&quot;language-cql\&quot;&gt;/* End of First visit after the end of breastfeeding */\n\n/*\n@dataElement: HIV.E.DE179 - Registered in birth cohort\n@activity: HIV.F3 Capture or update infant's/child's history\n@description: Whether the infant has been registered in a birth cohort\n*/\n\ndefine &amp;quot;Registered in birth cohort&amp;quot;:\n  exists Elements.&amp;quot;Registered in birth cohort&amp;quot; O\n    where O.effective.toInterval() during &amp;quot;Measurement Period&amp;quot;&lt;/code&gt;&lt;/pre&gt;\n  &lt;/td&gt;\n\n&lt;/tr&gt;\n        \n&lt;tr&gt;\n  &lt;th scope=\&quot;row\&quot; rowspan=\&quot;2\&quot; class=\&quot;row-header\&quot;&gt;\n    \n      \n      &lt;a name=\&quot;hivelements-final-diagnosis-of-hiv-exposed-infant-e.de230-observation\&quot;&gt; &lt;/a&gt;\n    \n    Logic Definition\n  &lt;/th&gt;\n\n  &lt;td class=\&quot;content-container\&quot;&gt;&lt;em&gt;Library Name:&lt;/em&gt; HIVElements&lt;/td&gt;\n\n&lt;/tr&gt;\n&lt;tr&gt;\n\n  &lt;td&gt;\n    &lt;pre style=\&quot;border: none;\&quot; class=\&quot;content-container highlight language-cql\&quot;&gt;&lt;code class=\&quot;language-cql\&quot;&gt;define &amp;quot;Final diagnosis of HIV-exposed infant E.DE230 Observation&amp;quot;:\n  [Observation: Concepts.&amp;quot;Final diagnosis of HIV-exposed infant - HIV.E.DE230&amp;quot;] O\n    where O.status in { 'final', 'amended', 'corrected' }&lt;/code&gt;&lt;/pre&gt;\n  &lt;/td&gt;\n\n&lt;/tr&gt;\n        \n&lt;tr&gt;\n  &lt;th scope=\&quot;row\&quot; rowspan=\&quot;2\&quot; class=\&quot;row-header\&quot;&gt;\n    \n      \n      &lt;a name=\&quot;hivelements-final-diagnosis-of-hiv-exposed-infant-e.de230\&quot;&gt; &lt;/a&gt;\n    \n    Logic Definition\n  &lt;/th&gt;\n\n  &lt;td class=\&quot;content-container\&quot;&gt;&lt;em&gt;Library Name:&lt;/em&gt; HIVElements&lt;/td&gt;\n\n&lt;/tr&gt;\n&lt;tr&gt;\n\n  &lt;td&gt;\n    &lt;pre style=\&quot;border: none;\&quot; class=\&quot;content-container highlight language-cql\&quot;&gt;&lt;code class=\&quot;language-cql\&quot;&gt;/* End of Infant ART start date */\n\n/*\n@dataElement: HIV.E.DE230 - Final diagnosis of HIV-exposed infant\n@activity: HIV.F20 Record infant's/child's final HIV diagnosis\n@description: HIV-exposed infant final status at 18 months or 3 months after cessation of breastfeeding (whichever is later).\n*/\n\ndefine &amp;quot;Final diagnosis of HIV-exposed infant E.DE230&amp;quot;:\n  First(&amp;quot;Final diagnosis of HIV-exposed infant E.DE230 Observation&amp;quot;.value) as FHIR.CodeableConcept&lt;/code&gt;&lt;/pre&gt;\n  &lt;/td&gt;\n\n&lt;/tr&gt;\n        \n&lt;tr&gt;\n  &lt;th scope=\&quot;row\&quot; rowspan=\&quot;2\&quot; class=\&quot;row-header\&quot;&gt;\n    \n      \n      &lt;a name=\&quot;hivind42logic-numerator\&quot;&gt; &lt;/a&gt;\n    \n    Logic Definition\n  &lt;/th&gt;\n\n  &lt;td class=\&quot;content-container\&quot;&gt;&lt;em&gt;Library Name:&lt;/em&gt; HIVIND42Logic&lt;/td&gt;\n\n&lt;/tr&gt;\n&lt;tr&gt;\n\n  &lt;td&gt;\n    &lt;pre style=\&quot;border: none;\&quot; class=\&quot;content-container highlight language-cql\&quot;&gt;&lt;code class=\&quot;language-cql\&quot;&gt;/**\n * Numerator\n * \n * Definition: HIV-exposed infants born within the past 12 months (or 24 months in breastfeeding settings) who have known final HIV outcome status\n * Calculation: COUNT of infants who are an &amp;quot;HIV-exposed infant or child&amp;quot; AND [(with an &amp;quot;Infant date of birth&amp;quot; in past 12 months) OR (with an &amp;quot;Infant date of birth&amp;quot; in past 24 months IF mothers are &amp;quot;Breastfeeding&amp;quot;)] AND &amp;quot;Registered in birth cohort&amp;quot;=True AND with a &amp;quot;Final diagnosis of HIV-exposed infant&amp;quot; of NOT NULL\n */\n\ndefine &amp;quot;Numerator&amp;quot;:\n  HIE.&amp;quot;is HIV-exposed infant or child E.DE112&amp;quot;\n  and\n  (exists(HIE.&amp;quot;Live Birth Delivery&amp;quot; B where months between end of B.effective.toInterval() and end of  &amp;quot;Measurement Period&amp;quot; &amp;lt; 12 months)\n  or \n  (\n  exists(HIE.&amp;quot;Breastfeeding B.DE32&amp;quot; B) and\n  exists(HIE.&amp;quot;Live Birth Delivery&amp;quot; B where months between end of B.effective.toInterval() and end of  &amp;quot;Measurement Period&amp;quot; &amp;lt; 24 months)\n  )\n  )\n  and HIE.&amp;quot;Registered in birth cohort&amp;quot;\n  and HE.&amp;quot;Final diagnosis of HIV-exposed infant E.DE230&amp;quot; is not null&lt;/code&gt;&lt;/pre&gt;\n  &lt;/td&gt;\n\n&lt;/tr&gt;\n        \n&lt;tr&gt;\n  &lt;th scope=\&quot;row\&quot; rowspan=\&quot;2\&quot; class=\&quot;row-header\&quot;&gt;\n    \n      \n      &lt;a name=\&quot;hivind42logic-denominator\&quot;&gt; &lt;/a&gt;\n    \n    Logic Definition\n  &lt;/th&gt;\n\n  &lt;td class=\&quot;content-container\&quot;&gt;&lt;em&gt;Library Name:&lt;/em&gt; HIVIND42Logic&lt;/td&gt;\n\n&lt;/tr&gt;\n&lt;tr&gt;\n\n  &lt;td&gt;\n    &lt;pre style=\&quot;border: none;\&quot; class=\&quot;content-container highlight language-cql\&quot;&gt;&lt;code class=\&quot;language-cql\&quot;&gt;/**\n * Denominator\n *\n * Definition: a) Programme-based/service delivery denominator | Number of HIV-exposed infants who were born within the 12 months (or 24 months in breastfeeding settings) prior to the reporting period and registered in the birth cohort | For example, for the reporting period January to December 2021 the denominator would be the number of HIV-exposed infants born between January to December 2020 in non-breast feeding settings and January to December 2019 in breastfeeding settings. |  | b) Population-based denominator | Estimated number of HIV-positive women who delivered within the past 12 months | (or 24 months in breastfeeding settings)\n * Calculation: COUNT of infants who are an &amp;quot;HIV-exposed infant or child&amp;quot; AND [(with an &amp;quot;Infant date of birth&amp;quot; within past 12 months) OR (with an &amp;quot;Infant date of birth&amp;quot; within past 24 months IF mothers are &amp;quot;Breastfeeding&amp;quot;)] AND &amp;quot;Registered in birth cohort&amp;quot;=True\n */\n\ndefine &amp;quot;Denominator&amp;quot;:\n  HIE.&amp;quot;is HIV-exposed infant or child E.DE112&amp;quot;\n  and\n  (exists(HIE.&amp;quot;Live Birth Delivery&amp;quot; B where months between end of B.effective.toInterval() and end of  &amp;quot;Measurement Period&amp;quot; &amp;lt; 12 months)\n  or \n  (\n  exists(HIE.&amp;quot;Breastfeeding B.DE32&amp;quot; B) and\n  exists(HIE.&amp;quot;Live Birth Delivery&amp;quot; B where months between end of B.effective.toInterval() and end of  &amp;quot;Measurement Period&amp;quot; &amp;lt; 24 months)\n  )\n  )\n  and HIE.&amp;quot;Registered in birth cohort&amp;quot;&lt;/code&gt;&lt;/pre&gt;\n  &lt;/td&gt;\n\n&lt;/tr&gt;\n        \n&lt;tr&gt;\n  &lt;th scope=\&quot;row\&quot; rowspan=\&quot;2\&quot; class=\&quot;row-header\&quot;&gt;\n    \n      \n      &lt;a name=\&quot;hivind42logic-initial-population\&quot;&gt; &lt;/a&gt;\n    \n    Logic Definition\n  &lt;/th&gt;\n\n  &lt;td class=\&quot;content-container\&quot;&gt;&lt;em&gt;Library Name:&lt;/em&gt; HIVIND42Logic&lt;/td&gt;\n\n&lt;/tr&gt;\n&lt;tr&gt;\n\n  &lt;td&gt;\n    &lt;pre style=\&quot;border: none;\&quot; class=\&quot;content-container highlight language-cql\&quot;&gt;&lt;code class=\&quot;language-cql\&quot;&gt;/* Populations */\n\n/*\n *Initial Population\n */\n\ndefine &amp;quot;Initial Population&amp;quot;:\n  true&lt;/code&gt;&lt;/pre&gt;\n  &lt;/td&gt;\n\n&lt;/tr&gt;\n        \n&lt;tr&gt;\n  &lt;th scope=\&quot;row\&quot; rowspan=\&quot;2\&quot; class=\&quot;row-header\&quot;&gt;\n    \n      \n      &lt;a name=\&quot;fhirhelpers-todate\&quot;&gt; &lt;/a&gt;\n    \n    Logic Definition\n  &lt;/th&gt;\n\n  &lt;td class=\&quot;content-container\&quot;&gt;&lt;em&gt;Library Name:&lt;/em&gt; FHIRHelpers&lt;/td&gt;\n\n&lt;/tr&gt;\n&lt;tr&gt;\n\n  &lt;td&gt;\n    &lt;pre style=\&quot;border: none;\&quot; class=\&quot;content-container highlight language-cql\&quot;&gt;&lt;code class=\&quot;language-cql\&quot;&gt;define function ToDate(value date): value.value&lt;/code&gt;&lt;/pre&gt;\n  &lt;/td&gt;\n\n&lt;/tr&gt;\n        \n&lt;tr&gt;\n  &lt;th scope=\&quot;row\&quot; rowspan=\&quot;2\&quot; class=\&quot;row-header\&quot;&gt;\n    \n      \n      &lt;a name=\&quot;fhirhelpers-tostring\&quot;&gt; &lt;/a&gt;\n    \n    Logic Definition\n  &lt;/th&gt;\n\n  &lt;td class=\&quot;content-container\&quot;&gt;&lt;em&gt;Library Name:&lt;/em&gt; FHIRHelpers&lt;/td&gt;\n\n&lt;/tr&gt;\n&lt;tr&gt;\n\n  &lt;td&gt;\n    &lt;pre style=\&quot;border: none;\&quot; class=\&quot;content-container highlight language-cql\&quot;&gt;&lt;code class=\&quot;language-cql\&quot;&gt;define function ToString(value ObservationStatus): value.value&lt;/code&gt;&lt;/pre&gt;\n  &lt;/td&gt;\n\n&lt;/tr&gt;\n        \n&lt;tr&gt;\n  &lt;th scope=\&quot;row\&quot; rowspan=\&quot;2\&quot; class=\&quot;row-header\&quot;&gt;\n    \n      \n      &lt;a name=\&quot;fhirhelpers-toboolean\&quot;&gt; &lt;/a&gt;\n    \n    Logic Definition\n  &lt;/th&gt;\n\n  &lt;td class=\&quot;content-container\&quot;&gt;&lt;em&gt;Library Name:&lt;/em&gt; FHIRHelpers&lt;/td&gt;\n\n&lt;/tr&gt;\n&lt;tr&gt;\n\n  &lt;td&gt;\n    &lt;pre style=\&quot;border: none;\&quot; class=\&quot;content-container highlight language-cql\&quot;&gt;&lt;code class=\&quot;language-cql\&quot;&gt;define function ToBoolean(value boolean): value.value&lt;/code&gt;&lt;/pre&gt;\n  &lt;/td&gt;\n\n&lt;/tr&gt;\n\n  \n\n&lt;tr&gt;\n  &lt;th colspan=\&quot;2\&quot; scope=\&quot;row\&quot; class=\&quot;row-header\&quot;&gt;Generated using version 0.4.6 of the sample-content-ig Liquid templates&lt;/th&gt;\n&lt;/tr&gt;\n    &lt;/tbody&gt;\n  &lt;/table&gt;\n&lt;/div&gt;"
+  },
+  "<a href="http://hl7.org/fhir/R4/library.html#Library">contained</a>" : [
+    {
+      "<a href="http://hl7.org/fhir/R4/library.html">resourceType</a>" : "Library",
+      "<a href="http://hl7.org/fhir/R4/resource.html#Library.id">id</a>" : "effective-data-requirements",
+      "<a href="http://hl7.org/fhir/R4/domainresource.html#Library.extension">extension</a>" : [
+        {
+          "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">url</a>" : "http://hl7.org/fhir/StructureDefinition/cqf-directReferenceCode",
+          "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueCoding</a>" : {
+            "<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.system">system</a>" : "http://smart.who.int/hiv/CodeSystem/HIVConcepts",
+            "<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">code</a>" : "HIV.E.DE112",
+            "<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.display">display</a>" : "HIV-exposed infant or child"
+          }
+        },
+        {
+          "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">url</a>" : "http://hl7.org/fhir/StructureDefinition/cqf-directReferenceCode",
+          "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueCoding</a>" : {
+            "<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.system">system</a>" : "http://smart.who.int/hiv/CodeSystem/HIVConcepts",
+            "<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">code</a>" : "HIV.E.DE48",
+            "<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.display">display</a>" : "Live birth"
+          }
+        },
+        {
+          "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">url</a>" : "http://hl7.org/fhir/StructureDefinition/cqf-directReferenceCode",
+          "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueCoding</a>" : {
+            "<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.system">system</a>" : "http://smart.who.int/hiv/CodeSystem/HIVConcepts",
+            "<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">code</a>" : "HIV.B.DE32",
+            "<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.display">display</a>" : "Breastfeeding"
+          }
+        },
+        {
+          "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">url</a>" : "http://hl7.org/fhir/StructureDefinition/cqf-directReferenceCode",
+          "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueCoding</a>" : {
+            "<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.system">system</a>" : "http://smart.who.int/hiv/CodeSystem/HIVConcepts",
+            "<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">code</a>" : "HIV.E.DE179",
+            "<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.display">display</a>" : "Registered in birth cohort"
+          }
+        },
+        {
+          "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">url</a>" : "http://hl7.org/fhir/StructureDefinition/cqf-directReferenceCode",
+          "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueCoding</a>" : {
+            "<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.system">system</a>" : "http://smart.who.int/hiv/CodeSystem/HIVConcepts",
+            "<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">code</a>" : "HIV.E.DE230",
+            "<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.display">display</a>" : "Final diagnosis of HIV-exposed infant"
+          }
+        },
+        {
+          "<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a>" : [
+            {
+              "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">url</a>" : "libraryName",
+              "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueString</a>" : "HIVIndicatorElements"
+            },
+            {
+              "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">url</a>" : "name",
+              "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueString</a>" : "Is Infant Patient"
+            },
+            {
+              "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">url</a>" : "statement",
+              "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueString</a>" : "define \&quot;Is Infant Patient\&quot;:\n  Patient.birthDate is not null\n  and difference in years between Patient.birthDate and start of \&quot;Measurement Period\&quot; &lt; 1"
+            },
+            {
+              "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">url</a>" : "displaySequence",
+              "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueInteger</a>" : 0
+            }
+          ],
+          "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">url</a>" : "http://hl7.org/fhir/StructureDefinition/cqf-logicDefinition"
+        },
+        {
+          "<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a>" : [
+            {
+              "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">url</a>" : "libraryName",
+              "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueString</a>" : "HIVElements"
+            },
+            {
+              "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">url</a>" : "name",
+              "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueString</a>" : "HIV-exposed infant or child E.DE112"
+            },
+            {
+              "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">url</a>" : "statement",
+              "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueString</a>" : "/* End of Age of infant */\n\n/*\n@dataElement: HIV.E.DE112 - HIV-exposed infant or child\n@activity: HIV.F6 Check whether infant/child had HIV exposure\n@description: Whether the infant or child was determined to have had HIV exposure\n*/\ndefine \&quot;HIV-exposed infant or child E.DE112\&quot;:\n\n  [Observation: Concepts.\&quot;HIV-exposed infant or child - HIV.E.DE112\&quot;] O\n    where O.status in { 'final', 'amended', 'corrected' }"
+            },
+            {
+              "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">url</a>" : "displaySequence",
+              "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueInteger</a>" : 1
+            }
+          ],
+          "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">url</a>" : "http://hl7.org/fhir/StructureDefinition/cqf-logicDefinition"
+        },
+        {
+          "<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a>" : [
+            {
+              "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">url</a>" : "libraryName",
+              "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueString</a>" : "HIVIndicatorElements"
+            },
+            {
+              "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">url</a>" : "name",
+              "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueString</a>" : "is HIV-exposed infant or child E.DE112"
+            },
+            {
+              "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">url</a>" : "statement",
+              "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueString</a>" : "/* End of Age of infant */\n\n/*\n@dataElement: HIV.E.DE112 - HIV-exposed infant or child\n@activity: HIV.F6 Check whether infant/child had HIV exposure\n@description: Whether the infant or child was determined to have had HIV exposure\n*/\ndefine \&quot;is HIV-exposed infant or child E.DE112\&quot;:\n  \&quot;Is Infant Patient\&quot; and \n  exists(Elements.\&quot;HIV-exposed infant or child E.DE112\&quot; O\n    where O.effective.toInterval() during \&quot;Measurement Period\&quot;)"
+            },
+            {
+              "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">url</a>" : "displaySequence",
+              "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueInteger</a>" : 2
+            }
+          ],
+          "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">url</a>" : "http://hl7.org/fhir/StructureDefinition/cqf-logicDefinition"
+        },
+        {
+          "<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a>" : [
+            {
+              "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">url</a>" : "libraryName",
+              "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueString</a>" : "HIVElements"
+            },
+            {
+              "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">url</a>" : "name",
+              "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueString</a>" : "Live Birth Delivery"
+            },
+            {
+              "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">url</a>" : "statement",
+              "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueString</a>" : "/* End of Newly on ART during labour and delivery */\n\n/*\n@dataElement: HIV.E.DE46 - Delivery date\n@activity: HIV.E1 Capture or update mother's history\n@description: Date on which the woman delivered\n*/\ndefine \&quot;Live Birth Delivery\&quot;:\n  [Observation: Concepts.\&quot;Live birth\&quot;] O\n    where O.status in { 'final', 'amended', 'corrected' }"
+            },
+            {
+              "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">url</a>" : "displaySequence",
+              "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueInteger</a>" : 3
+            }
+          ],
+          "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">url</a>" : "http://hl7.org/fhir/StructureDefinition/cqf-logicDefinition"
+        },
+        {
+          "<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a>" : [
+            {
+              "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">url</a>" : "libraryName",
+              "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueString</a>" : "HIVIndicatorElements"
+            },
+            {
+              "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">url</a>" : "name",
+              "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueString</a>" : "Live Birth Delivery"
+            },
+            {
+              "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">url</a>" : "statement",
+              "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueString</a>" : "/* End of Newly on ART during labour and delivery */\n\n/*\n@dataElement: HIV.E.DE46 - Delivery date\n@activity: HIV.E1 Capture or update mother's history\n@description: Date on which the woman delivered\n*/\ndefine \&quot;Live Birth Delivery\&quot;:\n  Elements.\&quot;Live Birth Delivery\&quot; O\n    where O.effective.toInterval() during \&quot;Measurement Period\&quot;"
+            },
+            {
+              "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">url</a>" : "displaySequence",
+              "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueInteger</a>" : 4
+            }
+          ],
+          "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">url</a>" : "http://hl7.org/fhir/StructureDefinition/cqf-logicDefinition"
+        },
+        {
+          "<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a>" : [
+            {
+              "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">url</a>" : "libraryName",
+              "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueString</a>" : "HIVElements"
+            },
+            {
+              "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">url</a>" : "name",
+              "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueString</a>" : "Breastfeeding B.DE32"
+            },
+            {
+              "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">url</a>" : "statement",
+              "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueString</a>" : "/* End of Currently pregnant B.DE29 */\n\n/*\n@dataElement: HIV.B.DE32 - Breastfeeding\n@activity: HIV.B6 Capture or update client history\n@description: Infant is being breastfed by mother\n*/\n\ndefine \&quot;Breastfeeding B.DE32\&quot;:\n  [Observation: Concepts.\&quot;Breastfeeding - HIV.B.DE32\&quot;] O\n    where O.status in { 'final', 'amended', 'corrected' }\n      and O.value is true"
+            },
+            {
+              "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">url</a>" : "displaySequence",
+              "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueInteger</a>" : 5
+            }
+          ],
+          "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">url</a>" : "http://hl7.org/fhir/StructureDefinition/cqf-logicDefinition"
+        },
+        {
+          "<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a>" : [
+            {
+              "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">url</a>" : "libraryName",
+              "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueString</a>" : "HIVIndicatorElements"
+            },
+            {
+              "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">url</a>" : "name",
+              "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueString</a>" : "Breastfeeding B.DE32"
+            },
+            {
+              "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">url</a>" : "statement",
+              "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueString</a>" : "/* End of Currently pregnant B.DE29 */\n\n/*\n@dataElement: HIV.B.DE32 - Breastfeeding\n@activity: HIV.B6 Capture or update client history\n@description: Infant is being breastfed by mother\n*/\n\ndefine \&quot;Breastfeeding B.DE32\&quot;:\n  Elements.\&quot;Breastfeeding B.DE32\&quot; O\n    where O.effective.toInterval() during \&quot;Measurement Period\&quot;"
+            },
+            {
+              "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">url</a>" : "displaySequence",
+              "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueInteger</a>" : 6
+            }
+          ],
+          "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">url</a>" : "http://hl7.org/fhir/StructureDefinition/cqf-logicDefinition"
+        },
+        {
+          "<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a>" : [
+            {
+              "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">url</a>" : "libraryName",
+              "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueString</a>" : "HIVElements"
+            },
+            {
+              "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">url</a>" : "name",
+              "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueString</a>" : "Registered in birth cohort"
+            },
+            {
+              "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">url</a>" : "statement",
+              "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueString</a>" : "/* End of First visit after the end of breastfeeding */\n\n/*\n@dataElement: HIV.E.DE179 - Registered in birth cohort\n@activity: HIV.F3 Capture or update infant's/child's history\n@description: Whether the infant has been registered in a birth cohort\n*/\n\ndefine \&quot;Registered in birth cohort\&quot;:\n  [Observation: Concepts.\&quot;Registered in birth cohort\&quot;] O\n    where O.status in { 'final', 'amended', 'corrected' }\n      and O.value is true"
+            },
+            {
+              "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">url</a>" : "displaySequence",
+              "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueInteger</a>" : 7
+            }
+          ],
+          "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">url</a>" : "http://hl7.org/fhir/StructureDefinition/cqf-logicDefinition"
+        },
+        {
+          "<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a>" : [
+            {
+              "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">url</a>" : "libraryName",
+              "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueString</a>" : "HIVIndicatorElements"
+            },
+            {
+              "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">url</a>" : "name",
+              "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueString</a>" : "Registered in birth cohort"
+            },
+            {
+              "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">url</a>" : "statement",
+              "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueString</a>" : "/* End of First visit after the end of breastfeeding */\n\n/*\n@dataElement: HIV.E.DE179 - Registered in birth cohort\n@activity: HIV.F3 Capture or update infant's/child's history\n@description: Whether the infant has been registered in a birth cohort\n*/\n\ndefine \&quot;Registered in birth cohort\&quot;:\n  exists Elements.\&quot;Registered in birth cohort\&quot; O\n    where O.effective.toInterval() during \&quot;Measurement Period\&quot;"
+            },
+            {
+              "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">url</a>" : "displaySequence",
+              "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueInteger</a>" : 8
+            }
+          ],
+          "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">url</a>" : "http://hl7.org/fhir/StructureDefinition/cqf-logicDefinition"
+        },
+        {
+          "<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a>" : [
+            {
+              "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">url</a>" : "libraryName",
+              "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueString</a>" : "HIVElements"
+            },
+            {
+              "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">url</a>" : "name",
+              "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueString</a>" : "Final diagnosis of HIV-exposed infant E.DE230 Observation"
+            },
+            {
+              "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">url</a>" : "statement",
+              "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueString</a>" : "define \&quot;Final diagnosis of HIV-exposed infant E.DE230 Observation\&quot;:\n  [Observation: Concepts.\&quot;Final diagnosis of HIV-exposed infant - HIV.E.DE230\&quot;] O\n    where O.status in { 'final', 'amended', 'corrected' }"
+            },
+            {
+              "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">url</a>" : "displaySequence",
+              "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueInteger</a>" : 9
+            }
+          ],
+          "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">url</a>" : "http://hl7.org/fhir/StructureDefinition/cqf-logicDefinition"
+        },
+        {
+          "<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a>" : [
+            {
+              "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">url</a>" : "libraryName",
+              "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueString</a>" : "HIVElements"
+            },
+            {
+              "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">url</a>" : "name",
+              "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueString</a>" : "Final diagnosis of HIV-exposed infant E.DE230"
+            },
+            {
+              "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">url</a>" : "statement",
+              "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueString</a>" : "/* End of Infant ART start date */\n\n/*\n@dataElement: HIV.E.DE230 - Final diagnosis of HIV-exposed infant\n@activity: HIV.F20 Record infant's/child's final HIV diagnosis\n@description: HIV-exposed infant final status at 18 months or 3 months after cessation of breastfeeding (whichever is later).\n*/\n\ndefine \&quot;Final diagnosis of HIV-exposed infant E.DE230\&quot;:\n  First(\&quot;Final diagnosis of HIV-exposed infant E.DE230 Observation\&quot;.value) as FHIR.CodeableConcept"
+            },
+            {
+              "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">url</a>" : "displaySequence",
+              "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueInteger</a>" : 10
+            }
+          ],
+          "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">url</a>" : "http://hl7.org/fhir/StructureDefinition/cqf-logicDefinition"
+        },
+        {
+          "<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a>" : [
+            {
+              "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">url</a>" : "libraryName",
+              "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueString</a>" : "HIVIND42Logic"
+            },
+            {
+              "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">url</a>" : "name",
+              "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueString</a>" : "Numerator"
+            },
+            {
+              "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">url</a>" : "statement",
+              "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueString</a>" : "/**\n * Numerator\n * \n * Definition: HIV-exposed infants born within the past 12 months (or 24 months in breastfeeding settings) who have known final HIV outcome status\n * Calculation: COUNT of infants who are an \&quot;HIV-exposed infant or child\&quot; AND [(with an \&quot;Infant date of birth\&quot; in past 12 months) OR (with an \&quot;Infant date of birth\&quot; in past 24 months IF mothers are \&quot;Breastfeeding\&quot;)] AND \&quot;Registered in birth cohort\&quot;=True AND with a \&quot;Final diagnosis of HIV-exposed infant\&quot; of NOT NULL\n */\n\ndefine \&quot;Numerator\&quot;:\n  HIE.\&quot;is HIV-exposed infant or child E.DE112\&quot;\n  and\n  (exists(HIE.\&quot;Live Birth Delivery\&quot; B where months between end of B.effective.toInterval() and end of  \&quot;Measurement Period\&quot; &lt; 12 months)\n  or \n  (\n  exists(HIE.\&quot;Breastfeeding B.DE32\&quot; B) and\n  exists(HIE.\&quot;Live Birth Delivery\&quot; B where months between end of B.effective.toInterval() and end of  \&quot;Measurement Period\&quot; &lt; 24 months)\n  )\n  )\n  and HIE.\&quot;Registered in birth cohort\&quot;\n  and HE.\&quot;Final diagnosis of HIV-exposed infant E.DE230\&quot; is not null"
+            },
+            {
+              "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">url</a>" : "displaySequence",
+              "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueInteger</a>" : 11
+            }
+          ],
+          "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">url</a>" : "http://hl7.org/fhir/StructureDefinition/cqf-logicDefinition"
+        },
+        {
+          "<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a>" : [
+            {
+              "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">url</a>" : "libraryName",
+              "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueString</a>" : "HIVIND42Logic"
+            },
+            {
+              "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">url</a>" : "name",
+              "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueString</a>" : "Denominator"
+            },
+            {
+              "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">url</a>" : "statement",
+              "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueString</a>" : "/**\n * Denominator\n *\n * Definition: a) Programme-based/service delivery denominator | Number of HIV-exposed infants who were born within the 12 months (or 24 months in breastfeeding settings) prior to the reporting period and registered in the birth cohort | For example, for the reporting period January to December 2021 the denominator would be the number of HIV-exposed infants born between January to December 2020 in non-breast feeding settings and January to December 2019 in breastfeeding settings. |  | b) Population-based denominator | Estimated number of HIV-positive women who delivered within the past 12 months | (or 24 months in breastfeeding settings)\n * Calculation: COUNT of infants who are an \&quot;HIV-exposed infant or child\&quot; AND [(with an \&quot;Infant date of birth\&quot; within past 12 months) OR (with an \&quot;Infant date of birth\&quot; within past 24 months IF mothers are \&quot;Breastfeeding\&quot;)] AND \&quot;Registered in birth cohort\&quot;=True\n */\n\ndefine \&quot;Denominator\&quot;:\n  HIE.\&quot;is HIV-exposed infant or child E.DE112\&quot;\n  and\n  (exists(HIE.\&quot;Live Birth Delivery\&quot; B where months between end of B.effective.toInterval() and end of  \&quot;Measurement Period\&quot; &lt; 12 months)\n  or \n  (\n  exists(HIE.\&quot;Breastfeeding B.DE32\&quot; B) and\n  exists(HIE.\&quot;Live Birth Delivery\&quot; B where months between end of B.effective.toInterval() and end of  \&quot;Measurement Period\&quot; &lt; 24 months)\n  )\n  )\n  and HIE.\&quot;Registered in birth cohort\&quot;"
+            },
+            {
+              "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">url</a>" : "displaySequence",
+              "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueInteger</a>" : 12
+            }
+          ],
+          "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">url</a>" : "http://hl7.org/fhir/StructureDefinition/cqf-logicDefinition"
+        },
+        {
+          "<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a>" : [
+            {
+              "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">url</a>" : "libraryName",
+              "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueString</a>" : "HIVIND42Logic"
+            },
+            {
+              "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">url</a>" : "name",
+              "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueString</a>" : "Initial Population"
+            },
+            {
+              "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">url</a>" : "statement",
+              "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueString</a>" : "/* Populations */\n\n/*\n *Initial Population\n */\n\ndefine \&quot;Initial Population\&quot;:\n  true"
+            },
+            {
+              "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">url</a>" : "displaySequence",
+              "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueInteger</a>" : 13
+            }
+          ],
+          "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">url</a>" : "http://hl7.org/fhir/StructureDefinition/cqf-logicDefinition"
+        },
+        {
+          "<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a>" : [
+            {
+              "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">url</a>" : "libraryName",
+              "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueString</a>" : "FHIRHelpers"
+            },
+            {
+              "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">url</a>" : "name",
+              "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueString</a>" : "ToDate"
+            },
+            {
+              "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">url</a>" : "statement",
+              "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueString</a>" : "define function ToDate(value date): value.value"
+            },
+            {
+              "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">url</a>" : "displaySequence",
+              "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueInteger</a>" : 14
+            }
+          ],
+          "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">url</a>" : "http://hl7.org/fhir/StructureDefinition/cqf-logicDefinition"
+        },
+        {
+          "<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a>" : [
+            {
+              "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">url</a>" : "libraryName",
+              "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueString</a>" : "FHIRHelpers"
+            },
+            {
+              "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">url</a>" : "name",
+              "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueString</a>" : "ToString"
+            },
+            {
+              "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">url</a>" : "statement",
+              "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueString</a>" : "define function ToString(value ObservationStatus): value.value"
+            },
+            {
+              "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">url</a>" : "displaySequence",
+              "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueInteger</a>" : 15
+            }
+          ],
+          "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">url</a>" : "http://hl7.org/fhir/StructureDefinition/cqf-logicDefinition"
+        },
+        {
+          "<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a>" : [
+            {
+              "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">url</a>" : "libraryName",
+              "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueString</a>" : "FHIRHelpers"
+            },
+            {
+              "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">url</a>" : "name",
+              "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueString</a>" : "ToBoolean"
+            },
+            {
+              "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">url</a>" : "statement",
+              "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueString</a>" : "define function ToBoolean(value boolean): value.value"
+            },
+            {
+              "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">url</a>" : "displaySequence",
+              "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueInteger</a>" : 16
+            }
+          ],
+          "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">url</a>" : "http://hl7.org/fhir/StructureDefinition/cqf-logicDefinition"
+        }
+      ],
+      "<a href="http://hl7.org/fhir/R4/library.html#Library.name">name</a>" : "EffectiveDataRequirements",
+      "<a href="http://hl7.org/fhir/R4/library.html#Library.status">status</a>" : "active",
+      "<a href="http://hl7.org/fhir/R4/library.html#Library.type">type</a>" : {
+        "<a href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept#CodeableConcept.coding">coding</a>" : [
+          {
+            "<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.system">system</a>" : "http://terminology.hl7.org/CodeSystem/library-type",
+            "<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">code</a>" : "module-definition"
+          }
+        ]
+      },
+      "<a href="http://hl7.org/fhir/R4/library.html#Library.relatedArtifact">relatedArtifact</a>" : [
+        {
+          "<a href="http://hl7.org/fhir/R4/metadatatypes.html#RelatedArtifact#RelatedArtifact.type">type</a>" : "depends-on",
+          "<a href="http://hl7.org/fhir/R4/metadatatypes.html#RelatedArtifact#RelatedArtifact.display">display</a>" : "FHIR model information",
+          "<a href="http://hl7.org/fhir/R4/metadatatypes.html#RelatedArtifact#RelatedArtifact.resource">resource</a>" : "http://fhir.org/guides/cqf/common/Library/FHIR-ModelInfo|4.0.1"
+        },
+        {
+          "<a href="http://hl7.org/fhir/R4/metadatatypes.html#RelatedArtifact#RelatedArtifact.type">type</a>" : "depends-on",
+          "<a href="http://hl7.org/fhir/R4/metadatatypes.html#RelatedArtifact#RelatedArtifact.display">display</a>" : "Library HIE",
+          "<a href="http://hl7.org/fhir/R4/metadatatypes.html#RelatedArtifact#RelatedArtifact.resource">resource</a>" : "http://smart.who.int/hiv/Library/HIVIndicatorElements"
+        },
+        {
+          "<a href="http://hl7.org/fhir/R4/metadatatypes.html#RelatedArtifact#RelatedArtifact.type">type</a>" : "depends-on",
+          "<a href="http://hl7.org/fhir/R4/metadatatypes.html#RelatedArtifact#RelatedArtifact.display">display</a>" : "Library FHIRHelpers",
+          "<a href="http://hl7.org/fhir/R4/metadatatypes.html#RelatedArtifact#RelatedArtifact.resource">resource</a>" : "http://fhir.org/guides/cqf/common/Library/FHIRHelpers|4.0.1"
+        },
+        {
+          "<a href="http://hl7.org/fhir/R4/metadatatypes.html#RelatedArtifact#RelatedArtifact.type">type</a>" : "depends-on",
+          "<a href="http://hl7.org/fhir/R4/metadatatypes.html#RelatedArtifact#RelatedArtifact.display">display</a>" : "Library Elements",
+          "<a href="http://hl7.org/fhir/R4/metadatatypes.html#RelatedArtifact#RelatedArtifact.resource">resource</a>" : "http://smart.who.int/hiv/Library/HIVElements"
+        },
+        {
+          "<a href="http://hl7.org/fhir/R4/metadatatypes.html#RelatedArtifact#RelatedArtifact.type">type</a>" : "depends-on",
+          "<a href="http://hl7.org/fhir/R4/metadatatypes.html#RelatedArtifact#RelatedArtifact.display">display</a>" : "Library Concepts",
+          "<a href="http://hl7.org/fhir/R4/metadatatypes.html#RelatedArtifact#RelatedArtifact.resource">resource</a>" : "http://smart.who.int/hiv/Library/HIVConcepts|0.0.2"
+        },
+        {
+          "<a href="http://hl7.org/fhir/R4/metadatatypes.html#RelatedArtifact#RelatedArtifact.type">type</a>" : "depends-on",
+          "<a href="http://hl7.org/fhir/R4/metadatatypes.html#RelatedArtifact#RelatedArtifact.display">display</a>" : "Library WC",
+          "<a href="http://hl7.org/fhir/R4/metadatatypes.html#RelatedArtifact#RelatedArtifact.resource">resource</a>" : "http://smart.who.int/hiv/Library/WHOCommon"
+        },
+        {
+          "<a href="http://hl7.org/fhir/R4/metadatatypes.html#RelatedArtifact#RelatedArtifact.type">type</a>" : "depends-on",
+          "<a href="http://hl7.org/fhir/R4/metadatatypes.html#RelatedArtifact#RelatedArtifact.display">display</a>" : "Code system HIVConcepts",
+          "<a href="http://hl7.org/fhir/R4/metadatatypes.html#RelatedArtifact#RelatedArtifact.resource">resource</a>" : "http://smart.who.int/hiv/CodeSystem/HIVConcepts"
+        }
+      ],
+      "<a href="http://hl7.org/fhir/R4/library.html#Library.parameter">parameter</a>" : [
+        {
+          "<a href="http://hl7.org/fhir/R4/metadatatypes.html#ParameterDefinition#ParameterDefinition.name">name</a>" : "Measurement Period",
+          "<a href="http://hl7.org/fhir/R4/metadatatypes.html#ParameterDefinition#ParameterDefinition.use">use</a>" : "in",
+          "<a href="http://hl7.org/fhir/R4/metadatatypes.html#ParameterDefinition#ParameterDefinition.min">min</a>" : 0,
+          "<a href="http://hl7.org/fhir/R4/metadatatypes.html#ParameterDefinition#ParameterDefinition.max">max</a>" : "1",
+          "<a href="http://hl7.org/fhir/R4/metadatatypes.html#ParameterDefinition#ParameterDefinition.type">type</a>" : "Period"
+        },
+        {
+          "<a href="http://hl7.org/fhir/R4/metadatatypes.html#ParameterDefinition#ParameterDefinition.name">name</a>" : "Numerator",
+          "<a href="http://hl7.org/fhir/R4/metadatatypes.html#ParameterDefinition#ParameterDefinition.use">use</a>" : "out",
+          "<a href="http://hl7.org/fhir/R4/metadatatypes.html#ParameterDefinition#ParameterDefinition.min">min</a>" : 0,
+          "<a href="http://hl7.org/fhir/R4/metadatatypes.html#ParameterDefinition#ParameterDefinition.max">max</a>" : "1",
+          "<a href="http://hl7.org/fhir/R4/metadatatypes.html#ParameterDefinition#ParameterDefinition.type">type</a>" : "boolean"
+        },
+        {
+          "<a href="http://hl7.org/fhir/R4/metadatatypes.html#ParameterDefinition#ParameterDefinition.name">name</a>" : "Denominator",
+          "<a href="http://hl7.org/fhir/R4/metadatatypes.html#ParameterDefinition#ParameterDefinition.use">use</a>" : "out",
+          "<a href="http://hl7.org/fhir/R4/metadatatypes.html#ParameterDefinition#ParameterDefinition.min">min</a>" : 0,
+          "<a href="http://hl7.org/fhir/R4/metadatatypes.html#ParameterDefinition#ParameterDefinition.max">max</a>" : "1",
+          "<a href="http://hl7.org/fhir/R4/metadatatypes.html#ParameterDefinition#ParameterDefinition.type">type</a>" : "boolean"
+        },
+        {
+          "<a href="http://hl7.org/fhir/R4/metadatatypes.html#ParameterDefinition#ParameterDefinition.name">name</a>" : "Initial Population",
+          "<a href="http://hl7.org/fhir/R4/metadatatypes.html#ParameterDefinition#ParameterDefinition.use">use</a>" : "out",
+          "<a href="http://hl7.org/fhir/R4/metadatatypes.html#ParameterDefinition#ParameterDefinition.min">min</a>" : 0,
+          "<a href="http://hl7.org/fhir/R4/metadatatypes.html#ParameterDefinition#ParameterDefinition.max">max</a>" : "1",
+          "<a href="http://hl7.org/fhir/R4/metadatatypes.html#ParameterDefinition#ParameterDefinition.type">type</a>" : "boolean"
+        }
+      ],
+      "<a href="http://hl7.org/fhir/R4/library.html#Library.dataRequirement">dataRequirement</a>" : [
+        {
+          "<a href="http://hl7.org/fhir/R4/metadatatypes.html#DataRequirement#DataRequirement.type">type</a>" : "Patient",
+          "<a href="http://hl7.org/fhir/R4/metadatatypes.html#DataRequirement#DataRequirement.profile">profile</a>" : [
+            <a href="http://hl7.org/fhir/R4/patient.html" style="color: Maroon">&#x1F517;</a> "http://hl7.org/fhir/StructureDefinition/Patient"
+          ]
+        },
+        {
+          "<a href="http://hl7.org/fhir/R4/metadatatypes.html#DataRequirement#DataRequirement.type">type</a>" : "Observation",
+          "<a href="http://hl7.org/fhir/R4/metadatatypes.html#DataRequirement#DataRequirement.profile">profile</a>" : [
+            <a href="http://hl7.org/fhir/R4/observation.html" style="color: Maroon">&#x1F517;</a> "http://hl7.org/fhir/StructureDefinition/Observation"
+          ],
+          "<a href="http://hl7.org/fhir/R4/metadatatypes.html#DataRequirement#DataRequirement.mustSupport">mustSupport</a>" : [
+            "code",
+            "status",
+            "effective"
+          ],
+          "<a href="http://hl7.org/fhir/R4/metadatatypes.html#DataRequirement#DataRequirement.codeFilter">codeFilter</a>" : [
+            {
+              "<a href="http://hl7.org/fhir/R4/metadatatypes.html#DataRequirement#DataRequirement.codeFilter.path">path</a>" : "code",
+              "<a href="http://hl7.org/fhir/R4/metadatatypes.html#DataRequirement#DataRequirement.codeFilter.code">code</a>" : [
+                {
+                  "<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.system">system</a>" : "http://smart.who.int/hiv/CodeSystem/HIVConcepts",
+                  "<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">code</a>" : "HIV.E.DE112",
+                  "<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.display">display</a>" : "HIV-exposed infant or child"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "<a href="http://hl7.org/fhir/R4/metadatatypes.html#DataRequirement#DataRequirement.type">type</a>" : "Observation",
+          "<a href="http://hl7.org/fhir/R4/metadatatypes.html#DataRequirement#DataRequirement.profile">profile</a>" : [
+            <a href="http://hl7.org/fhir/R4/observation.html" style="color: Maroon">&#x1F517;</a> "http://hl7.org/fhir/StructureDefinition/Observation"
+          ],
+          "<a href="http://hl7.org/fhir/R4/metadatatypes.html#DataRequirement#DataRequirement.mustSupport">mustSupport</a>" : [
+            "code",
+            "status",
+            "value",
+            "effective"
+          ],
+          "<a href="http://hl7.org/fhir/R4/metadatatypes.html#DataRequirement#DataRequirement.codeFilter">codeFilter</a>" : [
+            {
+              "<a href="http://hl7.org/fhir/R4/metadatatypes.html#DataRequirement#DataRequirement.codeFilter.path">path</a>" : "code",
+              "<a href="http://hl7.org/fhir/R4/metadatatypes.html#DataRequirement#DataRequirement.codeFilter.code">code</a>" : [
+                {
+                  "<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.system">system</a>" : "http://smart.who.int/hiv/CodeSystem/HIVConcepts",
+                  "<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">code</a>" : "HIV.E.DE179",
+                  "<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.display">display</a>" : "Registered in birth cohort"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "<a href="http://hl7.org/fhir/R4/metadatatypes.html#DataRequirement#DataRequirement.type">type</a>" : "Observation",
+          "<a href="http://hl7.org/fhir/R4/metadatatypes.html#DataRequirement#DataRequirement.profile">profile</a>" : [
+            <a href="http://hl7.org/fhir/R4/observation.html" style="color: Maroon">&#x1F517;</a> "http://hl7.org/fhir/StructureDefinition/Observation"
+          ],
+          "<a href="http://hl7.org/fhir/R4/metadatatypes.html#DataRequirement#DataRequirement.mustSupport">mustSupport</a>" : [
+            "code",
+            "status",
+            "value"
+          ],
+          "<a href="http://hl7.org/fhir/R4/metadatatypes.html#DataRequirement#DataRequirement.codeFilter">codeFilter</a>" : [
+            {
+              "<a href="http://hl7.org/fhir/R4/metadatatypes.html#DataRequirement#DataRequirement.codeFilter.path">path</a>" : "code",
+              "<a href="http://hl7.org/fhir/R4/metadatatypes.html#DataRequirement#DataRequirement.codeFilter.code">code</a>" : [
+                {
+                  "<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.system">system</a>" : "http://smart.who.int/hiv/CodeSystem/HIVConcepts",
+                  "<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">code</a>" : "HIV.E.DE230",
+                  "<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.display">display</a>" : "Final diagnosis of HIV-exposed infant"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "<a href="http://hl7.org/fhir/R4/metadatatypes.html#DataRequirement#DataRequirement.type">type</a>" : "Observation",
+          "<a href="http://hl7.org/fhir/R4/metadatatypes.html#DataRequirement#DataRequirement.profile">profile</a>" : [
+            <a href="http://hl7.org/fhir/R4/observation.html" style="color: Maroon">&#x1F517;</a> "http://hl7.org/fhir/StructureDefinition/Observation"
+          ],
+          "<a href="http://hl7.org/fhir/R4/metadatatypes.html#DataRequirement#DataRequirement.mustSupport">mustSupport</a>" : [
+            "code",
+            "status",
+            "value",
+            "effective"
+          ],
+          "<a href="http://hl7.org/fhir/R4/metadatatypes.html#DataRequirement#DataRequirement.codeFilter">codeFilter</a>" : [
+            {
+              "<a href="http://hl7.org/fhir/R4/metadatatypes.html#DataRequirement#DataRequirement.codeFilter.path">path</a>" : "code",
+              "<a href="http://hl7.org/fhir/R4/metadatatypes.html#DataRequirement#DataRequirement.codeFilter.code">code</a>" : [
+                {
+                  "<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.system">system</a>" : "http://smart.who.int/hiv/CodeSystem/HIVConcepts",
+                  "<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">code</a>" : "HIV.B.DE32",
+                  "<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.display">display</a>" : "Breastfeeding"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "<a href="http://hl7.org/fhir/R4/metadatatypes.html#DataRequirement#DataRequirement.type">type</a>" : "Observation",
+          "<a href="http://hl7.org/fhir/R4/metadatatypes.html#DataRequirement#DataRequirement.profile">profile</a>" : [
+            <a href="http://hl7.org/fhir/R4/observation.html" style="color: Maroon">&#x1F517;</a> "http://hl7.org/fhir/StructureDefinition/Observation"
+          ],
+          "<a href="http://hl7.org/fhir/R4/metadatatypes.html#DataRequirement#DataRequirement.mustSupport">mustSupport</a>" : [
+            "code",
+            "status",
+            "effective"
+          ],
+          "<a href="http://hl7.org/fhir/R4/metadatatypes.html#DataRequirement#DataRequirement.codeFilter">codeFilter</a>" : [
+            {
+              "<a href="http://hl7.org/fhir/R4/metadatatypes.html#DataRequirement#DataRequirement.codeFilter.path">path</a>" : "code",
+              "<a href="http://hl7.org/fhir/R4/metadatatypes.html#DataRequirement#DataRequirement.codeFilter.code">code</a>" : [
+                {
+                  "<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.system">system</a>" : "http://smart.who.int/hiv/CodeSystem/HIVConcepts",
+                  "<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">code</a>" : "HIV.E.DE48",
+                  "<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.display">display</a>" : "Live birth"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "<a href="http://hl7.org/fhir/R4/domainresource.html#Measure.extension">extension</a>" : [
+    {
+      "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">url</a>" : "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/cqfm-populationBasis",
+      "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueCode</a>" : "boolean"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">url</a>" : "http://hl7.org/fhir/uv/crmi/StructureDefinition/crmi-effectiveDataRequirements",
+      "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueCanonical</a>" : "#effective-data-requirements"
+    }
+  ],
+  "<a href="http://hl7.org/fhir/R4/measure.html#Measure.url">url</a>" : "http://smart.who.int/hiv/Measure/HIVIND42",
+  "<a href="http://hl7.org/fhir/R4/measure.html#Measure.version">version</a>" : "0.4.4",
+  "<a href="http://hl7.org/fhir/R4/measure.html#Measure.name">name</a>" : "HIVIND42",
+  "<a href="http://hl7.org/fhir/R4/measure.html#Measure.title">title</a>" : "HIV.IND.42 Final outcome of PMTCT",
+  "<a href="http://hl7.org/fhir/R4/measure.html#Measure.status">status</a>" : "draft",
+  "<a href="http://hl7.org/fhir/R4/measure.html#Measure.experimental">experimental</a>" : true,
+  "<a href="http://hl7.org/fhir/R4/measure.html#Measure.date">date</a>" : "2024-08-18",
+  "<a href="http://hl7.org/fhir/R4/measure.html#Measure.publisher">publisher</a>" : "WHO",
+  "<a href="http://hl7.org/fhir/R4/measure.html#Measure.contact">contact</a>" : [
+    {
+      "<a href="http://hl7.org/fhir/R4/metadatatypes.html#ContactDetail#ContactDetail.name">name</a>" : "WHO",
+      "<a href="http://hl7.org/fhir/R4/metadatatypes.html#ContactDetail#ContactDetail.telecom">telecom</a>" : [
+        {
+          "<a href="http://hl7.org/fhir/R4/datatypes.html#ContactPoint#ContactPoint.system">system</a>" : "url",
+          "<a href="http://hl7.org/fhir/R4/datatypes.html#ContactPoint#ContactPoint.value">value</a>" : "http://who.int"
+        }
+      ]
+    }
+  ],
+  "<a href="http://hl7.org/fhir/R4/measure.html#Measure.description">description</a>" : "% of HIV-exposed infants whose final HIV outcome status is known",
+  "<a href="http://hl7.org/fhir/R4/measure.html#Measure.library">library</a>" : [
+    <a href="Library-HIVIND42Logic.html" style="color: Maroon">&#x1F517;</a> "http://smart.who.int/hiv/Library/HIVIND42Logic"
+  ],
+  "<a href="http://hl7.org/fhir/R4/measure.html#Measure.scoring">scoring</a>" : {
+    "<a href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept#CodeableConcept.coding">coding</a>" : [
+      {
+        "<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.system">system</a>" : "http://terminology.hl7.org/CodeSystem/measure-scoring",
+        "<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">code</a>" : "proportion",
+        "<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.display">display</a>" : "Proportion"
+      }
+    ]
+  },
+  "<a href="http://hl7.org/fhir/R4/measure.html#Measure.improvementNotation">improvementNotation</a>" : {
+    "<a href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept#CodeableConcept.coding">coding</a>" : [
+      {
+        "<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.system">system</a>" : "http://terminology.hl7.org/CodeSystem/measure-improvement-notation",
+        "<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">code</a>" : "increase"
+      }
+    ]
+  },
+  "<a href="http://hl7.org/fhir/R4/measure.html#Measure.group">group</a>" : [
+    {
+      "<a href="http://hl7.org/fhir/R4/measure.html#Measure.group.population">population</a>" : [
+        {
+          "<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Measure.group.population.id">id</a>" : "HIV.IND.42.IP",
+          "<a href="http://hl7.org/fhir/R4/measure.html#Measure.group.population.code">code</a>" : {
+            "<a href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept#CodeableConcept.coding">coding</a>" : [
+              {
+                "<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.system">system</a>" : "http://terminology.hl7.org/CodeSystem/measure-population",
+                "<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">code</a>" : "initial-population",
+                "<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.display">display</a>" : "Initial Population"
+              }
+            ]
+          },
+          "<a href="http://hl7.org/fhir/R4/measure.html#Measure.group.population.description">description</a>" : "Initial Population",
+          "<a href="http://hl7.org/fhir/R4/measure.html#Measure.group.population.criteria">criteria</a>" : {
+            "<a href="http://hl7.org/fhir/R4/datatypes.html#Expression#Expression.language">language</a>" : "text/cql-identifier",
+            "<a href="http://hl7.org/fhir/R4/datatypes.html#Expression#Expression.expression">expression</a>" : "Initial Population"
+          }
+        },
+        {
+          "<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Measure.group.population.id">id</a>" : "HIV.IND.42.DEN",
+          "<a href="http://hl7.org/fhir/R4/measure.html#Measure.group.population.code">code</a>" : {
+            "<a href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept#CodeableConcept.coding">coding</a>" : [
+              {
+                "<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.system">system</a>" : "http://terminology.hl7.org/CodeSystem/measure-population",
+                "<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">code</a>" : "denominator",
+                "<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.display">display</a>" : "Denominator"
+              }
+            ]
+          },
+          "<a href="http://hl7.org/fhir/R4/measure.html#Measure.group.population.description">description</a>" : "a) Programme-based/service delivery denominator | Number of HIV-exposed infants who were born within the 12 months (or 24 months in breastfeeding settings) prior to the reporting period and registered in the birth cohort | For example, for the reporting period January to December 2021 the denominator would be the number of HIV-exposed infants born between January to December 2020 in non-breast feeding settings and January to December 2019 in breastfeeding settings. |  | b) Population-based denominator | Estimated number of HIV-positive women who delivered within the past 12 months | (or 24 months in breastfeeding settings)",
+          "<a href="http://hl7.org/fhir/R4/measure.html#Measure.group.population.criteria">criteria</a>" : {
+            "<a href="http://hl7.org/fhir/R4/datatypes.html#Expression#Expression.language">language</a>" : "text/cql-identifier",
+            "<a href="http://hl7.org/fhir/R4/datatypes.html#Expression#Expression.expression">expression</a>" : "Denominator"
+          }
+        },
+        {
+          "<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Measure.group.population.id">id</a>" : "HIV.IND.42.NUM",
+          "<a href="http://hl7.org/fhir/R4/measure.html#Measure.group.population.code">code</a>" : {
+            "<a href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept#CodeableConcept.coding">coding</a>" : [
+              {
+                "<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.system">system</a>" : "http://terminology.hl7.org/CodeSystem/measure-population",
+                "<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">code</a>" : "numerator",
+                "<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.display">display</a>" : "Numerator"
+              }
+            ]
+          },
+          "<a href="http://hl7.org/fhir/R4/measure.html#Measure.group.population.description">description</a>" : "HIV-exposed infants born within the past 12 months (or 24 months in breastfeeding settings) who have known final HIV outcome status",
+          "<a href="http://hl7.org/fhir/R4/measure.html#Measure.group.population.criteria">criteria</a>" : {
+            "<a href="http://hl7.org/fhir/R4/datatypes.html#Expression#Expression.language">language</a>" : "text/cql-identifier",
+            "<a href="http://hl7.org/fhir/R4/datatypes.html#Expression#Expression.expression">expression</a>" : "Numerator"
+          }
+        }
+      ]
+    }
+  ]
+}</code></pre>
+
+
+  <!-- insert notes if present -->
+  
+
+
+
+</div>
+</div>  <!-- /inner-wrapper -->
+</div>  <!-- /row -->
+</div>  <!-- /container -->
+</div>  <!-- /segment-content -->
+
+<script type="text/javascript" src="assets/js/jquery.js"> </script>     <!-- note keep space here, otherwise it will be transformed to empty tag -> fails -->
+<script type="text/javascript" src="assets/js/jquery-ui.min.js"> </script>
+
+<script type="text/javascript" src="assets/js/window-hash.js"> </script>
+<a name="bottom"> </a>
+<div id="segment-footer" igtool="footer" class="segment">  <!-- segment-footer -->
+<div class="container">  <!-- container -->
+
+<div class="inner-wrapper">
+  <p>
+    IG &#169; 2025+ <a style="color:var(--footer-hyperlink-text-color)" href="http://who.int">WHO</a>.  Package smart.who.int.hiv#0.4.4 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Tue, Mar 3, 2026 20:39+0000">2026-03-03</span>
+    <br/>
+    <span style="color: var(--footer-highlight-text-color)">
+                Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |
+                 <a style="color: var(--footer-hyperlink-text-color)" href="qa.html">QA Report</a>
+                 
+                
+| <a style="color: #81BEF7" target="_blank" href="http://smart.who.int/hiv/history.html">Version History</a> | <a style="color: #81BEF7" rel="license" href="license.html">License</a>
+    </span>
+  </p>
+</div>  <!-- /inner-wrapper -->
+</div>  <!-- /container -->
+</div>  <!-- /segment-footer -->
+
+<div id="segment-post-footer" class="segment hidden">  <!-- segment-post-footer -->
+<div class="container">  <!-- container -->
+</div>  <!-- /container -->
+</div>  <!-- /segment-post-footer -->
+
+<!-- JS and analytics only. -->
+<!-- Bootstrap core JavaScript
+================================================== -->
+<!-- Placed at the end of the document so the pages load faster -->
+<script type="text/javascript" src="assets/js/bootstrap.min.js"> </script>
+<script type="text/javascript" src="assets/js/respond.min.js"> </script>
+<script type="text/javascript" src="assets/js/anchor.min.js"> </script>
+<script type="text/javascript" src="assets/js/clipboard.min.js"> </script>
+<script type="text/javascript" src="assets/js/clipboard-btn.js"> </script>
+<script type="text/javascript" src="assets/js/anchor-hover.js"> </script>
+<!-- Analytics Below
+================================================== -->
+
+
+<div id="feedback-config"
+ data-repo-owner=""
+ data-repo-name=""
+ data-repo-source="https://github.com/WorldHealthOrganization/smart-hiv/issues/new?template=feedback.yml"
+ data-issue-label="feedback"
+ data-feedback-options="[{&quot;form&quot;:&quot;https://github.com/WorldHealthOrganization/smart-hiv/issues/new?template=feedback.yml&quot;,&quot;type&quot;:&quot;GitHub&quot;,&quot;sectionid&quot;:&quot;section&quot;,&quot;pageid&quot;:&quot;page&quot;},{&quot;form&quot;:&quot;https://forms.office.com/e/WKxJWQMEcx&quot;,&quot;type&quot;:&quot;Form&quot;,&quot;sectionid&quot;:&quot;r275a700d161d41d182d84c2e58947298&quot;}]"
+ style="display:none;"></div>
+
+<script src="assets/js/feedback.js"></script>
+
+
+

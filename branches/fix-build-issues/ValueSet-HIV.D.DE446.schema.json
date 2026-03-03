@@ -1,0 +1,16 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "http://smart.who.int/hiv/ValueSet-HIV.D.DE446.schema.json",
+  "title": "Coinfection status at ART start ValueSet Schema",
+  "description": "JSON Schema for Coinfection status at ART start ValueSet ValueSet codes. Generated from FHIR expansions using IRI format.",
+  "type": "string",
+  "enum": [
+    "http://smart.who.int/hiv/CodeSystem/HIVConcepts#HIV.D.DE447",
+    "http://smart.who.int/hiv/CodeSystem/HIVConcepts#HIV.D.DE448"
+  ],
+  "narrative": "This schema validates IRI-formatted codes for the Coinfection status at ART start ValueSet ValueSet. Each enum value includes the system URI in the format {systemuri}#{code} to match JSON-LD enumeration IRIs. Display values are available at http://smart.who.int/hiv/ValueSet-HIV.D.DE446.displays.json. For a complete listing of all ValueSets, see artifacts.html#terminology-value-sets.",
+  "fhir:displays": "http://smart.who.int/hiv/ValueSet-HIV.D.DE446.displays.json",
+  "fhir:valueSet": "http://smart.who.int/hiv/ValueSet/HIV.D.DE446",
+  "fhir:version": "0.4.4",
+  "fhir:expansionTimestamp": "2026-03-03T20:47:47+00:00"
+}

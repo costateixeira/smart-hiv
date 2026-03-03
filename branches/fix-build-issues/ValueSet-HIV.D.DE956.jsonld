@@ -1,0 +1,101 @@
+{
+  "@context": {
+    "@version": 1.1,
+    "name": "http://www.w3.org/2000/01/rdf-schema#label",
+    "fhir": "https://smart.who.int/base/DataTypes.jsonld#",
+    "id": "@id",
+    "generatedAt": {
+      "@id": "http://www.w3.org/ns/prov#generatedAtTime",
+      "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
+    }
+  },
+  "@id": "http://smart.who.int/hiv/ValueSet-HIV.D.DE956.jsonld",
+  "@type": "http://www.w3.org/ns/prov#Entity",
+  "generatedAt": "2026-03-03T20:52:45.740953Z",
+  "@graph": [
+    {
+      "id": "http://smart.who.int/hiv/ValueSet-HIV.D.DE956.jsonld#HIV.D.DE957",
+      "name": "Screening with cough",
+      "fhir:code": "HIV.D.DE957",
+      "fhir:CodeSystem": "http://smart.who.int/hiv/CodeSystem-HIVConcepts"
+    },
+    {
+      "id": "http://smart.who.int/hiv/ValueSet-HIV.D.DE956.jsonld#HIV.D.DE958",
+      "name": "Screening with any TB symptom",
+      "fhir:code": "HIV.D.DE958",
+      "fhir:CodeSystem": "http://smart.who.int/hiv/CodeSystem-HIVConcepts"
+    },
+    {
+      "id": "http://smart.who.int/hiv/ValueSet-HIV.D.DE956.jsonld#HIV.D.DE959",
+      "name": "W4SS single screening algorithm",
+      "fhir:code": "HIV.D.DE959",
+      "fhir:CodeSystem": "http://smart.who.int/hiv/CodeSystem-HIVConcepts"
+    },
+    {
+      "id": "http://smart.who.int/hiv/ValueSet-HIV.D.DE956.jsonld#HIV.D.DE960",
+      "name": "CRP single screening algorithm",
+      "fhir:code": "HIV.D.DE960",
+      "fhir:CodeSystem": "http://smart.who.int/hiv/CodeSystem-HIVConcepts"
+    },
+    {
+      "id": "http://smart.who.int/hiv/ValueSet-HIV.D.DE956.jsonld#HIV.D.DE961",
+      "name": "CXR single screening algorithm",
+      "fhir:code": "HIV.D.DE961",
+      "fhir:CodeSystem": "http://smart.who.int/hiv/CodeSystem-HIVConcepts"
+    },
+    {
+      "id": "http://smart.who.int/hiv/ValueSet-HIV.D.DE956.jsonld#HIV.D.DE962",
+      "name": "Parallel screening algorithm with W4SS and CRP",
+      "fhir:code": "HIV.D.DE962",
+      "fhir:CodeSystem": "http://smart.who.int/hiv/CodeSystem-HIVConcepts"
+    },
+    {
+      "id": "http://smart.who.int/hiv/ValueSet-HIV.D.DE956.jsonld#HIV.D.DE963",
+      "name": "Sequential positive screening algorithm with W4SS and CRP",
+      "fhir:code": "HIV.D.DE963",
+      "fhir:CodeSystem": "http://smart.who.int/hiv/CodeSystem-HIVConcepts"
+    },
+    {
+      "id": "http://smart.who.int/hiv/ValueSet-HIV.D.DE956.jsonld#HIV.D.DE964",
+      "name": "Sequential negative screening algorithm with W4SS and CRP",
+      "fhir:code": "HIV.D.DE964",
+      "fhir:CodeSystem": "http://smart.who.int/hiv/CodeSystem-HIVConcepts"
+    },
+    {
+      "id": "http://smart.who.int/hiv/ValueSet-HIV.D.DE956.jsonld#HIV.D.DE965",
+      "name": "Parallel screening algorithm with W4SS and CXR",
+      "fhir:code": "HIV.D.DE965",
+      "fhir:CodeSystem": "http://smart.who.int/hiv/CodeSystem-HIVConcepts"
+    },
+    {
+      "id": "http://smart.who.int/hiv/ValueSet-HIV.D.DE956.jsonld#HIV.D.DE966",
+      "name": "Sequential positive screening algorithm with W4SS and CXR",
+      "fhir:code": "HIV.D.DE966",
+      "fhir:CodeSystem": "http://smart.who.int/hiv/CodeSystem-HIVConcepts"
+    },
+    {
+      "id": "http://smart.who.int/hiv/ValueSet-HIV.D.DE956.jsonld#HIV.D.DE967",
+      "name": "Sequential negative screening algorithm with W4SS and CXR",
+      "fhir:code": "HIV.D.DE967",
+      "fhir:CodeSystem": "http://smart.who.int/hiv/CodeSystem-HIVConcepts"
+    },
+    {
+      "id": "http://smart.who.int/hiv/ValueSet-HIV.D.DE956.jsonld#HIV.D.DE968",
+      "name": "Screening with mWRD",
+      "fhir:code": "HIV.D.DE968",
+      "fhir:CodeSystem": "http://smart.who.int/hiv/CodeSystem-HIVConcepts"
+    },
+    {
+      "id": "http://smart.who.int/hiv/ValueSet-HIV.D.DE956.jsonld#HIV.D.DE969",
+      "name": "Clinical assessment",
+      "fhir:code": "HIV.D.DE969",
+      "fhir:CodeSystem": "http://smart.who.int/hiv/CodeSystem-HIVConcepts"
+    },
+    {
+      "id": "http://smart.who.int/hiv/ValueSet-HIV.D.DE956.jsonld#HIV.D.DE970",
+      "name": "Other TB screening algorithm",
+      "fhir:code": "HIV.D.DE970",
+      "fhir:CodeSystem": "http://smart.who.int/hiv/CodeSystem-HIVConcepts"
+    }
+  ]
+}

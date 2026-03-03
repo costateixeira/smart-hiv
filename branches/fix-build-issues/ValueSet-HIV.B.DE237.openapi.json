@@ -1,0 +1,56 @@
+{
+  "openapi": "3.1.0",
+  "info": {
+    "title": "STI tested for ValueSet Schema API",
+    "description": "JSON Schema for STI tested for ValueSet ValueSet codes. Generated from FHIR expansions using IRI format.",
+    "version": "1.0.0"
+  },
+  "paths": {
+    "/ValueSet-HIV.B.DE237.schema.json": {
+      "get": {
+        "summary": "JSON Schema definition for the enumeration ValueSet-HIV.B.DE237",
+        "description": "This endpoint serves the JSON Schema definition for the enumeration ValueSet-HIV.B.DE237.",
+        "responses": {
+          "200": {
+            "description": "The JSON Schema for ValueSet-HIV.B.DE237",
+            "content": {
+              "application/schema+json": {
+                "schema": {
+                  "$ref": "./ValueSet-HIV.B.DE237.schema.json"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "ValueSet-HIV.B.DE237": {
+        "$schema": "https://json-schema.org/draft/2020-12/schema",
+        "$id": "http://smart.who.int/hiv/ValueSet-HIV.B.DE237.schema.json",
+        "title": "STI tested for ValueSet Schema",
+        "description": "JSON Schema for STI tested for ValueSet ValueSet codes. Generated from FHIR expansions using IRI format.",
+        "type": "string",
+        "enum": [
+          "http://smart.who.int/hiv/CodeSystem/HIVConcepts#HIV.B.DE238",
+          "http://smart.who.int/hiv/CodeSystem/HIVConcepts#HIV.B.DE239",
+          "http://smart.who.int/hiv/CodeSystem/HIVConcepts#HIV.B.DE240",
+          "http://smart.who.int/hiv/CodeSystem/HIVConcepts#HIV.B.DE241",
+          "http://smart.who.int/hiv/CodeSystem/HIVConcepts#HIV.B.DE242",
+          "http://smart.who.int/hiv/CodeSystem/HIVConcepts#HIV.B.DE243",
+          "http://smart.who.int/hiv/CodeSystem/HIVConcepts#HIV.B.DE244",
+          "http://smart.who.int/hiv/CodeSystem/HIVConcepts#HIV.B.DE245",
+          "http://smart.who.int/hiv/CodeSystem/HIVConcepts#HIV.B.DE246",
+          "http://smart.who.int/hiv/CodeSystem/HIVConcepts#HIV.B.DE247"
+        ],
+        "narrative": "This schema validates IRI-formatted codes for the STI tested for ValueSet ValueSet. Each enum value includes the system URI in the format {systemuri}#{code} to match JSON-LD enumeration IRIs. Display values are available at http://smart.who.int/hiv/ValueSet-HIV.B.DE237.displays.json. For a complete listing of all ValueSets, see artifacts.html#terminology-value-sets.",
+        "fhir:displays": "http://smart.who.int/hiv/ValueSet-HIV.B.DE237.displays.json",
+        "fhir:valueSet": "http://smart.who.int/hiv/ValueSet/HIV.B.DE237",
+        "fhir:version": "0.4.4",
+        "fhir:expansionTimestamp": "2026-03-03T20:47:45+00:00"
+      }
+    }
+  }
+}

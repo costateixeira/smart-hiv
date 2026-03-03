@@ -1,0 +1,49 @@
+{
+  "openapi": "3.1.0",
+  "info": {
+    "title": "Infant HIV status ValueSet Schema API",
+    "description": "JSON Schema for Infant HIV status ValueSet ValueSet codes. Generated from FHIR expansions using IRI format.",
+    "version": "1.0.0"
+  },
+  "paths": {
+    "/ValueSet-HIV.E.DE225.schema.json": {
+      "get": {
+        "summary": "JSON Schema definition for the enumeration ValueSet-HIV.E.DE225",
+        "description": "This endpoint serves the JSON Schema definition for the enumeration ValueSet-HIV.E.DE225.",
+        "responses": {
+          "200": {
+            "description": "The JSON Schema for ValueSet-HIV.E.DE225",
+            "content": {
+              "application/schema+json": {
+                "schema": {
+                  "$ref": "./ValueSet-HIV.E.DE225.schema.json"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "ValueSet-HIV.E.DE225": {
+        "$schema": "https://json-schema.org/draft/2020-12/schema",
+        "$id": "http://smart.who.int/hiv/ValueSet-HIV.E.DE225.schema.json",
+        "title": "Infant HIV status ValueSet Schema",
+        "description": "JSON Schema for Infant HIV status ValueSet ValueSet codes. Generated from FHIR expansions using IRI format.",
+        "type": "string",
+        "enum": [
+          "http://smart.who.int/hiv/CodeSystem/HIVConcepts#HIV.E.DE226",
+          "http://smart.who.int/hiv/CodeSystem/HIVConcepts#HIV.E.DE227",
+          "http://smart.who.int/hiv/CodeSystem/HIVConcepts#HIV.E.DE228"
+        ],
+        "narrative": "This schema validates IRI-formatted codes for the Infant HIV status ValueSet ValueSet. Each enum value includes the system URI in the format {systemuri}#{code} to match JSON-LD enumeration IRIs. Display values are available at http://smart.who.int/hiv/ValueSet-HIV.E.DE225.displays.json. For a complete listing of all ValueSets, see artifacts.html#terminology-value-sets.",
+        "fhir:displays": "http://smart.who.int/hiv/ValueSet-HIV.E.DE225.displays.json",
+        "fhir:valueSet": "http://smart.who.int/hiv/ValueSet/HIV.E.DE225",
+        "fhir:version": "0.4.4",
+        "fhir:expansionTimestamp": "2026-03-03T20:47:49+00:00"
+      }
+    }
+  }
+}

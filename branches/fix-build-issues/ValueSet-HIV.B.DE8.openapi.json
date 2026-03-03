@@ -1,0 +1,50 @@
+{
+  "openapi": "3.1.0",
+  "info": {
+    "title": "Type of contact or partner for partner services ValueSet Schema API",
+    "description": "JSON Schema for Type of contact or partner for partner services ValueSet ValueSet codes. Generated from FHIR expansions using IRI format.",
+    "version": "1.0.0"
+  },
+  "paths": {
+    "/ValueSet-HIV.B.DE8.schema.json": {
+      "get": {
+        "summary": "JSON Schema definition for the enumeration ValueSet-HIV.B.DE8",
+        "description": "This endpoint serves the JSON Schema definition for the enumeration ValueSet-HIV.B.DE8.",
+        "responses": {
+          "200": {
+            "description": "The JSON Schema for ValueSet-HIV.B.DE8",
+            "content": {
+              "application/schema+json": {
+                "schema": {
+                  "$ref": "./ValueSet-HIV.B.DE8.schema.json"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "ValueSet-HIV.B.DE8": {
+        "$schema": "https://json-schema.org/draft/2020-12/schema",
+        "$id": "http://smart.who.int/hiv/ValueSet-HIV.B.DE8.schema.json",
+        "title": "Type of contact or partner for partner services ValueSet Schema",
+        "description": "JSON Schema for Type of contact or partner for partner services ValueSet ValueSet codes. Generated from FHIR expansions using IRI format.",
+        "type": "string",
+        "enum": [
+          "http://smart.who.int/hiv/CodeSystem/HIVConcepts#HIV.B.DE9",
+          "http://smart.who.int/hiv/CodeSystem/HIVConcepts#HIV.B.DE10",
+          "http://smart.who.int/hiv/CodeSystem/HIVConcepts#HIV.B.DE11",
+          "http://smart.who.int/hiv/CodeSystem/HIVConcepts#HIV.B.DE12"
+        ],
+        "narrative": "This schema validates IRI-formatted codes for the Type of contact or partner for partner services ValueSet ValueSet. Each enum value includes the system URI in the format {systemuri}#{code} to match JSON-LD enumeration IRIs. Display values are available at http://smart.who.int/hiv/ValueSet-HIV.B.DE8.displays.json. For a complete listing of all ValueSets, see artifacts.html#terminology-value-sets.",
+        "fhir:displays": "http://smart.who.int/hiv/ValueSet-HIV.B.DE8.displays.json",
+        "fhir:valueSet": "http://smart.who.int/hiv/ValueSet/HIV.B.DE8",
+        "fhir:version": "0.4.4",
+        "fhir:expansionTimestamp": "2026-03-03T20:47:46+00:00"
+      }
+    }
+  }
+}

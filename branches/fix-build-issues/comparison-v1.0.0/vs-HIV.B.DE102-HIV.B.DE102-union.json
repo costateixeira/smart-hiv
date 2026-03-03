@@ -1,0 +1,25 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "53532621-7232-4b34-8fdd-ba7f33ef96b0-332",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/53532621-7232-4b34-8fdd-ba7f33ef96b0-332",
+  "name" : "UnionHIVBDE102AndHIVBDE102",
+  "title" : "Union of Test result of HIV assay 3 ValueSet And Test result of HIV assay 3 ValueSet",
+  "status" : "active",
+  "date" : "2026-03-03T20:45:16+00:00",
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "HIV.B.DE103",
+        "display" : "Reactive"
+      },
+      {
+        "code" : "HIV.B.DE104",
+        "display" : "Non-reactive"
+      },
+      {
+        "code" : "HIV.B.DE105",
+        "display" : "Invalid"
+      }]
+    }]
+  }
+}

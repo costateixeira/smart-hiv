@@ -1,0 +1,31 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "http://smart.who.int/hiv/ValueSet-HIV.D.DE229.schema.json",
+  "title": "General care activities recommended ValueSet Schema",
+  "description": "JSON Schema for General care activities recommended ValueSet ValueSet codes. Generated from FHIR expansions using IRI format.",
+  "type": "string",
+  "enum": [
+    "http://smart.who.int/hiv/CodeSystem/HIVConcepts#HIV.D.DE230",
+    "http://smart.who.int/hiv/CodeSystem/HIVConcepts#HIV.D.DE231",
+    "http://smart.who.int/hiv/CodeSystem/HIVConcepts#HIV.D.DE232",
+    "http://smart.who.int/hiv/CodeSystem/HIVConcepts#HIV.D.DE233",
+    "http://smart.who.int/hiv/CodeSystem/HIVConcepts#HIV.D.DE234",
+    "http://smart.who.int/hiv/CodeSystem/HIVConcepts#HIV.D.DE235",
+    "http://smart.who.int/hiv/CodeSystem/HIVConcepts#HIV.D.DE236",
+    "http://smart.who.int/hiv/CodeSystem/HIVConcepts#HIV.D.DE237",
+    "http://smart.who.int/hiv/CodeSystem/HIVConcepts#HIV.D.DE238",
+    "http://smart.who.int/hiv/CodeSystem/HIVConcepts#HIV.D.DE239",
+    "http://smart.who.int/hiv/CodeSystem/HIVConcepts#HIV.D.DE240",
+    "http://smart.who.int/hiv/CodeSystem/HIVConcepts#HIV.D.DE241",
+    "http://smart.who.int/hiv/CodeSystem/HIVConcepts#HIV.D.DE242",
+    "http://smart.who.int/hiv/CodeSystem/HIVConcepts#HIV.D.DE243",
+    "http://smart.who.int/hiv/CodeSystem/HIVConcepts#HIV.D.DE244",
+    "http://smart.who.int/hiv/CodeSystem/HIVConcepts#HIV.D.DE245",
+    "http://smart.who.int/hiv/CodeSystem/HIVConcepts#HIV.D.DE246"
+  ],
+  "narrative": "This schema validates IRI-formatted codes for the General care activities recommended ValueSet ValueSet. Each enum value includes the system URI in the format {systemuri}#{code} to match JSON-LD enumeration IRIs. Display values are available at http://smart.who.int/hiv/ValueSet-HIV.D.DE229.displays.json. For a complete listing of all ValueSets, see artifacts.html#terminology-value-sets.",
+  "fhir:displays": "http://smart.who.int/hiv/ValueSet-HIV.D.DE229.displays.json",
+  "fhir:valueSet": "http://smart.who.int/hiv/ValueSet/HIV.D.DE229",
+  "fhir:version": "0.4.4",
+  "fhir:expansionTimestamp": "2026-03-03T20:47:47+00:00"
+}

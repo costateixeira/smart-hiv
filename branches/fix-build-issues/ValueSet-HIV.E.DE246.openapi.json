@@ -1,0 +1,54 @@
+{
+  "openapi": "3.1.0",
+  "info": {
+    "title": "Blood group and Rh factor ValueSet Schema API",
+    "description": "JSON Schema for Blood group and Rh factor ValueSet ValueSet codes. Generated from FHIR expansions using IRI format.",
+    "version": "1.0.0"
+  },
+  "paths": {
+    "/ValueSet-HIV.E.DE246.schema.json": {
+      "get": {
+        "summary": "JSON Schema definition for the enumeration ValueSet-HIV.E.DE246",
+        "description": "This endpoint serves the JSON Schema definition for the enumeration ValueSet-HIV.E.DE246.",
+        "responses": {
+          "200": {
+            "description": "The JSON Schema for ValueSet-HIV.E.DE246",
+            "content": {
+              "application/schema+json": {
+                "schema": {
+                  "$ref": "./ValueSet-HIV.E.DE246.schema.json"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "ValueSet-HIV.E.DE246": {
+        "$schema": "https://json-schema.org/draft/2020-12/schema",
+        "$id": "http://smart.who.int/hiv/ValueSet-HIV.E.DE246.schema.json",
+        "title": "Blood group and Rh factor ValueSet Schema",
+        "description": "JSON Schema for Blood group and Rh factor ValueSet ValueSet codes. Generated from FHIR expansions using IRI format.",
+        "type": "string",
+        "enum": [
+          "http://smart.who.int/hiv/CodeSystem/HIVConcepts#HIV.E.DE247",
+          "http://smart.who.int/hiv/CodeSystem/HIVConcepts#HIV.E.DE248",
+          "http://smart.who.int/hiv/CodeSystem/HIVConcepts#HIV.E.DE249",
+          "http://smart.who.int/hiv/CodeSystem/HIVConcepts#HIV.E.DE250",
+          "http://smart.who.int/hiv/CodeSystem/HIVConcepts#HIV.E.DE251",
+          "http://smart.who.int/hiv/CodeSystem/HIVConcepts#HIV.E.DE252",
+          "http://smart.who.int/hiv/CodeSystem/HIVConcepts#HIV.E.DE253",
+          "http://smart.who.int/hiv/CodeSystem/HIVConcepts#HIV.E.DE254"
+        ],
+        "narrative": "This schema validates IRI-formatted codes for the Blood group and Rh factor ValueSet ValueSet. Each enum value includes the system URI in the format {systemuri}#{code} to match JSON-LD enumeration IRIs. Display values are available at http://smart.who.int/hiv/ValueSet-HIV.E.DE246.displays.json. For a complete listing of all ValueSets, see artifacts.html#terminology-value-sets.",
+        "fhir:displays": "http://smart.who.int/hiv/ValueSet-HIV.E.DE246.displays.json",
+        "fhir:valueSet": "http://smart.who.int/hiv/ValueSet/HIV.E.DE246",
+        "fhir:version": "0.4.4",
+        "fhir:expansionTimestamp": "2026-03-03T20:47:49+00:00"
+      }
+    }
+  }
+}

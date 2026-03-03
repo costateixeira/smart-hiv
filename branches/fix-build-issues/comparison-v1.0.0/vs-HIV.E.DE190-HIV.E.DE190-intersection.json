@@ -1,0 +1,25 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "53532621-7232-4b34-8fdd-ba7f33ef96b0-969",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/53532621-7232-4b34-8fdd-ba7f33ef96b0-969",
+  "name" : "IntersectionHIVEDE190AndHIVEDE190",
+  "title" : "Intersection of EID test number 2 test result ValueSet And EID test number 2 test result ValueSet",
+  "status" : "active",
+  "date" : "2026-03-03T20:45:16+00:00",
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "HIV.E.DE191",
+        "display" : "Positive"
+      },
+      {
+        "code" : "HIV.E.DE192",
+        "display" : "Negative"
+      },
+      {
+        "code" : "HIV.E.DE193",
+        "display" : "Indeterminate"
+      }]
+    }]
+  }
+}

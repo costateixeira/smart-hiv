@@ -1,0 +1,19 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "http://smart.who.int/hiv/ValueSet-HIV.B.DE81.schema.json",
+  "title": "HIV test type ValueSet Schema",
+  "description": "JSON Schema for HIV test type ValueSet ValueSet codes. Generated from FHIR expansions using IRI format.",
+  "type": "string",
+  "enum": [
+    "http://smart.who.int/hiv/CodeSystem/HIVConcepts#HIV.B.DE82",
+    "http://smart.who.int/hiv/CodeSystem/HIVConcepts#HIV.B.DE83",
+    "http://smart.who.int/hiv/CodeSystem/HIVConcepts#HIV.B.DE84",
+    "http://smart.who.int/hiv/CodeSystem/HIVConcepts#HIV.B.DE85",
+    "http://smart.who.int/hiv/CodeSystem/HIVConcepts#HIV.B.DE86"
+  ],
+  "narrative": "This schema validates IRI-formatted codes for the HIV test type ValueSet ValueSet. Each enum value includes the system URI in the format {systemuri}#{code} to match JSON-LD enumeration IRIs. Display values are available at http://smart.who.int/hiv/ValueSet-HIV.B.DE81.displays.json. For a complete listing of all ValueSets, see artifacts.html#terminology-value-sets.",
+  "fhir:displays": "http://smart.who.int/hiv/ValueSet-HIV.B.DE81.displays.json",
+  "fhir:valueSet": "http://smart.who.int/hiv/ValueSet/HIV.B.DE81",
+  "fhir:version": "0.4.4",
+  "fhir:expansionTimestamp": "2026-03-03T20:47:46+00:00"
+}

@@ -1,0 +1,21 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "53532621-7232-4b34-8fdd-ba7f33ef96b0-906",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/53532621-7232-4b34-8fdd-ba7f33ef96b0-906",
+  "name" : "IntersectionHIVDDE942AndHIVDDE942",
+  "title" : "Intersection of Method of TB diagnosis ValueSet And Method of TB diagnosis ValueSet",
+  "status" : "active",
+  "date" : "2026-03-03T20:45:16+00:00",
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "HIV.D.DE943",
+        "display" : "Bacteriologically confirmed"
+      },
+      {
+        "code" : "HIV.D.DE944",
+        "display" : "Clinically diagnosed"
+      }]
+    }]
+  }
+}

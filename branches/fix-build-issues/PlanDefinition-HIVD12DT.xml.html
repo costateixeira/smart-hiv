@@ -1,0 +1,1983 @@
+
+
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE HTML>
+<html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml" lang="en">
+  <head>
+    <meta content="text/html;charset=utf-8" http-equiv="Content-Type"/>
+    <title>HIV.D12.Determine recommended screenings and tests - XML Representation - WHO SMART Guidelines - HIV v0.4.4</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta name="author" content="http://hl7.org/fhir"/>
+
+    <link href="fhir.css" rel="stylesheet"/>
+    <link href="assets/css/fa-all.css" rel="stylesheet" type="text/css" />
+    <!-- Bootstrap core CSS -->
+    <link href="assets/css/bootstrap-fhir.css" rel="stylesheet"/>
+
+    <!-- Project extras -->
+    <link href="assets/css/project.css" rel="stylesheet"/>
+    <link href="assets/css/pygments-manni.css" rel="stylesheet"/>
+    <link href="assets/css/jquery-ui.css" rel="stylesheet"/>
+  	<link href="assets/css/prism.css" rel="stylesheet" />
+    <!-- Placeholder for child template CSS declarations -->
+    <link href="assets/css/who.css" rel="stylesheet"/>
+    <link href="assets/css/lforms.min.css" rel="stylesheet"/>
+
+
+    <script type="text/javascript" src="fhir-table-scripts.js"> </script>
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+    <script src="assets/js/html5shiv.js"></script>
+    <script src="assets/js/respond.min.js"></script>
+    <![endif]-->
+
+    <!-- Favicons -->
+    <link rel="fhir-logo" sizes="144x144" href="assets/ico/icon-fhir-144.png"/>
+    <link rel="fhir-logo" sizes="114x114" href="assets/ico/icon-fhir-114.png"/>
+    <link rel="fhir-logo" sizes="72x72" href="assets/ico/icon-fhir-72.png"/>
+    <link rel="fhir-logo" href="assets/ico/icon-fhir-57.png"/>
+    <link rel="shortcut icon" href="assets/ico/favicon.png"/>
+  </head>
+  <body onload="document.body.style.opacity='1'">
+
+	  <script src="assets/js/prism.js"></script>
+
+    <style type="text/css">h2{--heading-prefix:"5.1.7"}
+    h3,h4,h5,h6{--heading-prefix:"5.1.7"}</style>
+    <div id="segment-header" class="segment">  <!-- segment-header -->
+
+      <div id="segment-navbar" class="segment">  <!-- segment-navbar -->
+        <div id="stripe"> </div>
+        <div class="container">  <!-- container -->
+          <!-- HEADER CONTENT -->
+  
+          <nav class="navbar navbar-inverse">
+            <!--status-bar-->
+            <div class="container">
+              <button data-target=".navbar-inverse-collapse" class="navbar-toggle" data-toggle="collapse" type="button">
+                <span class="icon-bar"> </span>
+                <span class="icon-bar"> </span>
+                <span class="icon-bar"> </span>
+              </button>
+              <a class="navbar-brand hidden" href="http://hl7.org/fhir/R4/index.html">FHIR</a>
+              <div class="nav-collapse collapse navbar-inverse-collapse">
+                <!-- menu.xml  -->
+
+<ul xmlns="http://www.w3.org/1999/xhtml" class="nav navbar-nav">
+  <li class="dropdown">
+    <a data-toggle="dropdown" href="#" class="dropdown-toggle">Home
+      <b class="caret"></b>
+    </a>
+    <ul class="dropdown-menu">
+      <li>
+        <a href="index.html">Summary</a>
+      </li>
+      <li>
+        <a href="changes.html">Changes</a>
+      </li>
+      <li>
+        <a href="dependencies.html">Dependencies</a>
+      </li>
+      <li>
+        <a href="references.html">References</a>
+      </li>
+      <li>
+        <a href="adapting.html">Adapting Guidelines for Country use</a>
+      </li>
+    </ul>
+  </li>
+  <li class="dropdown">
+    <a data-toggle="dropdown" href="#" class="dropdown-toggle">Business Requirements
+      <b class="caret"></b>
+    </a>
+    <ul class="dropdown-menu">
+      <li>
+        <a href="concepts.html">Concepts</a>
+      </li>
+      <li>
+        <a href="personas.html">Generic Personas</a>
+      </li>
+      <li>
+        <a href="scenarios.html">User Scenarios</a>
+      </li>
+      <li>
+        <a href="business-processes.html">Business Processes</a>
+      </li>
+      <li>
+        <a href="dictionary.html">Data Dictionary</a>
+      </li>
+      <li>
+        <a href="decision-logic.html">Decision-support Logic</a>
+      </li>
+      <li>
+        <a href="indicators.html">Indicator and Performance Metrics</a>
+      </li>
+      <li>
+        <a href="functional-requirements.html">Functional Requirements</a>
+      </li>
+      <li>
+        <a href="non-functional-requirements.html">Non-functional Requirements</a>
+      </li>
+    </ul>
+  </li>
+  <li class="dropdown">
+    <a data-toggle="dropdown" href="#" class="dropdown-toggle">Data Models and Exchange
+      <b class="caret"></b>
+    </a>
+    <ul class="dropdown-menu">
+      <li>
+        <a href="system-actors.html">System Actors</a>
+      </li>
+      <li>
+        <a href="sequence-diagrams.html">Sequence Diagrams</a>
+      </li>
+      <li>
+        <a href="transactions.html">Transactions</a>
+      </li>
+      <li>
+        <a href="indicators-measures.html">Indicators and Measures</a>
+      </li>
+      <li>
+        <a href="codings.html">Codings</a>
+      </li>
+    </ul>
+  </li>
+  <li class="dropdown">
+    <a data-toggle="dropdown" href="#" class="dropdown-toggle">Deployment
+      <b class="caret"></b>
+    </a>
+    <ul class="dropdown-menu">
+      <li>
+        <a href="security-privacy.html">Security and Privacy Considerations</a>
+      </li>
+      <li>
+        <a href="testing.html">Testing</a>
+      </li>
+      <li>
+        <a href="test-data.html">Test Data</a>
+      </li>
+      <li>
+        <a href="reference-implementations.html">Reference Implementations</a>
+      </li>
+      <li>
+        <a href="downloads.html">Downloads</a>
+      </li>
+    </ul>
+  </li>
+  <li class="dropdown">
+    <a data-toggle="dropdown" href="#" class="dropdown-toggle">Indices
+      <b class="caret"></b>
+    </a>
+    <ul class="dropdown-menu">
+      <li>
+        <a href="artifacts.html">Artifact Index</a>
+      </li>
+      <li>
+        <a href="maps.html">Mappings</a>
+      </li>
+      <li>
+        <a href="dak-api.html">DAK API</a>
+      </li>
+    </ul>
+  </li>
+</ul>
+              </div>  <!-- /.nav-collapse -->
+
+              <div class="sf_colsIn col-md-8  navbar-right-container" data-sf-element="LanguageSelectorSearch" data-placeholder-label="Language Selector and Search" style="display: flex; justify-content: flex-end; align-items: center;">
+                <!-- This div will be pushed to the right -->
+                <div class="language-selector" style="margin-left: auto; background-color: #00477d; color: white;">
+                  <i class="fa fa-language fa-lg"></i>
+                  <label for="language-selector"> </label>
+                  <select onChange="openLink(value)" id="language-selector" name="language-selector">
+                    <option disabled selected>Select language</option>
+                    <option value="en" class="selected">English</option>
+                  </select>
+                  <i class="fas fa-angle-down"></i>
+                </div>
+                <!-- Search Content -->
+              </div>
+            </div>  <!-- /.container -->
+          </nav>  <!-- /.navbar -->
+        <!-- /HEADER CONTENT -->
+        </div>  <!-- /container -->
+      </div>  <!-- /segment-navbar -->
+      
+
+      <div class="container" style=" justify-content: space-between; align-items: left;">
+
+        <!-- Placeholder for child template header declarations -->
+<div id="project-nav">
+    <a id="who-logo" no-external="true" href="index.html">
+        
+    </a>
+</div>
+
+ <div id="family-nav">
+  <a id="fhir-logo" no-external="true" href="http://hl7.org/fhir">  </a>
+</div> 
+
+
+        <div id="ig-status" class="ig-status-draft">
+          <p><span style="font-size:12pt;font-weight:bold">WHO SMART Guidelines - HIV</span>
+            <br/>
+            <span style="display:inline-block;">0.4.4 - ci-build
+
+
+            </span>
+          </p>
+        </div>
+      </div> <!-- /container -->
+    </div>  <!-- /segment-header -->
+
+
+    <!--status-bar-->
+
+    <div id="segment-breadcrumb" class="segment">  <!-- segment-breadcrumb -->
+      <div class="container">  <!-- container -->
+        <ul class="breadcrumb">
+          <li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='indices.html'><b>Indices</b></a></li><li><a href='artifacts.html'><b>Artifact Index</b></a></li><li><b>HIV.D12.Determine recommended screenings and tests</b></li>
+
+        </ul>
+      </div>  <!-- /container -->
+    </div>  <!-- /segment-breadcrumb -->
+
+    <a name="top"> </a>
+    <div id="segment-content" class="segment">  <!-- segment-content -->
+      <div class="container">  <!-- container -->
+        <div class="row">
+          <div class="inner-wrapper">
+
+<div style="counter-reset: section 7" class="col-12">
+<!--ReleaseHeader--><p id="publish-box">WHO SMART Guidelines - HIV, published by WHO. This guide is not an authorized publication; it is the continuous build for version 0.4.4  built by the FHIR (HL7&reg; FHIR&reg; Standard) CI Build. This version is based on the current content of <a href='https://github.com/costateixeira/smart-hiv/tree/fix-build-issues'>https://github.com/costateixeira/smart-hiv/tree/fix-build-issues</a> and changes regularly. See the <a href='http://smart.who.int/hiv/history.html'>Directory of published versions</a></p><!--EndReleaseHeader-->
+
+
+
+
+
+
+
+
+
+<ul class="nav nav-tabs">
+
+  <li>
+    <a href="PlanDefinition-HIVD12DT.html">Narrative Content</a>
+  </li>
+
+
+
+  
+    <li class="active">
+      <a href="#">XML</a>
+    </li>
+  
+
+
+  
+    <li>
+      <a href="PlanDefinition-HIVD12DT.json.html">JSON</a>
+    </li>
+  
+
+
+  
+    <li>
+      <a href="PlanDefinition-HIVD12DT.ttl.html">TTL</a>
+    </li>
+  
+
+
+
+</ul>
+
+
+<a name="root"> </a>
+
+
+<h2 id="root">: HIV.D12.Determine recommended screenings and tests - XML Representation</h2>
+
+  <table class="colsd">
+    <tr>
+
+      <td colspan="2">
+        
+          Draft
+          
+            as of 2026-03-03
+          
+        
+      </td>
+
+    </tr>
+  </table>
+
+
+<p><a href="PlanDefinition-HIVD12DT.xml" no-download="true">Raw xml</a> | <a href="PlanDefinition-HIVD12DT.xml" download>Download</a></p>
+
+  <!-- insert intro if present -->
+  
+
+
+
+  <pre class="xml" data-fhir="generated" style="white-space: pre; text-wrap: nowrap; width: auto;"><code style="white-space: pre; text-wrap: nowrap;">
+&lt;<a href="http://hl7.org/fhir/R4/plandefinition.html#PlanDefinition">PlanDefinition</a> xmlns=&quot;http://hl7.org/fhir&quot;&gt;
+  &lt;<a href="http://hl7.org/fhir/R4/resource.html#PlanDefinition.id">id</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;HIVD12DT&quot;/&gt;
+  &lt;<a href="http://hl7.org/fhir/R4/resource.html#PlanDefinition.meta">meta</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Meta#Meta.profile">profile</a>
+             <a href="http://hl7.org/fhir/R4/datatypes.html#canonical">value</a>=&quot;http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-recommendationdefinition|2.0.0&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Meta#Meta.profile">profile</a>
+             <a href="http://hl7.org/fhir/R4/datatypes.html#canonical">value</a>=&quot;http://hl7.org/fhir/uv/crmi/StructureDefinition/crmi-shareableplandefinition&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Meta#Meta.profile">profile</a>
+             <a href="http://hl7.org/fhir/R4/datatypes.html#canonical">value</a>=&quot;http://hl7.org/fhir/uv/crmi/StructureDefinition/crmi-publishableplandefinition&quot;/&gt;
+  &lt;/<a href="http://hl7.org/fhir/R4/resource.html#PlanDefinition.meta">meta</a>&gt;
+  &lt;<a href="http://hl7.org/fhir/R4/domainresource.html#PlanDefinition.text">text</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Narrative#Narrative.status">status</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;extensions&quot;/&gt;
+    &lt;div xmlns=&quot;http://www.w3.org/1999/xhtml&quot;&gt;
+&lt;div&gt;
+    &lt;table class=&quot;grid dict&quot;&gt;
+        
+        &lt;tr&gt;
+            &lt;th scope=&quot;row&quot;&gt;&lt;b&gt;Id: &lt;/b&gt;&lt;/th&gt;
+            &lt;td style=&quot;padding-left: 4px;&quot;&gt;HIVD12DT&lt;/td&gt;
+        &lt;/tr&gt;
+        
+
+        
+        &lt;tr&gt;
+            &lt;th scope=&quot;row&quot;&gt;&lt;b&gt;Url: &lt;/b&gt;&lt;/th&gt;
+            &lt;td style=&quot;padding-left: 4px;&quot;&gt;&lt;a href=&quot;PlanDefinition-HIVD12DT.html&quot;&gt;HIV.D12.Determine recommended screenings and tests&lt;/a&gt;&lt;/td&gt;
+        &lt;/tr&gt;
+        
+
+        
+        &lt;tr&gt;
+            &lt;th scope=&quot;row&quot;&gt;&lt;b&gt;Version: &lt;/b&gt;&lt;/th&gt;
+            &lt;td style=&quot;padding-left: 4px;&quot;&gt;0.4.4&lt;/td&gt;
+        &lt;/tr&gt;
+        
+
+        
+
+        
+        &lt;tr&gt;
+            &lt;th scope=&quot;row&quot;&gt;&lt;b&gt;Title: &lt;/b&gt;&lt;/th&gt;
+            &lt;td style=&quot;padding-left: 4px;&quot;&gt;HIV.D12.Determine recommended screenings and tests&lt;/td&gt;
+        &lt;/tr&gt;
+        
+
+        
+
+        
+        &lt;tr&gt;
+            &lt;th scope=&quot;row&quot;&gt;&lt;b&gt;Status: &lt;/b&gt;&lt;/th&gt;
+            &lt;td style=&quot;padding-left: 4px;&quot;&gt;draft&lt;/td&gt;
+        &lt;/tr&gt;
+        
+
+        
+        &lt;tr&gt;
+            &lt;th scope=&quot;row&quot;&gt;&lt;b&gt;Experimental: &lt;/b&gt;&lt;/th&gt;
+            &lt;td style=&quot;padding-left: 4px;&quot;&gt;true&lt;/td&gt;
+        &lt;/tr&gt;
+        
+
+        
+        &lt;tr&gt;
+            &lt;th scope=&quot;row&quot;&gt;&lt;b&gt;Type: &lt;/b&gt;&lt;/th&gt;
+            &lt;td style=&quot;padding-left: 4px;&quot;&gt;
+                
+                    
+                        
+                        &lt;p style=&quot;margin-bottom: 5px;&quot;&gt;
+                            &lt;b&gt;system: &lt;/b&gt; &lt;span&gt;&lt;a href=&quot;http://terminology.hl7.org/6.1.0/CodeSystem-plan-definition-type.html&quot;&gt;http://terminology.hl7.org/CodeSystem/plan-definition-type&lt;/a&gt;&lt;/span&gt;
+                        &lt;/p&gt;
+                        
+                        
+                        &lt;p style=&quot;margin-bottom: 5px;&quot;&gt;
+                            &lt;b&gt;code: &lt;/b&gt; &lt;span&gt;eca-rule&lt;/span&gt;
+                        &lt;/p&gt;
+                        
+                        
+                    
+                
+                
+            &lt;/td&gt;
+        &lt;/tr&gt;
+        
+
+        
+
+        
+        &lt;tr&gt;
+            &lt;th scope=&quot;row&quot;&gt;&lt;b&gt;Date: &lt;/b&gt;&lt;/th&gt;
+            &lt;td style=&quot;padding-left: 4px;&quot;&gt;2026-03-03 20:39:19+0000&lt;/td&gt;
+        &lt;/tr&gt;
+        
+
+        
+        &lt;tr&gt;
+            &lt;th scope=&quot;row&quot;&gt;&lt;b&gt;Publisher: &lt;/b&gt;&lt;/th&gt;
+            &lt;td style=&quot;padding-left: 4px;&quot;&gt;WHO&lt;/td&gt;
+        &lt;/tr&gt;
+        
+
+        
+        &lt;tr&gt;
+            &lt;th scope=&quot;row&quot;&gt;&lt;b&gt;Description: &lt;/b&gt;&lt;/th&gt;
+            &lt;td style=&quot;padding-left: 4px;&quot;&gt;&lt;div&gt;&lt;p&gt;Determine recommended screenings and tests&lt;/p&gt;
+&lt;/div&gt;&lt;/td&gt;
+        &lt;/tr&gt;
+        
+
+        
+
+        
+
+        
+
+        
+
+        
+
+        
+
+        
+
+        
+
+        
+
+        
+
+        
+        &lt;tr&gt;
+            &lt;th scope=&quot;row&quot;&gt;&lt;b&gt;Related Artifacts: &lt;/b&gt;&lt;/th&gt;
+            &lt;td style=&quot;padding-left: 4px;&quot;&gt;
+                
+                
+                &lt;p&gt;&lt;b&gt;References&lt;/b&gt;&lt;/p&gt;
+                &lt;ul&gt;
+                    
+                    &lt;li&gt;&lt;div&gt;&lt;p&gt;Consolidated Guidelines on HIV Testing Services (2019)&lt;/p&gt;
+&lt;/div&gt;&lt;br/&gt;&lt;a href=&quot;null&quot;/&gt;&lt;/li&gt;
+                    
+                &lt;/ul&gt;
+                
+                
+                
+                
+                
+                
+            &lt;/td&gt;
+        &lt;/tr&gt;
+        
+
+        
+        &lt;tr&gt;
+            &lt;th scope=&quot;row&quot;&gt;&lt;b&gt;Libraries: &lt;/b&gt;&lt;/th&gt;
+            &lt;td style=&quot;padding-left: 4px;&quot;&gt;
+                &lt;table class=&quot;grid-dict&quot;&gt;
+                    
+                    &lt;tr&gt;
+                        &lt;td&gt;&lt;a href=&quot;Library-HIVD12DTLogic.html&quot;&gt;HIV.D12.DT Logic&lt;/a&gt;&lt;/td&gt;
+                    &lt;/tr&gt;
+                    
+                &lt;/table&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+        
+
+        
+        &lt;tr&gt;
+            &lt;th scope=&quot;row&quot;&gt;&lt;b&gt;Actions: &lt;/b&gt;&lt;/th&gt;
+            &lt;td style=&quot;padding-left: 4px;&quot;&gt;
+                &lt;table class=&quot;grid-dict&quot;&gt;
+                    
+                    &lt;tr&gt;
+                        &lt;td&gt;
+                            
+                            Recommended screenings and tests
+                            
+                            &lt;br/&gt;
+                            
+                            
+                            
+                            
+                            &lt;b&gt;Then:&lt;/b&gt; &lt;i&gt;Definition:&lt;/i&gt; &lt;a href=&quot;ActivityDefinition-HIVGuidanceCommunicationRequestActivity.html&quot;&gt;HIVGuidanceCommunicationRequestActivity&lt;/a&gt;&lt;br/&gt;
+                            
+                            &lt;i&gt;Dynamic Values:&lt;/i&gt;&lt;br/&gt;
+                            
+                            payload[+].contentString: &lt;i&gt;(Guidance)&lt;/i&gt;
+                            &lt;br/&gt;
+                            
+                            
+                            
+                            
+                        &lt;/td&gt;
+                    &lt;/tr&gt;
+                    
+                &lt;/table&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+        
+    &lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;<a name="end-xhtml"></a>
+  &lt;/<a href="http://hl7.org/fhir/R4/domainresource.html#PlanDefinition.text">text</a>&gt;
+  &lt;<a href="http://hl7.org/fhir/R4/library.html#Library">contained</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/library.html#Library">Library</a>&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/resource.html#Library.id">id</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;effective-data-requirements&quot;/&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/domainresource.html#Library.extension">extension</a>
+                 <a href="http://hl7.org/fhir/R4/datatypes.html#uri">url</a>=&quot;http://hl7.org/fhir/StructureDefinition/cqf-directReferenceCode&quot;&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueCoding</a>&gt;
+          &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.system">system</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">value</a>=&quot;http://smart.who.int/hiv/CodeSystem/HIVConcepts&quot;/&gt;
+          &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;HIV.D.DE1&quot;/&gt;
+          &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Reason for visit&quot;/&gt;
+        &lt;/<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueCoding</a>&gt;
+      &lt;/<a href="http://hl7.org/fhir/R4/domainresource.html#Library.extension">extension</a>&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/domainresource.html#Library.extension">extension</a>
+                 <a href="http://hl7.org/fhir/R4/datatypes.html#uri">url</a>=&quot;http://hl7.org/fhir/StructureDefinition/cqf-directReferenceCode&quot;&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueCoding</a>&gt;
+          &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.system">system</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">value</a>=&quot;http://smart.who.int/hiv/CodeSystem/HIVConcepts&quot;/&gt;
+          &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;HIV.B.DE4&quot;/&gt;
+          &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;HIV testing services visit&quot;/&gt;
+        &lt;/<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueCoding</a>&gt;
+      &lt;/<a href="http://hl7.org/fhir/R4/domainresource.html#Library.extension">extension</a>&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/domainresource.html#Library.extension">extension</a>
+                 <a href="http://hl7.org/fhir/R4/datatypes.html#uri">url</a>=&quot;http://hl7.org/fhir/StructureDefinition/cqf-directReferenceCode&quot;&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueCoding</a>&gt;
+          &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.system">system</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">value</a>=&quot;http://smart.who.int/hiv/CodeSystem/HIVConcepts&quot;/&gt;
+          &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;HIV.B.DE34&quot;/&gt;
+          &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;HIV-positive&quot;/&gt;
+        &lt;/<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueCoding</a>&gt;
+      &lt;/<a href="http://hl7.org/fhir/R4/domainresource.html#Library.extension">extension</a>&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/domainresource.html#Library.extension">extension</a>
+                 <a href="http://hl7.org/fhir/R4/datatypes.html#uri">url</a>=&quot;http://hl7.org/fhir/StructureDefinition/cqf-directReferenceCode&quot;&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueCoding</a>&gt;
+          &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.system">system</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">value</a>=&quot;http://smart.who.int/hiv/CodeSystem/HIVConcepts&quot;/&gt;
+          &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;HIV.D.DE38&quot;/&gt;
+          &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;On ART&quot;/&gt;
+        &lt;/<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueCoding</a>&gt;
+      &lt;/<a href="http://hl7.org/fhir/R4/domainresource.html#Library.extension">extension</a>&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/domainresource.html#Library.extension">extension</a>
+                 <a href="http://hl7.org/fhir/R4/datatypes.html#uri">url</a>=&quot;http://hl7.org/fhir/StructureDefinition/cqf-directReferenceCode&quot;&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueCoding</a>&gt;
+          &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.system">system</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">value</a>=&quot;http://smart.who.int/hiv/CodeSystem/HIVConcepts&quot;/&gt;
+          &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;HIV.D.DE364&quot;/&gt;
+          &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;CD4 count&quot;/&gt;
+        &lt;/<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueCoding</a>&gt;
+      &lt;/<a href="http://hl7.org/fhir/R4/domainresource.html#Library.extension">extension</a>&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/domainresource.html#Library.extension">extension</a>
+                 <a href="http://hl7.org/fhir/R4/datatypes.html#uri">url</a>=&quot;http://hl7.org/fhir/StructureDefinition/cqf-directReferenceCode&quot;&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueCoding</a>&gt;
+          &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.system">system</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">value</a>=&quot;http://smart.who.int/hiv/CodeSystem/HIVConcepts&quot;/&gt;
+          &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;HIV.D.DE4&quot;/&gt;
+          &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;ART initiation&quot;/&gt;
+        &lt;/<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueCoding</a>&gt;
+      &lt;/<a href="http://hl7.org/fhir/R4/domainresource.html#Library.extension">extension</a>&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/domainresource.html#Library.extension">extension</a>
+                 <a href="http://hl7.org/fhir/R4/datatypes.html#uri">url</a>=&quot;http://hl7.org/fhir/StructureDefinition/cqf-directReferenceCode&quot;&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueCoding</a>&gt;
+          &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.system">system</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">value</a>=&quot;http://smart.who.int/hiv/CodeSystem/HIVConcepts&quot;/&gt;
+          &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;HIV.D.DE132&quot;/&gt;
+          &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;AZT&quot;/&gt;
+        &lt;/<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueCoding</a>&gt;
+      &lt;/<a href="http://hl7.org/fhir/R4/domainresource.html#Library.extension">extension</a>&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/domainresource.html#Library.extension">extension</a>
+                 <a href="http://hl7.org/fhir/R4/datatypes.html#uri">url</a>=&quot;http://hl7.org/fhir/StructureDefinition/cqf-directReferenceCode&quot;&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueCoding</a>&gt;
+          &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.system">system</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">value</a>=&quot;http://smart.who.int/hiv/CodeSystem/HIVConcepts&quot;/&gt;
+          &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;HIV.D.DE135&quot;/&gt;
+          &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;TDF&quot;/&gt;
+        &lt;/<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueCoding</a>&gt;
+      &lt;/<a href="http://hl7.org/fhir/R4/domainresource.html#Library.extension">extension</a>&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/domainresource.html#Library.extension">extension</a>
+                 <a href="http://hl7.org/fhir/R4/datatypes.html#uri">url</a>=&quot;http://hl7.org/fhir/StructureDefinition/cqf-directReferenceCode&quot;&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueCoding</a>&gt;
+          &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.system">system</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">value</a>=&quot;http://smart.who.int/hiv/CodeSystem/HIVConcepts&quot;/&gt;
+          &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;HIV.D.DE3&quot;/&gt;
+          &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Clinical visit&quot;/&gt;
+        &lt;/<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueCoding</a>&gt;
+      &lt;/<a href="http://hl7.org/fhir/R4/domainresource.html#Library.extension">extension</a>&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/domainresource.html#Library.extension">extension</a>
+                 <a href="http://hl7.org/fhir/R4/datatypes.html#uri">url</a>=&quot;http://hl7.org/fhir/StructureDefinition/cqf-directReferenceCode&quot;&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueCoding</a>&gt;
+          &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.system">system</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">value</a>=&quot;http://smart.who.int/hiv/CodeSystem/HIVConcepts&quot;/&gt;
+          &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;HIV.D.DE443&quot;/&gt;
+          &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Suspicion of treatment failure or interruption&quot;/&gt;
+        &lt;/<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueCoding</a>&gt;
+      &lt;/<a href="http://hl7.org/fhir/R4/domainresource.html#Library.extension">extension</a>&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/domainresource.html#Library.extension">extension</a>
+                 <a href="http://hl7.org/fhir/R4/datatypes.html#uri">url</a>=&quot;http://hl7.org/fhir/StructureDefinition/cqf-logicDefinition&quot;&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">url</a>=&quot;libraryName&quot;&gt;
+          &lt;<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueString</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;HIVElements&quot;/&gt;
+        &lt;/<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">url</a>=&quot;name&quot;&gt;
+          &lt;<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueString</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Reason for visit D.DE1&quot;/&gt;
+        &lt;/<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">url</a>=&quot;statement&quot;&gt;
+          &lt;<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueString</a>
+                       <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;/* End of Services for responding to violence against women C.DE169 */
+
+/*
+@dataElement: HIV.D.DE1 - Reason for visit
+@activity: HIV.D1 Determine reason for visit
+@description: Whether visit was scheduled or unscheduled, clinical only, or for ARV drug pick-up
+*/
+define &amp;quot;Reason for visit D.DE1&amp;quot;:
+  [Observation: Concepts.&amp;quot;Reason for visit - HIV.D.DE1&amp;quot;] O
+    where O.status in { 'final', 'amended', 'corrected' }&quot;/&gt;
+        &lt;/<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">url</a>=&quot;displaySequence&quot;&gt;
+          &lt;<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueInteger</a> <a href="http://hl7.org/fhir/R4/datatypes.html#integer">value</a>=&quot;0&quot;/&gt;
+        &lt;/<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a>&gt;
+      &lt;/<a href="http://hl7.org/fhir/R4/domainresource.html#Library.extension">extension</a>&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/domainresource.html#Library.extension">extension</a>
+                 <a href="http://hl7.org/fhir/R4/datatypes.html#uri">url</a>=&quot;http://hl7.org/fhir/StructureDefinition/cqf-logicDefinition&quot;&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">url</a>=&quot;libraryName&quot;&gt;
+          &lt;<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueString</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;HIVEncounterElements&quot;/&gt;
+        &lt;/<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">url</a>=&quot;name&quot;&gt;
+          &lt;<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueString</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Reason for visit D.DE1&quot;/&gt;
+        &lt;/<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">url</a>=&quot;statement&quot;&gt;
+          &lt;<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueString</a>
+                       <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;/* End of Services for responding to violence against women C.DE169 */
+
+/*
+@dataElement: HIV.D.DE1 - Reason for visit
+@activity: HIV.D1 Determine reason for visit
+@description: Whether visit was scheduled or unscheduled, clinical only, or for ARV drug pick-up
+*/
+define &amp;quot;Reason for visit D.DE1&amp;quot;:
+  Elements.&amp;quot;Reason for visit D.DE1&amp;quot; O
+    where O.encounter.references(EncounterId)&quot;/&gt;
+        &lt;/<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">url</a>=&quot;displaySequence&quot;&gt;
+          &lt;<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueInteger</a> <a href="http://hl7.org/fhir/R4/datatypes.html#integer">value</a>=&quot;1&quot;/&gt;
+        &lt;/<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a>&gt;
+      &lt;/<a href="http://hl7.org/fhir/R4/domainresource.html#Library.extension">extension</a>&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/domainresource.html#Library.extension">extension</a>
+                 <a href="http://hl7.org/fhir/R4/datatypes.html#uri">url</a>=&quot;http://hl7.org/fhir/StructureDefinition/cqf-logicDefinition&quot;&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">url</a>=&quot;libraryName&quot;&gt;
+          &lt;<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueString</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;HIVD12DTLogic&quot;/&gt;
+        &lt;/<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">url</a>=&quot;name&quot;&gt;
+          &lt;<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueString</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;HIV testing services visit&quot;/&gt;
+        &lt;/<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">url</a>=&quot;statement&quot;&gt;
+          &lt;<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueString</a>
+                       <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;/*
+ @input: &amp;quot;Reason for Visit&amp;quot;
+ @pseudocode: &amp;quot;Reason for visit&amp;quot;='HIV testing services visit'
+ */
+define &amp;quot;HIV testing services visit&amp;quot;:
+  exists(
+    Elements.&amp;quot;Reason for visit D.DE1&amp;quot; O
+      where O.value ~ Concepts.&amp;quot;HIV testing services visit&amp;quot;
+  )&quot;/&gt;
+        &lt;/<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">url</a>=&quot;displaySequence&quot;&gt;
+          &lt;<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueInteger</a> <a href="http://hl7.org/fhir/R4/datatypes.html#integer">value</a>=&quot;2&quot;/&gt;
+        &lt;/<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a>&gt;
+      &lt;/<a href="http://hl7.org/fhir/R4/domainresource.html#Library.extension">extension</a>&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/domainresource.html#Library.extension">extension</a>
+                 <a href="http://hl7.org/fhir/R4/datatypes.html#uri">url</a>=&quot;http://hl7.org/fhir/StructureDefinition/cqf-logicDefinition&quot;&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">url</a>=&quot;libraryName&quot;&gt;
+          &lt;<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueString</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;HIVEncounterElements&quot;/&gt;
+        &lt;/<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">url</a>=&quot;name&quot;&gt;
+          &lt;<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueString</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Current Patient Age In Years&quot;/&gt;
+        &lt;/<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">url</a>=&quot;statement&quot;&gt;
+          &lt;<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueString</a>
+                       <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;/**
+ * HIV Elements
+ */
+
+// Auto-generated Elements from DAK Data Dictionary
+//   Entries based on DAK Data Dictionary for Data Elements marked as used
+//   in at least one Decision Support Table or Aggregate Indicator
+
+/*
+@dataElement: HIV.A.DE17 - Age
+@activity: HIV.A6.1 Review sociodemographic data with client | HIV.A5 Create new client record
+@description: Calculated age (number of years) of the client based on date of birth
+*/
+/** 
+ * @dataElement Patient age in years
+ */
+define &amp;quot;Current Patient Age In Years&amp;quot;:
+  AgeInYearsAt(Today())&quot;/&gt;
+        &lt;/<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">url</a>=&quot;displaySequence&quot;&gt;
+          &lt;<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueInteger</a> <a href="http://hl7.org/fhir/R4/datatypes.html#integer">value</a>=&quot;3&quot;/&gt;
+        &lt;/<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a>&gt;
+      &lt;/<a href="http://hl7.org/fhir/R4/domainresource.html#Library.extension">extension</a>&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/domainresource.html#Library.extension">extension</a>
+                 <a href="http://hl7.org/fhir/R4/datatypes.html#uri">url</a>=&quot;http://hl7.org/fhir/StructureDefinition/cqf-logicDefinition&quot;&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">url</a>=&quot;libraryName&quot;&gt;
+          &lt;<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueString</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;HIVD12DTLogic&quot;/&gt;
+        &lt;/<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">url</a>=&quot;name&quot;&gt;
+          &lt;<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueString</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Age 20 or older&quot;/&gt;
+        &lt;/<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">url</a>=&quot;statement&quot;&gt;
+          &lt;<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueString</a>
+                       <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;/*
+ @input: &amp;quot;Age&amp;quot;
+ @pseudocode: &amp;quot;Age&amp;quot; ≥ 20 years
+ */
+define &amp;quot;Age 20 or older&amp;quot;:
+  Elements.&amp;quot;Current Patient Age In Years&amp;quot; &amp;gt;= 20&quot;/&gt;
+        &lt;/<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">url</a>=&quot;displaySequence&quot;&gt;
+          &lt;<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueInteger</a> <a href="http://hl7.org/fhir/R4/datatypes.html#integer">value</a>=&quot;4&quot;/&gt;
+        &lt;/<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a>&gt;
+      &lt;/<a href="http://hl7.org/fhir/R4/domainresource.html#Library.extension">extension</a>&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/domainresource.html#Library.extension">extension</a>
+                 <a href="http://hl7.org/fhir/R4/datatypes.html#uri">url</a>=&quot;http://hl7.org/fhir/StructureDefinition/cqf-logicDefinition&quot;&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">url</a>=&quot;libraryName&quot;&gt;
+          &lt;<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueString</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;HIVElements&quot;/&gt;
+        &lt;/<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">url</a>=&quot;name&quot;&gt;
+          &lt;<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueString</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;HIV test&quot;/&gt;
+        &lt;/<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">url</a>=&quot;statement&quot;&gt;
+          &lt;<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueString</a>
+                       <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;/* End of Date informed of HIV-positive diagnosis */
+
+/*
+@activity: HIV.B7 Test for HIV using testing algorithm
+*/
+define &amp;quot;HIV test&amp;quot;:
+  [Observation: Concepts.&amp;quot;HIV test type - HIV.B.DE81 Choices&amp;quot;] O
+  where O.status in { 'final', 'amended', 'corrected' }&quot;/&gt;
+        &lt;/<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">url</a>=&quot;displaySequence&quot;&gt;
+          &lt;<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueInteger</a> <a href="http://hl7.org/fhir/R4/datatypes.html#integer">value</a>=&quot;5&quot;/&gt;
+        &lt;/<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a>&gt;
+      &lt;/<a href="http://hl7.org/fhir/R4/domainresource.html#Library.extension">extension</a>&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/domainresource.html#Library.extension">extension</a>
+                 <a href="http://hl7.org/fhir/R4/datatypes.html#uri">url</a>=&quot;http://hl7.org/fhir/StructureDefinition/cqf-logicDefinition&quot;&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">url</a>=&quot;libraryName&quot;&gt;
+          &lt;<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueString</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;HIVElements&quot;/&gt;
+        &lt;/<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">url</a>=&quot;name&quot;&gt;
+          &lt;<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueString</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;HIV test result Observation&quot;/&gt;
+        &lt;/<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">url</a>=&quot;statement&quot;&gt;
+          &lt;<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueString</a>
+                       <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;/* End of HIV test date B.DE110 */
+
+/*
+@dataElement: HIV.B.DE111 - HIV test result
+@activity: HIV.B7 Test for HIV using testing algorithm
+@description: The result from HIV testing after applying the testing algorithm
+*/
+// Same as test - see profile
+define &amp;quot;HIV test result Observation&amp;quot;:
+  &amp;quot;HIV test&amp;quot; O&quot;/&gt;
+        &lt;/<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">url</a>=&quot;displaySequence&quot;&gt;
+          &lt;<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueInteger</a> <a href="http://hl7.org/fhir/R4/datatypes.html#integer">value</a>=&quot;6&quot;/&gt;
+        &lt;/<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a>&gt;
+      &lt;/<a href="http://hl7.org/fhir/R4/domainresource.html#Library.extension">extension</a>&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/domainresource.html#Library.extension">extension</a>
+                 <a href="http://hl7.org/fhir/R4/datatypes.html#uri">url</a>=&quot;http://hl7.org/fhir/StructureDefinition/cqf-logicDefinition&quot;&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">url</a>=&quot;libraryName&quot;&gt;
+          &lt;<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueString</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;HIVEncounterElements&quot;/&gt;
+        &lt;/<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">url</a>=&quot;name&quot;&gt;
+          &lt;<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueString</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;HIV test result&quot;/&gt;
+        &lt;/<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">url</a>=&quot;statement&quot;&gt;
+          &lt;<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueString</a>
+                       <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;/* End of Invalid B.DE109 */
+
+/*
+@dataElement: HIV.B.DE111 - HIV test result
+@activity: HIV.B7 Test for HIV using testing algorithm
+@description: The result from HIV testing after applying the testing algorithm
+*/
+define &amp;quot;HIV test result&amp;quot;:
+  Elements.&amp;quot;HIV test result Observation&amp;quot; O
+    where O.encounter.references(EncounterId)&quot;/&gt;
+        &lt;/<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">url</a>=&quot;displaySequence&quot;&gt;
+          &lt;<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueInteger</a> <a href="http://hl7.org/fhir/R4/datatypes.html#integer">value</a>=&quot;7&quot;/&gt;
+        &lt;/<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a>&gt;
+      &lt;/<a href="http://hl7.org/fhir/R4/domainresource.html#Library.extension">extension</a>&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/domainresource.html#Library.extension">extension</a>
+                 <a href="http://hl7.org/fhir/R4/datatypes.html#uri">url</a>=&quot;http://hl7.org/fhir/StructureDefinition/cqf-logicDefinition&quot;&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">url</a>=&quot;libraryName&quot;&gt;
+          &lt;<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueString</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;HIVD12DTLogic&quot;/&gt;
+        &lt;/<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">url</a>=&quot;name&quot;&gt;
+          &lt;<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueString</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;HIV Positive test result&quot;/&gt;
+        &lt;/<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">url</a>=&quot;statement&quot;&gt;
+          &lt;<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueString</a>
+                       <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;/*
+ @input: &amp;quot;HIV test result&amp;quot;
+ @pseudocode: &amp;quot;HIV test result&amp;quot;='HIV-positive'
+ */
+define &amp;quot;HIV Positive test result&amp;quot;:
+  exists(
+    Elements.&amp;quot;HIV test result&amp;quot; O
+      where O.value ~ Concepts.&amp;quot;HIV-positive&amp;quot;
+  )&quot;/&gt;
+        &lt;/<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">url</a>=&quot;displaySequence&quot;&gt;
+          &lt;<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueInteger</a> <a href="http://hl7.org/fhir/R4/datatypes.html#integer">value</a>=&quot;8&quot;/&gt;
+        &lt;/<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a>&gt;
+      &lt;/<a href="http://hl7.org/fhir/R4/domainresource.html#Library.extension">extension</a>&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/domainresource.html#Library.extension">extension</a>
+                 <a href="http://hl7.org/fhir/R4/datatypes.html#uri">url</a>=&quot;http://hl7.org/fhir/StructureDefinition/cqf-logicDefinition&quot;&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">url</a>=&quot;libraryName&quot;&gt;
+          &lt;<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueString</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;HIVElements&quot;/&gt;
+        &lt;/<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">url</a>=&quot;name&quot;&gt;
+          &lt;<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueString</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;On ART D.DE38&quot;/&gt;
+        &lt;/<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">url</a>=&quot;statement&quot;&gt;
+          &lt;<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueString</a>
+                       <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;/* End of Serodiscordant partner D.DE37 */
+
+/*
+@dataElement: HIV.D.DE38 - On ART
+@activity: HIV.D8 Capture or update client history
+@description: Client is currently taking ART
+*/
+
+define &amp;quot;On ART D.DE38&amp;quot;:
+    [MedicationStatement] MS
+    where exists(MS.reasonCode C where C ~ Concepts.&amp;quot;On ART - HIV.D.DE38&amp;quot;)
+    sort by start of effective.toInterval()&quot;/&gt;
+        &lt;/<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">url</a>=&quot;displaySequence&quot;&gt;
+          &lt;<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueInteger</a> <a href="http://hl7.org/fhir/R4/datatypes.html#integer">value</a>=&quot;9&quot;/&gt;
+        &lt;/<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a>&gt;
+      &lt;/<a href="http://hl7.org/fhir/R4/domainresource.html#Library.extension">extension</a>&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/domainresource.html#Library.extension">extension</a>
+                 <a href="http://hl7.org/fhir/R4/datatypes.html#uri">url</a>=&quot;http://hl7.org/fhir/StructureDefinition/cqf-logicDefinition&quot;&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">url</a>=&quot;libraryName&quot;&gt;
+          &lt;<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueString</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;HIVEncounterElements&quot;/&gt;
+        &lt;/<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">url</a>=&quot;name&quot;&gt;
+          &lt;<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueString</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;On ART D.DE38&quot;/&gt;
+        &lt;/<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">url</a>=&quot;statement&quot;&gt;
+          &lt;<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueString</a>
+                       <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;/* End of Serodiscordant partner D.DE37 */
+
+/*
+@dataElement: HIV.D.DE38 - On ART
+@activity: HIV.D8 Capture or update client history
+@description: Client is currently taking ART
+*/
+define &amp;quot;On ART D.DE38&amp;quot;:
+  Elements.&amp;quot;On ART D.DE38&amp;quot; MS
+    where MS.context.references(EncounterId)&quot;/&gt;
+        &lt;/<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">url</a>=&quot;displaySequence&quot;&gt;
+          &lt;<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueInteger</a> <a href="http://hl7.org/fhir/R4/datatypes.html#integer">value</a>=&quot;10&quot;/&gt;
+        &lt;/<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a>&gt;
+      &lt;/<a href="http://hl7.org/fhir/R4/domainresource.html#Library.extension">extension</a>&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/domainresource.html#Library.extension">extension</a>
+                 <a href="http://hl7.org/fhir/R4/datatypes.html#uri">url</a>=&quot;http://hl7.org/fhir/StructureDefinition/cqf-logicDefinition&quot;&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">url</a>=&quot;libraryName&quot;&gt;
+          &lt;<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueString</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;HIVD12DTLogic&quot;/&gt;
+        &lt;/<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">url</a>=&quot;name&quot;&gt;
+          &lt;<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueString</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Not on ART&quot;/&gt;
+        &lt;/<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">url</a>=&quot;statement&quot;&gt;
+          &lt;<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueString</a>
+                       <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;/*
+ @input: &amp;quot;On ART&amp;quot;
+ @pseudocode: &amp;quot;On ART&amp;quot;=False
+ */
+define &amp;quot;Not on ART&amp;quot;:
+  not(exists(
+    Elements.&amp;quot;On ART D.DE38&amp;quot;
+  ))&quot;/&gt;
+        &lt;/<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">url</a>=&quot;displaySequence&quot;&gt;
+          &lt;<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueInteger</a> <a href="http://hl7.org/fhir/R4/datatypes.html#integer">value</a>=&quot;11&quot;/&gt;
+        &lt;/<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a>&gt;
+      &lt;/<a href="http://hl7.org/fhir/R4/domainresource.html#Library.extension">extension</a>&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/domainresource.html#Library.extension">extension</a>
+                 <a href="http://hl7.org/fhir/R4/datatypes.html#uri">url</a>=&quot;http://hl7.org/fhir/StructureDefinition/cqf-logicDefinition&quot;&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">url</a>=&quot;libraryName&quot;&gt;
+          &lt;<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueString</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;HIVD12DTLogic&quot;/&gt;
+        &lt;/<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">url</a>=&quot;name&quot;&gt;
+          &lt;<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueString</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Age under 20&quot;/&gt;
+        &lt;/<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">url</a>=&quot;statement&quot;&gt;
+          &lt;<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueString</a>
+                       <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;/*
+ @input: &amp;quot;Age&amp;quot;
+ @pseudocode: &amp;quot;&amp;quot;Age&amp;quot;&amp;lt;20 years
+ */
+define &amp;quot;Age under 20&amp;quot;:
+  Elements.&amp;quot;Current Patient Age In Years&amp;quot; &amp;lt; 20&quot;/&gt;
+        &lt;/<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">url</a>=&quot;displaySequence&quot;&gt;
+          &lt;<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueInteger</a> <a href="http://hl7.org/fhir/R4/datatypes.html#integer">value</a>=&quot;12&quot;/&gt;
+        &lt;/<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a>&gt;
+      &lt;/<a href="http://hl7.org/fhir/R4/domainresource.html#Library.extension">extension</a>&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/domainresource.html#Library.extension">extension</a>
+                 <a href="http://hl7.org/fhir/R4/datatypes.html#uri">url</a>=&quot;http://hl7.org/fhir/StructureDefinition/cqf-logicDefinition&quot;&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">url</a>=&quot;libraryName&quot;&gt;
+          &lt;<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueString</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;HIVElements&quot;/&gt;
+        &lt;/<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">url</a>=&quot;name&quot;&gt;
+          &lt;<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueString</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;CD4 count D.DE364&quot;/&gt;
+        &lt;/<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">url</a>=&quot;statement&quot;&gt;
+          &lt;<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueString</a>
+                       <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;/* End of Neutropenia */
+
+/*
+@dataElement: HIV.D.DE364 - CD4 count
+@activity: HIV.D20 Diagnostics
+@description: CD4 cell count in cells/mm^3
+*/
+// TODO: Replace placeholder with relevant CQL logic
+define &amp;quot;CD4 count D.DE364&amp;quot;:
+  [Observation: Concepts.&amp;quot;CD4 count - HIV.D.DE364&amp;quot;] O
+    where O.status in { 'final', 'amended', 'corrected' }&quot;/&gt;
+        &lt;/<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">url</a>=&quot;displaySequence&quot;&gt;
+          &lt;<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueInteger</a> <a href="http://hl7.org/fhir/R4/datatypes.html#integer">value</a>=&quot;13&quot;/&gt;
+        &lt;/<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a>&gt;
+      &lt;/<a href="http://hl7.org/fhir/R4/domainresource.html#Library.extension">extension</a>&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/domainresource.html#Library.extension">extension</a>
+                 <a href="http://hl7.org/fhir/R4/datatypes.html#uri">url</a>=&quot;http://hl7.org/fhir/StructureDefinition/cqf-logicDefinition&quot;&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">url</a>=&quot;libraryName&quot;&gt;
+          &lt;<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueString</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;HIVEncounterElements&quot;/&gt;
+        &lt;/<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">url</a>=&quot;name&quot;&gt;
+          &lt;<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueString</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;CD4 count D.DE364&quot;/&gt;
+        &lt;/<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">url</a>=&quot;statement&quot;&gt;
+          &lt;<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueString</a>
+                       <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;/* End of WHO HIV clinical stage condition or symptom D.DE289 */
+
+/*
+@dataElement: HIV.D.DE364 - CD4 count
+@activity: HIV.D20 Diagnostics
+@description: CD4 cell count in cells/mm^3
+*/
+define &amp;quot;CD4 count D.DE364&amp;quot;:
+  Elements.&amp;quot;CD4 count D.DE364&amp;quot; O
+    where O.encounter.references(EncounterId)&quot;/&gt;
+        &lt;/<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">url</a>=&quot;displaySequence&quot;&gt;
+          &lt;<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueInteger</a> <a href="http://hl7.org/fhir/R4/datatypes.html#integer">value</a>=&quot;14&quot;/&gt;
+        &lt;/<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a>&gt;
+      &lt;/<a href="http://hl7.org/fhir/R4/domainresource.html#Library.extension">extension</a>&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/domainresource.html#Library.extension">extension</a>
+                 <a href="http://hl7.org/fhir/R4/datatypes.html#uri">url</a>=&quot;http://hl7.org/fhir/StructureDefinition/cqf-logicDefinition&quot;&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">url</a>=&quot;libraryName&quot;&gt;
+          &lt;<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueString</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;HIVD12DTLogic&quot;/&gt;
+        &lt;/<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">url</a>=&quot;name&quot;&gt;
+          &lt;<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueString</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;CD4 less than or equal to 100 cells/mm3&quot;/&gt;
+        &lt;/<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">url</a>=&quot;statement&quot;&gt;
+          &lt;<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueString</a>
+                       <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;/*
+ @input: &amp;quot;CD4 count&amp;quot;
+ @pseudocode: &amp;quot;CD4 count&amp;quot; ≤ 100 cells/mm3
+ */
+define &amp;quot;CD4 less than or equal to 100 cells/mm3&amp;quot;:
+  exists(
+    Elements.&amp;quot;CD4 count D.DE364&amp;quot; O
+      where O.value &amp;lt;= 100
+  )&quot;/&gt;
+        &lt;/<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">url</a>=&quot;displaySequence&quot;&gt;
+          &lt;<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueInteger</a> <a href="http://hl7.org/fhir/R4/datatypes.html#integer">value</a>=&quot;15&quot;/&gt;
+        &lt;/<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a>&gt;
+      &lt;/<a href="http://hl7.org/fhir/R4/domainresource.html#Library.extension">extension</a>&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/domainresource.html#Library.extension">extension</a>
+                 <a href="http://hl7.org/fhir/R4/datatypes.html#uri">url</a>=&quot;http://hl7.org/fhir/StructureDefinition/cqf-logicDefinition&quot;&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">url</a>=&quot;libraryName&quot;&gt;
+          &lt;<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueString</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;HIVEncounterElements&quot;/&gt;
+        &lt;/<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">url</a>=&quot;name&quot;&gt;
+          &lt;<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueString</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Gender&quot;/&gt;
+        &lt;/<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">url</a>=&quot;statement&quot;&gt;
+          &lt;<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueString</a>
+                       <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;/* End of Age */
+
+/*
+@dataElement: HIV.A.DE18 - Gender
+@activity: HIV.A6.1 Review sociodemographic data with client | HIV.A5 Create new client record
+@description: Gender of the client
+*/
+// TODO: Replace placeholder with relevant CQL logic
+define &amp;quot;Gender&amp;quot;:
+  Patient.gender&quot;/&gt;
+        &lt;/<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">url</a>=&quot;displaySequence&quot;&gt;
+          &lt;<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueInteger</a> <a href="http://hl7.org/fhir/R4/datatypes.html#integer">value</a>=&quot;16&quot;/&gt;
+        &lt;/<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a>&gt;
+      &lt;/<a href="http://hl7.org/fhir/R4/domainresource.html#Library.extension">extension</a>&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/domainresource.html#Library.extension">extension</a>
+                 <a href="http://hl7.org/fhir/R4/datatypes.html#uri">url</a>=&quot;http://hl7.org/fhir/StructureDefinition/cqf-logicDefinition&quot;&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">url</a>=&quot;libraryName&quot;&gt;
+          &lt;<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueString</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;HIVEncounterElements&quot;/&gt;
+        &lt;/<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">url</a>=&quot;name&quot;&gt;
+          &lt;<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueString</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Female&quot;/&gt;
+        &lt;/<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">url</a>=&quot;statement&quot;&gt;
+          &lt;<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueString</a>
+                       <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;/* End of Gender */
+
+/*
+@dataElement: HIV.A.DE19 - Female
+@activity: HIV.A6.1 Review sociodemographic data with client | HIV.A5 Create new client record
+@description: Client identifies as female
+*/
+define &amp;quot;Female&amp;quot;:
+  &amp;quot;Gender&amp;quot; ~ 'female'&quot;/&gt;
+        &lt;/<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">url</a>=&quot;displaySequence&quot;&gt;
+          &lt;<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueInteger</a> <a href="http://hl7.org/fhir/R4/datatypes.html#integer">value</a>=&quot;17&quot;/&gt;
+        &lt;/<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a>&gt;
+      &lt;/<a href="http://hl7.org/fhir/R4/domainresource.html#Library.extension">extension</a>&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/domainresource.html#Library.extension">extension</a>
+                 <a href="http://hl7.org/fhir/R4/datatypes.html#uri">url</a>=&quot;http://hl7.org/fhir/StructureDefinition/cqf-logicDefinition&quot;&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">url</a>=&quot;libraryName&quot;&gt;
+          &lt;<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueString</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;HIVD12DTLogic&quot;/&gt;
+        &lt;/<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">url</a>=&quot;name&quot;&gt;
+          &lt;<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueString</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Client is female&quot;/&gt;
+        &lt;/<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">url</a>=&quot;statement&quot;&gt;
+          &lt;<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueString</a>
+                       <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;/*
+ @input: &amp;quot;Gender&amp;quot;
+ @pseudocode: &amp;quot;Gender&amp;quot;='Female'
+ */
+define &amp;quot;Client is female&amp;quot;:
+  Elements.&amp;quot;Female&amp;quot;&quot;/&gt;
+        &lt;/<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">url</a>=&quot;displaySequence&quot;&gt;
+          &lt;<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueInteger</a> <a href="http://hl7.org/fhir/R4/datatypes.html#integer">value</a>=&quot;18&quot;/&gt;
+        &lt;/<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a>&gt;
+      &lt;/<a href="http://hl7.org/fhir/R4/domainresource.html#Library.extension">extension</a>&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/domainresource.html#Library.extension">extension</a>
+                 <a href="http://hl7.org/fhir/R4/datatypes.html#uri">url</a>=&quot;http://hl7.org/fhir/StructureDefinition/cqf-logicDefinition&quot;&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">url</a>=&quot;libraryName&quot;&gt;
+          &lt;<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueString</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;HIVD12DTLogic&quot;/&gt;
+        &lt;/<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">url</a>=&quot;name&quot;&gt;
+          &lt;<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueString</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;ART initiation visit&quot;/&gt;
+        &lt;/<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">url</a>=&quot;statement&quot;&gt;
+          &lt;<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueString</a>
+                       <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;/*
+ @input: &amp;quot;Reason for Visit&amp;quot;
+ @pseudocode: &amp;quot;Reason for visit&amp;quot;='ART initiation'
+ */
+define &amp;quot;ART initiation visit&amp;quot;:
+  exists(
+    Elements.&amp;quot;Reason for visit D.DE1&amp;quot; O
+      where O.value ~ Concepts.&amp;quot;ART initiation&amp;quot;
+  )&quot;/&gt;
+        &lt;/<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">url</a>=&quot;displaySequence&quot;&gt;
+          &lt;<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueInteger</a> <a href="http://hl7.org/fhir/R4/datatypes.html#integer">value</a>=&quot;19&quot;/&gt;
+        &lt;/<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a>&gt;
+      &lt;/<a href="http://hl7.org/fhir/R4/domainresource.html#Library.extension">extension</a>&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/domainresource.html#Library.extension">extension</a>
+                 <a href="http://hl7.org/fhir/R4/datatypes.html#uri">url</a>=&quot;http://hl7.org/fhir/StructureDefinition/cqf-logicDefinition&quot;&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">url</a>=&quot;libraryName&quot;&gt;
+          &lt;<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueString</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;HIVD12DTLogic&quot;/&gt;
+        &lt;/<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">url</a>=&quot;name&quot;&gt;
+          &lt;<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueString</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Age 10 or older&quot;/&gt;
+        &lt;/<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">url</a>=&quot;statement&quot;&gt;
+          &lt;<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueString</a>
+                       <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;/*
+  @input: &amp;quot;Age&amp;quot;
+  @pseudocode: 'Age' ≥ 10 years
+  */
+define &amp;quot;Age 10 or older&amp;quot;:
+  Elements.&amp;quot;Current Patient Age In Years&amp;quot; &amp;gt;= 10&quot;/&gt;
+        &lt;/<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">url</a>=&quot;displaySequence&quot;&gt;
+          &lt;<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueInteger</a> <a href="http://hl7.org/fhir/R4/datatypes.html#integer">value</a>=&quot;20&quot;/&gt;
+        &lt;/<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a>&gt;
+      &lt;/<a href="http://hl7.org/fhir/R4/domainresource.html#Library.extension">extension</a>&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/domainresource.html#Library.extension">extension</a>
+                 <a href="http://hl7.org/fhir/R4/datatypes.html#uri">url</a>=&quot;http://hl7.org/fhir/StructureDefinition/cqf-logicDefinition&quot;&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">url</a>=&quot;libraryName&quot;&gt;
+          &lt;<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueString</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;HIVD12DTLogic&quot;/&gt;
+        &lt;/<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">url</a>=&quot;name&quot;&gt;
+          &lt;<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueString</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;CD4 less than or equal to 200 cells/mm3&quot;/&gt;
+        &lt;/<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">url</a>=&quot;statement&quot;&gt;
+          &lt;<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueString</a>
+                       <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;/*
+ @input: &amp;quot;CD4 count&amp;quot;
+ @pseudocode: &amp;quot;CD4 count&amp;quot; ≤ 200 cells/mm3
+ */
+define &amp;quot;CD4 less than or equal to 200 cells/mm3&amp;quot;:
+  exists(
+    Elements.&amp;quot;CD4 count D.DE364&amp;quot; O
+      where O.value &amp;lt;= 200
+  )&quot;/&gt;
+        &lt;/<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">url</a>=&quot;displaySequence&quot;&gt;
+          &lt;<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueInteger</a> <a href="http://hl7.org/fhir/R4/datatypes.html#integer">value</a>=&quot;21&quot;/&gt;
+        &lt;/<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a>&gt;
+      &lt;/<a href="http://hl7.org/fhir/R4/domainresource.html#Library.extension">extension</a>&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/domainresource.html#Library.extension">extension</a>
+                 <a href="http://hl7.org/fhir/R4/datatypes.html#uri">url</a>=&quot;http://hl7.org/fhir/StructureDefinition/cqf-logicDefinition&quot;&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">url</a>=&quot;libraryName&quot;&gt;
+          &lt;<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueString</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;HIVD12DTLogic&quot;/&gt;
+        &lt;/<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">url</a>=&quot;name&quot;&gt;
+          &lt;<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueString</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;On AZT&quot;/&gt;
+        &lt;/<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">url</a>=&quot;statement&quot;&gt;
+          &lt;<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueString</a>
+                       <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;/*
+ @input: &amp;quot;Current medications&amp;quot;
+ @pseudocode: &amp;quot;Current medications&amp;quot;='AZT'
+ */
+define &amp;quot;On AZT&amp;quot;:
+  exists(
+    Elements.&amp;quot;On ART D.DE38&amp;quot; MS
+      where MS.medication ~ Concepts.&amp;quot;AZT&amp;quot;
+  )&quot;/&gt;
+        &lt;/<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">url</a>=&quot;displaySequence&quot;&gt;
+          &lt;<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueInteger</a> <a href="http://hl7.org/fhir/R4/datatypes.html#integer">value</a>=&quot;22&quot;/&gt;
+        &lt;/<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a>&gt;
+      &lt;/<a href="http://hl7.org/fhir/R4/domainresource.html#Library.extension">extension</a>&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/domainresource.html#Library.extension">extension</a>
+                 <a href="http://hl7.org/fhir/R4/datatypes.html#uri">url</a>=&quot;http://hl7.org/fhir/StructureDefinition/cqf-logicDefinition&quot;&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">url</a>=&quot;libraryName&quot;&gt;
+          &lt;<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueString</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;HIVD12DTLogic&quot;/&gt;
+        &lt;/<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">url</a>=&quot;name&quot;&gt;
+          &lt;<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueString</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;On TDF&quot;/&gt;
+        &lt;/<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">url</a>=&quot;statement&quot;&gt;
+          &lt;<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueString</a>
+                       <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;/*
+ @input: &amp;quot;Current medications&amp;quot;
+ @pseudocode: &amp;quot;Current medications&amp;quot;='TDF'
+ */
+define &amp;quot;On TDF&amp;quot;:
+  exists(
+    Elements.&amp;quot;On ART D.DE38&amp;quot; MS
+      where MS.medication ~ Concepts.&amp;quot;TDF - HIV.D.DE135&amp;quot;
+  )&quot;/&gt;
+        &lt;/<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">url</a>=&quot;displaySequence&quot;&gt;
+          &lt;<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueInteger</a> <a href="http://hl7.org/fhir/R4/datatypes.html#integer">value</a>=&quot;23&quot;/&gt;
+        &lt;/<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a>&gt;
+      &lt;/<a href="http://hl7.org/fhir/R4/domainresource.html#Library.extension">extension</a>&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/domainresource.html#Library.extension">extension</a>
+                 <a href="http://hl7.org/fhir/R4/datatypes.html#uri">url</a>=&quot;http://hl7.org/fhir/StructureDefinition/cqf-logicDefinition&quot;&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">url</a>=&quot;libraryName&quot;&gt;
+          &lt;<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueString</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;HIVD12DTLogic&quot;/&gt;
+        &lt;/<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">url</a>=&quot;name&quot;&gt;
+          &lt;<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueString</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Clinical visit&quot;/&gt;
+        &lt;/<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">url</a>=&quot;statement&quot;&gt;
+          &lt;<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueString</a>
+                       <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;/*
+ @input: &amp;quot;Reason for Visit&amp;quot;
+ @pseudocode: &amp;quot;Reason for visit&amp;quot;='Clinical visit
+ */
+define &amp;quot;Clinical visit&amp;quot;:
+  exists(
+    Elements.&amp;quot;Reason for visit D.DE1&amp;quot; O
+      where O.value ~ Concepts.&amp;quot;Clinical visit - HIV.D.DE3&amp;quot;
+  )&quot;/&gt;
+        &lt;/<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">url</a>=&quot;displaySequence&quot;&gt;
+          &lt;<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueInteger</a> <a href="http://hl7.org/fhir/R4/datatypes.html#integer">value</a>=&quot;24&quot;/&gt;
+        &lt;/<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a>&gt;
+      &lt;/<a href="http://hl7.org/fhir/R4/domainresource.html#Library.extension">extension</a>&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/domainresource.html#Library.extension">extension</a>
+                 <a href="http://hl7.org/fhir/R4/datatypes.html#uri">url</a>=&quot;http://hl7.org/fhir/StructureDefinition/cqf-logicDefinition&quot;&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">url</a>=&quot;libraryName&quot;&gt;
+          &lt;<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueString</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;HIVD12DTLogic&quot;/&gt;
+        &lt;/<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">url</a>=&quot;name&quot;&gt;
+          &lt;<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueString</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;On ART&quot;/&gt;
+        &lt;/<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">url</a>=&quot;statement&quot;&gt;
+          &lt;<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueString</a>
+                       <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;/*
+ @input: &amp;quot;On ART&amp;quot;
+ @pseudocode: &amp;quot;On ART&amp;quot;=True
+ */
+define &amp;quot;On ART&amp;quot;:
+  exists(
+    Elements.&amp;quot;On ART D.DE38&amp;quot;
+  )&quot;/&gt;
+        &lt;/<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">url</a>=&quot;displaySequence&quot;&gt;
+          &lt;<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueInteger</a> <a href="http://hl7.org/fhir/R4/datatypes.html#integer">value</a>=&quot;25&quot;/&gt;
+        &lt;/<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a>&gt;
+      &lt;/<a href="http://hl7.org/fhir/R4/domainresource.html#Library.extension">extension</a>&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/domainresource.html#Library.extension">extension</a>
+                 <a href="http://hl7.org/fhir/R4/datatypes.html#uri">url</a>=&quot;http://hl7.org/fhir/StructureDefinition/cqf-logicDefinition&quot;&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">url</a>=&quot;libraryName&quot;&gt;
+          &lt;<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueString</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;HIVElements&quot;/&gt;
+        &lt;/<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">url</a>=&quot;name&quot;&gt;
+          &lt;<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueString</a>
+                       <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Suspicion of treatment failure or interruption Observation&quot;/&gt;
+        &lt;/<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">url</a>=&quot;statement&quot;&gt;
+          &lt;<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueString</a>
+                       <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;define &amp;quot;Suspicion of treatment failure or interruption Observation&amp;quot;:
+  [Observation: Concepts.&amp;quot;Suspicion of treatment failure or interruption&amp;quot;] O
+    where O.status in { 'final', 'amended', 'corrected' }
+      and O.value is true&quot;/&gt;
+        &lt;/<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">url</a>=&quot;displaySequence&quot;&gt;
+          &lt;<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueInteger</a> <a href="http://hl7.org/fhir/R4/datatypes.html#integer">value</a>=&quot;26&quot;/&gt;
+        &lt;/<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a>&gt;
+      &lt;/<a href="http://hl7.org/fhir/R4/domainresource.html#Library.extension">extension</a>&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/domainresource.html#Library.extension">extension</a>
+                 <a href="http://hl7.org/fhir/R4/datatypes.html#uri">url</a>=&quot;http://hl7.org/fhir/StructureDefinition/cqf-logicDefinition&quot;&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">url</a>=&quot;libraryName&quot;&gt;
+          &lt;<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueString</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;HIVEncounterElements&quot;/&gt;
+        &lt;/<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">url</a>=&quot;name&quot;&gt;
+          &lt;<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueString</a>
+                       <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Suspicion of treatment failure or interruption Observation&quot;/&gt;
+        &lt;/<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">url</a>=&quot;statement&quot;&gt;
+          &lt;<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueString</a>
+                       <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;/* End of Dose adjustment recommended */
+
+/*
+@dataElement: HIV.D.DE443 - Suspicion of treatment failure or interruption
+@activity: HIV.D23 Prescribe
+@description: Client has been on ART, but has stopped taking it or a treatment failure is suspected
+*/
+define &amp;quot;Suspicion of treatment failure or interruption Observation&amp;quot;:
+  Elements.&amp;quot;Suspicion of treatment failure or interruption Observation&amp;quot; O
+    where O.encounter.references(EncounterId)&quot;/&gt;
+        &lt;/<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">url</a>=&quot;displaySequence&quot;&gt;
+          &lt;<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueInteger</a> <a href="http://hl7.org/fhir/R4/datatypes.html#integer">value</a>=&quot;27&quot;/&gt;
+        &lt;/<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a>&gt;
+      &lt;/<a href="http://hl7.org/fhir/R4/domainresource.html#Library.extension">extension</a>&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/domainresource.html#Library.extension">extension</a>
+                 <a href="http://hl7.org/fhir/R4/datatypes.html#uri">url</a>=&quot;http://hl7.org/fhir/StructureDefinition/cqf-logicDefinition&quot;&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">url</a>=&quot;libraryName&quot;&gt;
+          &lt;<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueString</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;HIVD12DTLogic&quot;/&gt;
+        &lt;/<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">url</a>=&quot;name&quot;&gt;
+          &lt;<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueString</a>
+                       <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Suspicion of treatment failure or interruption&quot;/&gt;
+        &lt;/<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">url</a>=&quot;statement&quot;&gt;
+          &lt;<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueString</a>
+                       <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;/*
+ @input: &amp;quot;Suspicion of treatment failure or interruption&amp;quot;
+ @pseudocode: &amp;quot;Suspicion of treatment failure or interruption&amp;quot;=True
+ */
+define &amp;quot;Suspicion of treatment failure or interruption&amp;quot;:
+  exists(
+    Elements.&amp;quot;Suspicion of treatment failure or interruption Observation&amp;quot; O
+      where O.value = true
+  )&quot;/&gt;
+        &lt;/<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">url</a>=&quot;displaySequence&quot;&gt;
+          &lt;<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueInteger</a> <a href="http://hl7.org/fhir/R4/datatypes.html#integer">value</a>=&quot;28&quot;/&gt;
+        &lt;/<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a>&gt;
+      &lt;/<a href="http://hl7.org/fhir/R4/domainresource.html#Library.extension">extension</a>&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/domainresource.html#Library.extension">extension</a>
+                 <a href="http://hl7.org/fhir/R4/datatypes.html#uri">url</a>=&quot;http://hl7.org/fhir/StructureDefinition/cqf-logicDefinition&quot;&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">url</a>=&quot;libraryName&quot;&gt;
+          &lt;<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueString</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;HIVD12DTLogic&quot;/&gt;
+        &lt;/<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">url</a>=&quot;name&quot;&gt;
+          &lt;<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueString</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Guidance&quot;/&gt;
+        &lt;/<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">url</a>=&quot;statement&quot;&gt;
+          &lt;<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueString</a>
+                       <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;/*
+ @dynamicValue: Guidance
+ */
+define &amp;quot;Guidance&amp;quot;:
+  Combine({
+    if &amp;quot;HIV testing services visit&amp;quot; and &amp;quot;Age 20 or older&amp;quot; and &amp;quot;HIV Positive test result&amp;quot; and &amp;quot;Not on ART&amp;quot;
+      then 'Recommended actions:
+CD4 cell count
+TB symptom screening
+
+Desirable actions:
+HBV (HBsAg) serology
+HCV serology
+Screen for sexually transmitted infections   
+Assess for major noncommunicable chronic diseases and comorbidities
+
+General care activities recommended: 
+Determine WHO clinical stage based on past and current HIV-related conditions
+Prepare for ART
+Prepare, assess and support adherence
+Provide family planning and contraception
+Support disclosure and partner notification
+Counsel on risk reduction and combination HIV prevention approaches
+Assess, prevent and manage noncommunicable diseases
+Screen for and manage mental health problems
+Screen for and manage and substance use issues
+Provide psychosocial counselling and support
+Manage pain and symptoms
+Conduct a nutritional assessment and counsel on nutrition
+
+Preventing and treating coinfections: 
+Provide co-trimoxazole preventive therapy
+Conduct intensified TB case-finding
+Provide isoniazid preventive therapy
+Screen for cryptococcal infection and fungal prophylaxis
+Prevent malaria (insecticide- treated  bed-nets and prophylaxis)
+Screen for sexually transmitted infections
+Assess for vaccine-preventable diseases'
+    else '',
+    if &amp;quot;HIV testing services visit&amp;quot; and &amp;quot;Age under 20&amp;quot; and &amp;quot;HIV Positive test result&amp;quot; and &amp;quot;Not on ART&amp;quot;
+      then 'Recommended:
+CD4 cell count
+TB symptom screening
+
+Desirable: 
+HBV (HBsAg) serology
+HCV serology
+Screen for sexually transmitted infections   
+Assess for major noncommunicable chronic diseases and comorbidities
+
+General care activities recommended:
+ Determine WHO clinical stage based on past and current HIV-related conditions
+Prepare for ART
+Prepare, assess and support adherence
+Provide family planning and contraception
+Support disclosure and partner notification
+Counsel on risk reduction and combination HIV prevention approaches
+Assess, prevent and manage noncommunicable diseases
+Screen for and manage mental health problems
+Screen for and manage and substance use issues
+Provide psychosocial counselling and support
+Manage pain and symptoms
+Conduct a nutritional, growth and development assessment
+
+Preventing and treating coinfections: 
+Provide co-trimoxazole preventive therapy
+Conduct intensified TB case-finding
+Provide isoniazid preventive therapy
+Screen for cryptococcal infection and fungal prophylaxis
+Prevent malaria (insecticide- treated  bed-nets and prophylaxis)
+Screen for sexually transmitted infections
+Assess for vaccine-preventable diseases'
+    else '',
+    if &amp;quot;HIV testing services visit&amp;quot; and &amp;quot;HIV Positive test result&amp;quot; and &amp;quot;Not on ART&amp;quot; and &amp;quot;CD4 less than or equal to 100 cells/mm3&amp;quot;
+      then 'Desirable actions:
+Cryptococcus antigen test'
+    else '',
+    if &amp;quot;HIV testing services visit&amp;quot; and &amp;quot;HIV Positive test result&amp;quot; and &amp;quot;Not on ART&amp;quot; and &amp;quot;Client is female&amp;quot;
+      then 'Desirable actions: 
+Pregnancy test'
+    else '',
+    if &amp;quot;ART initiation visit&amp;quot; and &amp;quot;Not on ART&amp;quot;
+      then 'Recommended: 
+Baseline CD4 cell count for identifying advanced HIV disease
+Age-appropriate TB symptom screening
+
+Desirable: 
+Blood pressure measurement 
+
+General care activities recommended:
+Preparing people for ART
+WHO clinical staging, past and current HIV- related conditions
+Preparing, assessing and supporting adherence
+Pregnancy status, family planning and contraception
+Support for disclosure and partner notification
+Risk-reduction counselling and combination and HIV prevention approaches
+Screening for, preventing and managing noncommunicable diseases
+Screening for and managing mental health problems and substance use
+Psychosocial counselling and support
+Managing pain and symptoms
+Nutritional assessment and counselling
+Infant and child feeding
+Nutritional, growth and development assessment for children and adolescents
+
+Preventing and treating coinfections: 
+Co-trimoxazole preventive therapy
+Intensified TB case- finding
+Isoniazid preventive therapy
+Screening for cryptococcal infection and fungal prophylaxis when appropriate
+Screening for hepatitis B and C
+Malaria prevention (insecticide-treated bed nets and prophylaxis)
+Screening for sexually transmitted infections
+Preventing and screening for cervical cancer
+Assessing for vaccine- preventable diseases other than HBV and HCV infection'
+    else '',
+    if &amp;quot;ART initiation visit&amp;quot; and &amp;quot;Age 10 or older&amp;quot; and &amp;quot;Not on ART&amp;quot; and &amp;quot;CD4 less than or equal to 200 cells/mm3&amp;quot;
+      then 'Perform a cryptococcal antigen for adults and adolescents'
+    else '',
+    if &amp;quot;ART initiation visit&amp;quot; and &amp;quot;Not on ART&amp;quot; and &amp;quot;On AZT&amp;quot;
+      then 'Desirable actions: 
+Haemoglobin test'
+    else '',
+    if &amp;quot;ART initiation visit&amp;quot; and &amp;quot;Not on ART&amp;quot; and &amp;quot;On TDF&amp;quot;
+      then 'Desirable actions: 
+Serum creatinine test
+Estimated glomerular filtration rate (eGFR)'
+    else '',
+    if &amp;quot;ART initiation visit&amp;quot; and &amp;quot;Not on ART&amp;quot; and &amp;quot;Client is female&amp;quot;
+      then 'Desirable actions: 
+Pregnancy test'
+    else '',
+    if &amp;quot;Clinical visit&amp;quot; and &amp;quot;Age 20 or older&amp;quot; and &amp;quot;On ART&amp;quot;
+      then 'Recommended actions:
+Schedule the following viral load tests: 
+HIV viral load test ≤ (ART start date + 6 months)
+HIV viral load test ≤ (ART start date + 12 months)
+HIV viral load test every 12 months thereafter
+Perform a CD4 cell count every 6 months until &amp;quot;&amp;quot;Established on ART&amp;quot;&amp;quot; = TRUE
+
+Desirable actions:
+Serum creatinine and estimated glomerular filtration rate for TDF
+
+Recommended general care activities: 
+Adherence support interventions should be provided to people on ART (p xxxix of source).
+Manage current medications.
+Provide family planning and contraception.
+Support disclosure and partner notification.
+Counsel on risk reduction and combination HIV prevention approaches.
+Assess, prevent and manage noncommunicable diseases.
+Screen for and manage mental health problems.
+Screen for and manage and substance use issues.
+Provide psychosocial counselling and support.
+Manage pain and symptoms.
+Conduct a nutritional assessment and counsel on nutrition.
+
+Preventing and treating coinfections:
+Provide co-trimoxazole preventive therapy
+Prevent malaria (insecticide- treated  bed-nets and prophylaxis)
+Screen for sexually transmitted infections
+Assess for vaccine-preventable diseases'
+    else '',
+    if &amp;quot;Clinical visit&amp;quot; and &amp;quot;Age under 20&amp;quot; and &amp;quot;On ART&amp;quot;
+      then 'Recommended actions: 
+Schedule viral load tests on the following dates: 
+HIV viral load test ≤ (ART start date + 6 months)
+HIV viral load test ≤ (ART start date + 12 months)
+HIV viral load test every 12 months thereafter
+CD4 cell count every 6 months until &amp;quot;&amp;quot;Established on ART&amp;quot;&amp;quot; = TRUE
+
+Recommended general care activities: 
+Prepare, assess and support adherence.
+Manage current medications.
+Provide family planning and contraception.
+Support disclosure and partner notification.
+Counsel on risk reduction and combination HIV prevention approaches.
+Assess, prevent and manage noncommunicable diseases.
+Screen for and manage mental health problems.
+Screen for and manage and substance use issues.
+Provide psychosocial counselling and support.
+Manage pain and symptoms.
+Conduct a nutritional, growth and development assessment.
+
+Preventing and treating coinfections:
+Provide co-trimoxazole preventive therapy
+Prevent malaria (insecticide- treated  bed-nets and prophylaxis)
+Screen for sexually transmitted infections
+Assess for vaccine-preventable diseases'
+    else '',
+    if &amp;quot;Clinical visit&amp;quot; and &amp;quot;Age under 20&amp;quot; and &amp;quot;Client is female&amp;quot;
+      then 'Pregnancy test'
+    else '',
+    if &amp;quot;Clinical visit&amp;quot; and &amp;quot;On ART&amp;quot; and &amp;quot;On TDF&amp;quot;
+      then 'Desirable actions: 
+Serum creatinine
+Estimated glomerular filtration rate for TDF'
+    else '',
+    if &amp;quot;Clinical visit&amp;quot; and &amp;quot;Age 20 or older&amp;quot; and &amp;quot;Suspicion of treatment failure or interruption&amp;quot;
+      then 'Desirable actions: 
+HBV (HBsAg) serology (before switching ART regimen if this testing was not done or if the result was negative at baseline and the patient was not vaccinated thereafter) 
+
+Recommended general care activities: 
+Prepare, assess and support adherence.
+Manage current medications.
+Provide family planning and contraception.
+Support disclosure and partner notification.
+Counsel on risk reduction and combination HIV prevention approaches.
+Assess, prevent and manage noncommunicable diseases.
+Screen for and manage mental health problems.
+Screen for and manage and substance use issues.
+Provide psychosocial counselling and support.
+Manage pain and symptoms.
+Conduct a nutritional assessment and counsel on nutrition.
+
+Preventing and treating coinfections: 
+Provide co-trimoxazole preventive therapy
+Conduct intensified TB case-finding
+Prevent malaria (insecticide- treated  bed-nets and prophylaxis)
+Screen for sexually transmitted infections
+Assess for vaccine-preventable diseases'
+    else '',
+    if &amp;quot;Clinical visit&amp;quot; and &amp;quot;Age 20 or older&amp;quot; and &amp;quot;Suspicion of treatment failure or interruption&amp;quot;
+      then 'Desirable actions: 
+HBV (HBsAg) serology (before switching ART regimen if this testing was not done or if the result was negative at baseline and the patient was not vaccinated thereafter)
+
+Recommended general care activities:
+Prepare, assess and support adherence.
+Manage current medications.
+Provide family planning and contraception.
+Support disclosure and partner notification.
+Counsel on risk reduction and combination HIV prevention approaches.
+Assess, prevent and manage noncommunicable diseases.
+Screen for and manage mental health problems.
+Screen for and manage and substance use issues.
+Provide psychosocial counselling and support.
+Manage pain and symptoms.
+Conduct a nutritional, growth and development assessment.
+
+Preventing and treating coinfections:
+Provide co-trimoxazole preventive therapy
+Conduct intensified TB case-finding
+Prevent malaria (insecticide- treated  bed-nets and prophylaxis)
+Screen for sexually transmitted infections
+Assess for vaccine-preventable diseases'
+    else ''
+  })&quot;/&gt;
+        &lt;/<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">url</a>=&quot;displaySequence&quot;&gt;
+          &lt;<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueInteger</a> <a href="http://hl7.org/fhir/R4/datatypes.html#integer">value</a>=&quot;29&quot;/&gt;
+        &lt;/<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a>&gt;
+      &lt;/<a href="http://hl7.org/fhir/R4/domainresource.html#Library.extension">extension</a>&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/domainresource.html#Library.extension">extension</a>
+                 <a href="http://hl7.org/fhir/R4/datatypes.html#uri">url</a>=&quot;http://hl7.org/fhir/StructureDefinition/cqf-logicDefinition&quot;&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">url</a>=&quot;libraryName&quot;&gt;
+          &lt;<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueString</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;FHIRHelpers&quot;/&gt;
+        &lt;/<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">url</a>=&quot;name&quot;&gt;
+          &lt;<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueString</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;ToString&quot;/&gt;
+        &lt;/<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">url</a>=&quot;statement&quot;&gt;
+          &lt;<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueString</a>
+                       <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;define function ToString(value ObservationStatus): value.value&quot;/&gt;
+        &lt;/<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">url</a>=&quot;displaySequence&quot;&gt;
+          &lt;<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueInteger</a> <a href="http://hl7.org/fhir/R4/datatypes.html#integer">value</a>=&quot;30&quot;/&gt;
+        &lt;/<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a>&gt;
+      &lt;/<a href="http://hl7.org/fhir/R4/domainresource.html#Library.extension">extension</a>&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/domainresource.html#Library.extension">extension</a>
+                 <a href="http://hl7.org/fhir/R4/datatypes.html#uri">url</a>=&quot;http://hl7.org/fhir/StructureDefinition/cqf-logicDefinition&quot;&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">url</a>=&quot;libraryName&quot;&gt;
+          &lt;<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueString</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;WHOCommon&quot;/&gt;
+        &lt;/<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">url</a>=&quot;name&quot;&gt;
+          &lt;<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueString</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;references&quot;/&gt;
+        &lt;/<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">url</a>=&quot;statement&quot;&gt;
+          &lt;<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueString</a>
+                       <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;/*
+@description: Returns true if the given reference is to the given resourceId
+@comment: Returns true if the `resourceId` parameter exactly equals the tail of the given reference.
+NOTE: This function assumes resources from the same source server.
+*/
+define fluent function references(reference FHIR.Reference, resourceId String):
+  resourceId = Last(Split(reference.reference, '/'))&quot;/&gt;
+        &lt;/<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">url</a>=&quot;displaySequence&quot;&gt;
+          &lt;<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueInteger</a> <a href="http://hl7.org/fhir/R4/datatypes.html#integer">value</a>=&quot;31&quot;/&gt;
+        &lt;/<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a>&gt;
+      &lt;/<a href="http://hl7.org/fhir/R4/domainresource.html#Library.extension">extension</a>&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/domainresource.html#Library.extension">extension</a>
+                 <a href="http://hl7.org/fhir/R4/datatypes.html#uri">url</a>=&quot;http://hl7.org/fhir/StructureDefinition/cqf-logicDefinition&quot;&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">url</a>=&quot;libraryName&quot;&gt;
+          &lt;<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueString</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;FHIRHelpers&quot;/&gt;
+        &lt;/<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">url</a>=&quot;name&quot;&gt;
+          &lt;<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueString</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;ToString&quot;/&gt;
+        &lt;/<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">url</a>=&quot;statement&quot;&gt;
+          &lt;<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueString</a>
+                       <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;define function ToString(value string): value.value&quot;/&gt;
+        &lt;/<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">url</a>=&quot;displaySequence&quot;&gt;
+          &lt;<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueInteger</a> <a href="http://hl7.org/fhir/R4/datatypes.html#integer">value</a>=&quot;32&quot;/&gt;
+        &lt;/<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a>&gt;
+      &lt;/<a href="http://hl7.org/fhir/R4/domainresource.html#Library.extension">extension</a>&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/domainresource.html#Library.extension">extension</a>
+                 <a href="http://hl7.org/fhir/R4/datatypes.html#uri">url</a>=&quot;http://hl7.org/fhir/StructureDefinition/cqf-logicDefinition&quot;&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">url</a>=&quot;libraryName&quot;&gt;
+          &lt;<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueString</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;FHIRHelpers&quot;/&gt;
+        &lt;/<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">url</a>=&quot;name&quot;&gt;
+          &lt;<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueString</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;ToConcept&quot;/&gt;
+        &lt;/<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">url</a>=&quot;statement&quot;&gt;
+          &lt;<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueString</a>
+                       <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;define function ToConcept(concept FHIR.CodeableConcept):
+    if concept is null then
+        null
+    else
+        System.Concept {
+            codes: concept.coding C return ToCode(C),
+            display: concept.text.value
+        }&quot;/&gt;
+        &lt;/<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">url</a>=&quot;displaySequence&quot;&gt;
+          &lt;<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueInteger</a> <a href="http://hl7.org/fhir/R4/datatypes.html#integer">value</a>=&quot;33&quot;/&gt;
+        &lt;/<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a>&gt;
+      &lt;/<a href="http://hl7.org/fhir/R4/domainresource.html#Library.extension">extension</a>&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/domainresource.html#Library.extension">extension</a>
+                 <a href="http://hl7.org/fhir/R4/datatypes.html#uri">url</a>=&quot;http://hl7.org/fhir/StructureDefinition/cqf-logicDefinition&quot;&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">url</a>=&quot;libraryName&quot;&gt;
+          &lt;<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueString</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;FHIRHelpers&quot;/&gt;
+        &lt;/<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">url</a>=&quot;name&quot;&gt;
+          &lt;<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueString</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;ToCode&quot;/&gt;
+        &lt;/<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">url</a>=&quot;statement&quot;&gt;
+          &lt;<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueString</a>
+                       <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;define function ToCode(coding FHIR.Coding):
+    if coding is null then
+        null
+    else
+        System.Code {
+          code: coding.code.value,
+          system: coding.system.value,
+          version: coding.version.value,
+          display: coding.display.value
+        }&quot;/&gt;
+        &lt;/<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">url</a>=&quot;displaySequence&quot;&gt;
+          &lt;<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueInteger</a> <a href="http://hl7.org/fhir/R4/datatypes.html#integer">value</a>=&quot;34&quot;/&gt;
+        &lt;/<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a>&gt;
+      &lt;/<a href="http://hl7.org/fhir/R4/domainresource.html#Library.extension">extension</a>&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/domainresource.html#Library.extension">extension</a>
+                 <a href="http://hl7.org/fhir/R4/datatypes.html#uri">url</a>=&quot;http://hl7.org/fhir/StructureDefinition/cqf-logicDefinition&quot;&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">url</a>=&quot;libraryName&quot;&gt;
+          &lt;<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueString</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;FHIRHelpers&quot;/&gt;
+        &lt;/<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">url</a>=&quot;name&quot;&gt;
+          &lt;<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueString</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;ToInteger&quot;/&gt;
+        &lt;/<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">url</a>=&quot;statement&quot;&gt;
+          &lt;<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueString</a>
+                       <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;define function ToInteger(value integer): value.value&quot;/&gt;
+        &lt;/<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">url</a>=&quot;displaySequence&quot;&gt;
+          &lt;<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueInteger</a> <a href="http://hl7.org/fhir/R4/datatypes.html#integer">value</a>=&quot;35&quot;/&gt;
+        &lt;/<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a>&gt;
+      &lt;/<a href="http://hl7.org/fhir/R4/domainresource.html#Library.extension">extension</a>&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/domainresource.html#Library.extension">extension</a>
+                 <a href="http://hl7.org/fhir/R4/datatypes.html#uri">url</a>=&quot;http://hl7.org/fhir/StructureDefinition/cqf-logicDefinition&quot;&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">url</a>=&quot;libraryName&quot;&gt;
+          &lt;<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueString</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;FHIRHelpers&quot;/&gt;
+        &lt;/<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">url</a>=&quot;name&quot;&gt;
+          &lt;<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueString</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;ToString&quot;/&gt;
+        &lt;/<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">url</a>=&quot;statement&quot;&gt;
+          &lt;<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueString</a>
+                       <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;define function ToString(value AdministrativeGender): value.value&quot;/&gt;
+        &lt;/<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">url</a>=&quot;displaySequence&quot;&gt;
+          &lt;<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueInteger</a> <a href="http://hl7.org/fhir/R4/datatypes.html#integer">value</a>=&quot;36&quot;/&gt;
+        &lt;/<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a>&gt;
+      &lt;/<a href="http://hl7.org/fhir/R4/domainresource.html#Library.extension">extension</a>&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/domainresource.html#Library.extension">extension</a>
+                 <a href="http://hl7.org/fhir/R4/datatypes.html#uri">url</a>=&quot;http://hl7.org/fhir/StructureDefinition/cqf-logicDefinition&quot;&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">url</a>=&quot;libraryName&quot;&gt;
+          &lt;<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueString</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;FHIRHelpers&quot;/&gt;
+        &lt;/<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">url</a>=&quot;name&quot;&gt;
+          &lt;<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueString</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;ToBoolean&quot;/&gt;
+        &lt;/<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">url</a>=&quot;statement&quot;&gt;
+          &lt;<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueString</a>
+                       <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;define function ToBoolean(value boolean): value.value&quot;/&gt;
+        &lt;/<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">url</a>=&quot;displaySequence&quot;&gt;
+          &lt;<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueInteger</a> <a href="http://hl7.org/fhir/R4/datatypes.html#integer">value</a>=&quot;37&quot;/&gt;
+        &lt;/<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a>&gt;
+      &lt;/<a href="http://hl7.org/fhir/R4/domainresource.html#Library.extension">extension</a>&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/library.html#Library.name">name</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;EffectiveDataRequirements&quot;/&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/library.html#Library.status">status</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;active&quot;/&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/library.html#Library.type">type</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept#CodeableConcept.coding">coding</a>&gt;
+          &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.system">system</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">value</a>=&quot;http://terminology.hl7.org/CodeSystem/library-type&quot;/&gt;
+          &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;module-definition&quot;/&gt;
+        &lt;/<a href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept#CodeableConcept.coding">coding</a>&gt;
+      &lt;/<a href="http://hl7.org/fhir/R4/library.html#Library.type">type</a>&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/library.html#Library.relatedArtifact">relatedArtifact</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/metadatatypes.html#RelatedArtifact#RelatedArtifact.type">type</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;depends-on&quot;/&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/metadatatypes.html#RelatedArtifact#RelatedArtifact.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;FHIR model information&quot;/&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/metadatatypes.html#RelatedArtifact#RelatedArtifact.resource">resource</a>
+                  <a href="http://hl7.org/fhir/R4/datatypes.html#canonical">value</a>=&quot;http://fhir.org/guides/cqf/common/Library/FHIR-ModelInfo|4.0.1&quot;/&gt;
+      &lt;/<a href="http://hl7.org/fhir/R4/library.html#Library.relatedArtifact">relatedArtifact</a>&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/library.html#Library.relatedArtifact">relatedArtifact</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/metadatatypes.html#RelatedArtifact#RelatedArtifact.type">type</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;depends-on&quot;/&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/metadatatypes.html#RelatedArtifact#RelatedArtifact.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Library Elements&quot;/&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/metadatatypes.html#RelatedArtifact#RelatedArtifact.resource">resource</a>
+                  <a href="http://hl7.org/fhir/R4/datatypes.html#canonical">value</a>=&quot;http://smart.who.int/hiv/Library/HIVEncounterElements&quot;/&gt;
+      &lt;/<a href="http://hl7.org/fhir/R4/library.html#Library.relatedArtifact">relatedArtifact</a>&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/library.html#Library.relatedArtifact">relatedArtifact</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/metadatatypes.html#RelatedArtifact#RelatedArtifact.type">type</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;depends-on&quot;/&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/metadatatypes.html#RelatedArtifact#RelatedArtifact.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Library Elements&quot;/&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/metadatatypes.html#RelatedArtifact#RelatedArtifact.resource">resource</a> <a href="http://hl7.org/fhir/R4/datatypes.html#canonical">value</a>=&quot;http://smart.who.int/hiv/Library/HIVElements&quot;/&gt;
+      &lt;/<a href="http://hl7.org/fhir/R4/library.html#Library.relatedArtifact">relatedArtifact</a>&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/library.html#Library.relatedArtifact">relatedArtifact</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/metadatatypes.html#RelatedArtifact#RelatedArtifact.type">type</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;depends-on&quot;/&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/metadatatypes.html#RelatedArtifact#RelatedArtifact.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Library Concepts&quot;/&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/metadatatypes.html#RelatedArtifact#RelatedArtifact.resource">resource</a> <a href="http://hl7.org/fhir/R4/datatypes.html#canonical">value</a>=&quot;http://smart.who.int/hiv/Library/HIVConcepts|0.0.2&quot;/&gt;
+      &lt;/<a href="http://hl7.org/fhir/R4/library.html#Library.relatedArtifact">relatedArtifact</a>&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/library.html#Library.relatedArtifact">relatedArtifact</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/metadatatypes.html#RelatedArtifact#RelatedArtifact.type">type</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;depends-on&quot;/&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/metadatatypes.html#RelatedArtifact#RelatedArtifact.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Library FHIRHelpers&quot;/&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/metadatatypes.html#RelatedArtifact#RelatedArtifact.resource">resource</a>
+                  <a href="http://hl7.org/fhir/R4/datatypes.html#canonical">value</a>=&quot;http://fhir.org/guides/cqf/common/Library/FHIRHelpers|4.0.1&quot;/&gt;
+      &lt;/<a href="http://hl7.org/fhir/R4/library.html#Library.relatedArtifact">relatedArtifact</a>&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/library.html#Library.relatedArtifact">relatedArtifact</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/metadatatypes.html#RelatedArtifact#RelatedArtifact.type">type</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;depends-on&quot;/&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/metadatatypes.html#RelatedArtifact#RelatedArtifact.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Library WC&quot;/&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/metadatatypes.html#RelatedArtifact#RelatedArtifact.resource">resource</a> <a href="http://hl7.org/fhir/R4/datatypes.html#canonical">value</a>=&quot;http://smart.who.int/hiv/Library/WHOCommon&quot;/&gt;
+      &lt;/<a href="http://hl7.org/fhir/R4/library.html#Library.relatedArtifact">relatedArtifact</a>&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/library.html#Library.relatedArtifact">relatedArtifact</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/metadatatypes.html#RelatedArtifact#RelatedArtifact.type">type</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;depends-on&quot;/&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/metadatatypes.html#RelatedArtifact#RelatedArtifact.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Library Concepts&quot;/&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/metadatatypes.html#RelatedArtifact#RelatedArtifact.resource">resource</a> <a href="http://hl7.org/fhir/R4/datatypes.html#canonical">value</a>=&quot;http://smart.who.int/hiv/Library/HIVConcepts&quot;/&gt;
+      &lt;/<a href="http://hl7.org/fhir/R4/library.html#Library.relatedArtifact">relatedArtifact</a>&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/library.html#Library.relatedArtifact">relatedArtifact</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/metadatatypes.html#RelatedArtifact#RelatedArtifact.type">type</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;depends-on&quot;/&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/metadatatypes.html#RelatedArtifact#RelatedArtifact.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Code system HIVConcepts&quot;/&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/metadatatypes.html#RelatedArtifact#RelatedArtifact.resource">resource</a> <a href="http://hl7.org/fhir/R4/datatypes.html#canonical">value</a>=&quot;http://smart.who.int/hiv/CodeSystem/HIVConcepts&quot;/&gt;
+      &lt;/<a href="http://hl7.org/fhir/R4/library.html#Library.relatedArtifact">relatedArtifact</a>&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/library.html#Library.relatedArtifact">relatedArtifact</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/metadatatypes.html#RelatedArtifact#RelatedArtifact.type">type</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;depends-on&quot;/&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/metadatatypes.html#RelatedArtifact#RelatedArtifact.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Value set HIV test type - HIV.B.DE81 Choices&quot;/&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/metadatatypes.html#RelatedArtifact#RelatedArtifact.resource">resource</a> <a href="http://hl7.org/fhir/R4/datatypes.html#canonical">value</a>=&quot;http://smart.who.int/hiv/ValueSet/HIV.B.DE81&quot;/&gt;
+      &lt;/<a href="http://hl7.org/fhir/R4/library.html#Library.relatedArtifact">relatedArtifact</a>&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/library.html#Library.parameter">parameter</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/metadatatypes.html#ParameterDefinition#ParameterDefinition.name">name</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;EncounterId&quot;/&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/metadatatypes.html#ParameterDefinition#ParameterDefinition.use">use</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;in&quot;/&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/metadatatypes.html#ParameterDefinition#ParameterDefinition.min">min</a> <a href="http://hl7.org/fhir/R4/datatypes.html#integer">value</a>=&quot;0&quot;/&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/metadatatypes.html#ParameterDefinition#ParameterDefinition.max">max</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;1&quot;/&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/metadatatypes.html#ParameterDefinition#ParameterDefinition.type">type</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;string&quot;/&gt;
+      &lt;/<a href="http://hl7.org/fhir/R4/library.html#Library.parameter">parameter</a>&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/library.html#Library.parameter">parameter</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/metadatatypes.html#ParameterDefinition#ParameterDefinition.name">name</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;Guidance&quot;/&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/metadatatypes.html#ParameterDefinition#ParameterDefinition.use">use</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;out&quot;/&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/metadatatypes.html#ParameterDefinition#ParameterDefinition.min">min</a> <a href="http://hl7.org/fhir/R4/datatypes.html#integer">value</a>=&quot;0&quot;/&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/metadatatypes.html#ParameterDefinition#ParameterDefinition.max">max</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;1&quot;/&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/metadatatypes.html#ParameterDefinition#ParameterDefinition.type">type</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;string&quot;/&gt;
+      &lt;/<a href="http://hl7.org/fhir/R4/library.html#Library.parameter">parameter</a>&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/library.html#Library.dataRequirement">dataRequirement</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/metadatatypes.html#DataRequirement#DataRequirement.type">type</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;Observation&quot;/&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/metadatatypes.html#DataRequirement#DataRequirement.profile">profile</a> <a href="http://hl7.org/fhir/R4/datatypes.html#canonical">value</a>=&quot;http://hl7.org/fhir/StructureDefinition/Observation&quot;/&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/metadatatypes.html#DataRequirement#DataRequirement.mustSupport">mustSupport</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;code&quot;/&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/metadatatypes.html#DataRequirement#DataRequirement.mustSupport">mustSupport</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;status&quot;/&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/metadatatypes.html#DataRequirement#DataRequirement.mustSupport">mustSupport</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;encounter&quot;/&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/metadatatypes.html#DataRequirement#DataRequirement.mustSupport">mustSupport</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;value&quot;/&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/metadatatypes.html#DataRequirement#DataRequirement.codeFilter">codeFilter</a>&gt;
+          &lt;<a href="http://hl7.org/fhir/R4/metadatatypes.html#DataRequirement#DataRequirement.codeFilter.path">path</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;code&quot;/&gt;
+          &lt;<a href="http://hl7.org/fhir/R4/metadatatypes.html#DataRequirement#DataRequirement.codeFilter.valueSet">valueSet</a> <a href="http://hl7.org/fhir/R4/datatypes.html#canonical">value</a>=&quot;http://smart.who.int/hiv/ValueSet/HIV.B.DE81&quot;/&gt;
+        &lt;/<a href="http://hl7.org/fhir/R4/metadatatypes.html#DataRequirement#DataRequirement.codeFilter">codeFilter</a>&gt;
+      &lt;/<a href="http://hl7.org/fhir/R4/library.html#Library.dataRequirement">dataRequirement</a>&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/library.html#Library.dataRequirement">dataRequirement</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/metadatatypes.html#DataRequirement#DataRequirement.type">type</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;Observation&quot;/&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/metadatatypes.html#DataRequirement#DataRequirement.profile">profile</a> <a href="http://hl7.org/fhir/R4/datatypes.html#canonical">value</a>=&quot;http://hl7.org/fhir/StructureDefinition/Observation&quot;/&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/metadatatypes.html#DataRequirement#DataRequirement.mustSupport">mustSupport</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;code&quot;/&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/metadatatypes.html#DataRequirement#DataRequirement.mustSupport">mustSupport</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;status&quot;/&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/metadatatypes.html#DataRequirement#DataRequirement.mustSupport">mustSupport</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;encounter&quot;/&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/metadatatypes.html#DataRequirement#DataRequirement.mustSupport">mustSupport</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;value&quot;/&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/metadatatypes.html#DataRequirement#DataRequirement.codeFilter">codeFilter</a>&gt;
+          &lt;<a href="http://hl7.org/fhir/R4/metadatatypes.html#DataRequirement#DataRequirement.codeFilter.path">path</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;code&quot;/&gt;
+          &lt;<a href="http://hl7.org/fhir/R4/metadatatypes.html#DataRequirement#DataRequirement.codeFilter.code">code</a>&gt;
+            &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.system">system</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">value</a>=&quot;http://smart.who.int/hiv/CodeSystem/HIVConcepts&quot;/&gt;
+            &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;HIV.D.DE364&quot;/&gt;
+            &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;CD4 count&quot;/&gt;
+          &lt;/<a href="http://hl7.org/fhir/R4/metadatatypes.html#DataRequirement#DataRequirement.codeFilter.code">code</a>&gt;
+        &lt;/<a href="http://hl7.org/fhir/R4/metadatatypes.html#DataRequirement#DataRequirement.codeFilter">codeFilter</a>&gt;
+      &lt;/<a href="http://hl7.org/fhir/R4/library.html#Library.dataRequirement">dataRequirement</a>&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/library.html#Library.dataRequirement">dataRequirement</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/metadatatypes.html#DataRequirement#DataRequirement.type">type</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;Observation&quot;/&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/metadatatypes.html#DataRequirement#DataRequirement.profile">profile</a> <a href="http://hl7.org/fhir/R4/datatypes.html#canonical">value</a>=&quot;http://hl7.org/fhir/StructureDefinition/Observation&quot;/&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/metadatatypes.html#DataRequirement#DataRequirement.mustSupport">mustSupport</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;code&quot;/&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/metadatatypes.html#DataRequirement#DataRequirement.mustSupport">mustSupport</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;status&quot;/&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/metadatatypes.html#DataRequirement#DataRequirement.mustSupport">mustSupport</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;encounter&quot;/&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/metadatatypes.html#DataRequirement#DataRequirement.mustSupport">mustSupport</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;value&quot;/&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/metadatatypes.html#DataRequirement#DataRequirement.codeFilter">codeFilter</a>&gt;
+          &lt;<a href="http://hl7.org/fhir/R4/metadatatypes.html#DataRequirement#DataRequirement.codeFilter.path">path</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;code&quot;/&gt;
+          &lt;<a href="http://hl7.org/fhir/R4/metadatatypes.html#DataRequirement#DataRequirement.codeFilter.code">code</a>&gt;
+            &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.system">system</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">value</a>=&quot;http://smart.who.int/hiv/CodeSystem/HIVConcepts&quot;/&gt;
+            &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;HIV.D.DE1&quot;/&gt;
+            &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Reason for visit&quot;/&gt;
+          &lt;/<a href="http://hl7.org/fhir/R4/metadatatypes.html#DataRequirement#DataRequirement.codeFilter.code">code</a>&gt;
+        &lt;/<a href="http://hl7.org/fhir/R4/metadatatypes.html#DataRequirement#DataRequirement.codeFilter">codeFilter</a>&gt;
+      &lt;/<a href="http://hl7.org/fhir/R4/library.html#Library.dataRequirement">dataRequirement</a>&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/library.html#Library.dataRequirement">dataRequirement</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/metadatatypes.html#DataRequirement#DataRequirement.type">type</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;Observation&quot;/&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/metadatatypes.html#DataRequirement#DataRequirement.profile">profile</a> <a href="http://hl7.org/fhir/R4/datatypes.html#canonical">value</a>=&quot;http://hl7.org/fhir/StructureDefinition/Observation&quot;/&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/metadatatypes.html#DataRequirement#DataRequirement.mustSupport">mustSupport</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;code&quot;/&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/metadatatypes.html#DataRequirement#DataRequirement.mustSupport">mustSupport</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;status&quot;/&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/metadatatypes.html#DataRequirement#DataRequirement.mustSupport">mustSupport</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;value&quot;/&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/metadatatypes.html#DataRequirement#DataRequirement.mustSupport">mustSupport</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;encounter&quot;/&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/metadatatypes.html#DataRequirement#DataRequirement.codeFilter">codeFilter</a>&gt;
+          &lt;<a href="http://hl7.org/fhir/R4/metadatatypes.html#DataRequirement#DataRequirement.codeFilter.path">path</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;code&quot;/&gt;
+          &lt;<a href="http://hl7.org/fhir/R4/metadatatypes.html#DataRequirement#DataRequirement.codeFilter.code">code</a>&gt;
+            &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.system">system</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">value</a>=&quot;http://smart.who.int/hiv/CodeSystem/HIVConcepts&quot;/&gt;
+            &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;HIV.D.DE443&quot;/&gt;
+            &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Suspicion of treatment failure or interruption&quot;/&gt;
+          &lt;/<a href="http://hl7.org/fhir/R4/metadatatypes.html#DataRequirement#DataRequirement.codeFilter.code">code</a>&gt;
+        &lt;/<a href="http://hl7.org/fhir/R4/metadatatypes.html#DataRequirement#DataRequirement.codeFilter">codeFilter</a>&gt;
+      &lt;/<a href="http://hl7.org/fhir/R4/library.html#Library.dataRequirement">dataRequirement</a>&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/library.html#Library.dataRequirement">dataRequirement</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/metadatatypes.html#DataRequirement#DataRequirement.type">type</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;Patient&quot;/&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/metadatatypes.html#DataRequirement#DataRequirement.profile">profile</a> <a href="http://hl7.org/fhir/R4/datatypes.html#canonical">value</a>=&quot;http://hl7.org/fhir/StructureDefinition/Patient&quot;/&gt;
+      &lt;/<a href="http://hl7.org/fhir/R4/library.html#Library.dataRequirement">dataRequirement</a>&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/library.html#Library.dataRequirement">dataRequirement</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/metadatatypes.html#DataRequirement#DataRequirement.type">type</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;MedicationStatement&quot;/&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/metadatatypes.html#DataRequirement#DataRequirement.profile">profile</a>
+                 <a href="http://hl7.org/fhir/R4/datatypes.html#canonical">value</a>=&quot;http://hl7.org/fhir/StructureDefinition/MedicationStatement&quot;/&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/metadatatypes.html#DataRequirement#DataRequirement.mustSupport">mustSupport</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;reasonCode&quot;/&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/metadatatypes.html#DataRequirement#DataRequirement.mustSupport">mustSupport</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;context&quot;/&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/metadatatypes.html#DataRequirement#DataRequirement.mustSupport">mustSupport</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;medication&quot;/&gt;
+      &lt;/<a href="http://hl7.org/fhir/R4/library.html#Library.dataRequirement">dataRequirement</a>&gt;
+    &lt;/<a href="http://hl7.org/fhir/R4/library.html#Library">Library</a>&gt;
+  &lt;/contained&gt;
+  &lt;<a href="http://hl7.org/fhir/R4/domainresource.html#PlanDefinition.extension">extension</a>
+             <a href="http://hl7.org/fhir/R4/datatypes.html#uri">url</a>=&quot;http://hl7.org/fhir/StructureDefinition/cqf-knowledgeCapability&quot;&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueCode</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;computable&quot;/&gt;
+  &lt;/<a href="http://hl7.org/fhir/R4/domainresource.html#PlanDefinition.extension">extension</a>&gt;
+  &lt;<a href="http://hl7.org/fhir/R4/domainresource.html#PlanDefinition.extension">extension</a>
+             <a href="http://hl7.org/fhir/R4/datatypes.html#uri">url</a>=&quot;http://hl7.org/fhir/uv/crmi/StructureDefinition/crmi-effectiveDataRequirements&quot;&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueCanonical</a> <a href="http://hl7.org/fhir/R4/datatypes.html#canonical">value</a>=&quot;#effective-data-requirements&quot;/&gt;
+  &lt;/<a href="http://hl7.org/fhir/R4/domainresource.html#PlanDefinition.extension">extension</a>&gt;
+  &lt;<a href="http://hl7.org/fhir/R4/plandefinition.html#PlanDefinition.url">url</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">value</a>=&quot;http://smart.who.int/hiv/PlanDefinition/HIVD12DT&quot;/&gt;
+  &lt;<a href="http://hl7.org/fhir/R4/plandefinition.html#PlanDefinition.version">version</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;0.4.4&quot;/&gt;
+  &lt;<a href="http://hl7.org/fhir/R4/plandefinition.html#PlanDefinition.name">name</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;HIVD4DT&quot;/&gt;
+  &lt;<a href="http://hl7.org/fhir/R4/plandefinition.html#PlanDefinition.title">title</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;HIV.D12.Determine recommended screenings and tests&quot;/&gt;
+  &lt;<a href="http://hl7.org/fhir/R4/plandefinition.html#PlanDefinition.type">type</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept#CodeableConcept.coding">coding</a>&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.system">system</a>
+              <a href="http://hl7.org/fhir/R4/datatypes.html#uri">value</a>=&quot;http://terminology.hl7.org/CodeSystem/plan-definition-type&quot;/&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;eca-rule&quot;/&gt;
+    &lt;/<a href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept#CodeableConcept.coding">coding</a>&gt;
+  &lt;/<a href="http://hl7.org/fhir/R4/plandefinition.html#PlanDefinition.type">type</a>&gt;
+  &lt;<a href="http://hl7.org/fhir/R4/plandefinition.html#PlanDefinition.status">status</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;draft&quot;/&gt;
+  &lt;<a href="http://hl7.org/fhir/R4/plandefinition.html#PlanDefinition.experimental">experimental</a> <a href="http://hl7.org/fhir/R4/datatypes.html#boolean">value</a>=&quot;true&quot;/&gt;
+  &lt;<a href="http://hl7.org/fhir/R4/plandefinition.html#PlanDefinition.date">date</a> <a href="http://hl7.org/fhir/R4/datatypes.html#dateTime">value</a>=&quot;2026-03-03T20:39:19+00:00&quot;/&gt;
+  &lt;<a href="http://hl7.org/fhir/R4/plandefinition.html#PlanDefinition.publisher">publisher</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;WHO&quot;/&gt;
+  &lt;<a href="http://hl7.org/fhir/R4/plandefinition.html#PlanDefinition.contact">contact</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/metadatatypes.html#ContactDetail#ContactDetail.name">name</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;WHO&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/metadatatypes.html#ContactDetail#ContactDetail.telecom">telecom</a>&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ContactPoint#ContactPoint.system">system</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;url&quot;/&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ContactPoint#ContactPoint.value">value</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;http://who.int&quot;/&gt;
+    &lt;/<a href="http://hl7.org/fhir/R4/metadatatypes.html#ContactDetail#ContactDetail.telecom">telecom</a>&gt;
+  &lt;/<a href="http://hl7.org/fhir/R4/plandefinition.html#PlanDefinition.contact">contact</a>&gt;
+  &lt;<a href="http://hl7.org/fhir/R4/plandefinition.html#PlanDefinition.description">description</a> <a href="http://hl7.org/fhir/R4/datatypes.html#markdown">value</a>=&quot;Determine recommended screenings and tests&quot;/&gt;
+  &lt;<a href="http://hl7.org/fhir/R4/plandefinition.html#PlanDefinition.relatedArtifact">relatedArtifact</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/metadatatypes.html#RelatedArtifact#RelatedArtifact.type">type</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;citation&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/metadatatypes.html#RelatedArtifact#RelatedArtifact.citation">citation</a> <a href="http://hl7.org/fhir/R4/datatypes.html#markdown">value</a>=&quot;Consolidated Guidelines on HIV Testing Services (2019)&quot;/&gt;
+  &lt;/<a href="http://hl7.org/fhir/R4/plandefinition.html#PlanDefinition.relatedArtifact">relatedArtifact</a>&gt;
+  &lt;<a href="http://hl7.org/fhir/R4/plandefinition.html#PlanDefinition.library">library</a> <a href="http://hl7.org/fhir/R4/datatypes.html#canonical">value</a>=&quot;http://smart.who.int/hiv/Library/HIVD12DTLogic&quot;/&gt;
+  &lt;<a href="http://hl7.org/fhir/R4/plandefinition.html#PlanDefinition.action">action</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/plandefinition.html#PlanDefinition.action.textEquivalent">textEquivalent</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Recommended screenings and tests&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/plandefinition.html#PlanDefinition.action.definition_x_">definitionCanonical</a>
+                         <a href="http://hl7.org/fhir/R4/datatypes.html#canonical">value</a>=&quot;http://smart.who.int/hiv/ActivityDefinition/HIVGuidanceCommunicationRequestActivity&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/plandefinition.html#PlanDefinition.action.dynamicValue">dynamicValue</a>&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/plandefinition.html#PlanDefinition.action.dynamicValue.path">path</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;payload[+].contentString&quot;/&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/plandefinition.html#PlanDefinition.action.dynamicValue.expression">expression</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Expression#Expression.language">language</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;text/cql-identifier&quot;/&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Expression#Expression.expression">expression</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Guidance&quot;/&gt;
+      &lt;/<a href="http://hl7.org/fhir/R4/plandefinition.html#PlanDefinition.action.dynamicValue.expression">expression</a>&gt;
+    &lt;/<a href="http://hl7.org/fhir/R4/plandefinition.html#PlanDefinition.action.dynamicValue">dynamicValue</a>&gt;
+  &lt;/<a href="http://hl7.org/fhir/R4/plandefinition.html#PlanDefinition.action">action</a>&gt;
+&lt;/<a href="http://hl7.org/fhir/R4/plandefinition.html#PlanDefinition">PlanDefinition</a>&gt;</code></pre>
+
+
+  <!-- insert notes if present -->
+  
+
+
+
+</div>
+</div>  <!-- /inner-wrapper -->
+</div>  <!-- /row -->
+</div>  <!-- /container -->
+</div>  <!-- /segment-content -->
+
+<script type="text/javascript" src="assets/js/jquery.js"> </script>     <!-- note keep space here, otherwise it will be transformed to empty tag -> fails -->
+<script type="text/javascript" src="assets/js/jquery-ui.min.js"> </script>
+
+<script type="text/javascript" src="assets/js/window-hash.js"> </script>
+<a name="bottom"> </a>
+<div id="segment-footer" igtool="footer" class="segment">  <!-- segment-footer -->
+<div class="container">  <!-- container -->
+
+<div class="inner-wrapper">
+  <p>
+    IG &#169; 2025+ <a style="color:var(--footer-hyperlink-text-color)" href="http://who.int">WHO</a>.  Package smart.who.int.hiv#0.4.4 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Tue, Mar 3, 2026 20:39+0000">2026-03-03</span>
+    <br/>
+    <span style="color: var(--footer-highlight-text-color)">
+                Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |
+                 <a style="color: var(--footer-hyperlink-text-color)" href="qa.html">QA Report</a>
+                 
+                
+| <a style="color: #81BEF7" target="_blank" href="http://smart.who.int/hiv/history.html">Version History</a> | <a style="color: #81BEF7" rel="license" href="license.html">License</a>
+    </span>
+  </p>
+</div>  <!-- /inner-wrapper -->
+</div>  <!-- /container -->
+</div>  <!-- /segment-footer -->
+
+<div id="segment-post-footer" class="segment hidden">  <!-- segment-post-footer -->
+<div class="container">  <!-- container -->
+</div>  <!-- /container -->
+</div>  <!-- /segment-post-footer -->
+
+<!-- JS and analytics only. -->
+<!-- Bootstrap core JavaScript
+================================================== -->
+<!-- Placed at the end of the document so the pages load faster -->
+<script type="text/javascript" src="assets/js/bootstrap.min.js"> </script>
+<script type="text/javascript" src="assets/js/respond.min.js"> </script>
+<script type="text/javascript" src="assets/js/anchor.min.js"> </script>
+<script type="text/javascript" src="assets/js/clipboard.min.js"> </script>
+<script type="text/javascript" src="assets/js/clipboard-btn.js"> </script>
+<script type="text/javascript" src="assets/js/anchor-hover.js"> </script>
+<!-- Analytics Below
+================================================== -->
+
+
+<div id="feedback-config"
+ data-repo-owner=""
+ data-repo-name=""
+ data-repo-source="https://github.com/WorldHealthOrganization/smart-hiv/issues/new?template=feedback.yml"
+ data-issue-label="feedback"
+ data-feedback-options="[{&quot;form&quot;:&quot;https://github.com/WorldHealthOrganization/smart-hiv/issues/new?template=feedback.yml&quot;,&quot;type&quot;:&quot;GitHub&quot;,&quot;sectionid&quot;:&quot;section&quot;,&quot;pageid&quot;:&quot;page&quot;},{&quot;form&quot;:&quot;https://forms.office.com/e/WKxJWQMEcx&quot;,&quot;type&quot;:&quot;Form&quot;,&quot;sectionid&quot;:&quot;r275a700d161d41d182d84c2e58947298&quot;}]"
+ style="display:none;"></div>
+
+<script src="assets/js/feedback.js"></script>
+
+
+

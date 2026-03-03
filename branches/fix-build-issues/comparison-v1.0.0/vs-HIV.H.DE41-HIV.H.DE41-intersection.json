@@ -1,0 +1,29 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "53532621-7232-4b34-8fdd-ba7f33ef96b0-1092",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/53532621-7232-4b34-8fdd-ba7f33ef96b0-1092",
+  "name" : "IntersectionHIVHDE41AndHIVHDE41",
+  "title" : "Intersection of HIV treatment outcome ValueSet And HIV treatment outcome ValueSet",
+  "status" : "active",
+  "date" : "2026-03-03T20:45:16+00:00",
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "HIV.H.DE42",
+        "display" : "Lost to follow-up"
+      },
+      {
+        "code" : "HIV.H.DE43",
+        "display" : "Transferred out"
+      },
+      {
+        "code" : "HIV.H.DE44",
+        "display" : "Death (documented)"
+      },
+      {
+        "code" : "HIV.H.DE45",
+        "display" : "Refused (stopped) treatment"
+      }]
+    }]
+  }
+}

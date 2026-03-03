@@ -1,0 +1,9 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "53532621-7232-4b34-8fdd-ba7f33ef96b0-684",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/53532621-7232-4b34-8fdd-ba7f33ef96b0-684",
+  "name" : "IntersectionHIVDDE483AndHIVDDE483",
+  "title" : "Intersection of New antiretroviral regimen after substitution within first-line regimen ValueSet And New antiretroviral regimen after substitution within first-line regimen ValueSet",
+  "status" : "active",
+  "date" : "2026-03-03T20:45:16+00:00"
+}

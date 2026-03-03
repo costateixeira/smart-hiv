@@ -1,0 +1,1264 @@
+
+
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE HTML>
+<html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml" lang="en">
+  <head>
+    <meta content="text/html;charset=utf-8" http-equiv="Content-Type"/>
+    <title>HIV.IND.76 Presence of STI syndrome, HIV prevention services - JSON Representation - WHO SMART Guidelines - HIV v0.4.4</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta name="author" content="http://hl7.org/fhir"/>
+
+    <link href="fhir.css" rel="stylesheet"/>
+    <link href="assets/css/fa-all.css" rel="stylesheet" type="text/css" />
+    <!-- Bootstrap core CSS -->
+    <link href="assets/css/bootstrap-fhir.css" rel="stylesheet"/>
+
+    <!-- Project extras -->
+    <link href="assets/css/project.css" rel="stylesheet"/>
+    <link href="assets/css/pygments-manni.css" rel="stylesheet"/>
+    <link href="assets/css/jquery-ui.css" rel="stylesheet"/>
+  	<link href="assets/css/prism.css" rel="stylesheet" />
+    <!-- Placeholder for child template CSS declarations -->
+    <link href="assets/css/who.css" rel="stylesheet"/>
+    <link href="assets/css/lforms.min.css" rel="stylesheet"/>
+
+
+    <script type="text/javascript" src="fhir-table-scripts.js"> </script>
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+    <script src="assets/js/html5shiv.js"></script>
+    <script src="assets/js/respond.min.js"></script>
+    <![endif]-->
+
+    <!-- Favicons -->
+    <link rel="fhir-logo" sizes="144x144" href="assets/ico/icon-fhir-144.png"/>
+    <link rel="fhir-logo" sizes="114x114" href="assets/ico/icon-fhir-114.png"/>
+    <link rel="fhir-logo" sizes="72x72" href="assets/ico/icon-fhir-72.png"/>
+    <link rel="fhir-logo" href="assets/ico/icon-fhir-57.png"/>
+    <link rel="shortcut icon" href="assets/ico/favicon.png"/>
+  </head>
+  <body onload="document.body.style.opacity='1'">
+
+	  <script src="assets/js/prism.js"></script>
+
+    <style type="text/css">h2{--heading-prefix:"5.1.611"}
+    h3,h4,h5,h6{--heading-prefix:"5.1.611"}</style>
+    <div id="segment-header" class="segment">  <!-- segment-header -->
+
+      <div id="segment-navbar" class="segment">  <!-- segment-navbar -->
+        <div id="stripe"> </div>
+        <div class="container">  <!-- container -->
+          <!-- HEADER CONTENT -->
+  
+          <nav class="navbar navbar-inverse">
+            <!--status-bar-->
+            <div class="container">
+              <button data-target=".navbar-inverse-collapse" class="navbar-toggle" data-toggle="collapse" type="button">
+                <span class="icon-bar"> </span>
+                <span class="icon-bar"> </span>
+                <span class="icon-bar"> </span>
+              </button>
+              <a class="navbar-brand hidden" href="http://hl7.org/fhir/R4/index.html">FHIR</a>
+              <div class="nav-collapse collapse navbar-inverse-collapse">
+                <!-- menu.xml  -->
+
+<ul xmlns="http://www.w3.org/1999/xhtml" class="nav navbar-nav">
+  <li class="dropdown">
+    <a data-toggle="dropdown" href="#" class="dropdown-toggle">Home
+      <b class="caret"></b>
+    </a>
+    <ul class="dropdown-menu">
+      <li>
+        <a href="index.html">Summary</a>
+      </li>
+      <li>
+        <a href="changes.html">Changes</a>
+      </li>
+      <li>
+        <a href="dependencies.html">Dependencies</a>
+      </li>
+      <li>
+        <a href="references.html">References</a>
+      </li>
+      <li>
+        <a href="adapting.html">Adapting Guidelines for Country use</a>
+      </li>
+    </ul>
+  </li>
+  <li class="dropdown">
+    <a data-toggle="dropdown" href="#" class="dropdown-toggle">Business Requirements
+      <b class="caret"></b>
+    </a>
+    <ul class="dropdown-menu">
+      <li>
+        <a href="concepts.html">Concepts</a>
+      </li>
+      <li>
+        <a href="personas.html">Generic Personas</a>
+      </li>
+      <li>
+        <a href="scenarios.html">User Scenarios</a>
+      </li>
+      <li>
+        <a href="business-processes.html">Business Processes</a>
+      </li>
+      <li>
+        <a href="dictionary.html">Data Dictionary</a>
+      </li>
+      <li>
+        <a href="decision-logic.html">Decision-support Logic</a>
+      </li>
+      <li>
+        <a href="indicators.html">Indicator and Performance Metrics</a>
+      </li>
+      <li>
+        <a href="functional-requirements.html">Functional Requirements</a>
+      </li>
+      <li>
+        <a href="non-functional-requirements.html">Non-functional Requirements</a>
+      </li>
+    </ul>
+  </li>
+  <li class="dropdown">
+    <a data-toggle="dropdown" href="#" class="dropdown-toggle">Data Models and Exchange
+      <b class="caret"></b>
+    </a>
+    <ul class="dropdown-menu">
+      <li>
+        <a href="system-actors.html">System Actors</a>
+      </li>
+      <li>
+        <a href="sequence-diagrams.html">Sequence Diagrams</a>
+      </li>
+      <li>
+        <a href="transactions.html">Transactions</a>
+      </li>
+      <li>
+        <a href="indicators-measures.html">Indicators and Measures</a>
+      </li>
+      <li>
+        <a href="codings.html">Codings</a>
+      </li>
+    </ul>
+  </li>
+  <li class="dropdown">
+    <a data-toggle="dropdown" href="#" class="dropdown-toggle">Deployment
+      <b class="caret"></b>
+    </a>
+    <ul class="dropdown-menu">
+      <li>
+        <a href="security-privacy.html">Security and Privacy Considerations</a>
+      </li>
+      <li>
+        <a href="testing.html">Testing</a>
+      </li>
+      <li>
+        <a href="test-data.html">Test Data</a>
+      </li>
+      <li>
+        <a href="reference-implementations.html">Reference Implementations</a>
+      </li>
+      <li>
+        <a href="downloads.html">Downloads</a>
+      </li>
+    </ul>
+  </li>
+  <li class="dropdown">
+    <a data-toggle="dropdown" href="#" class="dropdown-toggle">Indices
+      <b class="caret"></b>
+    </a>
+    <ul class="dropdown-menu">
+      <li>
+        <a href="artifacts.html">Artifact Index</a>
+      </li>
+      <li>
+        <a href="maps.html">Mappings</a>
+      </li>
+      <li>
+        <a href="dak-api.html">DAK API</a>
+      </li>
+    </ul>
+  </li>
+</ul>
+              </div>  <!-- /.nav-collapse -->
+
+              <div class="sf_colsIn col-md-8  navbar-right-container" data-sf-element="LanguageSelectorSearch" data-placeholder-label="Language Selector and Search" style="display: flex; justify-content: flex-end; align-items: center;">
+                <!-- This div will be pushed to the right -->
+                <div class="language-selector" style="margin-left: auto; background-color: #00477d; color: white;">
+                  <i class="fa fa-language fa-lg"></i>
+                  <label for="language-selector"> </label>
+                  <select onChange="openLink(value)" id="language-selector" name="language-selector">
+                    <option disabled selected>Select language</option>
+                    <option value="en" class="selected">English</option>
+                  </select>
+                  <i class="fas fa-angle-down"></i>
+                </div>
+                <!-- Search Content -->
+              </div>
+            </div>  <!-- /.container -->
+          </nav>  <!-- /.navbar -->
+        <!-- /HEADER CONTENT -->
+        </div>  <!-- /container -->
+      </div>  <!-- /segment-navbar -->
+      
+
+      <div class="container" style=" justify-content: space-between; align-items: left;">
+
+        <!-- Placeholder for child template header declarations -->
+<div id="project-nav">
+    <a id="who-logo" no-external="true" href="index.html">
+        
+    </a>
+</div>
+
+ <div id="family-nav">
+  <a id="fhir-logo" no-external="true" href="http://hl7.org/fhir">  </a>
+</div> 
+
+
+        <div id="ig-status" class="ig-status-draft">
+          <p><span style="font-size:12pt;font-weight:bold">WHO SMART Guidelines - HIV</span>
+            <br/>
+            <span style="display:inline-block;">0.4.4 - ci-build
+
+
+            </span>
+          </p>
+        </div>
+      </div> <!-- /container -->
+    </div>  <!-- /segment-header -->
+
+
+    <!--status-bar-->
+
+    <div id="segment-breadcrumb" class="segment">  <!-- segment-breadcrumb -->
+      <div class="container">  <!-- container -->
+        <ul class="breadcrumb">
+          <li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='indices.html'><b>Indices</b></a></li><li><a href='artifacts.html'><b>Artifact Index</b></a></li><li><b>HIV.IND.76 Presence of STI syndrome, HIV prevention services</b></li>
+
+        </ul>
+      </div>  <!-- /container -->
+    </div>  <!-- /segment-breadcrumb -->
+
+    <a name="top"> </a>
+    <div id="segment-content" class="segment">  <!-- segment-content -->
+      <div class="container">  <!-- container -->
+        <div class="row">
+          <div class="inner-wrapper">
+
+<div style="counter-reset: section 8" class="col-12">
+<!--ReleaseHeader--><p id="publish-box">WHO SMART Guidelines - HIV, published by WHO. This guide is not an authorized publication; it is the continuous build for version 0.4.4  built by the FHIR (HL7&reg; FHIR&reg; Standard) CI Build. This version is based on the current content of <a href='https://github.com/costateixeira/smart-hiv/tree/fix-build-issues'>https://github.com/costateixeira/smart-hiv/tree/fix-build-issues</a> and changes regularly. See the <a href='http://smart.who.int/hiv/history.html'>Directory of published versions</a></p><!--EndReleaseHeader-->
+
+
+
+
+
+
+
+
+
+<ul class="nav nav-tabs">
+
+  <li>
+    <a href="Measure-HIVIND76.html">Narrative Content</a>
+  </li>
+
+
+
+  
+    <li>
+      <a href="Measure-HIVIND76.xml.html">XML</a>
+    </li>
+  
+
+
+  
+    <li class="active">
+      <a href="#">JSON</a>
+    </li>
+  
+
+
+  
+    <li>
+      <a href="Measure-HIVIND76.ttl.html">TTL</a>
+    </li>
+  
+
+
+
+</ul>
+
+
+<a name="root"> </a>
+
+
+<h2 id="root">: HIV.IND.76 Presence of STI syndrome, HIV prevention services - JSON Representation</h2>
+
+  <table class="colsd">
+    <tr>
+
+      <td colspan="2">
+        
+          Draft
+          
+            as of 2024-08-18
+          
+        
+      </td>
+
+    </tr>
+  </table>
+
+
+<p><a href="Measure-HIVIND76.json" no-download="true">Raw json</a> | <a href="Measure-HIVIND76.json" download>Download</a></p>
+
+  <!-- insert intro if present -->
+  
+
+
+
+  <pre class="json" data-fhir="generated" style="white-space: pre; text-wrap: nowrap; width: auto;"><code style="white-space: pre; text-wrap: nowrap;">{
+  "<a href="http://hl7.org/fhir/R4/measure.html#Measure">resourceType</a>" : "Measure",
+  "<a href="http://hl7.org/fhir/R4/resource.html#Measure.id">id</a>" : "HIVIND76",
+  "<a href="http://hl7.org/fhir/R4/resource.html#Measure.meta">meta</a>" : {
+    "<a href="http://hl7.org/fhir/R4/datatypes.html#Meta#Meta.profile">profile</a>" : [
+      <a href="http://hl7.org/fhir/us/cqfmeasures/STU5/StructureDefinition-proportion-measure-cqfm.html" style="color: Maroon">&#x1F517;</a> "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/proportion-measure-cqfm"<a href="http://hl7.org/fhir/uv/crmi/STU1/StructureDefinition-crmi-shareablemeasure.html" style="color: Maroon">&#x1F517;</a> ,
+      "http://hl7.org/fhir/uv/crmi/StructureDefinition/crmi-shareablemeasure"<a href="http://hl7.org/fhir/uv/crmi/STU1/StructureDefinition-crmi-publishablemeasure.html" style="color: Maroon">&#x1F517;</a> ,
+      "http://hl7.org/fhir/uv/crmi/StructureDefinition/crmi-publishablemeasure"
+    ]
+  },
+  "<a href="http://hl7.org/fhir/R4/domainresource.html#Measure.text">text</a>" : {
+    "<a href="http://hl7.org/fhir/R4/datatypes.html#Narrative#Narrative.status">status</a>" : "extensions",
+    "<a href="http://hl7.org/fhir/R4/datatypes.html#Narrative#Narrative.div">div</a>" : "&lt;div xmlns=\&quot;http://www.w3.org/1999/xhtml\&quot;&gt;\n  &lt;table class=\&quot;narrative-table\&quot;&gt;\n    &lt;tbody&gt;\n&lt;tr&gt;\n\n&lt;th colspan=\&quot;2\&quot; scope=\&quot;row\&quot; class=\&quot;row-header\&quot;&gt;Knowledge Artifact Metadata&lt;/th&gt;\n\n&lt;/tr&gt;\n\n&lt;tr&gt;\n\n&lt;th scope=\&quot;row\&quot; class=\&quot;row-header\&quot;&gt;Name (machine-readable)&lt;/th&gt;\n\n&lt;td class=\&quot;content-container\&quot;&gt;HIVIND76&lt;/td&gt;\n&lt;/tr&gt;\n\n\n&lt;tr&gt;\n\n&lt;th scope=\&quot;row\&quot; class=\&quot;row-header\&quot;&gt;Title (human-readable)&lt;/th&gt;\n\n&lt;td class=\&quot;content-container\&quot;&gt;HIV.IND.76 Presence of STI syndrome, HIV prevention services&lt;/td&gt;\n&lt;/tr&gt;\n\n\n\n&lt;tr&gt;\n\n&lt;th scope=\&quot;row\&quot; class=\&quot;row-header\&quot;&gt;Status&lt;/th&gt;\n\n&lt;td class=\&quot;content-container\&quot;&gt;Draft&lt;/td&gt;\n&lt;/tr&gt;\n\n\n&lt;tr&gt;\n\n&lt;th scope=\&quot;row\&quot; class=\&quot;row-header\&quot;&gt;Experimental&lt;/th&gt;\n\n&lt;td class=\&quot;content-container\&quot;&gt;true&lt;/td&gt;\n&lt;/tr&gt;\n\n\n&lt;tr&gt;\n\n&lt;th scope=\&quot;row\&quot; class=\&quot;row-header\&quot;&gt;Description&lt;/th&gt;\n\n&lt;td class=\&quot;content-container\&quot;&gt;&lt;div&gt;&lt;p&gt;% of people attending HIV prevention services diagnosed with a particular STI syndrome during the reporting period&lt;/p&gt;\n&lt;/div&gt;&lt;/td&gt;\n&lt;/tr&gt;\n\n\n\n\n\n\n\n\n\n\n\n\n&lt;tr&gt;\n\n&lt;th scope=\&quot;row\&quot; class=\&quot;row-header\&quot;&gt;Measure Steward&lt;/th&gt;\n\n&lt;td class=\&quot;content-container\&quot;&gt;WHO&lt;/td&gt;\n&lt;/tr&gt;\n\n\n&lt;tr&gt;\n\n&lt;th scope=\&quot;row\&quot; class=\&quot;row-header\&quot;&gt;Steward Contact Details&lt;/th&gt;\n\n&lt;td class=\&quot;content-container\&quot;&gt;WHO: &lt;a href=\&quot;http://who.int\&quot;&gt;http://who.int&lt;/a&gt;&lt;/td&gt;\n&lt;/tr&gt;\n\n\n\n\n\n\n\n\n\n\n\n&lt;tr&gt;\n\n&lt;th colspan=\&quot;2\&quot; scope=\&quot;row\&quot; class=\&quot;row-header\&quot;&gt;Measure Metadata&lt;/th&gt;\n\n&lt;/tr&gt;\n\n\n\n\n\n\n&lt;tr&gt;\n\n&lt;th scope=\&quot;row\&quot; class=\&quot;row-header\&quot;&gt;Version Number&lt;/th&gt;\n\n&lt;td class=\&quot;content-container\&quot;&gt;0.4.4&lt;/td&gt;\n&lt;/tr&gt;\n\n\n&lt;tr&gt;\n\n&lt;th scope=\&quot;row\&quot; class=\&quot;row-header\&quot;&gt;Measure Scoring&lt;/th&gt;\n\n&lt;td class=\&quot;content-container\&quot;&gt;&lt;span title=\&quot;Codes:{http://terminology.hl7.org/CodeSystem/measure-scoring proportion}\&quot;&gt;Proportion&lt;/span&gt;&lt;/td&gt;\n&lt;/tr&gt;\n\n\n\n\n\n\n\n\n&lt;tr&gt;\n\n&lt;th scope=\&quot;row\&quot; class=\&quot;row-header\&quot;&gt;Improvement Notation&lt;/th&gt;\n\n&lt;td class=\&quot;content-container\&quot;&gt;&lt;span title=\&quot;Codes:{http://terminology.hl7.org/CodeSystem/measure-improvement-notation decrease}\&quot;&gt;Decreased score indicates improvement&lt;/span&gt;&lt;/td&gt;\n&lt;/tr&gt;\n\n\n\n\n\n  \n&lt;tr&gt;\n\n&lt;th scope=\&quot;row\&quot; class=\&quot;row-header\&quot;&gt;Population Basis&lt;/th&gt;\n\n&lt;td class=\&quot;content-container\&quot;&gt;boolean&lt;/td&gt;\n&lt;/tr&gt;\n\n\n\n\n\n  \n    &lt;tr&gt;\n\n&lt;th colspan=\&quot;2\&quot; scope=\&quot;row\&quot; class=\&quot;row-header\&quot;&gt;Measure Population Criteria&lt;/th&gt;\n\n&lt;/tr&gt;\n  \n  \n  \n  \n    &lt;tr&gt;\n      \n        \n&lt;th scope=\&quot;row\&quot; class=\&quot;row-header\&quot;&gt;Initial Population&lt;/th&gt;\n\n      \n      &lt;td class=\&quot;content-container\&quot;&gt;\n        \n        &lt;em&gt;ID&lt;/em&gt;: HIV.IND.76.IP\n        &lt;br/&gt;\n        \n        \n          &lt;em&gt;Description&lt;/em&gt;:\n          &lt;p style=\&quot;white-space: pre-line\&quot; class=\&quot;tab-one\&quot;&gt;Initial Population&lt;/p&gt;\n        \n        \n          \n            \n            &lt;em&gt;Logic Definition&lt;/em&gt;: &lt;a href=\&quot;#hivind76logic-initial-population\&quot;&gt;Initial Population&lt;/a&gt; \n          \n        \n      &lt;/td&gt;\n    &lt;/tr&gt;\n  \n\n  \n    &lt;tr&gt;\n      \n        \n&lt;th scope=\&quot;row\&quot; class=\&quot;row-header\&quot;&gt;Denominator&lt;/th&gt;\n\n      \n      &lt;td class=\&quot;content-container\&quot;&gt;\n        \n        &lt;em&gt;ID&lt;/em&gt;: HIV.IND.76.DEN\n        &lt;br/&gt;\n        \n        \n          &lt;em&gt;Description&lt;/em&gt;:\n          &lt;p style=\&quot;white-space: pre-line\&quot; class=\&quot;tab-one\&quot;&gt;Number of people attending HIV prevention services during the reporting period&lt;/p&gt;\n        \n        \n          \n            \n            &lt;em&gt;Logic Definition&lt;/em&gt;: &lt;a href=\&quot;#hivind76logic-denominator\&quot;&gt;Denominator&lt;/a&gt; \n          \n        \n      &lt;/td&gt;\n    &lt;/tr&gt;\n  \n\n  \n    &lt;tr&gt;\n      \n        \n&lt;th scope=\&quot;row\&quot; class=\&quot;row-header\&quot;&gt;Numerator&lt;/th&gt;\n\n      \n      &lt;td class=\&quot;content-container\&quot;&gt;\n        \n        &lt;em&gt;ID&lt;/em&gt;: HIV.IND.76.NUM\n        &lt;br/&gt;\n        \n        \n          &lt;em&gt;Description&lt;/em&gt;:\n          &lt;p style=\&quot;white-space: pre-line\&quot; class=\&quot;tab-one\&quot;&gt;Number of people attending HIV prevention services diagnosed with one or more of the STI syndromes during the reporting period&lt;/p&gt;\n        \n        \n          \n            \n            &lt;em&gt;Logic Definition&lt;/em&gt;: &lt;a href=\&quot;#hivind76logic-numerator\&quot;&gt;Numerator&lt;/a&gt; \n          \n        \n      &lt;/td&gt;\n    &lt;/tr&gt;\n  \n\n  \n  \n\n\n\n\n\n\n\n\n\n\n\n\n\n&lt;tr&gt;\n\n&lt;th colspan=\&quot;2\&quot; scope=\&quot;row\&quot; class=\&quot;row-header\&quot;&gt;Measure Logic&lt;/th&gt;\n\n&lt;/tr&gt;\n\n&lt;tr&gt;\n\n&lt;th scope=\&quot;row\&quot; class=\&quot;row-header\&quot;&gt;Primary Library&lt;/th&gt;\n\n&lt;td class=\&quot;content-container\&quot;&gt;&lt;a href=\&quot;Library-HIVIND76Logic.html\&quot;&gt;HIV.IND.76 Logic&lt;/a&gt;&lt;/td&gt;\n&lt;/tr&gt;\n\n\n\n\n  \n  \n\n&lt;tr&gt;\n  \n  \n  \n  \n  \n&lt;th scope=\&quot;row\&quot; class=\&quot;row-header\&quot;&gt;Dependency&lt;/th&gt;\n\n  \n  &lt;td class=\&quot;content-container\&quot;&gt;\n    \n    &lt;em&gt;Description&lt;/em&gt;: FHIR model information\n    \n    &lt;br/&gt;\n    \n    \n    \n    \n    \n    \n    &lt;em&gt;Resource&lt;/em&gt;: &lt;a href=\&quot;http://fhir.org/guides/cqf/common/4.0.1/4.0.1/Library-FHIR-ModelInfo.html\&quot;&gt;http://fhir.org/guides/cqf/common/Library/FHIR-ModelInfo|4.0.1&lt;/a&gt;\n    &lt;br/&gt;\n    &lt;em&gt;Canonical URL&lt;/em&gt;: &lt;tt&gt;http://fhir.org/guides/cqf/common/Library/FHIR-ModelInfo|4.0.1&lt;/tt&gt;\n    \n  &lt;/td&gt;\n&lt;/tr&gt;\n\n&lt;tr&gt;\n  \n  \n  \n  \n  \n&lt;th scope=\&quot;row\&quot; class=\&quot;row-header\&quot;&gt;Dependency&lt;/th&gt;\n\n  \n  &lt;td class=\&quot;content-container\&quot;&gt;\n    \n    &lt;em&gt;Description&lt;/em&gt;: Library HIE\n    \n    &lt;br/&gt;\n    \n    \n    \n    \n    \n    \n    &lt;em&gt;Resource&lt;/em&gt;: &lt;a href=\&quot;Library-HIVIndicatorElements.html\&quot;&gt;HIVIndicatorElements&lt;/a&gt;\n    &lt;br/&gt;\n    &lt;em&gt;Canonical URL&lt;/em&gt;: &lt;tt&gt;http://smart.who.int/hiv/Library/HIVIndicatorElements&lt;/tt&gt;\n    \n  &lt;/td&gt;\n&lt;/tr&gt;\n\n&lt;tr&gt;\n  \n  \n  \n  \n  \n&lt;th scope=\&quot;row\&quot; class=\&quot;row-header\&quot;&gt;Dependency&lt;/th&gt;\n\n  \n  &lt;td class=\&quot;content-container\&quot;&gt;\n    \n    &lt;em&gt;Description&lt;/em&gt;: Library Elements\n    \n    &lt;br/&gt;\n    \n    \n    \n    \n    \n    \n    &lt;em&gt;Resource&lt;/em&gt;: &lt;a href=\&quot;Library-HIVElements.html\&quot;&gt;HIVElements&lt;/a&gt;\n    &lt;br/&gt;\n    &lt;em&gt;Canonical URL&lt;/em&gt;: &lt;tt&gt;http://smart.who.int/hiv/Library/HIVElements&lt;/tt&gt;\n    \n  &lt;/td&gt;\n&lt;/tr&gt;\n\n&lt;tr&gt;\n  \n  \n  \n  \n  \n&lt;th scope=\&quot;row\&quot; class=\&quot;row-header\&quot;&gt;Dependency&lt;/th&gt;\n\n  \n  &lt;td class=\&quot;content-container\&quot;&gt;\n    \n    &lt;em&gt;Description&lt;/em&gt;: Library FHIRHelpers\n    \n    &lt;br/&gt;\n    \n    \n    \n    \n    \n    \n    &lt;em&gt;Resource&lt;/em&gt;: &lt;a href=\&quot;http://fhir.org/guides/cqf/common/4.0.1/4.0.1/Library-FHIRHelpers.html\&quot;&gt;http://fhir.org/guides/cqf/common/Library/FHIRHelpers|4.0.1&lt;/a&gt;\n    &lt;br/&gt;\n    &lt;em&gt;Canonical URL&lt;/em&gt;: &lt;tt&gt;http://fhir.org/guides/cqf/common/Library/FHIRHelpers|4.0.1&lt;/tt&gt;\n    \n  &lt;/td&gt;\n&lt;/tr&gt;\n\n&lt;tr&gt;\n  \n  \n  \n  \n  \n&lt;th scope=\&quot;row\&quot; class=\&quot;row-header\&quot;&gt;Dependency&lt;/th&gt;\n\n  \n  &lt;td class=\&quot;content-container\&quot;&gt;\n    \n    &lt;em&gt;Description&lt;/em&gt;: Library Concepts\n    \n    &lt;br/&gt;\n    \n    \n    \n    \n    \n    \n    &lt;em&gt;Resource&lt;/em&gt;: &lt;code&gt;http://smart.who.int/hiv/Library/HIVConcepts|0.0.2&lt;/code&gt;\n    &lt;br/&gt;\n    &lt;em&gt;Canonical URL&lt;/em&gt;: &lt;tt&gt;http://smart.who.int/hiv/Library/HIVConcepts|0.0.2&lt;/tt&gt;\n    \n  &lt;/td&gt;\n&lt;/tr&gt;\n\n&lt;tr&gt;\n  \n  \n  \n  \n  \n&lt;th scope=\&quot;row\&quot; class=\&quot;row-header\&quot;&gt;Dependency&lt;/th&gt;\n\n  \n  &lt;td class=\&quot;content-container\&quot;&gt;\n    \n    &lt;em&gt;Description&lt;/em&gt;: Library WC\n    \n    &lt;br/&gt;\n    \n    \n    \n    \n    \n    \n    &lt;em&gt;Resource&lt;/em&gt;: &lt;a href=\&quot;Library-WHOCommon.html\&quot;&gt;WHOCommon&lt;/a&gt;\n    &lt;br/&gt;\n    &lt;em&gt;Canonical URL&lt;/em&gt;: &lt;tt&gt;http://smart.who.int/hiv/Library/WHOCommon&lt;/tt&gt;\n    \n  &lt;/td&gt;\n&lt;/tr&gt;\n\n&lt;tr&gt;\n  \n  \n  \n  \n  \n&lt;th scope=\&quot;row\&quot; class=\&quot;row-header\&quot;&gt;Dependency&lt;/th&gt;\n\n  \n  &lt;td class=\&quot;content-container\&quot;&gt;\n    \n    &lt;em&gt;Description&lt;/em&gt;: Code system ConditionClinicalStatusCodes\n    \n    &lt;br/&gt;\n    \n    \n    \n    \n    \n    \n    &lt;em&gt;Resource&lt;/em&gt;: &lt;a href=\&quot;http://terminology.hl7.org/6.1.0/CodeSystem-condition-clinical.html\&quot;&gt;Condition Clinical Status Codes&lt;/a&gt;\n    &lt;br/&gt;\n    &lt;em&gt;Canonical URL&lt;/em&gt;: &lt;tt&gt;http://terminology.hl7.org/CodeSystem/condition-clinical&lt;/tt&gt;\n    \n  &lt;/td&gt;\n&lt;/tr&gt;\n\n&lt;tr&gt;\n  \n  \n  \n  \n  \n&lt;th scope=\&quot;row\&quot; class=\&quot;row-header\&quot;&gt;Dependency&lt;/th&gt;\n\n  \n  &lt;td class=\&quot;content-container\&quot;&gt;\n    \n    &lt;em&gt;Description&lt;/em&gt;: Code system HIVConcepts\n    \n    &lt;br/&gt;\n    \n    \n    \n    \n    \n    \n    &lt;em&gt;Resource&lt;/em&gt;: &lt;a href=\&quot;CodeSystem-HIVConcepts.html\&quot;&gt;WHO SMART HIV Concepts CodeSystem&lt;/a&gt;\n    &lt;br/&gt;\n    &lt;em&gt;Canonical URL&lt;/em&gt;: &lt;tt&gt;http://smart.who.int/hiv/CodeSystem/HIVConcepts&lt;/tt&gt;\n    \n  &lt;/td&gt;\n&lt;/tr&gt;\n\n&lt;tr&gt;\n  \n  \n  \n  \n  \n&lt;th scope=\&quot;row\&quot; class=\&quot;row-header\&quot;&gt;Dependency&lt;/th&gt;\n\n  \n  &lt;td class=\&quot;content-container\&quot;&gt;\n    \n    &lt;em&gt;Description&lt;/em&gt;: Value set Syndrome/STI diagnosed - HIV.B.DE226 Choices\n    \n    &lt;br/&gt;\n    \n    \n    \n    \n    \n    \n    &lt;em&gt;Resource&lt;/em&gt;: &lt;a href=\&quot;ValueSet-HIV.B.DE226.html\&quot;&gt;Syndrome/STI diagnosed ValueSet&lt;/a&gt;\n    &lt;br/&gt;\n    &lt;em&gt;Canonical URL&lt;/em&gt;: &lt;tt&gt;http://smart.who.int/hiv/ValueSet/HIV.B.DE226&lt;/tt&gt;\n    \n  &lt;/td&gt;\n&lt;/tr&gt;\n\n\n  \n  &lt;tr&gt;\n    &lt;th scope=\&quot;row\&quot; class=\&quot;row-header\&quot;&gt;Direct Reference Code&lt;/th&gt;\n    &lt;td class=\&quot;content-container\&quot;&gt;\n      \n      &lt;em&gt;Code&lt;/em&gt;: active\n      &lt;br/&gt;\n      &lt;em&gt;System&lt;/em&gt;: &lt;tt&gt;http://terminology.hl7.org/CodeSystem/condition-clinical&lt;/tt&gt;\n    &lt;/td&gt;\n  &lt;/tr&gt;\n\n  &lt;tr&gt;\n    &lt;th scope=\&quot;row\&quot; class=\&quot;row-header\&quot;&gt;Direct Reference Code&lt;/th&gt;\n    &lt;td class=\&quot;content-container\&quot;&gt;\n      \n      &lt;em&gt;Code&lt;/em&gt;: recurrence\n      &lt;br/&gt;\n      &lt;em&gt;System&lt;/em&gt;: &lt;tt&gt;http://terminology.hl7.org/CodeSystem/condition-clinical&lt;/tt&gt;\n    &lt;/td&gt;\n  &lt;/tr&gt;\n\n  &lt;tr&gt;\n    &lt;th scope=\&quot;row\&quot; class=\&quot;row-header\&quot;&gt;Direct Reference Code&lt;/th&gt;\n    &lt;td class=\&quot;content-container\&quot;&gt;\n      \n      &lt;em&gt;Code&lt;/em&gt;: relapse\n      &lt;br/&gt;\n      &lt;em&gt;System&lt;/em&gt;: &lt;tt&gt;http://terminology.hl7.org/CodeSystem/condition-clinical&lt;/tt&gt;\n    &lt;/td&gt;\n  &lt;/tr&gt;\n\n  &lt;tr&gt;\n    &lt;th scope=\&quot;row\&quot; class=\&quot;row-header\&quot;&gt;Direct Reference Code&lt;/th&gt;\n    &lt;td class=\&quot;content-container\&quot;&gt;\n      \n        &lt;em&gt;Display&lt;/em&gt;: PrEP for HIV prevention\n        &lt;br/&gt;\n      \n      &lt;em&gt;Code&lt;/em&gt;: HIV.C.DE76\n      &lt;br/&gt;\n      &lt;em&gt;System&lt;/em&gt;: &lt;tt&gt;http://smart.who.int/hiv/CodeSystem/HIVConcepts&lt;/tt&gt;\n    &lt;/td&gt;\n  &lt;/tr&gt;\n\n  &lt;tr&gt;\n    &lt;th scope=\&quot;row\&quot; class=\&quot;row-header\&quot;&gt;Direct Reference Code&lt;/th&gt;\n    &lt;td class=\&quot;content-container\&quot;&gt;\n      \n        &lt;em&gt;Display&lt;/em&gt;: STI testing and treatment services\n        &lt;br/&gt;\n      \n      &lt;em&gt;Code&lt;/em&gt;: HIV.B.DE164\n      &lt;br/&gt;\n      &lt;em&gt;System&lt;/em&gt;: &lt;tt&gt;http://smart.who.int/hiv/CodeSystem/HIVConcepts&lt;/tt&gt;\n    &lt;/td&gt;\n  &lt;/tr&gt;\n\n  &lt;tr&gt;\n    &lt;th scope=\&quot;row\&quot; class=\&quot;row-header\&quot;&gt;Direct Reference Code&lt;/th&gt;\n    &lt;td class=\&quot;content-container\&quot;&gt;\n      \n        &lt;em&gt;Display&lt;/em&gt;: VMMC procedure performed\n        &lt;br/&gt;\n      \n      &lt;em&gt;Code&lt;/em&gt;: HIV.B.DE197\n      &lt;br/&gt;\n      &lt;em&gt;System&lt;/em&gt;: &lt;tt&gt;http://smart.who.int/hiv/CodeSystem/HIVConcepts&lt;/tt&gt;\n    &lt;/td&gt;\n  &lt;/tr&gt;\n\n  &lt;tr&gt;\n    &lt;th scope=\&quot;row\&quot; class=\&quot;row-header\&quot;&gt;Direct Reference Code&lt;/th&gt;\n    &lt;td class=\&quot;content-container\&quot;&gt;\n      \n        &lt;em&gt;Display&lt;/em&gt;: HIV prevention intervention\n        &lt;br/&gt;\n      \n      &lt;em&gt;Code&lt;/em&gt;: HIV.PRV.DE2\n      &lt;br/&gt;\n      &lt;em&gt;System&lt;/em&gt;: &lt;tt&gt;http://smart.who.int/hiv/CodeSystem/HIVConcepts&lt;/tt&gt;\n    &lt;/td&gt;\n  &lt;/tr&gt;\n\n  &lt;tr&gt;\n    &lt;th scope=\&quot;row\&quot; class=\&quot;row-header\&quot;&gt;Direct Reference Code&lt;/th&gt;\n    &lt;td class=\&quot;content-container\&quot;&gt;\n      \n        &lt;em&gt;Display&lt;/em&gt;: Other\n        &lt;br/&gt;\n      \n      &lt;em&gt;Code&lt;/em&gt;: HIV.PRV.DE8\n      &lt;br/&gt;\n      &lt;em&gt;System&lt;/em&gt;: &lt;tt&gt;http://smart.who.int/hiv/CodeSystem/HIVConcepts&lt;/tt&gt;\n    &lt;/td&gt;\n  &lt;/tr&gt;\n\n  &lt;tr&gt;\n    &lt;th scope=\&quot;row\&quot; class=\&quot;row-header\&quot;&gt;Direct Reference Code&lt;/th&gt;\n    &lt;td class=\&quot;content-container\&quot;&gt;\n      \n        &lt;em&gt;Display&lt;/em&gt;: OAMT\n        &lt;br/&gt;\n      \n      &lt;em&gt;Code&lt;/em&gt;: HIV.PRV.DE4\n      &lt;br/&gt;\n      &lt;em&gt;System&lt;/em&gt;: &lt;tt&gt;http://smart.who.int/hiv/CodeSystem/HIVConcepts&lt;/tt&gt;\n    &lt;/td&gt;\n  &lt;/tr&gt;\n\n  \n  &lt;tr&gt;\n  \n&lt;th scope=\&quot;row\&quot; class=\&quot;row-header\&quot;&gt;Parameter&lt;/th&gt;\n\n  &lt;td class=\&quot;content-container\&quot;&gt;\n    &lt;em&gt;Name&lt;/em&gt;: Measurement Period\n    &lt;br/&gt;\n    &lt;em&gt;Use&lt;/em&gt;: In\n    &lt;br/&gt;\n    &lt;em&gt;Min Cardinality&lt;/em&gt;: 0\n    &lt;br/&gt;\n    &lt;em&gt;Max Cardinality&lt;/em&gt;: 1\n    &lt;br/&gt;\n    &lt;em&gt;Type&lt;/em&gt;: Period\n  &lt;/td&gt;\n&lt;/tr&gt;\n  \n  &lt;tr&gt;\n  \n&lt;th scope=\&quot;row\&quot; class=\&quot;row-header\&quot;&gt;Parameter&lt;/th&gt;\n\n  &lt;td class=\&quot;content-container\&quot;&gt;\n    &lt;em&gt;Name&lt;/em&gt;: Numerator\n    &lt;br/&gt;\n    &lt;em&gt;Use&lt;/em&gt;: Out\n    &lt;br/&gt;\n    &lt;em&gt;Min Cardinality&lt;/em&gt;: 0\n    &lt;br/&gt;\n    &lt;em&gt;Max Cardinality&lt;/em&gt;: 1\n    &lt;br/&gt;\n    &lt;em&gt;Type&lt;/em&gt;: boolean\n  &lt;/td&gt;\n&lt;/tr&gt;\n  \n  &lt;tr&gt;\n  \n&lt;th scope=\&quot;row\&quot; class=\&quot;row-header\&quot;&gt;Parameter&lt;/th&gt;\n\n  &lt;td class=\&quot;content-container\&quot;&gt;\n    &lt;em&gt;Name&lt;/em&gt;: Denominator\n    &lt;br/&gt;\n    &lt;em&gt;Use&lt;/em&gt;: Out\n    &lt;br/&gt;\n    &lt;em&gt;Min Cardinality&lt;/em&gt;: 0\n    &lt;br/&gt;\n    &lt;em&gt;Max Cardinality&lt;/em&gt;: 1\n    &lt;br/&gt;\n    &lt;em&gt;Type&lt;/em&gt;: boolean\n  &lt;/td&gt;\n&lt;/tr&gt;\n  \n  &lt;tr&gt;\n  \n&lt;th scope=\&quot;row\&quot; class=\&quot;row-header\&quot;&gt;Parameter&lt;/th&gt;\n\n  &lt;td class=\&quot;content-container\&quot;&gt;\n    &lt;em&gt;Name&lt;/em&gt;: Initial Population\n    &lt;br/&gt;\n    &lt;em&gt;Use&lt;/em&gt;: Out\n    &lt;br/&gt;\n    &lt;em&gt;Min Cardinality&lt;/em&gt;: 0\n    &lt;br/&gt;\n    &lt;em&gt;Max Cardinality&lt;/em&gt;: 1\n    &lt;br/&gt;\n    &lt;em&gt;Type&lt;/em&gt;: boolean\n  &lt;/td&gt;\n&lt;/tr&gt;\n  \n  \n  &lt;tr&gt;\n    &lt;th colspan=\&quot;2\&quot; scope=\&quot;row\&quot; class=\&quot;section-header\&quot;&gt;&lt;a name=\&quot;effective-data-requirements\&quot;&gt; &lt;/a&gt;Measure Logic Data Requirements&lt;/th&gt;\n  &lt;/tr&gt;\n  \n  \n&lt;tr&gt;\n  &lt;th scope=\&quot;row\&quot; class=\&quot;row-header\&quot;&gt;Data Requirement&lt;/th&gt;\n  &lt;td class=\&quot;content-container\&quot;&gt;\n    &lt;em&gt;Type&lt;/em&gt;: Condition\n    &lt;br/&gt;\n  \n    &lt;em&gt;Profile(s)&lt;/em&gt;: \n  \n    &lt;a href=\&quot;http://hl7.org/fhir/R4/condition.html\&quot;&gt;Condition&lt;/a&gt;\n    &lt;br/&gt;        \n  \n   \n   \n    &lt;em&gt;Must Support Elements&lt;/em&gt;: code, verificationStatus, verificationStatus.text\n    &lt;br/&gt;\n   \n   \n  &lt;/td&gt;\n&lt;/tr&gt;\n\n&lt;tr&gt;\n  &lt;th scope=\&quot;row\&quot; class=\&quot;row-header\&quot;&gt;Data Requirement&lt;/th&gt;\n  &lt;td class=\&quot;content-container\&quot;&gt;\n    &lt;em&gt;Type&lt;/em&gt;: Patient\n    &lt;br/&gt;\n  \n    &lt;em&gt;Profile(s)&lt;/em&gt;: \n  \n    &lt;a href=\&quot;http://hl7.org/fhir/R4/patient.html\&quot;&gt;Patient&lt;/a&gt;\n    &lt;br/&gt;        \n  \n   \n   \n   \n  &lt;/td&gt;\n&lt;/tr&gt;\n\n&lt;tr&gt;\n  &lt;th scope=\&quot;row\&quot; class=\&quot;row-header\&quot;&gt;Data Requirement&lt;/th&gt;\n  &lt;td class=\&quot;content-container\&quot;&gt;\n    &lt;em&gt;Type&lt;/em&gt;: MedicationStatement\n    &lt;br/&gt;\n  \n    &lt;em&gt;Profile(s)&lt;/em&gt;: \n  \n    &lt;a href=\&quot;http://hl7.org/fhir/R4/medicationstatement.html\&quot;&gt;MedicationStatement&lt;/a&gt;\n    &lt;br/&gt;        \n  \n   \n   \n    &lt;em&gt;Must Support Elements&lt;/em&gt;: reasonCode, effective\n    &lt;br/&gt;\n   \n   \n  &lt;/td&gt;\n&lt;/tr&gt;\n\n&lt;tr&gt;\n  &lt;th scope=\&quot;row\&quot; class=\&quot;row-header\&quot;&gt;Data Requirement&lt;/th&gt;\n  &lt;td class=\&quot;content-container\&quot;&gt;\n    &lt;em&gt;Type&lt;/em&gt;: Procedure\n    &lt;br/&gt;\n  \n    &lt;em&gt;Profile(s)&lt;/em&gt;: \n  \n    &lt;a href=\&quot;http://hl7.org/fhir/R4/procedure.html\&quot;&gt;Procedure&lt;/a&gt;\n    &lt;br/&gt;        \n  \n   \n   \n    &lt;em&gt;Must Support Elements&lt;/em&gt;: status, code, performed\n    &lt;br/&gt;\n   \n   \n  &lt;/td&gt;\n&lt;/tr&gt;\n\n&lt;tr&gt;\n  &lt;th scope=\&quot;row\&quot; class=\&quot;row-header\&quot;&gt;Data Requirement&lt;/th&gt;\n  &lt;td class=\&quot;content-container\&quot;&gt;\n    &lt;em&gt;Type&lt;/em&gt;: Observation\n    &lt;br/&gt;\n  \n    &lt;em&gt;Profile(s)&lt;/em&gt;: \n  \n    &lt;a href=\&quot;http://hl7.org/fhir/R4/observation.html\&quot;&gt;Observation&lt;/a&gt;\n    &lt;br/&gt;        \n  \n   \n   \n    &lt;em&gt;Must Support Elements&lt;/em&gt;: status, code, value, effective\n    &lt;br/&gt;\n   \n   \n  &lt;/td&gt;\n&lt;/tr&gt;\n\n&lt;tr&gt;\n  &lt;th scope=\&quot;row\&quot; class=\&quot;row-header\&quot;&gt;Data Requirement&lt;/th&gt;\n  &lt;td class=\&quot;content-container\&quot;&gt;\n    &lt;em&gt;Type&lt;/em&gt;: EpisodeOfCare\n    &lt;br/&gt;\n  \n    &lt;em&gt;Profile(s)&lt;/em&gt;: \n  \n    &lt;a href=\&quot;http://hl7.org/fhir/R4/episodeofcare.html\&quot;&gt;EpisodeOfCare&lt;/a&gt;\n    &lt;br/&gt;        \n  \n   \n   \n    &lt;em&gt;Must Support Elements&lt;/em&gt;: type, period\n    &lt;br/&gt;\n   \n   \n  &lt;/td&gt;\n&lt;/tr&gt;\n\n  \n  &lt;tr&gt;\n\n&lt;th colspan=\&quot;2\&quot; scope=\&quot;row\&quot; class=\&quot;row-header\&quot;&gt;Measure Logic Definitions&lt;/th&gt;\n\n&lt;/tr&gt;\n  \n          \n&lt;tr&gt;\n  &lt;th scope=\&quot;row\&quot; rowspan=\&quot;2\&quot; class=\&quot;row-header\&quot;&gt;\n    \n      \n      &lt;a name=\&quot;hivelements-syndrome/sti-diagnosed-b.de226-condition\&quot;&gt; &lt;/a&gt;\n    \n    Logic Definition\n  &lt;/th&gt;\n\n  &lt;td class=\&quot;content-container\&quot;&gt;&lt;em&gt;Library Name:&lt;/em&gt; HIVElements&lt;/td&gt;\n\n&lt;/tr&gt;\n&lt;tr&gt;\n\n  &lt;td&gt;\n    &lt;pre style=\&quot;border: none;\&quot; class=\&quot;content-container highlight language-cql\&quot;&gt;&lt;code class=\&quot;language-cql\&quot;&gt;define &amp;quot;Syndrome/STI diagnosed B.DE226 Condition&amp;quot;:\n  [Condition] C\n    where C.code in Concepts.&amp;quot;Syndrome/STI diagnosed - HIV.B.DE226 Choices&amp;quot;\n      and C.verificationStatus.text = 'confirmed'&lt;/code&gt;&lt;/pre&gt;\n  &lt;/td&gt;\n\n&lt;/tr&gt;\n        \n&lt;tr&gt;\n  &lt;th scope=\&quot;row\&quot; rowspan=\&quot;2\&quot; class=\&quot;row-header\&quot;&gt;\n    \n      \n      &lt;a name=\&quot;hivindicatorelements-syndrome/sti-diagnosed-b.de226-condition\&quot;&gt; &lt;/a&gt;\n    \n    Logic Definition\n  &lt;/th&gt;\n\n  &lt;td class=\&quot;content-container\&quot;&gt;&lt;em&gt;Library Name:&lt;/em&gt; HIVIndicatorElements&lt;/td&gt;\n\n&lt;/tr&gt;\n&lt;tr&gt;\n\n  &lt;td&gt;\n    &lt;pre style=\&quot;border: none;\&quot; class=\&quot;content-container highlight language-cql\&quot;&gt;&lt;code class=\&quot;language-cql\&quot;&gt;define &amp;quot;Syndrome/STI diagnosed B.DE226 Condition&amp;quot;:\n  Elements.&amp;quot;Syndrome/STI diagnosed B.DE226 Condition&amp;quot; C\n    where C.prevalenceInterval() overlaps &amp;quot;Measurement Period&amp;quot;&lt;/code&gt;&lt;/pre&gt;\n  &lt;/td&gt;\n\n&lt;/tr&gt;\n        \n&lt;tr&gt;\n  &lt;th scope=\&quot;row\&quot; rowspan=\&quot;2\&quot; class=\&quot;row-header\&quot;&gt;\n    \n      \n      &lt;a name=\&quot;hivelements-prep-service-date\&quot;&gt; &lt;/a&gt;\n    \n    Logic Definition\n  &lt;/th&gt;\n\n  &lt;td class=\&quot;content-container\&quot;&gt;&lt;em&gt;Library Name:&lt;/em&gt; HIVElements&lt;/td&gt;\n\n&lt;/tr&gt;\n&lt;tr&gt;\n\n  &lt;td&gt;\n    &lt;pre style=\&quot;border: none;\&quot; class=\&quot;content-container highlight language-cql\&quot;&gt;&lt;code class=\&quot;language-cql\&quot;&gt;define &amp;quot;PrEP service date&amp;quot;:\n  [MedicationStatement] MS\n    where exists(MS.reasonCode C where C ~ Concepts.&amp;quot;PrEP for HIV prevention&amp;quot;)\n    return start of MS.effective.toInterval()&lt;/code&gt;&lt;/pre&gt;\n  &lt;/td&gt;\n\n&lt;/tr&gt;\n        \n&lt;tr&gt;\n  &lt;th scope=\&quot;row\&quot; rowspan=\&quot;2\&quot; class=\&quot;row-header\&quot;&gt;\n    \n      \n      &lt;a name=\&quot;hivelements-sti-services-date\&quot;&gt; &lt;/a&gt;\n    \n    Logic Definition\n  &lt;/th&gt;\n\n  &lt;td class=\&quot;content-container\&quot;&gt;&lt;em&gt;Library Name:&lt;/em&gt; HIVElements&lt;/td&gt;\n\n&lt;/tr&gt;\n&lt;tr&gt;\n\n  &lt;td&gt;\n    &lt;pre style=\&quot;border: none;\&quot; class=\&quot;content-container highlight language-cql\&quot;&gt;&lt;code class=\&quot;language-cql\&quot;&gt;define &amp;quot;STI services date&amp;quot;:\n  [Procedure] P\n  where P.status = 'completed'\n  and P.code ~ Concepts.&amp;quot;STI testing and treatment services&amp;quot;\n  return start of P.performed.toInterval()&lt;/code&gt;&lt;/pre&gt;\n  &lt;/td&gt;\n\n&lt;/tr&gt;\n        \n&lt;tr&gt;\n  &lt;th scope=\&quot;row\&quot; rowspan=\&quot;2\&quot; class=\&quot;row-header\&quot;&gt;\n    \n      \n      &lt;a name=\&quot;hivelements-vmmc\&quot;&gt; &lt;/a&gt;\n    \n    Logic Definition\n  &lt;/th&gt;\n\n  &lt;td class=\&quot;content-container\&quot;&gt;&lt;em&gt;Library Name:&lt;/em&gt; HIVElements&lt;/td&gt;\n\n&lt;/tr&gt;\n&lt;tr&gt;\n\n  &lt;td&gt;\n    &lt;pre style=\&quot;border: none;\&quot; class=\&quot;content-container highlight language-cql\&quot;&gt;&lt;code class=\&quot;language-cql\&quot;&gt;/* End of STI services */\n\n/*\n@dataElement: HIV.PRV.DE7 - VMMC\n@activity: HIV.B6 Capture or update client history\n@description: Client accessed voluntary medical male circumcision (VMMC) services\n*/\n// define &amp;quot;VMMC_done&amp;quot;:\n// [Procedure] P\n//   where P.status = 'completed'\n//   and P.code ~ Concepts.&amp;quot;Voluntary medical male circumcision VMMC&amp;quot;\n\n\ndefine &amp;quot;VMMC&amp;quot;:\n  [Procedure] P\n  where P.status = 'completed'\n  and P.code ~ Concepts.&amp;quot;VMMC procedure&amp;quot;&lt;/code&gt;&lt;/pre&gt;\n  &lt;/td&gt;\n\n&lt;/tr&gt;\n        \n&lt;tr&gt;\n  &lt;th scope=\&quot;row\&quot; rowspan=\&quot;2\&quot; class=\&quot;row-header\&quot;&gt;\n    \n      \n      &lt;a name=\&quot;hivelements-vmmc-date\&quot;&gt; &lt;/a&gt;\n    \n    Logic Definition\n  &lt;/th&gt;\n\n  &lt;td class=\&quot;content-container\&quot;&gt;&lt;em&gt;Library Name:&lt;/em&gt; HIVElements&lt;/td&gt;\n\n&lt;/tr&gt;\n&lt;tr&gt;\n\n  &lt;td&gt;\n    &lt;pre style=\&quot;border: none;\&quot; class=\&quot;content-container highlight language-cql\&quot;&gt;&lt;code class=\&quot;language-cql\&quot;&gt;define &amp;quot;VMMC date&amp;quot;:\n  &amp;quot;VMMC&amp;quot; P\n  return start of P.performed.toInterval()&lt;/code&gt;&lt;/pre&gt;\n  &lt;/td&gt;\n\n&lt;/tr&gt;\n        \n&lt;tr&gt;\n  &lt;th scope=\&quot;row\&quot; rowspan=\&quot;2\&quot; class=\&quot;row-header\&quot;&gt;\n    \n      \n      &lt;a name=\&quot;hivelements-other-prv.de8-date\&quot;&gt; &lt;/a&gt;\n    \n    Logic Definition\n  &lt;/th&gt;\n\n  &lt;td class=\&quot;content-container\&quot;&gt;&lt;em&gt;Library Name:&lt;/em&gt; HIVElements&lt;/td&gt;\n\n&lt;/tr&gt;\n&lt;tr&gt;\n\n  &lt;td&gt;\n    &lt;pre style=\&quot;border: none;\&quot; class=\&quot;content-container highlight language-cql\&quot;&gt;&lt;code class=\&quot;language-cql\&quot;&gt;define &amp;quot;Other PRV.DE8 date&amp;quot;:\n  [Observation] O\n    where O.status in {'final', 'amended'}\n    and O.code ~ Concepts.&amp;quot;HIV prevention intervention&amp;quot;\n    and O.value ~ Concepts.&amp;quot;Other - HIV.PRV.DE8&amp;quot;\n  return start of O.effective.toInterval()&lt;/code&gt;&lt;/pre&gt;\n  &lt;/td&gt;\n\n&lt;/tr&gt;\n        \n&lt;tr&gt;\n  &lt;th scope=\&quot;row\&quot; rowspan=\&quot;2\&quot; class=\&quot;row-header\&quot;&gt;\n    \n      \n      &lt;a name=\&quot;hivelements-oamt-status-date\&quot;&gt; &lt;/a&gt;\n    \n    Logic Definition\n  &lt;/th&gt;\n\n  &lt;td class=\&quot;content-container\&quot;&gt;&lt;em&gt;Library Name:&lt;/em&gt; HIVElements&lt;/td&gt;\n\n&lt;/tr&gt;\n&lt;tr&gt;\n\n  &lt;td&gt;\n    &lt;pre style=\&quot;border: none;\&quot; class=\&quot;content-container highlight language-cql\&quot;&gt;&lt;code class=\&quot;language-cql\&quot;&gt;define &amp;quot;OAMT status date&amp;quot;:\n  [EpisodeOfCare] EOC\n    where exists(EOC.type T where T ~ Concepts.&amp;quot;OAMT&amp;quot;)\n    return start of EOC.period&lt;/code&gt;&lt;/pre&gt;\n  &lt;/td&gt;\n\n&lt;/tr&gt;\n        \n&lt;tr&gt;\n  &lt;th scope=\&quot;row\&quot; rowspan=\&quot;2\&quot; class=\&quot;row-header\&quot;&gt;\n    \n      \n      &lt;a name=\&quot;hivelements-date-accessed-hiv-prevention-intervention\&quot;&gt; &lt;/a&gt;\n    \n    Logic Definition\n  &lt;/th&gt;\n\n  &lt;td class=\&quot;content-container\&quot;&gt;&lt;em&gt;Library Name:&lt;/em&gt; HIVElements&lt;/td&gt;\n\n&lt;/tr&gt;\n&lt;tr&gt;\n\n  &lt;td&gt;\n    &lt;pre style=\&quot;border: none;\&quot; class=\&quot;content-container highlight language-cql\&quot;&gt;&lt;code class=\&quot;language-cql\&quot;&gt;/* End of Other PRV.DE8 */\n\n/*\n@dataElement: HIV.PRV.DE10 - Date accessed HIV prevention intervention\n@activity: HIV.B6 Capture or update client history\n@description: Date the client accessed HIV prevention intervention\n*/\n// TODO: NSP date requires fix to DeviceUseStatement support\ndefine &amp;quot;Date accessed HIV prevention intervention&amp;quot;: \n  flatten{&amp;quot;PrEP service date&amp;quot;, /*&amp;quot;NSP date&amp;quot;,*/ &amp;quot;STI services date&amp;quot;, &amp;quot;VMMC date&amp;quot;, &amp;quot;Other PRV.DE8 date&amp;quot;,&amp;quot;OAMT status date&amp;quot;}&lt;/code&gt;&lt;/pre&gt;\n  &lt;/td&gt;\n\n&lt;/tr&gt;\n        \n&lt;tr&gt;\n  &lt;th scope=\&quot;row\&quot; rowspan=\&quot;2\&quot; class=\&quot;row-header\&quot;&gt;\n    \n      \n      &lt;a name=\&quot;hivind76logic-numerator\&quot;&gt; &lt;/a&gt;\n    \n    Logic Definition\n  &lt;/th&gt;\n\n  &lt;td class=\&quot;content-container\&quot;&gt;&lt;em&gt;Library Name:&lt;/em&gt; HIVIND76Logic&lt;/td&gt;\n\n&lt;/tr&gt;\n&lt;tr&gt;\n\n  &lt;td&gt;\n    &lt;pre style=\&quot;border: none;\&quot; class=\&quot;content-container highlight language-cql\&quot;&gt;&lt;code class=\&quot;language-cql\&quot;&gt;/**\n * Numerator\n * \n * Definition: Number of people attending HIV prevention services diagnosed with one or more of the STI syndromes during the reporting period\n * Calculation: COUNT of clients with &amp;quot;Any STI syndrome diagnosed&amp;quot;=True on a &amp;quot;Date accessed HIV prevention intervention&amp;quot; in reporting period\n */\n\ndefine &amp;quot;Numerator&amp;quot;:\n  exists(HIE.&amp;quot;Syndrome/STI diagnosed B.DE226 Condition&amp;quot; C)\n    and exists(HIE.&amp;quot;Syndrome/STI diagnosed B.DE226 Condition&amp;quot; C\n    where exists (HE.&amp;quot;Date accessed HIV prevention intervention&amp;quot; t where t = start of C.prevalenceInterval())\n  )&lt;/code&gt;&lt;/pre&gt;\n  &lt;/td&gt;\n\n&lt;/tr&gt;\n        \n&lt;tr&gt;\n  &lt;th scope=\&quot;row\&quot; rowspan=\&quot;2\&quot; class=\&quot;row-header\&quot;&gt;\n    \n      \n      &lt;a name=\&quot;hivindicatorelements-date-accessed-hiv-prevention-intervention\&quot;&gt; &lt;/a&gt;\n    \n    Logic Definition\n  &lt;/th&gt;\n\n  &lt;td class=\&quot;content-container\&quot;&gt;&lt;em&gt;Library Name:&lt;/em&gt; HIVIndicatorElements&lt;/td&gt;\n\n&lt;/tr&gt;\n&lt;tr&gt;\n\n  &lt;td&gt;\n    &lt;pre style=\&quot;border: none;\&quot; class=\&quot;content-container highlight language-cql\&quot;&gt;&lt;code class=\&quot;language-cql\&quot;&gt;/* End of Other PRV.DE8 */\n\n/*\n@dataElement: HIV.PRV.DE10 - Date accessed HIV prevention intervention\n@activity: HIV.B6 Capture or update client history\n@description: Date the client accessed HIV prevention intervention\n*/\n\ndefine &amp;quot;Date accessed HIV prevention intervention&amp;quot;:\n  Elements.&amp;quot;Date accessed HIV prevention intervention&amp;quot; t where t included in &amp;quot;Measurement Period&amp;quot;&lt;/code&gt;&lt;/pre&gt;\n  &lt;/td&gt;\n\n&lt;/tr&gt;\n        \n&lt;tr&gt;\n  &lt;th scope=\&quot;row\&quot; rowspan=\&quot;2\&quot; class=\&quot;row-header\&quot;&gt;\n    \n      \n      &lt;a name=\&quot;hivind76logic-denominator\&quot;&gt; &lt;/a&gt;\n    \n    Logic Definition\n  &lt;/th&gt;\n\n  &lt;td class=\&quot;content-container\&quot;&gt;&lt;em&gt;Library Name:&lt;/em&gt; HIVIND76Logic&lt;/td&gt;\n\n&lt;/tr&gt;\n&lt;tr&gt;\n\n  &lt;td&gt;\n    &lt;pre style=\&quot;border: none;\&quot; class=\&quot;content-container highlight language-cql\&quot;&gt;&lt;code class=\&quot;language-cql\&quot;&gt;/**\n * Denominator\n *\n * Definition: Number of people attending HIV prevention services during the reporting period\n * Calculation: COUNT of clients with &amp;quot;Date accessed HIV prevention intervention&amp;quot; in the reporting period\n */\n\ndefine &amp;quot;Denominator&amp;quot;:\n  exists(HIE.&amp;quot;Date accessed HIV prevention intervention&amp;quot;)&lt;/code&gt;&lt;/pre&gt;\n  &lt;/td&gt;\n\n&lt;/tr&gt;\n        \n&lt;tr&gt;\n  &lt;th scope=\&quot;row\&quot; rowspan=\&quot;2\&quot; class=\&quot;row-header\&quot;&gt;\n    \n      \n      &lt;a name=\&quot;hivind76logic-initial-population\&quot;&gt; &lt;/a&gt;\n    \n    Logic Definition\n  &lt;/th&gt;\n\n  &lt;td class=\&quot;content-container\&quot;&gt;&lt;em&gt;Library Name:&lt;/em&gt; HIVIND76Logic&lt;/td&gt;\n\n&lt;/tr&gt;\n&lt;tr&gt;\n\n  &lt;td&gt;\n    &lt;pre style=\&quot;border: none;\&quot; class=\&quot;content-container highlight language-cql\&quot;&gt;&lt;code class=\&quot;language-cql\&quot;&gt;/* Populations */\n\n/*\n *Initial Population\n */\n\ndefine &amp;quot;Initial Population&amp;quot;:\n  true&lt;/code&gt;&lt;/pre&gt;\n  &lt;/td&gt;\n\n&lt;/tr&gt;\n        \n&lt;tr&gt;\n  &lt;th scope=\&quot;row\&quot; rowspan=\&quot;2\&quot; class=\&quot;row-header\&quot;&gt;\n    \n      \n      &lt;a name=\&quot;fhirhelpers-toconcept\&quot;&gt; &lt;/a&gt;\n    \n    Logic Definition\n  &lt;/th&gt;\n\n  &lt;td class=\&quot;content-container\&quot;&gt;&lt;em&gt;Library Name:&lt;/em&gt; FHIRHelpers&lt;/td&gt;\n\n&lt;/tr&gt;\n&lt;tr&gt;\n\n  &lt;td&gt;\n    &lt;pre style=\&quot;border: none;\&quot; class=\&quot;content-container highlight language-cql\&quot;&gt;&lt;code class=\&quot;language-cql\&quot;&gt;define function ToConcept(concept FHIR.CodeableConcept):\n    if concept is null then\n        null\n    else\n        System.Concept {\n            codes: concept.coding C return ToCode(C),\n            display: concept.text.value\n        }&lt;/code&gt;&lt;/pre&gt;\n  &lt;/td&gt;\n\n&lt;/tr&gt;\n        \n&lt;tr&gt;\n  &lt;th scope=\&quot;row\&quot; rowspan=\&quot;2\&quot; class=\&quot;row-header\&quot;&gt;\n    \n      \n      &lt;a name=\&quot;fhirhelpers-tocode\&quot;&gt; &lt;/a&gt;\n    \n    Logic Definition\n  &lt;/th&gt;\n\n  &lt;td class=\&quot;content-container\&quot;&gt;&lt;em&gt;Library Name:&lt;/em&gt; FHIRHelpers&lt;/td&gt;\n\n&lt;/tr&gt;\n&lt;tr&gt;\n\n  &lt;td&gt;\n    &lt;pre style=\&quot;border: none;\&quot; class=\&quot;content-container highlight language-cql\&quot;&gt;&lt;code class=\&quot;language-cql\&quot;&gt;define function ToCode(coding FHIR.Coding):\n    if coding is null then\n        null\n    else\n        System.Code {\n          code: coding.code.value,\n          system: coding.system.value,\n          version: coding.version.value,\n          display: coding.display.value\n        }&lt;/code&gt;&lt;/pre&gt;\n  &lt;/td&gt;\n\n&lt;/tr&gt;\n        \n&lt;tr&gt;\n  &lt;th scope=\&quot;row\&quot; rowspan=\&quot;2\&quot; class=\&quot;row-header\&quot;&gt;\n    \n      \n      &lt;a name=\&quot;fhirhelpers-tostring\&quot;&gt; &lt;/a&gt;\n    \n    Logic Definition\n  &lt;/th&gt;\n\n  &lt;td class=\&quot;content-container\&quot;&gt;&lt;em&gt;Library Name:&lt;/em&gt; FHIRHelpers&lt;/td&gt;\n\n&lt;/tr&gt;\n&lt;tr&gt;\n\n  &lt;td&gt;\n    &lt;pre style=\&quot;border: none;\&quot; class=\&quot;content-container highlight language-cql\&quot;&gt;&lt;code class=\&quot;language-cql\&quot;&gt;define function ToString(value string): value.value&lt;/code&gt;&lt;/pre&gt;\n  &lt;/td&gt;\n\n&lt;/tr&gt;\n        \n&lt;tr&gt;\n  &lt;th scope=\&quot;row\&quot; rowspan=\&quot;2\&quot; class=\&quot;row-header\&quot;&gt;\n    \n      \n      &lt;a name=\&quot;whocommon-prevalenceinterval\&quot;&gt; &lt;/a&gt;\n    \n    Logic Definition\n  &lt;/th&gt;\n\n  &lt;td class=\&quot;content-container\&quot;&gt;&lt;em&gt;Library Name:&lt;/em&gt; WHOCommon&lt;/td&gt;\n\n&lt;/tr&gt;\n&lt;tr&gt;\n\n  &lt;td&gt;\n    &lt;pre style=\&quot;border: none;\&quot; class=\&quot;content-container highlight language-cql\&quot;&gt;&lt;code class=\&quot;language-cql\&quot;&gt;/*\n@description: Returns an interval representing the normalized prevalence period of a given Condition resource.\n@comment: Uses the toInterval and toAbatementInterval functions to determine the widest potential interval from\nonset to abatement as specified in the given Condition.\n*/\ndefine fluent function prevalenceInterval(condition Condition):\nif condition.clinicalStatus ~ &amp;quot;active&amp;quot;\n  or condition.clinicalStatus ~ &amp;quot;recurrence&amp;quot;\n  or condition.clinicalStatus ~ &amp;quot;relapse&amp;quot; then\n  Interval[start of condition.onset.toInterval(), end of condition.abatementInterval()]\nelse\n  (end of condition.abatementInterval()) abatementDate\n    return \n\t  if abatementDate is null then\n        Interval[start of condition.onset.toInterval(), abatementDate)\n      else\n        Interval[start of condition.onset.toInterval(), abatementDate]&lt;/code&gt;&lt;/pre&gt;\n  &lt;/td&gt;\n\n&lt;/tr&gt;\n        \n&lt;tr&gt;\n  &lt;th scope=\&quot;row\&quot; rowspan=\&quot;2\&quot; class=\&quot;row-header\&quot;&gt;\n    \n      \n      &lt;a name=\&quot;whocommon-abatementinterval\&quot;&gt; &lt;/a&gt;\n    \n    Logic Definition\n  &lt;/th&gt;\n\n  &lt;td class=\&quot;content-container\&quot;&gt;&lt;em&gt;Library Name:&lt;/em&gt; WHOCommon&lt;/td&gt;\n\n&lt;/tr&gt;\n&lt;tr&gt;\n\n  &lt;td&gt;\n    &lt;pre style=\&quot;border: none;\&quot; class=\&quot;content-container highlight language-cql\&quot;&gt;&lt;code class=\&quot;language-cql\&quot;&gt;/*\n@description: Returns an interval representing the normalized Abatement of a given Condition resource.\n@comment: NOTE: Due to the complexity of determining an interval from a String, this function will throw\na run-time exception if used with a Condition instance that has a String as the abatement value.\n*/\ndefine fluent function abatementInterval(condition Condition):\n  if condition.abatement is FHIR.dateTime then\n    Interval[FHIRHelpers.ToDateTime(condition.abatement as FHIR.dateTime), FHIRHelpers.ToDateTime(condition.abatement as FHIR.dateTime)]\n  else if condition.abatement is FHIR.Period then\n    FHIRHelpers.ToInterval(condition.abatement as FHIR.Period)\n  else if condition.abatement is FHIR.string then\n    Message(null as Interval&amp;lt;DateTime&amp;gt;, true, 'NOT_IMPLEMENTED', 'Error', 'Calculation of an interval from a String value is not supported')\n  else if condition.abatement is FHIR.Age then\n    Interval[FHIRHelpers.ToDate(Patient.birthDate) + FHIRHelpers.ToQuantity(condition.abatement as FHIR.Age),\n      FHIRHelpers.ToDate(Patient.birthDate) + FHIRHelpers.ToQuantity(condition.abatement as FHIR.Age) + 1 year)\n  else if condition.abatement is FHIR.Range then\n    Interval[FHIRHelpers.ToDate(Patient.birthDate) + FHIRHelpers.ToQuantity((condition.abatement as FHIR.Range).low),\n      FHIRHelpers.ToDate(Patient.birthDate) + FHIRHelpers.ToQuantity((condition.abatement as FHIR.Range).high) + 1 year)\n  else if condition.abatement is FHIR.boolean then\n    Interval[end of condition.onset.toInterval(), condition.recordedDate)\n  else \n    null&lt;/code&gt;&lt;/pre&gt;\n  &lt;/td&gt;\n\n&lt;/tr&gt;\n        \n&lt;tr&gt;\n  &lt;th scope=\&quot;row\&quot; rowspan=\&quot;2\&quot; class=\&quot;row-header\&quot;&gt;\n    \n      \n      &lt;a name=\&quot;fhirhelpers-todatetime\&quot;&gt; &lt;/a&gt;\n    \n    Logic Definition\n  &lt;/th&gt;\n\n  &lt;td class=\&quot;content-container\&quot;&gt;&lt;em&gt;Library Name:&lt;/em&gt; FHIRHelpers&lt;/td&gt;\n\n&lt;/tr&gt;\n&lt;tr&gt;\n\n  &lt;td&gt;\n    &lt;pre style=\&quot;border: none;\&quot; class=\&quot;content-container highlight language-cql\&quot;&gt;&lt;code class=\&quot;language-cql\&quot;&gt;define function ToDateTime(value dateTime): value.value&lt;/code&gt;&lt;/pre&gt;\n  &lt;/td&gt;\n\n&lt;/tr&gt;\n        \n&lt;tr&gt;\n  &lt;th scope=\&quot;row\&quot; rowspan=\&quot;2\&quot; class=\&quot;row-header\&quot;&gt;\n    \n      \n      &lt;a name=\&quot;fhirhelpers-tointerval\&quot;&gt; &lt;/a&gt;\n    \n    Logic Definition\n  &lt;/th&gt;\n\n  &lt;td class=\&quot;content-container\&quot;&gt;&lt;em&gt;Library Name:&lt;/em&gt; FHIRHelpers&lt;/td&gt;\n\n&lt;/tr&gt;\n&lt;tr&gt;\n\n  &lt;td&gt;\n    &lt;pre style=\&quot;border: none;\&quot; class=\&quot;content-container highlight language-cql\&quot;&gt;&lt;code class=\&quot;language-cql\&quot;&gt;define function ToInterval(period FHIR.Period):\n    if period is null then\n        null\n    else\n        if period.&amp;quot;start&amp;quot; is null then\n            Interval(period.&amp;quot;start&amp;quot;.value, period.&amp;quot;end&amp;quot;.value]\n        else\n            Interval[period.&amp;quot;start&amp;quot;.value, period.&amp;quot;end&amp;quot;.value]&lt;/code&gt;&lt;/pre&gt;\n  &lt;/td&gt;\n\n&lt;/tr&gt;\n        \n&lt;tr&gt;\n  &lt;th scope=\&quot;row\&quot; rowspan=\&quot;2\&quot; class=\&quot;row-header\&quot;&gt;\n    \n      \n      &lt;a name=\&quot;fhirhelpers-todate\&quot;&gt; &lt;/a&gt;\n    \n    Logic Definition\n  &lt;/th&gt;\n\n  &lt;td class=\&quot;content-container\&quot;&gt;&lt;em&gt;Library Name:&lt;/em&gt; FHIRHelpers&lt;/td&gt;\n\n&lt;/tr&gt;\n&lt;tr&gt;\n\n  &lt;td&gt;\n    &lt;pre style=\&quot;border: none;\&quot; class=\&quot;content-container highlight language-cql\&quot;&gt;&lt;code class=\&quot;language-cql\&quot;&gt;define function ToDate(value date): value.value&lt;/code&gt;&lt;/pre&gt;\n  &lt;/td&gt;\n\n&lt;/tr&gt;\n        \n&lt;tr&gt;\n  &lt;th scope=\&quot;row\&quot; rowspan=\&quot;2\&quot; class=\&quot;row-header\&quot;&gt;\n    \n      \n      &lt;a name=\&quot;fhirhelpers-toquantity\&quot;&gt; &lt;/a&gt;\n    \n    Logic Definition\n  &lt;/th&gt;\n\n  &lt;td class=\&quot;content-container\&quot;&gt;&lt;em&gt;Library Name:&lt;/em&gt; FHIRHelpers&lt;/td&gt;\n\n&lt;/tr&gt;\n&lt;tr&gt;\n\n  &lt;td&gt;\n    &lt;pre style=\&quot;border: none;\&quot; class=\&quot;content-container highlight language-cql\&quot;&gt;&lt;code class=\&quot;language-cql\&quot;&gt;define function ToQuantity(quantity FHIR.Quantity):\n    case\n        when quantity is null then null\n        when quantity.value is null then null\n        when quantity.comparator is not null then\n            Message(null, true, 'FHIRHelpers.ToQuantity.ComparatorQuantityNotSupported', 'Error', 'FHIR Quantity value has a comparator and cannot be converted to a System.Quantity value.')\n        when quantity.system is null or quantity.system.value = 'http://unitsofmeasure.org'\n              or quantity.system.value = 'http://hl7.org/fhirpath/CodeSystem/calendar-units' then\n            System.Quantity { value: quantity.value.value, unit: ToCalendarUnit(Coalesce(quantity.code.value, quantity.unit.value, '1')) }\n        else\n            Message(null, true, 'FHIRHelpers.ToQuantity.InvalidFHIRQuantity', 'Error', 'Invalid FHIR Quantity code: ' &amp;amp; quantity.unit.value &amp;amp; ' (' &amp;amp; quantity.system.value &amp;amp; '|' &amp;amp; quantity.code.value &amp;amp; ')')\n    end&lt;/code&gt;&lt;/pre&gt;\n  &lt;/td&gt;\n\n&lt;/tr&gt;\n        \n&lt;tr&gt;\n  &lt;th scope=\&quot;row\&quot; rowspan=\&quot;2\&quot; class=\&quot;row-header\&quot;&gt;\n    \n      \n      &lt;a name=\&quot;fhirhelpers-tocalendarunit\&quot;&gt; &lt;/a&gt;\n    \n    Logic Definition\n  &lt;/th&gt;\n\n  &lt;td class=\&quot;content-container\&quot;&gt;&lt;em&gt;Library Name:&lt;/em&gt; FHIRHelpers&lt;/td&gt;\n\n&lt;/tr&gt;\n&lt;tr&gt;\n\n  &lt;td&gt;\n    &lt;pre style=\&quot;border: none;\&quot; class=\&quot;content-container highlight language-cql\&quot;&gt;&lt;code class=\&quot;language-cql\&quot;&gt;define function ToCalendarUnit(unit System.String):\n    case unit\n        when 'ms' then 'millisecond'\n        when 's' then 'second'\n        when 'min' then 'minute'\n        when 'h' then 'hour'\n        when 'd' then 'day'\n        when 'wk' then 'week'\n        when 'mo' then 'month'\n        when 'a' then 'year'\n        else unit\n    end&lt;/code&gt;&lt;/pre&gt;\n  &lt;/td&gt;\n\n&lt;/tr&gt;\n        \n&lt;tr&gt;\n  &lt;th scope=\&quot;row\&quot; rowspan=\&quot;2\&quot; class=\&quot;row-header\&quot;&gt;\n    \n      \n      &lt;a name=\&quot;fhirhelpers-tostring\&quot;&gt; &lt;/a&gt;\n    \n    Logic Definition\n  &lt;/th&gt;\n\n  &lt;td class=\&quot;content-container\&quot;&gt;&lt;em&gt;Library Name:&lt;/em&gt; FHIRHelpers&lt;/td&gt;\n\n&lt;/tr&gt;\n&lt;tr&gt;\n\n  &lt;td&gt;\n    &lt;pre style=\&quot;border: none;\&quot; class=\&quot;content-container highlight language-cql\&quot;&gt;&lt;code class=\&quot;language-cql\&quot;&gt;define function ToString(value ProcedureStatus): value.value&lt;/code&gt;&lt;/pre&gt;\n  &lt;/td&gt;\n\n&lt;/tr&gt;\n        \n&lt;tr&gt;\n  &lt;th scope=\&quot;row\&quot; rowspan=\&quot;2\&quot; class=\&quot;row-header\&quot;&gt;\n    \n      \n      &lt;a name=\&quot;fhirhelpers-tostring\&quot;&gt; &lt;/a&gt;\n    \n    Logic Definition\n  &lt;/th&gt;\n\n  &lt;td class=\&quot;content-container\&quot;&gt;&lt;em&gt;Library Name:&lt;/em&gt; FHIRHelpers&lt;/td&gt;\n\n&lt;/tr&gt;\n&lt;tr&gt;\n\n  &lt;td&gt;\n    &lt;pre style=\&quot;border: none;\&quot; class=\&quot;content-container highlight language-cql\&quot;&gt;&lt;code class=\&quot;language-cql\&quot;&gt;define function ToString(value ObservationStatus): value.value&lt;/code&gt;&lt;/pre&gt;\n  &lt;/td&gt;\n\n&lt;/tr&gt;\n\n  \n\n&lt;tr&gt;\n  &lt;th colspan=\&quot;2\&quot; scope=\&quot;row\&quot; class=\&quot;row-header\&quot;&gt;Generated using version 0.4.6 of the sample-content-ig Liquid templates&lt;/th&gt;\n&lt;/tr&gt;\n    &lt;/tbody&gt;\n  &lt;/table&gt;\n&lt;/div&gt;"
+  },
+  "<a href="http://hl7.org/fhir/R4/library.html#Library">contained</a>" : [
+    {
+      "<a href="http://hl7.org/fhir/R4/library.html">resourceType</a>" : "Library",
+      "<a href="http://hl7.org/fhir/R4/resource.html#Library.id">id</a>" : "effective-data-requirements",
+      "<a href="http://hl7.org/fhir/R4/domainresource.html#Library.extension">extension</a>" : [
+        {
+          "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">url</a>" : "http://hl7.org/fhir/StructureDefinition/cqf-directReferenceCode",
+          "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueCoding</a>" : {
+            "<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.system">system</a>" : "http://terminology.hl7.org/CodeSystem/condition-clinical",
+            "<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">code</a>" : "active"
+          }
+        },
+        {
+          "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">url</a>" : "http://hl7.org/fhir/StructureDefinition/cqf-directReferenceCode",
+          "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueCoding</a>" : {
+            "<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.system">system</a>" : "http://terminology.hl7.org/CodeSystem/condition-clinical",
+            "<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">code</a>" : "recurrence"
+          }
+        },
+        {
+          "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">url</a>" : "http://hl7.org/fhir/StructureDefinition/cqf-directReferenceCode",
+          "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueCoding</a>" : {
+            "<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.system">system</a>" : "http://terminology.hl7.org/CodeSystem/condition-clinical",
+            "<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">code</a>" : "relapse"
+          }
+        },
+        {
+          "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">url</a>" : "http://hl7.org/fhir/StructureDefinition/cqf-directReferenceCode",
+          "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueCoding</a>" : {
+            "<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.system">system</a>" : "http://smart.who.int/hiv/CodeSystem/HIVConcepts",
+            "<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">code</a>" : "HIV.C.DE76",
+            "<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.display">display</a>" : "PrEP for HIV prevention"
+          }
+        },
+        {
+          "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">url</a>" : "http://hl7.org/fhir/StructureDefinition/cqf-directReferenceCode",
+          "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueCoding</a>" : {
+            "<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.system">system</a>" : "http://smart.who.int/hiv/CodeSystem/HIVConcepts",
+            "<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">code</a>" : "HIV.B.DE164",
+            "<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.display">display</a>" : "STI testing and treatment services"
+          }
+        },
+        {
+          "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">url</a>" : "http://hl7.org/fhir/StructureDefinition/cqf-directReferenceCode",
+          "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueCoding</a>" : {
+            "<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.system">system</a>" : "http://smart.who.int/hiv/CodeSystem/HIVConcepts",
+            "<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">code</a>" : "HIV.B.DE197",
+            "<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.display">display</a>" : "VMMC procedure performed"
+          }
+        },
+        {
+          "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">url</a>" : "http://hl7.org/fhir/StructureDefinition/cqf-directReferenceCode",
+          "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueCoding</a>" : {
+            "<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.system">system</a>" : "http://smart.who.int/hiv/CodeSystem/HIVConcepts",
+            "<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">code</a>" : "HIV.PRV.DE2",
+            "<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.display">display</a>" : "HIV prevention intervention"
+          }
+        },
+        {
+          "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">url</a>" : "http://hl7.org/fhir/StructureDefinition/cqf-directReferenceCode",
+          "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueCoding</a>" : {
+            "<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.system">system</a>" : "http://smart.who.int/hiv/CodeSystem/HIVConcepts",
+            "<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">code</a>" : "HIV.PRV.DE8",
+            "<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.display">display</a>" : "Other"
+          }
+        },
+        {
+          "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">url</a>" : "http://hl7.org/fhir/StructureDefinition/cqf-directReferenceCode",
+          "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueCoding</a>" : {
+            "<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.system">system</a>" : "http://smart.who.int/hiv/CodeSystem/HIVConcepts",
+            "<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">code</a>" : "HIV.PRV.DE4",
+            "<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.display">display</a>" : "OAMT"
+          }
+        },
+        {
+          "<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a>" : [
+            {
+              "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">url</a>" : "libraryName",
+              "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueString</a>" : "HIVElements"
+            },
+            {
+              "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">url</a>" : "name",
+              "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueString</a>" : "Syndrome/STI diagnosed B.DE226 Condition"
+            },
+            {
+              "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">url</a>" : "statement",
+              "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueString</a>" : "define \&quot;Syndrome/STI diagnosed B.DE226 Condition\&quot;:\n  [Condition] C\n    where C.code in Concepts.\&quot;Syndrome/STI diagnosed - HIV.B.DE226 Choices\&quot;\n      and C.verificationStatus.text = 'confirmed'"
+            },
+            {
+              "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">url</a>" : "displaySequence",
+              "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueInteger</a>" : 0
+            }
+          ],
+          "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">url</a>" : "http://hl7.org/fhir/StructureDefinition/cqf-logicDefinition"
+        },
+        {
+          "<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a>" : [
+            {
+              "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">url</a>" : "libraryName",
+              "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueString</a>" : "HIVIndicatorElements"
+            },
+            {
+              "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">url</a>" : "name",
+              "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueString</a>" : "Syndrome/STI diagnosed B.DE226 Condition"
+            },
+            {
+              "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">url</a>" : "statement",
+              "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueString</a>" : "define \&quot;Syndrome/STI diagnosed B.DE226 Condition\&quot;:\n  Elements.\&quot;Syndrome/STI diagnosed B.DE226 Condition\&quot; C\n    where C.prevalenceInterval() overlaps \&quot;Measurement Period\&quot;"
+            },
+            {
+              "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">url</a>" : "displaySequence",
+              "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueInteger</a>" : 1
+            }
+          ],
+          "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">url</a>" : "http://hl7.org/fhir/StructureDefinition/cqf-logicDefinition"
+        },
+        {
+          "<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a>" : [
+            {
+              "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">url</a>" : "libraryName",
+              "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueString</a>" : "HIVElements"
+            },
+            {
+              "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">url</a>" : "name",
+              "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueString</a>" : "PrEP service date"
+            },
+            {
+              "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">url</a>" : "statement",
+              "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueString</a>" : "define \&quot;PrEP service date\&quot;:\n  [MedicationStatement] MS\n    where exists(MS.reasonCode C where C ~ Concepts.\&quot;PrEP for HIV prevention\&quot;)\n    return start of MS.effective.toInterval()"
+            },
+            {
+              "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">url</a>" : "displaySequence",
+              "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueInteger</a>" : 2
+            }
+          ],
+          "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">url</a>" : "http://hl7.org/fhir/StructureDefinition/cqf-logicDefinition"
+        },
+        {
+          "<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a>" : [
+            {
+              "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">url</a>" : "libraryName",
+              "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueString</a>" : "HIVElements"
+            },
+            {
+              "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">url</a>" : "name",
+              "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueString</a>" : "STI services date"
+            },
+            {
+              "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">url</a>" : "statement",
+              "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueString</a>" : "define \&quot;STI services date\&quot;:\n  [Procedure] P\n  where P.status = 'completed'\n  and P.code ~ Concepts.\&quot;STI testing and treatment services\&quot;\n  return start of P.performed.toInterval()"
+            },
+            {
+              "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">url</a>" : "displaySequence",
+              "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueInteger</a>" : 3
+            }
+          ],
+          "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">url</a>" : "http://hl7.org/fhir/StructureDefinition/cqf-logicDefinition"
+        },
+        {
+          "<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a>" : [
+            {
+              "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">url</a>" : "libraryName",
+              "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueString</a>" : "HIVElements"
+            },
+            {
+              "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">url</a>" : "name",
+              "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueString</a>" : "VMMC"
+            },
+            {
+              "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">url</a>" : "statement",
+              "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueString</a>" : "/* End of STI services */\n\n/*\n@dataElement: HIV.PRV.DE7 - VMMC\n@activity: HIV.B6 Capture or update client history\n@description: Client accessed voluntary medical male circumcision (VMMC) services\n*/\n// define \&quot;VMMC_done\&quot;:\n// [Procedure] P\n//   where P.status = 'completed'\n//   and P.code ~ Concepts.\&quot;Voluntary medical male circumcision VMMC\&quot;\n\n\ndefine \&quot;VMMC\&quot;:\n  [Procedure] P\n  where P.status = 'completed'\n  and P.code ~ Concepts.\&quot;VMMC procedure\&quot;"
+            },
+            {
+              "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">url</a>" : "displaySequence",
+              "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueInteger</a>" : 4
+            }
+          ],
+          "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">url</a>" : "http://hl7.org/fhir/StructureDefinition/cqf-logicDefinition"
+        },
+        {
+          "<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a>" : [
+            {
+              "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">url</a>" : "libraryName",
+              "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueString</a>" : "HIVElements"
+            },
+            {
+              "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">url</a>" : "name",
+              "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueString</a>" : "VMMC date"
+            },
+            {
+              "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">url</a>" : "statement",
+              "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueString</a>" : "define \&quot;VMMC date\&quot;:\n  \&quot;VMMC\&quot; P\n  return start of P.performed.toInterval()"
+            },
+            {
+              "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">url</a>" : "displaySequence",
+              "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueInteger</a>" : 5
+            }
+          ],
+          "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">url</a>" : "http://hl7.org/fhir/StructureDefinition/cqf-logicDefinition"
+        },
+        {
+          "<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a>" : [
+            {
+              "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">url</a>" : "libraryName",
+              "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueString</a>" : "HIVElements"
+            },
+            {
+              "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">url</a>" : "name",
+              "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueString</a>" : "Other PRV.DE8 date"
+            },
+            {
+              "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">url</a>" : "statement",
+              "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueString</a>" : "define \&quot;Other PRV.DE8 date\&quot;:\n  [Observation] O\n    where O.status in {'final', 'amended'}\n    and O.code ~ Concepts.\&quot;HIV prevention intervention\&quot;\n    and O.value ~ Concepts.\&quot;Other - HIV.PRV.DE8\&quot;\n  return start of O.effective.toInterval()"
+            },
+            {
+              "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">url</a>" : "displaySequence",
+              "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueInteger</a>" : 6
+            }
+          ],
+          "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">url</a>" : "http://hl7.org/fhir/StructureDefinition/cqf-logicDefinition"
+        },
+        {
+          "<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a>" : [
+            {
+              "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">url</a>" : "libraryName",
+              "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueString</a>" : "HIVElements"
+            },
+            {
+              "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">url</a>" : "name",
+              "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueString</a>" : "OAMT status date"
+            },
+            {
+              "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">url</a>" : "statement",
+              "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueString</a>" : "define \&quot;OAMT status date\&quot;:\n  [EpisodeOfCare] EOC\n    where exists(EOC.type T where T ~ Concepts.\&quot;OAMT\&quot;)\n    return start of EOC.period"
+            },
+            {
+              "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">url</a>" : "displaySequence",
+              "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueInteger</a>" : 7
+            }
+          ],
+          "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">url</a>" : "http://hl7.org/fhir/StructureDefinition/cqf-logicDefinition"
+        },
+        {
+          "<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a>" : [
+            {
+              "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">url</a>" : "libraryName",
+              "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueString</a>" : "HIVElements"
+            },
+            {
+              "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">url</a>" : "name",
+              "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueString</a>" : "Date accessed HIV prevention intervention"
+            },
+            {
+              "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">url</a>" : "statement",
+              "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueString</a>" : "/* End of Other PRV.DE8 */\n\n/*\n@dataElement: HIV.PRV.DE10 - Date accessed HIV prevention intervention\n@activity: HIV.B6 Capture or update client history\n@description: Date the client accessed HIV prevention intervention\n*/\n// TODO: NSP date requires fix to DeviceUseStatement support\ndefine \&quot;Date accessed HIV prevention intervention\&quot;: \n  flatten{\&quot;PrEP service date\&quot;, /*\&quot;NSP date\&quot;,*/ \&quot;STI services date\&quot;, \&quot;VMMC date\&quot;, \&quot;Other PRV.DE8 date\&quot;,\&quot;OAMT status date\&quot;}"
+            },
+            {
+              "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">url</a>" : "displaySequence",
+              "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueInteger</a>" : 8
+            }
+          ],
+          "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">url</a>" : "http://hl7.org/fhir/StructureDefinition/cqf-logicDefinition"
+        },
+        {
+          "<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a>" : [
+            {
+              "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">url</a>" : "libraryName",
+              "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueString</a>" : "HIVIND76Logic"
+            },
+            {
+              "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">url</a>" : "name",
+              "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueString</a>" : "Numerator"
+            },
+            {
+              "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">url</a>" : "statement",
+              "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueString</a>" : "/**\n * Numerator\n * \n * Definition: Number of people attending HIV prevention services diagnosed with one or more of the STI syndromes during the reporting period\n * Calculation: COUNT of clients with \&quot;Any STI syndrome diagnosed\&quot;=True on a \&quot;Date accessed HIV prevention intervention\&quot; in reporting period\n */\n\ndefine \&quot;Numerator\&quot;:\n  exists(HIE.\&quot;Syndrome/STI diagnosed B.DE226 Condition\&quot; C)\n    and exists(HIE.\&quot;Syndrome/STI diagnosed B.DE226 Condition\&quot; C\n    where exists (HE.\&quot;Date accessed HIV prevention intervention\&quot; t where t = start of C.prevalenceInterval())\n  )"
+            },
+            {
+              "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">url</a>" : "displaySequence",
+              "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueInteger</a>" : 9
+            }
+          ],
+          "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">url</a>" : "http://hl7.org/fhir/StructureDefinition/cqf-logicDefinition"
+        },
+        {
+          "<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a>" : [
+            {
+              "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">url</a>" : "libraryName",
+              "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueString</a>" : "HIVIndicatorElements"
+            },
+            {
+              "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">url</a>" : "name",
+              "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueString</a>" : "Date accessed HIV prevention intervention"
+            },
+            {
+              "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">url</a>" : "statement",
+              "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueString</a>" : "/* End of Other PRV.DE8 */\n\n/*\n@dataElement: HIV.PRV.DE10 - Date accessed HIV prevention intervention\n@activity: HIV.B6 Capture or update client history\n@description: Date the client accessed HIV prevention intervention\n*/\n\ndefine \&quot;Date accessed HIV prevention intervention\&quot;:\n  Elements.\&quot;Date accessed HIV prevention intervention\&quot; t where t included in \&quot;Measurement Period\&quot;"
+            },
+            {
+              "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">url</a>" : "displaySequence",
+              "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueInteger</a>" : 10
+            }
+          ],
+          "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">url</a>" : "http://hl7.org/fhir/StructureDefinition/cqf-logicDefinition"
+        },
+        {
+          "<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a>" : [
+            {
+              "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">url</a>" : "libraryName",
+              "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueString</a>" : "HIVIND76Logic"
+            },
+            {
+              "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">url</a>" : "name",
+              "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueString</a>" : "Denominator"
+            },
+            {
+              "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">url</a>" : "statement",
+              "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueString</a>" : "/**\n * Denominator\n *\n * Definition: Number of people attending HIV prevention services during the reporting period\n * Calculation: COUNT of clients with \&quot;Date accessed HIV prevention intervention\&quot; in the reporting period\n */\n\ndefine \&quot;Denominator\&quot;:\n  exists(HIE.\&quot;Date accessed HIV prevention intervention\&quot;)"
+            },
+            {
+              "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">url</a>" : "displaySequence",
+              "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueInteger</a>" : 11
+            }
+          ],
+          "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">url</a>" : "http://hl7.org/fhir/StructureDefinition/cqf-logicDefinition"
+        },
+        {
+          "<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a>" : [
+            {
+              "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">url</a>" : "libraryName",
+              "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueString</a>" : "HIVIND76Logic"
+            },
+            {
+              "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">url</a>" : "name",
+              "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueString</a>" : "Initial Population"
+            },
+            {
+              "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">url</a>" : "statement",
+              "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueString</a>" : "/* Populations */\n\n/*\n *Initial Population\n */\n\ndefine \&quot;Initial Population\&quot;:\n  true"
+            },
+            {
+              "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">url</a>" : "displaySequence",
+              "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueInteger</a>" : 12
+            }
+          ],
+          "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">url</a>" : "http://hl7.org/fhir/StructureDefinition/cqf-logicDefinition"
+        },
+        {
+          "<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a>" : [
+            {
+              "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">url</a>" : "libraryName",
+              "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueString</a>" : "FHIRHelpers"
+            },
+            {
+              "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">url</a>" : "name",
+              "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueString</a>" : "ToConcept"
+            },
+            {
+              "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">url</a>" : "statement",
+              "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueString</a>" : "define function ToConcept(concept FHIR.CodeableConcept):\n    if concept is null then\n        null\n    else\n        System.Concept {\n            codes: concept.coding C return ToCode(C),\n            display: concept.text.value\n        }"
+            },
+            {
+              "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">url</a>" : "displaySequence",
+              "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueInteger</a>" : 13
+            }
+          ],
+          "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">url</a>" : "http://hl7.org/fhir/StructureDefinition/cqf-logicDefinition"
+        },
+        {
+          "<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a>" : [
+            {
+              "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">url</a>" : "libraryName",
+              "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueString</a>" : "FHIRHelpers"
+            },
+            {
+              "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">url</a>" : "name",
+              "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueString</a>" : "ToCode"
+            },
+            {
+              "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">url</a>" : "statement",
+              "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueString</a>" : "define function ToCode(coding FHIR.Coding):\n    if coding is null then\n        null\n    else\n        System.Code {\n          code: coding.code.value,\n          system: coding.system.value,\n          version: coding.version.value,\n          display: coding.display.value\n        }"
+            },
+            {
+              "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">url</a>" : "displaySequence",
+              "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueInteger</a>" : 14
+            }
+          ],
+          "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">url</a>" : "http://hl7.org/fhir/StructureDefinition/cqf-logicDefinition"
+        },
+        {
+          "<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a>" : [
+            {
+              "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">url</a>" : "libraryName",
+              "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueString</a>" : "FHIRHelpers"
+            },
+            {
+              "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">url</a>" : "name",
+              "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueString</a>" : "ToString"
+            },
+            {
+              "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">url</a>" : "statement",
+              "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueString</a>" : "define function ToString(value string): value.value"
+            },
+            {
+              "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">url</a>" : "displaySequence",
+              "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueInteger</a>" : 15
+            }
+          ],
+          "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">url</a>" : "http://hl7.org/fhir/StructureDefinition/cqf-logicDefinition"
+        },
+        {
+          "<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a>" : [
+            {
+              "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">url</a>" : "libraryName",
+              "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueString</a>" : "WHOCommon"
+            },
+            {
+              "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">url</a>" : "name",
+              "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueString</a>" : "prevalenceInterval"
+            },
+            {
+              "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">url</a>" : "statement",
+              "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueString</a>" : "/*\n@description: Returns an interval representing the normalized prevalence period of a given Condition resource.\n@comment: Uses the toInterval and toAbatementInterval functions to determine the widest potential interval from\nonset to abatement as specified in the given Condition.\n*/\ndefine fluent function prevalenceInterval(condition Condition):\nif condition.clinicalStatus ~ \&quot;active\&quot;\n  or condition.clinicalStatus ~ \&quot;recurrence\&quot;\n  or condition.clinicalStatus ~ \&quot;relapse\&quot; then\n  Interval[start of condition.onset.toInterval(), end of condition.abatementInterval()]\nelse\n  (end of condition.abatementInterval()) abatementDate\n    return \n\t  if abatementDate is null then\n        Interval[start of condition.onset.toInterval(), abatementDate)\n      else\n        Interval[start of condition.onset.toInterval(), abatementDate]"
+            },
+            {
+              "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">url</a>" : "displaySequence",
+              "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueInteger</a>" : 16
+            }
+          ],
+          "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">url</a>" : "http://hl7.org/fhir/StructureDefinition/cqf-logicDefinition"
+        },
+        {
+          "<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a>" : [
+            {
+              "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">url</a>" : "libraryName",
+              "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueString</a>" : "WHOCommon"
+            },
+            {
+              "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">url</a>" : "name",
+              "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueString</a>" : "abatementInterval"
+            },
+            {
+              "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">url</a>" : "statement",
+              "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueString</a>" : "/*\n@description: Returns an interval representing the normalized Abatement of a given Condition resource.\n@comment: NOTE: Due to the complexity of determining an interval from a String, this function will throw\na run-time exception if used with a Condition instance that has a String as the abatement value.\n*/\ndefine fluent function abatementInterval(condition Condition):\n  if condition.abatement is FHIR.dateTime then\n    Interval[FHIRHelpers.ToDateTime(condition.abatement as FHIR.dateTime), FHIRHelpers.ToDateTime(condition.abatement as FHIR.dateTime)]\n  else if condition.abatement is FHIR.Period then\n    FHIRHelpers.ToInterval(condition.abatement as FHIR.Period)\n  else if condition.abatement is FHIR.string then\n    Message(null as Interval&lt;DateTime&gt;, true, 'NOT_IMPLEMENTED', 'Error', 'Calculation of an interval from a String value is not supported')\n  else if condition.abatement is FHIR.Age then\n    Interval[FHIRHelpers.ToDate(Patient.birthDate) + FHIRHelpers.ToQuantity(condition.abatement as FHIR.Age),\n      FHIRHelpers.ToDate(Patient.birthDate) + FHIRHelpers.ToQuantity(condition.abatement as FHIR.Age) + 1 year)\n  else if condition.abatement is FHIR.Range then\n    Interval[FHIRHelpers.ToDate(Patient.birthDate) + FHIRHelpers.ToQuantity((condition.abatement as FHIR.Range).low),\n      FHIRHelpers.ToDate(Patient.birthDate) + FHIRHelpers.ToQuantity((condition.abatement as FHIR.Range).high) + 1 year)\n  else if condition.abatement is FHIR.boolean then\n    Interval[end of condition.onset.toInterval(), condition.recordedDate)\n  else \n    null"
+            },
+            {
+              "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">url</a>" : "displaySequence",
+              "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueInteger</a>" : 17
+            }
+          ],
+          "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">url</a>" : "http://hl7.org/fhir/StructureDefinition/cqf-logicDefinition"
+        },
+        {
+          "<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a>" : [
+            {
+              "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">url</a>" : "libraryName",
+              "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueString</a>" : "FHIRHelpers"
+            },
+            {
+              "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">url</a>" : "name",
+              "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueString</a>" : "ToDateTime"
+            },
+            {
+              "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">url</a>" : "statement",
+              "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueString</a>" : "define function ToDateTime(value dateTime): value.value"
+            },
+            {
+              "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">url</a>" : "displaySequence",
+              "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueInteger</a>" : 18
+            }
+          ],
+          "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">url</a>" : "http://hl7.org/fhir/StructureDefinition/cqf-logicDefinition"
+        },
+        {
+          "<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a>" : [
+            {
+              "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">url</a>" : "libraryName",
+              "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueString</a>" : "FHIRHelpers"
+            },
+            {
+              "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">url</a>" : "name",
+              "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueString</a>" : "ToInterval"
+            },
+            {
+              "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">url</a>" : "statement",
+              "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueString</a>" : "define function ToInterval(period FHIR.Period):\n    if period is null then\n        null\n    else\n        if period.\&quot;start\&quot; is null then\n            Interval(period.\&quot;start\&quot;.value, period.\&quot;end\&quot;.value]\n        else\n            Interval[period.\&quot;start\&quot;.value, period.\&quot;end\&quot;.value]"
+            },
+            {
+              "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">url</a>" : "displaySequence",
+              "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueInteger</a>" : 19
+            }
+          ],
+          "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">url</a>" : "http://hl7.org/fhir/StructureDefinition/cqf-logicDefinition"
+        },
+        {
+          "<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a>" : [
+            {
+              "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">url</a>" : "libraryName",
+              "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueString</a>" : "FHIRHelpers"
+            },
+            {
+              "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">url</a>" : "name",
+              "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueString</a>" : "ToDate"
+            },
+            {
+              "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">url</a>" : "statement",
+              "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueString</a>" : "define function ToDate(value date): value.value"
+            },
+            {
+              "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">url</a>" : "displaySequence",
+              "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueInteger</a>" : 20
+            }
+          ],
+          "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">url</a>" : "http://hl7.org/fhir/StructureDefinition/cqf-logicDefinition"
+        },
+        {
+          "<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a>" : [
+            {
+              "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">url</a>" : "libraryName",
+              "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueString</a>" : "FHIRHelpers"
+            },
+            {
+              "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">url</a>" : "name",
+              "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueString</a>" : "ToQuantity"
+            },
+            {
+              "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">url</a>" : "statement",
+              "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueString</a>" : "define function ToQuantity(quantity FHIR.Quantity):\n    case\n        when quantity is null then null\n        when quantity.value is null then null\n        when quantity.comparator is not null then\n            Message(null, true, 'FHIRHelpers.ToQuantity.ComparatorQuantityNotSupported', 'Error', 'FHIR Quantity value has a comparator and cannot be converted to a System.Quantity value.')\n        when quantity.system is null or quantity.system.value = 'http://unitsofmeasure.org'\n              or quantity.system.value = 'http://hl7.org/fhirpath/CodeSystem/calendar-units' then\n            System.Quantity { value: quantity.value.value, unit: ToCalendarUnit(Coalesce(quantity.code.value, quantity.unit.value, '1')) }\n        else\n            Message(null, true, 'FHIRHelpers.ToQuantity.InvalidFHIRQuantity', 'Error', 'Invalid FHIR Quantity code: ' &amp; quantity.unit.value &amp; ' (' &amp; quantity.system.value &amp; '|' &amp; quantity.code.value &amp; ')')\n    end"
+            },
+            {
+              "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">url</a>" : "displaySequence",
+              "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueInteger</a>" : 21
+            }
+          ],
+          "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">url</a>" : "http://hl7.org/fhir/StructureDefinition/cqf-logicDefinition"
+        },
+        {
+          "<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a>" : [
+            {
+              "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">url</a>" : "libraryName",
+              "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueString</a>" : "FHIRHelpers"
+            },
+            {
+              "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">url</a>" : "name",
+              "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueString</a>" : "ToCalendarUnit"
+            },
+            {
+              "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">url</a>" : "statement",
+              "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueString</a>" : "define function ToCalendarUnit(unit System.String):\n    case unit\n        when 'ms' then 'millisecond'\n        when 's' then 'second'\n        when 'min' then 'minute'\n        when 'h' then 'hour'\n        when 'd' then 'day'\n        when 'wk' then 'week'\n        when 'mo' then 'month'\n        when 'a' then 'year'\n        else unit\n    end"
+            },
+            {
+              "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">url</a>" : "displaySequence",
+              "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueInteger</a>" : 22
+            }
+          ],
+          "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">url</a>" : "http://hl7.org/fhir/StructureDefinition/cqf-logicDefinition"
+        },
+        {
+          "<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a>" : [
+            {
+              "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">url</a>" : "libraryName",
+              "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueString</a>" : "FHIRHelpers"
+            },
+            {
+              "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">url</a>" : "name",
+              "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueString</a>" : "ToString"
+            },
+            {
+              "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">url</a>" : "statement",
+              "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueString</a>" : "define function ToString(value ProcedureStatus): value.value"
+            },
+            {
+              "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">url</a>" : "displaySequence",
+              "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueInteger</a>" : 23
+            }
+          ],
+          "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">url</a>" : "http://hl7.org/fhir/StructureDefinition/cqf-logicDefinition"
+        },
+        {
+          "<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a>" : [
+            {
+              "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">url</a>" : "libraryName",
+              "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueString</a>" : "FHIRHelpers"
+            },
+            {
+              "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">url</a>" : "name",
+              "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueString</a>" : "ToString"
+            },
+            {
+              "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">url</a>" : "statement",
+              "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueString</a>" : "define function ToString(value ObservationStatus): value.value"
+            },
+            {
+              "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">url</a>" : "displaySequence",
+              "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueInteger</a>" : 24
+            }
+          ],
+          "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">url</a>" : "http://hl7.org/fhir/StructureDefinition/cqf-logicDefinition"
+        }
+      ],
+      "<a href="http://hl7.org/fhir/R4/library.html#Library.name">name</a>" : "EffectiveDataRequirements",
+      "<a href="http://hl7.org/fhir/R4/library.html#Library.status">status</a>" : "active",
+      "<a href="http://hl7.org/fhir/R4/library.html#Library.type">type</a>" : {
+        "<a href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept#CodeableConcept.coding">coding</a>" : [
+          {
+            "<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.system">system</a>" : "http://terminology.hl7.org/CodeSystem/library-type",
+            "<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">code</a>" : "module-definition"
+          }
+        ]
+      },
+      "<a href="http://hl7.org/fhir/R4/library.html#Library.relatedArtifact">relatedArtifact</a>" : [
+        {
+          "<a href="http://hl7.org/fhir/R4/metadatatypes.html#RelatedArtifact#RelatedArtifact.type">type</a>" : "depends-on",
+          "<a href="http://hl7.org/fhir/R4/metadatatypes.html#RelatedArtifact#RelatedArtifact.display">display</a>" : "FHIR model information",
+          "<a href="http://hl7.org/fhir/R4/metadatatypes.html#RelatedArtifact#RelatedArtifact.resource">resource</a>" : "http://fhir.org/guides/cqf/common/Library/FHIR-ModelInfo|4.0.1"
+        },
+        {
+          "<a href="http://hl7.org/fhir/R4/metadatatypes.html#RelatedArtifact#RelatedArtifact.type">type</a>" : "depends-on",
+          "<a href="http://hl7.org/fhir/R4/metadatatypes.html#RelatedArtifact#RelatedArtifact.display">display</a>" : "Library HIE",
+          "<a href="http://hl7.org/fhir/R4/metadatatypes.html#RelatedArtifact#RelatedArtifact.resource">resource</a>" : "http://smart.who.int/hiv/Library/HIVIndicatorElements"
+        },
+        {
+          "<a href="http://hl7.org/fhir/R4/metadatatypes.html#RelatedArtifact#RelatedArtifact.type">type</a>" : "depends-on",
+          "<a href="http://hl7.org/fhir/R4/metadatatypes.html#RelatedArtifact#RelatedArtifact.display">display</a>" : "Library Elements",
+          "<a href="http://hl7.org/fhir/R4/metadatatypes.html#RelatedArtifact#RelatedArtifact.resource">resource</a>" : "http://smart.who.int/hiv/Library/HIVElements"
+        },
+        {
+          "<a href="http://hl7.org/fhir/R4/metadatatypes.html#RelatedArtifact#RelatedArtifact.type">type</a>" : "depends-on",
+          "<a href="http://hl7.org/fhir/R4/metadatatypes.html#RelatedArtifact#RelatedArtifact.display">display</a>" : "Library FHIRHelpers",
+          "<a href="http://hl7.org/fhir/R4/metadatatypes.html#RelatedArtifact#RelatedArtifact.resource">resource</a>" : "http://fhir.org/guides/cqf/common/Library/FHIRHelpers|4.0.1"
+        },
+        {
+          "<a href="http://hl7.org/fhir/R4/metadatatypes.html#RelatedArtifact#RelatedArtifact.type">type</a>" : "depends-on",
+          "<a href="http://hl7.org/fhir/R4/metadatatypes.html#RelatedArtifact#RelatedArtifact.display">display</a>" : "Library Concepts",
+          "<a href="http://hl7.org/fhir/R4/metadatatypes.html#RelatedArtifact#RelatedArtifact.resource">resource</a>" : "http://smart.who.int/hiv/Library/HIVConcepts|0.0.2"
+        },
+        {
+          "<a href="http://hl7.org/fhir/R4/metadatatypes.html#RelatedArtifact#RelatedArtifact.type">type</a>" : "depends-on",
+          "<a href="http://hl7.org/fhir/R4/metadatatypes.html#RelatedArtifact#RelatedArtifact.display">display</a>" : "Library WC",
+          "<a href="http://hl7.org/fhir/R4/metadatatypes.html#RelatedArtifact#RelatedArtifact.resource">resource</a>" : "http://smart.who.int/hiv/Library/WHOCommon"
+        },
+        {
+          "<a href="http://hl7.org/fhir/R4/metadatatypes.html#RelatedArtifact#RelatedArtifact.type">type</a>" : "depends-on",
+          "<a href="http://hl7.org/fhir/R4/metadatatypes.html#RelatedArtifact#RelatedArtifact.display">display</a>" : "Code system ConditionClinicalStatusCodes",
+          "<a href="http://hl7.org/fhir/R4/metadatatypes.html#RelatedArtifact#RelatedArtifact.resource">resource</a>" : "http://terminology.hl7.org/CodeSystem/condition-clinical"
+        },
+        {
+          "<a href="http://hl7.org/fhir/R4/metadatatypes.html#RelatedArtifact#RelatedArtifact.type">type</a>" : "depends-on",
+          "<a href="http://hl7.org/fhir/R4/metadatatypes.html#RelatedArtifact#RelatedArtifact.display">display</a>" : "Code system HIVConcepts",
+          "<a href="http://hl7.org/fhir/R4/metadatatypes.html#RelatedArtifact#RelatedArtifact.resource">resource</a>" : "http://smart.who.int/hiv/CodeSystem/HIVConcepts"
+        },
+        {
+          "<a href="http://hl7.org/fhir/R4/metadatatypes.html#RelatedArtifact#RelatedArtifact.type">type</a>" : "depends-on",
+          "<a href="http://hl7.org/fhir/R4/metadatatypes.html#RelatedArtifact#RelatedArtifact.display">display</a>" : "Value set Syndrome/STI diagnosed - HIV.B.DE226 Choices",
+          "<a href="http://hl7.org/fhir/R4/metadatatypes.html#RelatedArtifact#RelatedArtifact.resource">resource</a>" : "http://smart.who.int/hiv/ValueSet/HIV.B.DE226"
+        }
+      ],
+      "<a href="http://hl7.org/fhir/R4/library.html#Library.parameter">parameter</a>" : [
+        {
+          "<a href="http://hl7.org/fhir/R4/metadatatypes.html#ParameterDefinition#ParameterDefinition.name">name</a>" : "Measurement Period",
+          "<a href="http://hl7.org/fhir/R4/metadatatypes.html#ParameterDefinition#ParameterDefinition.use">use</a>" : "in",
+          "<a href="http://hl7.org/fhir/R4/metadatatypes.html#ParameterDefinition#ParameterDefinition.min">min</a>" : 0,
+          "<a href="http://hl7.org/fhir/R4/metadatatypes.html#ParameterDefinition#ParameterDefinition.max">max</a>" : "1",
+          "<a href="http://hl7.org/fhir/R4/metadatatypes.html#ParameterDefinition#ParameterDefinition.type">type</a>" : "Period"
+        },
+        {
+          "<a href="http://hl7.org/fhir/R4/metadatatypes.html#ParameterDefinition#ParameterDefinition.name">name</a>" : "Numerator",
+          "<a href="http://hl7.org/fhir/R4/metadatatypes.html#ParameterDefinition#ParameterDefinition.use">use</a>" : "out",
+          "<a href="http://hl7.org/fhir/R4/metadatatypes.html#ParameterDefinition#ParameterDefinition.min">min</a>" : 0,
+          "<a href="http://hl7.org/fhir/R4/metadatatypes.html#ParameterDefinition#ParameterDefinition.max">max</a>" : "1",
+          "<a href="http://hl7.org/fhir/R4/metadatatypes.html#ParameterDefinition#ParameterDefinition.type">type</a>" : "boolean"
+        },
+        {
+          "<a href="http://hl7.org/fhir/R4/metadatatypes.html#ParameterDefinition#ParameterDefinition.name">name</a>" : "Denominator",
+          "<a href="http://hl7.org/fhir/R4/metadatatypes.html#ParameterDefinition#ParameterDefinition.use">use</a>" : "out",
+          "<a href="http://hl7.org/fhir/R4/metadatatypes.html#ParameterDefinition#ParameterDefinition.min">min</a>" : 0,
+          "<a href="http://hl7.org/fhir/R4/metadatatypes.html#ParameterDefinition#ParameterDefinition.max">max</a>" : "1",
+          "<a href="http://hl7.org/fhir/R4/metadatatypes.html#ParameterDefinition#ParameterDefinition.type">type</a>" : "boolean"
+        },
+        {
+          "<a href="http://hl7.org/fhir/R4/metadatatypes.html#ParameterDefinition#ParameterDefinition.name">name</a>" : "Initial Population",
+          "<a href="http://hl7.org/fhir/R4/metadatatypes.html#ParameterDefinition#ParameterDefinition.use">use</a>" : "out",
+          "<a href="http://hl7.org/fhir/R4/metadatatypes.html#ParameterDefinition#ParameterDefinition.min">min</a>" : 0,
+          "<a href="http://hl7.org/fhir/R4/metadatatypes.html#ParameterDefinition#ParameterDefinition.max">max</a>" : "1",
+          "<a href="http://hl7.org/fhir/R4/metadatatypes.html#ParameterDefinition#ParameterDefinition.type">type</a>" : "boolean"
+        }
+      ],
+      "<a href="http://hl7.org/fhir/R4/library.html#Library.dataRequirement">dataRequirement</a>" : [
+        {
+          "<a href="http://hl7.org/fhir/R4/metadatatypes.html#DataRequirement#DataRequirement.type">type</a>" : "Condition",
+          "<a href="http://hl7.org/fhir/R4/metadatatypes.html#DataRequirement#DataRequirement.profile">profile</a>" : [
+            <a href="http://hl7.org/fhir/R4/condition.html" style="color: Maroon">&#x1F517;</a> "http://hl7.org/fhir/StructureDefinition/Condition"
+          ],
+          "<a href="http://hl7.org/fhir/R4/metadatatypes.html#DataRequirement#DataRequirement.mustSupport">mustSupport</a>" : [
+            "code",
+            "verificationStatus",
+            "verificationStatus.text"
+          ]
+        },
+        {
+          "<a href="http://hl7.org/fhir/R4/metadatatypes.html#DataRequirement#DataRequirement.type">type</a>" : "Patient",
+          "<a href="http://hl7.org/fhir/R4/metadatatypes.html#DataRequirement#DataRequirement.profile">profile</a>" : [
+            <a href="http://hl7.org/fhir/R4/patient.html" style="color: Maroon">&#x1F517;</a> "http://hl7.org/fhir/StructureDefinition/Patient"
+          ]
+        },
+        {
+          "<a href="http://hl7.org/fhir/R4/metadatatypes.html#DataRequirement#DataRequirement.type">type</a>" : "MedicationStatement",
+          "<a href="http://hl7.org/fhir/R4/metadatatypes.html#DataRequirement#DataRequirement.profile">profile</a>" : [
+            <a href="http://hl7.org/fhir/R4/medicationstatement.html" style="color: Maroon">&#x1F517;</a> "http://hl7.org/fhir/StructureDefinition/MedicationStatement"
+          ],
+          "<a href="http://hl7.org/fhir/R4/metadatatypes.html#DataRequirement#DataRequirement.mustSupport">mustSupport</a>" : [
+            "reasonCode",
+            "effective"
+          ]
+        },
+        {
+          "<a href="http://hl7.org/fhir/R4/metadatatypes.html#DataRequirement#DataRequirement.type">type</a>" : "Procedure",
+          "<a href="http://hl7.org/fhir/R4/metadatatypes.html#DataRequirement#DataRequirement.profile">profile</a>" : [
+            <a href="http://hl7.org/fhir/R4/procedure.html" style="color: Maroon">&#x1F517;</a> "http://hl7.org/fhir/StructureDefinition/Procedure"
+          ],
+          "<a href="http://hl7.org/fhir/R4/metadatatypes.html#DataRequirement#DataRequirement.mustSupport">mustSupport</a>" : [
+            "status",
+            "code",
+            "performed"
+          ]
+        },
+        {
+          "<a href="http://hl7.org/fhir/R4/metadatatypes.html#DataRequirement#DataRequirement.type">type</a>" : "Observation",
+          "<a href="http://hl7.org/fhir/R4/metadatatypes.html#DataRequirement#DataRequirement.profile">profile</a>" : [
+            <a href="http://hl7.org/fhir/R4/observation.html" style="color: Maroon">&#x1F517;</a> "http://hl7.org/fhir/StructureDefinition/Observation"
+          ],
+          "<a href="http://hl7.org/fhir/R4/metadatatypes.html#DataRequirement#DataRequirement.mustSupport">mustSupport</a>" : [
+            "status",
+            "code",
+            "value",
+            "effective"
+          ]
+        },
+        {
+          "<a href="http://hl7.org/fhir/R4/metadatatypes.html#DataRequirement#DataRequirement.type">type</a>" : "EpisodeOfCare",
+          "<a href="http://hl7.org/fhir/R4/metadatatypes.html#DataRequirement#DataRequirement.profile">profile</a>" : [
+            <a href="http://hl7.org/fhir/R4/episodeofcare.html" style="color: Maroon">&#x1F517;</a> "http://hl7.org/fhir/StructureDefinition/EpisodeOfCare"
+          ],
+          "<a href="http://hl7.org/fhir/R4/metadatatypes.html#DataRequirement#DataRequirement.mustSupport">mustSupport</a>" : [
+            "type",
+            "period"
+          ]
+        }
+      ]
+    }
+  ],
+  "<a href="http://hl7.org/fhir/R4/domainresource.html#Measure.extension">extension</a>" : [
+    {
+      "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">url</a>" : "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/cqfm-populationBasis",
+      "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueCode</a>" : "boolean"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">url</a>" : "http://hl7.org/fhir/uv/crmi/StructureDefinition/crmi-effectiveDataRequirements",
+      "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueCanonical</a>" : "#effective-data-requirements"
+    }
+  ],
+  "<a href="http://hl7.org/fhir/R4/measure.html#Measure.url">url</a>" : "http://smart.who.int/hiv/Measure/HIVIND76",
+  "<a href="http://hl7.org/fhir/R4/measure.html#Measure.version">version</a>" : "0.4.4",
+  "<a href="http://hl7.org/fhir/R4/measure.html#Measure.name">name</a>" : "HIVIND76",
+  "<a href="http://hl7.org/fhir/R4/measure.html#Measure.title">title</a>" : "HIV.IND.76 Presence of STI syndrome, HIV prevention services",
+  "<a href="http://hl7.org/fhir/R4/measure.html#Measure.status">status</a>" : "draft",
+  "<a href="http://hl7.org/fhir/R4/measure.html#Measure.experimental">experimental</a>" : true,
+  "<a href="http://hl7.org/fhir/R4/measure.html#Measure.date">date</a>" : "2024-08-18",
+  "<a href="http://hl7.org/fhir/R4/measure.html#Measure.publisher">publisher</a>" : "WHO",
+  "<a href="http://hl7.org/fhir/R4/measure.html#Measure.contact">contact</a>" : [
+    {
+      "<a href="http://hl7.org/fhir/R4/metadatatypes.html#ContactDetail#ContactDetail.name">name</a>" : "WHO",
+      "<a href="http://hl7.org/fhir/R4/metadatatypes.html#ContactDetail#ContactDetail.telecom">telecom</a>" : [
+        {
+          "<a href="http://hl7.org/fhir/R4/datatypes.html#ContactPoint#ContactPoint.system">system</a>" : "url",
+          "<a href="http://hl7.org/fhir/R4/datatypes.html#ContactPoint#ContactPoint.value">value</a>" : "http://who.int"
+        }
+      ]
+    }
+  ],
+  "<a href="http://hl7.org/fhir/R4/measure.html#Measure.description">description</a>" : "% of people attending HIV prevention services diagnosed with a particular STI syndrome during the reporting period",
+  "<a href="http://hl7.org/fhir/R4/measure.html#Measure.library">library</a>" : [
+    <a href="Library-HIVIND76Logic.html" style="color: Maroon">&#x1F517;</a> "http://smart.who.int/hiv/Library/HIVIND76Logic"
+  ],
+  "<a href="http://hl7.org/fhir/R4/measure.html#Measure.scoring">scoring</a>" : {
+    "<a href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept#CodeableConcept.coding">coding</a>" : [
+      {
+        "<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.system">system</a>" : "http://terminology.hl7.org/CodeSystem/measure-scoring",
+        "<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">code</a>" : "proportion",
+        "<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.display">display</a>" : "Proportion"
+      }
+    ]
+  },
+  "<a href="http://hl7.org/fhir/R4/measure.html#Measure.improvementNotation">improvementNotation</a>" : {
+    "<a href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept#CodeableConcept.coding">coding</a>" : [
+      {
+        "<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.system">system</a>" : "http://terminology.hl7.org/CodeSystem/measure-improvement-notation",
+        "<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">code</a>" : "decrease"
+      }
+    ]
+  },
+  "<a href="http://hl7.org/fhir/R4/measure.html#Measure.group">group</a>" : [
+    {
+      "<a href="http://hl7.org/fhir/R4/measure.html#Measure.group.population">population</a>" : [
+        {
+          "<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Measure.group.population.id">id</a>" : "HIV.IND.76.IP",
+          "<a href="http://hl7.org/fhir/R4/measure.html#Measure.group.population.code">code</a>" : {
+            "<a href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept#CodeableConcept.coding">coding</a>" : [
+              {
+                "<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.system">system</a>" : "http://terminology.hl7.org/CodeSystem/measure-population",
+                "<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">code</a>" : "initial-population",
+                "<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.display">display</a>" : "Initial Population"
+              }
+            ]
+          },
+          "<a href="http://hl7.org/fhir/R4/measure.html#Measure.group.population.description">description</a>" : "Initial Population",
+          "<a href="http://hl7.org/fhir/R4/measure.html#Measure.group.population.criteria">criteria</a>" : {
+            "<a href="http://hl7.org/fhir/R4/datatypes.html#Expression#Expression.language">language</a>" : "text/cql-identifier",
+            "<a href="http://hl7.org/fhir/R4/datatypes.html#Expression#Expression.expression">expression</a>" : "Initial Population"
+          }
+        },
+        {
+          "<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Measure.group.population.id">id</a>" : "HIV.IND.76.DEN",
+          "<a href="http://hl7.org/fhir/R4/measure.html#Measure.group.population.code">code</a>" : {
+            "<a href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept#CodeableConcept.coding">coding</a>" : [
+              {
+                "<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.system">system</a>" : "http://terminology.hl7.org/CodeSystem/measure-population",
+                "<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">code</a>" : "denominator",
+                "<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.display">display</a>" : "Denominator"
+              }
+            ]
+          },
+          "<a href="http://hl7.org/fhir/R4/measure.html#Measure.group.population.description">description</a>" : "Number of people attending HIV prevention services during the reporting period",
+          "<a href="http://hl7.org/fhir/R4/measure.html#Measure.group.population.criteria">criteria</a>" : {
+            "<a href="http://hl7.org/fhir/R4/datatypes.html#Expression#Expression.language">language</a>" : "text/cql-identifier",
+            "<a href="http://hl7.org/fhir/R4/datatypes.html#Expression#Expression.expression">expression</a>" : "Denominator"
+          }
+        },
+        {
+          "<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Measure.group.population.id">id</a>" : "HIV.IND.76.NUM",
+          "<a href="http://hl7.org/fhir/R4/measure.html#Measure.group.population.code">code</a>" : {
+            "<a href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept#CodeableConcept.coding">coding</a>" : [
+              {
+                "<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.system">system</a>" : "http://terminology.hl7.org/CodeSystem/measure-population",
+                "<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">code</a>" : "numerator",
+                "<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.display">display</a>" : "Numerator"
+              }
+            ]
+          },
+          "<a href="http://hl7.org/fhir/R4/measure.html#Measure.group.population.description">description</a>" : "Number of people attending HIV prevention services diagnosed with one or more of the STI syndromes during the reporting period",
+          "<a href="http://hl7.org/fhir/R4/measure.html#Measure.group.population.criteria">criteria</a>" : {
+            "<a href="http://hl7.org/fhir/R4/datatypes.html#Expression#Expression.language">language</a>" : "text/cql-identifier",
+            "<a href="http://hl7.org/fhir/R4/datatypes.html#Expression#Expression.expression">expression</a>" : "Numerator"
+          }
+        }
+      ]
+    }
+  ]
+}</code></pre>
+
+
+  <!-- insert notes if present -->
+  
+
+
+
+</div>
+</div>  <!-- /inner-wrapper -->
+</div>  <!-- /row -->
+</div>  <!-- /container -->
+</div>  <!-- /segment-content -->
+
+<script type="text/javascript" src="assets/js/jquery.js"> </script>     <!-- note keep space here, otherwise it will be transformed to empty tag -> fails -->
+<script type="text/javascript" src="assets/js/jquery-ui.min.js"> </script>
+
+<script type="text/javascript" src="assets/js/window-hash.js"> </script>
+<a name="bottom"> </a>
+<div id="segment-footer" igtool="footer" class="segment">  <!-- segment-footer -->
+<div class="container">  <!-- container -->
+
+<div class="inner-wrapper">
+  <p>
+    IG &#169; 2025+ <a style="color:var(--footer-hyperlink-text-color)" href="http://who.int">WHO</a>.  Package smart.who.int.hiv#0.4.4 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Tue, Mar 3, 2026 20:39+0000">2026-03-03</span>
+    <br/>
+    <span style="color: var(--footer-highlight-text-color)">
+                Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |
+                 <a style="color: var(--footer-hyperlink-text-color)" href="qa.html">QA Report</a>
+                 
+                
+| <a style="color: #81BEF7" target="_blank" href="http://smart.who.int/hiv/history.html">Version History</a> | <a style="color: #81BEF7" rel="license" href="license.html">License</a>
+    </span>
+  </p>
+</div>  <!-- /inner-wrapper -->
+</div>  <!-- /container -->
+</div>  <!-- /segment-footer -->
+
+<div id="segment-post-footer" class="segment hidden">  <!-- segment-post-footer -->
+<div class="container">  <!-- container -->
+</div>  <!-- /container -->
+</div>  <!-- /segment-post-footer -->
+
+<!-- JS and analytics only. -->
+<!-- Bootstrap core JavaScript
+================================================== -->
+<!-- Placed at the end of the document so the pages load faster -->
+<script type="text/javascript" src="assets/js/bootstrap.min.js"> </script>
+<script type="text/javascript" src="assets/js/respond.min.js"> </script>
+<script type="text/javascript" src="assets/js/anchor.min.js"> </script>
+<script type="text/javascript" src="assets/js/clipboard.min.js"> </script>
+<script type="text/javascript" src="assets/js/clipboard-btn.js"> </script>
+<script type="text/javascript" src="assets/js/anchor-hover.js"> </script>
+<!-- Analytics Below
+================================================== -->
+
+
+<div id="feedback-config"
+ data-repo-owner=""
+ data-repo-name=""
+ data-repo-source="https://github.com/WorldHealthOrganization/smart-hiv/issues/new?template=feedback.yml"
+ data-issue-label="feedback"
+ data-feedback-options="[{&quot;form&quot;:&quot;https://github.com/WorldHealthOrganization/smart-hiv/issues/new?template=feedback.yml&quot;,&quot;type&quot;:&quot;GitHub&quot;,&quot;sectionid&quot;:&quot;section&quot;,&quot;pageid&quot;:&quot;page&quot;},{&quot;form&quot;:&quot;https://forms.office.com/e/WKxJWQMEcx&quot;,&quot;type&quot;:&quot;Form&quot;,&quot;sectionid&quot;:&quot;r275a700d161d41d182d84c2e58947298&quot;}]"
+ style="display:none;"></div>
+
+<script src="assets/js/feedback.js"></script>
+
+
+

@@ -1,0 +1,51 @@
+{
+  "openapi": "3.1.0",
+  "info": {
+    "title": "HIV self-test distributed for use by ValueSet Schema API",
+    "description": "JSON Schema for HIV self-test distributed for use by ValueSet ValueSet codes. Generated from FHIR expansions using IRI format.",
+    "version": "1.0.0"
+  },
+  "paths": {
+    "/ValueSet-HIV.C.DE143.schema.json": {
+      "get": {
+        "summary": "JSON Schema definition for the enumeration ValueSet-HIV.C.DE143",
+        "description": "This endpoint serves the JSON Schema definition for the enumeration ValueSet-HIV.C.DE143.",
+        "responses": {
+          "200": {
+            "description": "The JSON Schema for ValueSet-HIV.C.DE143",
+            "content": {
+              "application/schema+json": {
+                "schema": {
+                  "$ref": "./ValueSet-HIV.C.DE143.schema.json"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "ValueSet-HIV.C.DE143": {
+        "$schema": "https://json-schema.org/draft/2020-12/schema",
+        "$id": "http://smart.who.int/hiv/ValueSet-HIV.C.DE143.schema.json",
+        "title": "HIV self-test distributed for use by ValueSet Schema",
+        "description": "JSON Schema for HIV self-test distributed for use by ValueSet ValueSet codes. Generated from FHIR expansions using IRI format.",
+        "type": "string",
+        "enum": [
+          "http://smart.who.int/hiv/CodeSystem/HIVConcepts#HIV.C.DE144",
+          "http://smart.who.int/hiv/CodeSystem/HIVConcepts#HIV.C.DE145",
+          "http://smart.who.int/hiv/CodeSystem/HIVConcepts#HIV.C.DE146",
+          "http://smart.who.int/hiv/CodeSystem/HIVConcepts#HIV.C.DE147",
+          "http://smart.who.int/hiv/CodeSystem/HIVConcepts#HIV.C.DE148"
+        ],
+        "narrative": "This schema validates IRI-formatted codes for the HIV self-test distributed for use by ValueSet ValueSet. Each enum value includes the system URI in the format {systemuri}#{code} to match JSON-LD enumeration IRIs. Display values are available at http://smart.who.int/hiv/ValueSet-HIV.C.DE143.displays.json. For a complete listing of all ValueSets, see artifacts.html#terminology-value-sets.",
+        "fhir:displays": "http://smart.who.int/hiv/ValueSet-HIV.C.DE143.displays.json",
+        "fhir:valueSet": "http://smart.who.int/hiv/ValueSet/HIV.C.DE143",
+        "fhir:version": "0.4.4",
+        "fhir:expansionTimestamp": "2026-03-03T20:47:46+00:00"
+      }
+    }
+  }
+}

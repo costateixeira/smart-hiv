@@ -1,0 +1,52 @@
+{
+  "openapi": "3.1.0",
+  "info": {
+    "title": "Reason ART stopped ValueSet Schema API",
+    "description": "JSON Schema for Reason ART stopped ValueSet ValueSet codes. Generated from FHIR expansions using IRI format.",
+    "version": "1.0.0"
+  },
+  "paths": {
+    "/ValueSet-HIV.D.DE217.schema.json": {
+      "get": {
+        "summary": "JSON Schema definition for the enumeration ValueSet-HIV.D.DE217",
+        "description": "This endpoint serves the JSON Schema definition for the enumeration ValueSet-HIV.D.DE217.",
+        "responses": {
+          "200": {
+            "description": "The JSON Schema for ValueSet-HIV.D.DE217",
+            "content": {
+              "application/schema+json": {
+                "schema": {
+                  "$ref": "./ValueSet-HIV.D.DE217.schema.json"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "ValueSet-HIV.D.DE217": {
+        "$schema": "https://json-schema.org/draft/2020-12/schema",
+        "$id": "http://smart.who.int/hiv/ValueSet-HIV.D.DE217.schema.json",
+        "title": "Reason ART stopped ValueSet Schema",
+        "description": "JSON Schema for Reason ART stopped ValueSet ValueSet codes. Generated from FHIR expansions using IRI format.",
+        "type": "string",
+        "enum": [
+          "http://smart.who.int/hiv/CodeSystem/HIVConcepts#HIV.D.DE218",
+          "http://smart.who.int/hiv/CodeSystem/HIVConcepts#HIV.D.DE219",
+          "http://smart.who.int/hiv/CodeSystem/HIVConcepts#HIV.D.DE220",
+          "http://smart.who.int/hiv/CodeSystem/HIVConcepts#HIV.D.DE221",
+          "http://smart.who.int/hiv/CodeSystem/HIVConcepts#HIV.D.DE222",
+          "http://smart.who.int/hiv/CodeSystem/HIVConcepts#HIV.D.DE223"
+        ],
+        "narrative": "This schema validates IRI-formatted codes for the Reason ART stopped ValueSet ValueSet. Each enum value includes the system URI in the format {systemuri}#{code} to match JSON-LD enumeration IRIs. Display values are available at http://smart.who.int/hiv/ValueSet-HIV.D.DE217.displays.json. For a complete listing of all ValueSets, see artifacts.html#terminology-value-sets.",
+        "fhir:displays": "http://smart.who.int/hiv/ValueSet-HIV.D.DE217.displays.json",
+        "fhir:valueSet": "http://smart.who.int/hiv/ValueSet/HIV.D.DE217",
+        "fhir:version": "0.4.4",
+        "fhir:expansionTimestamp": "2026-03-03T20:47:47+00:00"
+      }
+    }
+  }
+}

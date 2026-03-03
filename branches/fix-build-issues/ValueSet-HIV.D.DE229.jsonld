@@ -1,0 +1,119 @@
+{
+  "@context": {
+    "@version": 1.1,
+    "name": "http://www.w3.org/2000/01/rdf-schema#label",
+    "fhir": "https://smart.who.int/base/DataTypes.jsonld#",
+    "id": "@id",
+    "generatedAt": {
+      "@id": "http://www.w3.org/ns/prov#generatedAtTime",
+      "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
+    }
+  },
+  "@id": "http://smart.who.int/hiv/ValueSet-HIV.D.DE229.jsonld",
+  "@type": "http://www.w3.org/ns/prov#Entity",
+  "generatedAt": "2026-03-03T20:52:45.708721Z",
+  "@graph": [
+    {
+      "id": "http://smart.who.int/hiv/ValueSet-HIV.D.DE229.jsonld#HIV.D.DE230",
+      "name": "Determine WHO clinical stage",
+      "fhir:code": "HIV.D.DE230",
+      "fhir:CodeSystem": "http://smart.who.int/hiv/CodeSystem-HIVConcepts"
+    },
+    {
+      "id": "http://smart.who.int/hiv/ValueSet-HIV.D.DE229.jsonld#HIV.D.DE231",
+      "name": "Determine if advanced disease",
+      "fhir:code": "HIV.D.DE231",
+      "fhir:CodeSystem": "http://smart.who.int/hiv/CodeSystem-HIVConcepts"
+    },
+    {
+      "id": "http://smart.who.int/hiv/ValueSet-HIV.D.DE229.jsonld#HIV.D.DE232",
+      "name": "Prepare for ART",
+      "fhir:code": "HIV.D.DE232",
+      "fhir:CodeSystem": "http://smart.who.int/hiv/CodeSystem-HIVConcepts"
+    },
+    {
+      "id": "http://smart.who.int/hiv/ValueSet-HIV.D.DE229.jsonld#HIV.D.DE233",
+      "name": "Prepare, assess and support adherence",
+      "fhir:code": "HIV.D.DE233",
+      "fhir:CodeSystem": "http://smart.who.int/hiv/CodeSystem-HIVConcepts"
+    },
+    {
+      "id": "http://smart.who.int/hiv/ValueSet-HIV.D.DE229.jsonld#HIV.D.DE234",
+      "name": "Manage current medications",
+      "fhir:code": "HIV.D.DE234",
+      "fhir:CodeSystem": "http://smart.who.int/hiv/CodeSystem-HIVConcepts"
+    },
+    {
+      "id": "http://smart.who.int/hiv/ValueSet-HIV.D.DE229.jsonld#HIV.D.DE235",
+      "name": "Check pregnancy status",
+      "fhir:code": "HIV.D.DE235",
+      "fhir:CodeSystem": "http://smart.who.int/hiv/CodeSystem-HIVConcepts"
+    },
+    {
+      "id": "http://smart.who.int/hiv/ValueSet-HIV.D.DE229.jsonld#HIV.D.DE236",
+      "name": "Provide family planning and contraception",
+      "fhir:code": "HIV.D.DE236",
+      "fhir:CodeSystem": "http://smart.who.int/hiv/CodeSystem-HIVConcepts"
+    },
+    {
+      "id": "http://smart.who.int/hiv/ValueSet-HIV.D.DE229.jsonld#HIV.D.DE237",
+      "name": "Support disclosure and partner notification",
+      "fhir:code": "HIV.D.DE237",
+      "fhir:CodeSystem": "http://smart.who.int/hiv/CodeSystem-HIVConcepts"
+    },
+    {
+      "id": "http://smart.who.int/hiv/ValueSet-HIV.D.DE229.jsonld#HIV.D.DE238",
+      "name": "Counsel on risk reduction and prevention",
+      "fhir:code": "HIV.D.DE238",
+      "fhir:CodeSystem": "http://smart.who.int/hiv/CodeSystem-HIVConcepts"
+    },
+    {
+      "id": "http://smart.who.int/hiv/ValueSet-HIV.D.DE229.jsonld#HIV.D.DE239",
+      "name": "Assess, prevent and manage noncommunicable diseases",
+      "fhir:code": "HIV.D.DE239",
+      "fhir:CodeSystem": "http://smart.who.int/hiv/CodeSystem-HIVConcepts"
+    },
+    {
+      "id": "http://smart.who.int/hiv/ValueSet-HIV.D.DE229.jsonld#HIV.D.DE240",
+      "name": "Screen for and manage mental health problems",
+      "fhir:code": "HIV.D.DE240",
+      "fhir:CodeSystem": "http://smart.who.int/hiv/CodeSystem-HIVConcepts"
+    },
+    {
+      "id": "http://smart.who.int/hiv/ValueSet-HIV.D.DE229.jsonld#HIV.D.DE241",
+      "name": "Screen for and manage and substance use issues",
+      "fhir:code": "HIV.D.DE241",
+      "fhir:CodeSystem": "http://smart.who.int/hiv/CodeSystem-HIVConcepts"
+    },
+    {
+      "id": "http://smart.who.int/hiv/ValueSet-HIV.D.DE229.jsonld#HIV.D.DE242",
+      "name": "Provide psychosocial counselling and support",
+      "fhir:code": "HIV.D.DE242",
+      "fhir:CodeSystem": "http://smart.who.int/hiv/CodeSystem-HIVConcepts"
+    },
+    {
+      "id": "http://smart.who.int/hiv/ValueSet-HIV.D.DE229.jsonld#HIV.D.DE243",
+      "name": "Manage pain and symptoms",
+      "fhir:code": "HIV.D.DE243",
+      "fhir:CodeSystem": "http://smart.who.int/hiv/CodeSystem-HIVConcepts"
+    },
+    {
+      "id": "http://smart.who.int/hiv/ValueSet-HIV.D.DE229.jsonld#HIV.D.DE244",
+      "name": "Conduct a nutritional assessment and counsel on nutrition",
+      "fhir:code": "HIV.D.DE244",
+      "fhir:CodeSystem": "http://smart.who.int/hiv/CodeSystem-HIVConcepts"
+    },
+    {
+      "id": "http://smart.who.int/hiv/ValueSet-HIV.D.DE229.jsonld#HIV.D.DE245",
+      "name": "Conduct a growth and development assessment",
+      "fhir:code": "HIV.D.DE245",
+      "fhir:CodeSystem": "http://smart.who.int/hiv/CodeSystem-HIVConcepts"
+    },
+    {
+      "id": "http://smart.who.int/hiv/ValueSet-HIV.D.DE229.jsonld#HIV.D.DE246",
+      "name": "Provide support on infant and child feeding",
+      "fhir:code": "HIV.D.DE246",
+      "fhir:CodeSystem": "http://smart.who.int/hiv/CodeSystem-HIVConcepts"
+    }
+  ]
+}

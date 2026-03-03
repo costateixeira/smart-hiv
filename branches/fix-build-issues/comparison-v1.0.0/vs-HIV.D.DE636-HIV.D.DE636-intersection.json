@@ -1,0 +1,33 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "53532621-7232-4b34-8fdd-ba7f33ef96b0-759",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/53532621-7232-4b34-8fdd-ba7f33ef96b0-759",
+  "name" : "IntersectionHIVDDE636AndHIVDDE636",
+  "title" : "Intersection of Reason immunization was not provided ValueSet And Reason immunization was not provided ValueSet",
+  "status" : "active",
+  "date" : "2026-03-03T20:45:16+00:00",
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "HIV.D.DE637",
+        "display" : "Stock-out"
+      },
+      {
+        "code" : "HIV.D.DE638",
+        "display" : "Client is ill"
+      },
+      {
+        "code" : "HIV.D.DE639",
+        "display" : "Client refused"
+      },
+      {
+        "code" : "HIV.D.DE640",
+        "display" : "Allergy to vaccine"
+      },
+      {
+        "code" : "HIV.D.DE641",
+        "display" : "Other reason immunization not provided"
+      }]
+    }]
+  }
+}

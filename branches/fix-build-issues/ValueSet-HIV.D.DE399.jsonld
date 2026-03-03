@@ -1,0 +1,95 @@
+{
+  "@context": {
+    "@version": 1.1,
+    "name": "http://www.w3.org/2000/01/rdf-schema#label",
+    "fhir": "https://smart.who.int/base/DataTypes.jsonld#",
+    "id": "@id",
+    "generatedAt": {
+      "@id": "http://www.w3.org/ns/prov#generatedAtTime",
+      "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
+    }
+  },
+  "@id": "http://smart.who.int/hiv/ValueSet-HIV.D.DE399.jsonld",
+  "@type": "http://www.w3.org/ns/prov#Entity",
+  "generatedAt": "2026-03-03T20:52:45.713066Z",
+  "@graph": [
+    {
+      "id": "http://smart.who.int/hiv/ValueSet-HIV.D.DE399.jsonld#HIV.D.DE400",
+      "name": "Haemoglobin (Hb)",
+      "fhir:code": "HIV.D.DE400",
+      "fhir:CodeSystem": "http://smart.who.int/hiv/CodeSystem-HIVConcepts"
+    },
+    {
+      "id": "http://smart.who.int/hiv/ValueSet-HIV.D.DE399.jsonld#HIV.D.DE401",
+      "name": "Pregnancy test",
+      "fhir:code": "HIV.D.DE401",
+      "fhir:CodeSystem": "http://smart.who.int/hiv/CodeSystem-HIVConcepts"
+    },
+    {
+      "id": "http://smart.who.int/hiv/ValueSet-HIV.D.DE399.jsonld#HIV.D.DE402",
+      "name": "Syphilis test",
+      "fhir:code": "HIV.D.DE402",
+      "fhir:CodeSystem": "http://smart.who.int/hiv/CodeSystem-HIVConcepts"
+    },
+    {
+      "id": "http://smart.who.int/hiv/ValueSet-HIV.D.DE399.jsonld#HIV.D.DE403",
+      "name": "Chest X-ray (CXR)",
+      "fhir:code": "HIV.D.DE403",
+      "fhir:CodeSystem": "http://smart.who.int/hiv/CodeSystem-HIVConcepts"
+    },
+    {
+      "id": "http://smart.who.int/hiv/ValueSet-HIV.D.DE399.jsonld#HIV.D.DE404",
+      "name": "Sputum or culture for TB",
+      "fhir:code": "HIV.D.DE404",
+      "fhir:CodeSystem": "http://smart.who.int/hiv/CodeSystem-HIVConcepts"
+    },
+    {
+      "id": "http://smart.who.int/hiv/ValueSet-HIV.D.DE399.jsonld#HIV.D.DE405",
+      "name": "HBsAg test (HBV)",
+      "fhir:code": "HIV.D.DE405",
+      "fhir:CodeSystem": "http://smart.who.int/hiv/CodeSystem-HIVConcepts"
+    },
+    {
+      "id": "http://smart.who.int/hiv/ValueSet-HIV.D.DE399.jsonld#HIV.D.DE406",
+      "name": "HIV viral load test ordered",
+      "fhir:code": "HIV.D.DE406",
+      "fhir:CodeSystem": "http://smart.who.int/hiv/CodeSystem-HIVConcepts"
+    },
+    {
+      "id": "http://smart.who.int/hiv/ValueSet-HIV.D.DE399.jsonld#HIV.D.DE407",
+      "name": "HIV viral load test scheduled",
+      "fhir:code": "HIV.D.DE407",
+      "fhir:CodeSystem": "http://smart.who.int/hiv/CodeSystem-HIVConcepts"
+    },
+    {
+      "id": "http://smart.who.int/hiv/ValueSet-HIV.D.DE399.jsonld#HIV.D.DE408",
+      "name": "CD4 count ordered",
+      "fhir:code": "HIV.D.DE408",
+      "fhir:CodeSystem": "http://smart.who.int/hiv/CodeSystem-HIVConcepts"
+    },
+    {
+      "id": "http://smart.who.int/hiv/ValueSet-HIV.D.DE399.jsonld#HIV.D.DE409",
+      "name": "CD4 count test scheduled",
+      "fhir:code": "HIV.D.DE409",
+      "fhir:CodeSystem": "http://smart.who.int/hiv/CodeSystem-HIVConcepts"
+    },
+    {
+      "id": "http://smart.who.int/hiv/ValueSet-HIV.D.DE399.jsonld#HIV.D.DE410",
+      "name": "Cryptococcal antigen test",
+      "fhir:code": "HIV.D.DE410",
+      "fhir:CodeSystem": "http://smart.who.int/hiv/CodeSystem-HIVConcepts"
+    },
+    {
+      "id": "http://smart.who.int/hiv/ValueSet-HIV.D.DE399.jsonld#HIV.D.DE411",
+      "name": "Histoplasmosis antigen test",
+      "fhir:code": "HIV.D.DE411",
+      "fhir:CodeSystem": "http://smart.who.int/hiv/CodeSystem-HIVConcepts"
+    },
+    {
+      "id": "http://smart.who.int/hiv/ValueSet-HIV.D.DE399.jsonld#HIV.D.DE412",
+      "name": "Cervical cancer screening scheduled",
+      "fhir:code": "HIV.D.DE412",
+      "fhir:CodeSystem": "http://smart.who.int/hiv/CodeSystem-HIVConcepts"
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "openapi": "3.1.0",
+  "info": {
+    "title": "HIV-exposed infant reason for unknown final status ValueSet Schema API",
+    "description": "JSON Schema for HIV-exposed infant reason for unknown final status ValueSet ValueSet codes. Generated from FHIR expansions using IRI format.",
+    "version": "1.0.0"
+  },
+  "paths": {
+    "/ValueSet-HIV.E.DE234.schema.json": {
+      "get": {
+        "summary": "JSON Schema definition for the enumeration ValueSet-HIV.E.DE234",
+        "description": "This endpoint serves the JSON Schema definition for the enumeration ValueSet-HIV.E.DE234.",
+        "responses": {
+          "200": {
+            "description": "The JSON Schema for ValueSet-HIV.E.DE234",
+            "content": {
+              "application/schema+json": {
+                "schema": {
+                  "$ref": "./ValueSet-HIV.E.DE234.schema.json"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "ValueSet-HIV.E.DE234": {
+        "$schema": "https://json-schema.org/draft/2020-12/schema",
+        "$id": "http://smart.who.int/hiv/ValueSet-HIV.E.DE234.schema.json",
+        "title": "HIV-exposed infant reason for unknown final status ValueSet Schema",
+        "description": "JSON Schema for HIV-exposed infant reason for unknown final status ValueSet ValueSet codes. Generated from FHIR expansions using IRI format.",
+        "type": "string",
+        "enum": [
+          "http://smart.who.int/hiv/CodeSystem/HIVConcepts#HIV.E.DE235",
+          "http://smart.who.int/hiv/CodeSystem/HIVConcepts#HIV.E.DE236",
+          "http://smart.who.int/hiv/CodeSystem/HIVConcepts#HIV.E.DE237",
+          "http://smart.who.int/hiv/CodeSystem/HIVConcepts#HIV.E.DE238"
+        ],
+        "narrative": "This schema validates IRI-formatted codes for the HIV-exposed infant reason for unknown final status ValueSet ValueSet. Each enum value includes the system URI in the format {systemuri}#{code} to match JSON-LD enumeration IRIs. Display values are available at http://smart.who.int/hiv/ValueSet-HIV.E.DE234.displays.json. For a complete listing of all ValueSets, see artifacts.html#terminology-value-sets.",
+        "fhir:displays": "http://smart.who.int/hiv/ValueSet-HIV.E.DE234.displays.json",
+        "fhir:valueSet": "http://smart.who.int/hiv/ValueSet/HIV.E.DE234",
+        "fhir:version": "0.4.4",
+        "fhir:expansionTimestamp": "2026-03-03T20:47:49+00:00"
+      }
+    }
+  }
+}

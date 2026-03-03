@@ -1,0 +1,25 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "53532621-7232-4b34-8fdd-ba7f33ef96b0-443",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/53532621-7232-4b34-8fdd-ba7f33ef96b0-443",
+  "name" : "UnionHIVBDE44AndHIVBDE44",
+  "title" : "Union of HIV self-test result ValueSet And HIV self-test result ValueSet",
+  "status" : "active",
+  "date" : "2026-03-03T20:45:16+00:00",
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "HIV.B.DE45",
+        "display" : "Reactive"
+      },
+      {
+        "code" : "HIV.B.DE46",
+        "display" : "Non-reactive"
+      },
+      {
+        "code" : "HIV.B.DE48",
+        "display" : "Date of HIV self-test"
+      }]
+    }]
+  }
+}

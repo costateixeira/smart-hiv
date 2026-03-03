@@ -1,0 +1,111 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "http://smart.who.int/hiv/ValueSet-HIV.D.DE569.displays.json",
+  "title": "Family planning method used ValueSet Display Values",
+  "description": "Display values for Family planning method used ValueSet ValueSet codes. Generated from FHIR expansions.",
+  "type": "object",
+  "properties": {
+    "fhir:displays": {
+      "type": "object",
+      "description": "Multilingual display values for ValueSet codes using IRI format to match JSON schema enum values",
+      "patternProperties": {
+        "^https?://.*": {
+          "type": "object",
+          "description": "Display values for a specific IRI-formatted code by language",
+          "properties": {
+            "en": {
+              "type": "string",
+              "description": "English display value"
+            }
+          },
+          "patternProperties": {
+            "^[a-z]{2}(-[A-Z]{2})?$": {
+              "type": "string",
+              "description": "Display value in the specified language (ISO 639-1 code)"
+            }
+          },
+          "additionalProperties": false
+        }
+      },
+      "additionalProperties": false
+    }
+  },
+  "required": [
+    "fhir:displays"
+  ],
+  "additionalProperties": true,
+  "fhir:displays": {
+    "http://smart.who.int/hiv/CodeSystem/HIVConcepts#HIV.D.DE570": {
+      "en": "Copper-bearing intrauterine device (Cu-IUD)"
+    },
+    "http://smart.who.int/hiv/CodeSystem/HIVConcepts#HIV.D.DE571": {
+      "en": "Levonorgestrel intrauterine device (LNG-IUD)"
+    },
+    "http://smart.who.int/hiv/CodeSystem/HIVConcepts#HIV.D.DE572": {
+      "en": "Etonogestrel (ETG) one-rod implant"
+    },
+    "http://smart.who.int/hiv/CodeSystem/HIVConcepts#HIV.D.DE573": {
+      "en": "Levonorgestrel (LNG) two-rod implant"
+    },
+    "http://smart.who.int/hiv/CodeSystem/HIVConcepts#HIV.D.DE574": {
+      "en": "DMPA-IM"
+    },
+    "http://smart.who.int/hiv/CodeSystem/HIVConcepts#HIV.D.DE575": {
+      "en": "DMPA-SC"
+    },
+    "http://smart.who.int/hiv/CodeSystem/HIVConcepts#HIV.D.DE576": {
+      "en": "NET-EN norethisterone enanthate"
+    },
+    "http://smart.who.int/hiv/CodeSystem/HIVConcepts#HIV.D.DE577": {
+      "en": "Progestogen-only pills (POP)"
+    },
+    "http://smart.who.int/hiv/CodeSystem/HIVConcepts#HIV.D.DE578": {
+      "en": "Combined oral contraceptives (COCs)"
+    },
+    "http://smart.who.int/hiv/CodeSystem/HIVConcepts#HIV.D.DE579": {
+      "en": "Combined contraceptive patch"
+    },
+    "http://smart.who.int/hiv/CodeSystem/HIVConcepts#HIV.D.DE580": {
+      "en": "Combined contraceptive vaginal ring (CVR)"
+    },
+    "http://smart.who.int/hiv/CodeSystem/HIVConcepts#HIV.D.DE581": {
+      "en": "Progesterone-releasing vaginal ring (PVR)"
+    },
+    "http://smart.who.int/hiv/CodeSystem/HIVConcepts#HIV.D.DE582": {
+      "en": "Lactational amenorrhea method (LAM)"
+    },
+    "http://smart.who.int/hiv/CodeSystem/HIVConcepts#HIV.D.DE583": {
+      "en": "Emergency contraceptive pills (ECPs)"
+    },
+    "http://smart.who.int/hiv/CodeSystem/HIVConcepts#HIV.D.DE584": {
+      "en": "Fertility awareness-based methods (FAB)"
+    },
+    "http://smart.who.int/hiv/CodeSystem/HIVConcepts#HIV.D.DE585": {
+      "en": "Male condoms"
+    },
+    "http://smart.who.int/hiv/CodeSystem/HIVConcepts#HIV.D.DE586": {
+      "en": "Female condoms"
+    },
+    "http://smart.who.int/hiv/CodeSystem/HIVConcepts#HIV.D.DE587": {
+      "en": "Withdrawal"
+    },
+    "http://smart.who.int/hiv/CodeSystem/HIVConcepts#HIV.D.DE588": {
+      "en": "Female relying on male method"
+    },
+    "http://smart.who.int/hiv/CodeSystem/HIVConcepts#HIV.D.DE589": {
+      "en": "Male relying on female method"
+    },
+    "http://smart.who.int/hiv/CodeSystem/HIVConcepts#HIV.D.DE590": {
+      "en": "Male sterilization"
+    },
+    "http://smart.who.int/hiv/CodeSystem/HIVConcepts#HIV.D.DE591": {
+      "en": "Female sterilization"
+    },
+    "http://smart.who.int/hiv/CodeSystem/HIVConcepts#HIV.D.DE592": {
+      "en": "No method"
+    }
+  },
+  "fhir:valueSet": "http://smart.who.int/hiv/ValueSet/HIV.D.DE569",
+  "fhir:version": "0.4.4",
+  "fhir:expansionTimestamp": "2026-03-03T20:47:47+00:00"
+}

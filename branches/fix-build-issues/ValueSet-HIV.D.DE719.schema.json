@@ -1,0 +1,21 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "http://smart.who.int/hiv/ValueSet-HIV.D.DE719.schema.json",
+  "title": "Treatment method for cervical precancer lesions ValueSet Schema",
+  "description": "JSON Schema for Treatment method for cervical precancer lesions ValueSet ValueSet codes. Generated from FHIR expansions using IRI format.",
+  "type": "string",
+  "enum": [
+    "http://smart.who.int/hiv/CodeSystem/HIVConcepts#HIV.D.DE720",
+    "http://smart.who.int/hiv/CodeSystem/HIVConcepts#HIV.D.DE721",
+    "http://smart.who.int/hiv/CodeSystem/HIVConcepts#HIV.D.DE722",
+    "http://smart.who.int/hiv/CodeSystem/HIVConcepts#HIV.D.DE723",
+    "http://smart.who.int/hiv/CodeSystem/HIVConcepts#HIV.D.DE724",
+    "http://smart.who.int/hiv/CodeSystem/HIVConcepts#HIV.D.DE725",
+    "http://smart.who.int/hiv/CodeSystem/HIVConcepts#HIV.D.DE726"
+  ],
+  "narrative": "This schema validates IRI-formatted codes for the Treatment method for cervical precancer lesions ValueSet ValueSet. Each enum value includes the system URI in the format {systemuri}#{code} to match JSON-LD enumeration IRIs. Display values are available at http://smart.who.int/hiv/ValueSet-HIV.D.DE719.displays.json. For a complete listing of all ValueSets, see artifacts.html#terminology-value-sets.",
+  "fhir:displays": "http://smart.who.int/hiv/ValueSet-HIV.D.DE719.displays.json",
+  "fhir:valueSet": "http://smart.who.int/hiv/ValueSet/HIV.D.DE719",
+  "fhir:version": "0.4.4",
+  "fhir:expansionTimestamp": "2026-03-03T20:47:48+00:00"
+}

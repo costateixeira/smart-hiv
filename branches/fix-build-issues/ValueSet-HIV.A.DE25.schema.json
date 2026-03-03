@@ -1,0 +1,17 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "http://smart.who.int/hiv/ValueSet-HIV.A.DE25.schema.json",
+  "title": "Sex ValueSet Schema",
+  "description": "JSON Schema for Sex ValueSet ValueSet codes. Generated from FHIR expansions using IRI format.",
+  "type": "string",
+  "enum": [
+    "http://smart.who.int/hiv/CodeSystem/HIVConcepts#HIV.A.DE26",
+    "http://smart.who.int/hiv/CodeSystem/HIVConcepts#HIV.A.DE27",
+    "http://smart.who.int/hiv/CodeSystem/HIVConcepts#HIV.A.DE28"
+  ],
+  "narrative": "This schema validates IRI-formatted codes for the Sex ValueSet ValueSet. Each enum value includes the system URI in the format {systemuri}#{code} to match JSON-LD enumeration IRIs. Display values are available at http://smart.who.int/hiv/ValueSet-HIV.A.DE25.displays.json. For a complete listing of all ValueSets, see artifacts.html#terminology-value-sets.",
+  "fhir:displays": "http://smart.who.int/hiv/ValueSet-HIV.A.DE25.displays.json",
+  "fhir:valueSet": "http://smart.who.int/hiv/ValueSet/HIV.A.DE25",
+  "fhir:version": "0.4.4",
+  "fhir:expansionTimestamp": "2026-03-03T20:47:44+00:00"
+}

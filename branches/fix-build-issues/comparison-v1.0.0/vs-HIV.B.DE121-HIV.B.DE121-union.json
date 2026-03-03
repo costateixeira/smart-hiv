@@ -1,0 +1,41 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "53532621-7232-4b34-8fdd-ba7f33ef96b0-347",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/53532621-7232-4b34-8fdd-ba7f33ef96b0-347",
+  "name" : "UnionHIVBDE121AndHIVBDE121",
+  "title" : "Union of Probable route of transmission ValueSet And Probable route of transmission ValueSet",
+  "status" : "active",
+  "date" : "2026-03-03T20:45:16+00:00",
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "HIV.B.DE122",
+        "display" : "Heterosexual sex"
+      },
+      {
+        "code" : "HIV.B.DE123",
+        "display" : "Sex between men"
+      },
+      {
+        "code" : "HIV.B.DE124",
+        "display" : "Unprotected intercourse during sex work"
+      },
+      {
+        "code" : "HIV.B.DE125",
+        "display" : "Injecting drug use with unsterile equipment"
+      },
+      {
+        "code" : "HIV.B.DE126",
+        "display" : "Nosocomial"
+      },
+      {
+        "code" : "HIV.B.DE127",
+        "display" : "Vertical"
+      },
+      {
+        "code" : "HIV.B.DE128",
+        "display" : "Other"
+      }]
+    }]
+  }
+}

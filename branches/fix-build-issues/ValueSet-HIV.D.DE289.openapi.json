@@ -1,0 +1,114 @@
+{
+  "openapi": "3.1.0",
+  "info": {
+    "title": "WHO HIV clinical stage condition or symptom ValueSet Schema API",
+    "description": "JSON Schema for WHO HIV clinical stage condition or symptom ValueSet ValueSet codes. Generated from FHIR expansions using IRI format.",
+    "version": "1.0.0"
+  },
+  "paths": {
+    "/ValueSet-HIV.D.DE289.schema.json": {
+      "get": {
+        "summary": "JSON Schema definition for the enumeration ValueSet-HIV.D.DE289",
+        "description": "This endpoint serves the JSON Schema definition for the enumeration ValueSet-HIV.D.DE289.",
+        "responses": {
+          "200": {
+            "description": "The JSON Schema for ValueSet-HIV.D.DE289",
+            "content": {
+              "application/schema+json": {
+                "schema": {
+                  "$ref": "./ValueSet-HIV.D.DE289.schema.json"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "ValueSet-HIV.D.DE289": {
+        "$schema": "https://json-schema.org/draft/2020-12/schema",
+        "$id": "http://smart.who.int/hiv/ValueSet-HIV.D.DE289.schema.json",
+        "title": "WHO HIV clinical stage condition or symptom ValueSet Schema",
+        "description": "JSON Schema for WHO HIV clinical stage condition or symptom ValueSet ValueSet codes. Generated from FHIR expansions using IRI format.",
+        "type": "string",
+        "enum": [
+          "http://smart.who.int/hiv/CodeSystem/HIVConcepts#HIV.D.DE290",
+          "http://smart.who.int/hiv/CodeSystem/HIVConcepts#HIV.D.DE291",
+          "http://smart.who.int/hiv/CodeSystem/HIVConcepts#HIV.D.DE292",
+          "http://smart.who.int/hiv/CodeSystem/HIVConcepts#HIV.D.DE293",
+          "http://smart.who.int/hiv/CodeSystem/HIVConcepts#HIV.D.DE294",
+          "http://smart.who.int/hiv/CodeSystem/HIVConcepts#HIV.D.DE295",
+          "http://smart.who.int/hiv/CodeSystem/HIVConcepts#HIV.D.DE296",
+          "http://smart.who.int/hiv/CodeSystem/HIVConcepts#HIV.D.DE297",
+          "http://smart.who.int/hiv/CodeSystem/HIVConcepts#HIV.D.DE298",
+          "http://smart.who.int/hiv/CodeSystem/HIVConcepts#HIV.D.DE299",
+          "http://smart.who.int/hiv/CodeSystem/HIVConcepts#HIV.D.DE300",
+          "http://smart.who.int/hiv/CodeSystem/HIVConcepts#HIV.D.DE301",
+          "http://smart.who.int/hiv/CodeSystem/HIVConcepts#HIV.D.DE302",
+          "http://smart.who.int/hiv/CodeSystem/HIVConcepts#HIV.D.DE303",
+          "http://smart.who.int/hiv/CodeSystem/HIVConcepts#HIV.D.DE304",
+          "http://smart.who.int/hiv/CodeSystem/HIVConcepts#HIV.D.DE305",
+          "http://smart.who.int/hiv/CodeSystem/HIVConcepts#HIV.D.DE306",
+          "http://smart.who.int/hiv/CodeSystem/HIVConcepts#HIV.D.DE307",
+          "http://smart.who.int/hiv/CodeSystem/HIVConcepts#HIV.D.DE308",
+          "http://smart.who.int/hiv/CodeSystem/HIVConcepts#HIV.D.DE309",
+          "http://smart.who.int/hiv/CodeSystem/HIVConcepts#HIV.D.DE310",
+          "http://smart.who.int/hiv/CodeSystem/HIVConcepts#HIV.D.DE311",
+          "http://smart.who.int/hiv/CodeSystem/HIVConcepts#HIV.D.DE312",
+          "http://smart.who.int/hiv/CodeSystem/HIVConcepts#HIV.D.DE313",
+          "http://smart.who.int/hiv/CodeSystem/HIVConcepts#HIV.D.DE314",
+          "http://smart.who.int/hiv/CodeSystem/HIVConcepts#HIV.D.DE315",
+          "http://smart.who.int/hiv/CodeSystem/HIVConcepts#HIV.D.DE316",
+          "http://smart.who.int/hiv/CodeSystem/HIVConcepts#HIV.D.DE317",
+          "http://smart.who.int/hiv/CodeSystem/HIVConcepts#HIV.D.DE318",
+          "http://smart.who.int/hiv/CodeSystem/HIVConcepts#HIV.D.DE319",
+          "http://smart.who.int/hiv/CodeSystem/HIVConcepts#HIV.D.DE320",
+          "http://smart.who.int/hiv/CodeSystem/HIVConcepts#HIV.D.DE321",
+          "http://smart.who.int/hiv/CodeSystem/HIVConcepts#HIV.D.DE322",
+          "http://smart.who.int/hiv/CodeSystem/HIVConcepts#HIV.D.DE323",
+          "http://smart.who.int/hiv/CodeSystem/HIVConcepts#HIV.D.DE324",
+          "http://smart.who.int/hiv/CodeSystem/HIVConcepts#HIV.D.DE325",
+          "http://smart.who.int/hiv/CodeSystem/HIVConcepts#HIV.D.DE326",
+          "http://smart.who.int/hiv/CodeSystem/HIVConcepts#HIV.D.DE327",
+          "http://smart.who.int/hiv/CodeSystem/HIVConcepts#HIV.D.DE328",
+          "http://smart.who.int/hiv/CodeSystem/HIVConcepts#HIV.D.DE329",
+          "http://smart.who.int/hiv/CodeSystem/HIVConcepts#HIV.D.DE330",
+          "http://smart.who.int/hiv/CodeSystem/HIVConcepts#HIV.D.DE331",
+          "http://smart.who.int/hiv/CodeSystem/HIVConcepts#HIV.D.DE332",
+          "http://smart.who.int/hiv/CodeSystem/HIVConcepts#HIV.D.DE333",
+          "http://smart.who.int/hiv/CodeSystem/HIVConcepts#HIV.D.DE334",
+          "http://smart.who.int/hiv/CodeSystem/HIVConcepts#HIV.D.DE335",
+          "http://smart.who.int/hiv/CodeSystem/HIVConcepts#HIV.D.DE336",
+          "http://smart.who.int/hiv/CodeSystem/HIVConcepts#HIV.D.DE337",
+          "http://smart.who.int/hiv/CodeSystem/HIVConcepts#HIV.D.DE338",
+          "http://smart.who.int/hiv/CodeSystem/HIVConcepts#HIV.D.DE339",
+          "http://smart.who.int/hiv/CodeSystem/HIVConcepts#HIV.D.DE340",
+          "http://smart.who.int/hiv/CodeSystem/HIVConcepts#HIV.D.DE341",
+          "http://smart.who.int/hiv/CodeSystem/HIVConcepts#HIV.D.DE342",
+          "http://smart.who.int/hiv/CodeSystem/HIVConcepts#HIV.D.DE343",
+          "http://smart.who.int/hiv/CodeSystem/HIVConcepts#HIV.D.DE344",
+          "http://smart.who.int/hiv/CodeSystem/HIVConcepts#HIV.D.DE345",
+          "http://smart.who.int/hiv/CodeSystem/HIVConcepts#HIV.D.DE346",
+          "http://smart.who.int/hiv/CodeSystem/HIVConcepts#HIV.D.DE347",
+          "http://smart.who.int/hiv/CodeSystem/HIVConcepts#HIV.D.DE348",
+          "http://smart.who.int/hiv/CodeSystem/HIVConcepts#HIV.D.DE349",
+          "http://smart.who.int/hiv/CodeSystem/HIVConcepts#HIV.D.DE350",
+          "http://smart.who.int/hiv/CodeSystem/HIVConcepts#HIV.D.DE351",
+          "http://smart.who.int/hiv/CodeSystem/HIVConcepts#HIV.D.DE352",
+          "http://smart.who.int/hiv/CodeSystem/HIVConcepts#HIV.D.DE353",
+          "http://smart.who.int/hiv/CodeSystem/HIVConcepts#HIV.D.DE354",
+          "http://smart.who.int/hiv/CodeSystem/HIVConcepts#HIV.D.DE355",
+          "http://smart.who.int/hiv/CodeSystem/HIVConcepts#HIV.D.DE356",
+          "http://smart.who.int/hiv/CodeSystem/HIVConcepts#HIV.D.DE357"
+        ],
+        "narrative": "This schema validates IRI-formatted codes for the WHO HIV clinical stage condition or symptom ValueSet ValueSet. Each enum value includes the system URI in the format {systemuri}#{code} to match JSON-LD enumeration IRIs. Display values are available at http://smart.who.int/hiv/ValueSet-HIV.D.DE289.displays.json. For a complete listing of all ValueSets, see artifacts.html#terminology-value-sets.",
+        "fhir:displays": "http://smart.who.int/hiv/ValueSet-HIV.D.DE289.displays.json",
+        "fhir:valueSet": "http://smart.who.int/hiv/ValueSet/HIV.D.DE289",
+        "fhir:version": "0.4.4",
+        "fhir:expansionTimestamp": "2026-03-03T20:47:47+00:00"
+      }
+    }
+  }
+}

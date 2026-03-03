@@ -1,0 +1,9 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "53532621-7232-4b34-8fdd-ba7f33ef96b0-762",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/53532621-7232-4b34-8fdd-ba7f33ef96b0-762",
+  "name" : "IntersectionHIVDDE64AndHIVDDE64",
+  "title" : "Intersection of ARV drug regimen received prior to enrolment ValueSet And ARV drug regimen received prior to enrolment ValueSet",
+  "status" : "active",
+  "date" : "2026-03-03T20:45:16+00:00"
+}

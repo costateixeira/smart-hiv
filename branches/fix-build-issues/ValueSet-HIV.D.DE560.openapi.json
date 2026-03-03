@@ -1,0 +1,53 @@
+{
+  "openapi": "3.1.0",
+  "info": {
+    "title": "Allergies ValueSet Schema API",
+    "description": "JSON Schema for Allergies ValueSet ValueSet codes. Generated from FHIR expansions using IRI format.",
+    "version": "1.0.0"
+  },
+  "paths": {
+    "/ValueSet-HIV.D.DE560.schema.json": {
+      "get": {
+        "summary": "JSON Schema definition for the enumeration ValueSet-HIV.D.DE560",
+        "description": "This endpoint serves the JSON Schema definition for the enumeration ValueSet-HIV.D.DE560.",
+        "responses": {
+          "200": {
+            "description": "The JSON Schema for ValueSet-HIV.D.DE560",
+            "content": {
+              "application/schema+json": {
+                "schema": {
+                  "$ref": "./ValueSet-HIV.D.DE560.schema.json"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "ValueSet-HIV.D.DE560": {
+        "$schema": "https://json-schema.org/draft/2020-12/schema",
+        "$id": "http://smart.who.int/hiv/ValueSet-HIV.D.DE560.schema.json",
+        "title": "Allergies ValueSet Schema",
+        "description": "JSON Schema for Allergies ValueSet ValueSet codes. Generated from FHIR expansions using IRI format.",
+        "type": "string",
+        "enum": [
+          "http://smart.who.int/hiv/CodeSystem/HIVConcepts#HIV.D.DE561",
+          "http://smart.who.int/hiv/CodeSystem/HIVConcepts#HIV.D.DE562",
+          "http://smart.who.int/hiv/CodeSystem/HIVConcepts#HIV.D.DE563",
+          "http://smart.who.int/hiv/CodeSystem/HIVConcepts#HIV.D.DE564",
+          "http://smart.who.int/hiv/CodeSystem/HIVConcepts#HIV.D.DE565",
+          "http://smart.who.int/hiv/CodeSystem/HIVConcepts#HIV.D.DE566",
+          "http://smart.who.int/hiv/CodeSystem/HIVConcepts#HIV.D.DE567"
+        ],
+        "narrative": "This schema validates IRI-formatted codes for the Allergies ValueSet ValueSet. Each enum value includes the system URI in the format {systemuri}#{code} to match JSON-LD enumeration IRIs. Display values are available at http://smart.who.int/hiv/ValueSet-HIV.D.DE560.displays.json. For a complete listing of all ValueSets, see artifacts.html#terminology-value-sets.",
+        "fhir:displays": "http://smart.who.int/hiv/ValueSet-HIV.D.DE560.displays.json",
+        "fhir:valueSet": "http://smart.who.int/hiv/ValueSet/HIV.D.DE560",
+        "fhir:version": "0.4.4",
+        "fhir:expansionTimestamp": "2026-03-03T20:47:47+00:00"
+      }
+    }
+  }
+}

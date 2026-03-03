@@ -1,0 +1,20 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "http://smart.who.int/hiv/ValueSet-HIV.D.DE1010.schema.json",
+  "title": "TB treatment regimen composition ValueSet Schema",
+  "description": "JSON Schema for TB treatment regimen composition ValueSet ValueSet codes. Generated from FHIR expansions using IRI format.",
+  "type": "string",
+  "enum": [
+    "http://smart.who.int/hiv/CodeSystem/HIVConcepts#HIV.D.DE1011",
+    "http://smart.who.int/hiv/CodeSystem/HIVConcepts#HIV.D.DE1012",
+    "http://smart.who.int/hiv/CodeSystem/HIVConcepts#HIV.D.DE1013",
+    "http://smart.who.int/hiv/CodeSystem/HIVConcepts#HIV.D.DE1014",
+    "http://smart.who.int/hiv/CodeSystem/HIVConcepts#HIV.D.DE1015",
+    "http://smart.who.int/hiv/CodeSystem/HIVConcepts#HIV.D.DE1016"
+  ],
+  "narrative": "This schema validates IRI-formatted codes for the TB treatment regimen composition ValueSet ValueSet. Each enum value includes the system URI in the format {systemuri}#{code} to match JSON-LD enumeration IRIs. Display values are available at http://smart.who.int/hiv/ValueSet-HIV.D.DE1010.displays.json. For a complete listing of all ValueSets, see artifacts.html#terminology-value-sets.",
+  "fhir:displays": "http://smart.who.int/hiv/ValueSet-HIV.D.DE1010.displays.json",
+  "fhir:valueSet": "http://smart.who.int/hiv/ValueSet/HIV.D.DE1010",
+  "fhir:version": "0.4.4",
+  "fhir:expansionTimestamp": "2026-03-03T20:47:46+00:00"
+}

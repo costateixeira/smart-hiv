@@ -1,0 +1,59 @@
+{
+  "@context": {
+    "@version": 1.1,
+    "name": "http://www.w3.org/2000/01/rdf-schema#label",
+    "fhir": "https://smart.who.int/base/DataTypes.jsonld#",
+    "id": "@id",
+    "generatedAt": {
+      "@id": "http://www.w3.org/ns/prov#generatedAtTime",
+      "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
+    }
+  },
+  "@id": "http://smart.who.int/hiv/ValueSet-HIV.B.DE226.jsonld",
+  "@type": "http://www.w3.org/ns/prov#Entity",
+  "generatedAt": "2026-03-03T20:52:45.679831Z",
+  "@graph": [
+    {
+      "id": "http://smart.who.int/hiv/ValueSet-HIV.B.DE226.jsonld#HIV.B.DE227",
+      "name": "Urethral discharge syndrome",
+      "fhir:code": "HIV.B.DE227",
+      "fhir:CodeSystem": "http://smart.who.int/hiv/CodeSystem-HIVConcepts"
+    },
+    {
+      "id": "http://smart.who.int/hiv/ValueSet-HIV.B.DE226.jsonld#HIV.B.DE228",
+      "name": "Vaginal discharge syndrome",
+      "fhir:code": "HIV.B.DE228",
+      "fhir:CodeSystem": "http://smart.who.int/hiv/CodeSystem-HIVConcepts"
+    },
+    {
+      "id": "http://smart.who.int/hiv/ValueSet-HIV.B.DE226.jsonld#HIV.B.DE229",
+      "name": "Lower Abdominal pain",
+      "fhir:code": "HIV.B.DE229",
+      "fhir:CodeSystem": "http://smart.who.int/hiv/CodeSystem-HIVConcepts"
+    },
+    {
+      "id": "http://smart.who.int/hiv/ValueSet-HIV.B.DE226.jsonld#HIV.B.DE230",
+      "name": "Genital ulcer disease syndrome",
+      "fhir:code": "HIV.B.DE230",
+      "fhir:CodeSystem": "http://smart.who.int/hiv/CodeSystem-HIVConcepts"
+    },
+    {
+      "id": "http://smart.who.int/hiv/ValueSet-HIV.B.DE226.jsonld#HIV.B.DE231",
+      "name": "Anorectal discharge",
+      "fhir:code": "HIV.B.DE231",
+      "fhir:CodeSystem": "http://smart.who.int/hiv/CodeSystem-HIVConcepts"
+    },
+    {
+      "id": "http://smart.who.int/hiv/ValueSet-HIV.B.DE226.jsonld#HIV.B.DE232",
+      "name": "Sent for testing",
+      "fhir:code": "HIV.B.DE232",
+      "fhir:CodeSystem": "http://smart.who.int/hiv/CodeSystem-HIVConcepts"
+    },
+    {
+      "id": "http://smart.who.int/hiv/ValueSet-HIV.B.DE226.jsonld#HIV.B.DE233",
+      "name": "Other",
+      "fhir:code": "HIV.B.DE233",
+      "fhir:CodeSystem": "http://smart.who.int/hiv/CodeSystem-HIVConcepts"
+    }
+  ]
+}

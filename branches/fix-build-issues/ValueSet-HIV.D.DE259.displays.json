@@ -1,0 +1,126 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "http://smart.who.int/hiv/ValueSet-HIV.D.DE259.displays.json",
+  "title": "Risk factors, comorbidities and coinfections signs and symptoms ValueSet Display Values",
+  "description": "Display values for Risk factors, comorbidities and coinfections signs and symptoms ValueSet ValueSet codes. Generated from FHIR expansions.",
+  "type": "object",
+  "properties": {
+    "fhir:displays": {
+      "type": "object",
+      "description": "Multilingual display values for ValueSet codes using IRI format to match JSON schema enum values",
+      "patternProperties": {
+        "^https?://.*": {
+          "type": "object",
+          "description": "Display values for a specific IRI-formatted code by language",
+          "properties": {
+            "en": {
+              "type": "string",
+              "description": "English display value"
+            }
+          },
+          "patternProperties": {
+            "^[a-z]{2}(-[A-Z]{2})?$": {
+              "type": "string",
+              "description": "Display value in the specified language (ISO 639-1 code)"
+            }
+          },
+          "additionalProperties": false
+        }
+      },
+      "additionalProperties": false
+    }
+  },
+  "required": [
+    "fhir:displays"
+  ],
+  "additionalProperties": true,
+  "fhir:displays": {
+    "http://smart.who.int/hiv/CodeSystem/HIVConcepts#HIV.D.DE260": {
+      "en": "Oral candidiasis"
+    },
+    "http://smart.who.int/hiv/CodeSystem/HIVConcepts#HIV.D.DE261": {
+      "en": "Vaginal candidiasis"
+    },
+    "http://smart.who.int/hiv/CodeSystem/HIVConcepts#HIV.D.DE262": {
+      "en": "Cough"
+    },
+    "http://smart.who.int/hiv/CodeSystem/HIVConcepts#HIV.D.DE263": {
+      "en": "Prolonged fever"
+    },
+    "http://smart.who.int/hiv/CodeSystem/HIVConcepts#HIV.D.DE264": {
+      "en": "Night sweats"
+    },
+    "http://smart.who.int/hiv/CodeSystem/HIVConcepts#HIV.D.DE265": {
+      "en": "Weight loss"
+    },
+    "http://smart.who.int/hiv/CodeSystem/HIVConcepts#HIV.D.DE266": {
+      "en": "Difficulty breathing"
+    },
+    "http://smart.who.int/hiv/CodeSystem/HIVConcepts#HIV.D.DE267": {
+      "en": "Pneumonia"
+    },
+    "http://smart.who.int/hiv/CodeSystem/HIVConcepts#HIV.D.DE268": {
+      "en": "Urethral discharge"
+    },
+    "http://smart.who.int/hiv/CodeSystem/HIVConcepts#HIV.D.DE269": {
+      "en": "Syphilis"
+    },
+    "http://smart.who.int/hiv/CodeSystem/HIVConcepts#HIV.D.DE270": {
+      "en": "Pelvic inflammatory disease"
+    },
+    "http://smart.who.int/hiv/CodeSystem/HIVConcepts#HIV.D.DE271": {
+      "en": "Ulcers - skin"
+    },
+    "http://smart.who.int/hiv/CodeSystem/HIVConcepts#HIV.D.DE272": {
+      "en": "Ulcers - mouth or other"
+    },
+    "http://smart.who.int/hiv/CodeSystem/HIVConcepts#HIV.D.DE273": {
+      "en": "Ulcers - male genital"
+    },
+    "http://smart.who.int/hiv/CodeSystem/HIVConcepts#HIV.D.DE274": {
+      "en": "Vaginal discharge"
+    },
+    "http://smart.who.int/hiv/CodeSystem/HIVConcepts#HIV.D.DE275": {
+      "en": "Malaria"
+    },
+    "http://smart.who.int/hiv/CodeSystem/HIVConcepts#HIV.D.DE276": {
+      "en": "Chronic obstructive pulmonary disease"
+    },
+    "http://smart.who.int/hiv/CodeSystem/HIVConcepts#HIV.D.DE277": {
+      "en": "Hypertension"
+    },
+    "http://smart.who.int/hiv/CodeSystem/HIVConcepts#HIV.D.DE278": {
+      "en": "Diabetes"
+    },
+    "http://smart.who.int/hiv/CodeSystem/HIVConcepts#HIV.D.DE279": {
+      "en": "Gestational diabetes"
+    },
+    "http://smart.who.int/hiv/CodeSystem/HIVConcepts#HIV.D.DE280": {
+      "en": "Mental health disorders"
+    },
+    "http://smart.who.int/hiv/CodeSystem/HIVConcepts#HIV.D.DE281": {
+      "en": "Diarrhoea or abdominal pain"
+    },
+    "http://smart.who.int/hiv/CodeSystem/HIVConcepts#HIV.D.DE282": {
+      "en": "Presumptive TB"
+    },
+    "http://smart.who.int/hiv/CodeSystem/HIVConcepts#HIV.D.DE283": {
+      "en": "Severe or complicated malnutrition"
+    },
+    "http://smart.who.int/hiv/CodeSystem/HIVConcepts#HIV.D.DE284": {
+      "en": "Poor growth or development"
+    },
+    "http://smart.who.int/hiv/CodeSystem/HIVConcepts#HIV.D.DE285": {
+      "en": "Oedema"
+    },
+    "http://smart.who.int/hiv/CodeSystem/HIVConcepts#HIV.D.DE286": {
+      "en": "Previously treated for TB"
+    },
+    "http://smart.who.int/hiv/CodeSystem/HIVConcepts#HIV.D.DE287": {
+      "en": "Other"
+    }
+  },
+  "fhir:valueSet": "http://smart.who.int/hiv/ValueSet/HIV.D.DE259",
+  "fhir:version": "0.4.4",
+  "fhir:expansionTimestamp": "2026-03-03T20:47:47+00:00"
+}

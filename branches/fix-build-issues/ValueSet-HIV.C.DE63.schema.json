@@ -1,0 +1,21 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "http://smart.who.int/hiv/ValueSet-HIV.C.DE63.schema.json",
+  "title": "Screenings and diagnostics for PrEP users ValueSet Schema",
+  "description": "JSON Schema for Screenings and diagnostics for PrEP users ValueSet ValueSet codes. Generated from FHIR expansions using IRI format.",
+  "type": "string",
+  "enum": [
+    "http://smart.who.int/hiv/CodeSystem/HIVConcepts#HIV.C.DE64",
+    "http://smart.who.int/hiv/CodeSystem/HIVConcepts#HIV.C.DE65",
+    "http://smart.who.int/hiv/CodeSystem/HIVConcepts#HIV.C.DE66",
+    "http://smart.who.int/hiv/CodeSystem/HIVConcepts#HIV.C.DE67",
+    "http://smart.who.int/hiv/CodeSystem/HIVConcepts#HIV.C.DE68",
+    "http://smart.who.int/hiv/CodeSystem/HIVConcepts#HIV.C.DE69",
+    "http://smart.who.int/hiv/CodeSystem/HIVConcepts#HIV.C.DE70"
+  ],
+  "narrative": "This schema validates IRI-formatted codes for the Screenings and diagnostics for PrEP users ValueSet ValueSet. Each enum value includes the system URI in the format {systemuri}#{code} to match JSON-LD enumeration IRIs. Display values are available at http://smart.who.int/hiv/ValueSet-HIV.C.DE63.displays.json. For a complete listing of all ValueSets, see artifacts.html#terminology-value-sets.",
+  "fhir:displays": "http://smart.who.int/hiv/ValueSet-HIV.C.DE63.displays.json",
+  "fhir:valueSet": "http://smart.who.int/hiv/ValueSet/HIV.C.DE63",
+  "fhir:version": "0.4.4",
+  "fhir:expansionTimestamp": "2026-03-03T20:47:46+00:00"
+}

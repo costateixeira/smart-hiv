@@ -1,0 +1,425 @@
+{
+  "@context": {
+    "@version": 1.1,
+    "name": "http://www.w3.org/2000/01/rdf-schema#label",
+    "fhir": "https://smart.who.int/base/DataTypes.jsonld#",
+    "id": "@id",
+    "generatedAt": {
+      "@id": "http://www.w3.org/ns/prov#generatedAtTime",
+      "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
+    }
+  },
+  "@id": "http://smart.who.int/hiv/ValueSet-HIV.D.DE289.jsonld",
+  "@type": "http://www.w3.org/ns/prov#Entity",
+  "generatedAt": "2026-03-03T20:52:45.710615Z",
+  "@graph": [
+    {
+      "id": "http://smart.who.int/hiv/ValueSet-HIV.D.DE289.jsonld#HIV.D.DE290",
+      "name": "Asymptomatic",
+      "fhir:code": "HIV.D.DE290",
+      "fhir:CodeSystem": "http://smart.who.int/hiv/CodeSystem-HIVConcepts"
+    },
+    {
+      "id": "http://smart.who.int/hiv/ValueSet-HIV.D.DE289.jsonld#HIV.D.DE291",
+      "name": "Persistent generalized lymphadenopathy",
+      "fhir:code": "HIV.D.DE291",
+      "fhir:CodeSystem": "http://smart.who.int/hiv/CodeSystem-HIVConcepts"
+    },
+    {
+      "id": "http://smart.who.int/hiv/ValueSet-HIV.D.DE289.jsonld#HIV.D.DE292",
+      "name": "Moderate unexplained weight loss",
+      "fhir:code": "HIV.D.DE292",
+      "fhir:CodeSystem": "http://smart.who.int/hiv/CodeSystem-HIVConcepts"
+    },
+    {
+      "id": "http://smart.who.int/hiv/ValueSet-HIV.D.DE289.jsonld#HIV.D.DE293",
+      "name": "Recurrent respiratory tract infections",
+      "fhir:code": "HIV.D.DE293",
+      "fhir:CodeSystem": "http://smart.who.int/hiv/CodeSystem-HIVConcepts"
+    },
+    {
+      "id": "http://smart.who.int/hiv/ValueSet-HIV.D.DE289.jsonld#HIV.D.DE294",
+      "name": "Unexplained persistent hepatosplenomegaly",
+      "fhir:code": "HIV.D.DE294",
+      "fhir:CodeSystem": "http://smart.who.int/hiv/CodeSystem-HIVConcepts"
+    },
+    {
+      "id": "http://smart.who.int/hiv/ValueSet-HIV.D.DE289.jsonld#HIV.D.DE295",
+      "name": "Herpes zoster",
+      "fhir:code": "HIV.D.DE295",
+      "fhir:CodeSystem": "http://smart.who.int/hiv/CodeSystem-HIVConcepts"
+    },
+    {
+      "id": "http://smart.who.int/hiv/ValueSet-HIV.D.DE289.jsonld#HIV.D.DE296",
+      "name": "Angular cheilitis",
+      "fhir:code": "HIV.D.DE296",
+      "fhir:CodeSystem": "http://smart.who.int/hiv/CodeSystem-HIVConcepts"
+    },
+    {
+      "id": "http://smart.who.int/hiv/ValueSet-HIV.D.DE289.jsonld#HIV.D.DE297",
+      "name": "Linear gingival erythema",
+      "fhir:code": "HIV.D.DE297",
+      "fhir:CodeSystem": "http://smart.who.int/hiv/CodeSystem-HIVConcepts"
+    },
+    {
+      "id": "http://smart.who.int/hiv/ValueSet-HIV.D.DE289.jsonld#HIV.D.DE298",
+      "name": "Recurrent oral ulceration",
+      "fhir:code": "HIV.D.DE298",
+      "fhir:CodeSystem": "http://smart.who.int/hiv/CodeSystem-HIVConcepts"
+    },
+    {
+      "id": "http://smart.who.int/hiv/ValueSet-HIV.D.DE289.jsonld#HIV.D.DE299",
+      "name": "Papular pruritic eruption",
+      "fhir:code": "HIV.D.DE299",
+      "fhir:CodeSystem": "http://smart.who.int/hiv/CodeSystem-HIVConcepts"
+    },
+    {
+      "id": "http://smart.who.int/hiv/ValueSet-HIV.D.DE289.jsonld#HIV.D.DE300",
+      "name": "Fungal nail infections",
+      "fhir:code": "HIV.D.DE300",
+      "fhir:CodeSystem": "http://smart.who.int/hiv/CodeSystem-HIVConcepts"
+    },
+    {
+      "id": "http://smart.who.int/hiv/ValueSet-HIV.D.DE289.jsonld#HIV.D.DE301",
+      "name": "Seborrhoeic dermatitis",
+      "fhir:code": "HIV.D.DE301",
+      "fhir:CodeSystem": "http://smart.who.int/hiv/CodeSystem-HIVConcepts"
+    },
+    {
+      "id": "http://smart.who.int/hiv/ValueSet-HIV.D.DE289.jsonld#HIV.D.DE302",
+      "name": "Extensive wart virus infection",
+      "fhir:code": "HIV.D.DE302",
+      "fhir:CodeSystem": "http://smart.who.int/hiv/CodeSystem-HIVConcepts"
+    },
+    {
+      "id": "http://smart.who.int/hiv/ValueSet-HIV.D.DE289.jsonld#HIV.D.DE303",
+      "name": "Extensive molluscum contagiosum",
+      "fhir:code": "HIV.D.DE303",
+      "fhir:CodeSystem": "http://smart.who.int/hiv/CodeSystem-HIVConcepts"
+    },
+    {
+      "id": "http://smart.who.int/hiv/ValueSet-HIV.D.DE289.jsonld#HIV.D.DE304",
+      "name": "Unexplained persistent parotid enlargement",
+      "fhir:code": "HIV.D.DE304",
+      "fhir:CodeSystem": "http://smart.who.int/hiv/CodeSystem-HIVConcepts"
+    },
+    {
+      "id": "http://smart.who.int/hiv/ValueSet-HIV.D.DE289.jsonld#HIV.D.DE305",
+      "name": "Unexplained severe weight loss in adults",
+      "fhir:code": "HIV.D.DE305",
+      "fhir:CodeSystem": "http://smart.who.int/hiv/CodeSystem-HIVConcepts"
+    },
+    {
+      "id": "http://smart.who.int/hiv/ValueSet-HIV.D.DE289.jsonld#HIV.D.DE306",
+      "name": "Unexplained moderate malnutrition not adequately responding to standard therapy",
+      "fhir:code": "HIV.D.DE306",
+      "fhir:CodeSystem": "http://smart.who.int/hiv/CodeSystem-HIVConcepts"
+    },
+    {
+      "id": "http://smart.who.int/hiv/ValueSet-HIV.D.DE289.jsonld#HIV.D.DE307",
+      "name": "Unexplained chronic diarrhoea for longer than 1 month",
+      "fhir:code": "HIV.D.DE307",
+      "fhir:CodeSystem": "http://smart.who.int/hiv/CodeSystem-HIVConcepts"
+    },
+    {
+      "id": "http://smart.who.int/hiv/ValueSet-HIV.D.DE289.jsonld#HIV.D.DE308",
+      "name": "Unexplained persistent diarrhoea (14 days or more)",
+      "fhir:code": "HIV.D.DE308",
+      "fhir:CodeSystem": "http://smart.who.int/hiv/CodeSystem-HIVConcepts"
+    },
+    {
+      "id": "http://smart.who.int/hiv/ValueSet-HIV.D.DE289.jsonld#HIV.D.DE309",
+      "name": "Unexplained persistent fever (above 37.5 C, intermittent or constant, for longer than one 1 month)",
+      "fhir:code": "HIV.D.DE309",
+      "fhir:CodeSystem": "http://smart.who.int/hiv/CodeSystem-HIVConcepts"
+    },
+    {
+      "id": "http://smart.who.int/hiv/ValueSet-HIV.D.DE289.jsonld#HIV.D.DE310",
+      "name": "Persistent oral candidiasis",
+      "fhir:code": "HIV.D.DE310",
+      "fhir:CodeSystem": "http://smart.who.int/hiv/CodeSystem-HIVConcepts"
+    },
+    {
+      "id": "http://smart.who.int/hiv/ValueSet-HIV.D.DE289.jsonld#HIV.D.DE311",
+      "name": "Oral hairy leukoplakia",
+      "fhir:code": "HIV.D.DE311",
+      "fhir:CodeSystem": "http://smart.who.int/hiv/CodeSystem-HIVConcepts"
+    },
+    {
+      "id": "http://smart.who.int/hiv/ValueSet-HIV.D.DE289.jsonld#HIV.D.DE312",
+      "name": "Pulmonary TB",
+      "fhir:code": "HIV.D.DE312",
+      "fhir:CodeSystem": "http://smart.who.int/hiv/CodeSystem-HIVConcepts"
+    },
+    {
+      "id": "http://smart.who.int/hiv/ValueSet-HIV.D.DE289.jsonld#HIV.D.DE313",
+      "name": "Lymph node TB",
+      "fhir:code": "HIV.D.DE313",
+      "fhir:CodeSystem": "http://smart.who.int/hiv/CodeSystem-HIVConcepts"
+    },
+    {
+      "id": "http://smart.who.int/hiv/ValueSet-HIV.D.DE289.jsonld#HIV.D.DE314",
+      "name": "Severe bacterial infections (such as pneumonia, empyema, pyomyositis, bone or joint infection, meningitis, bacteraemia)",
+      "fhir:code": "HIV.D.DE314",
+      "fhir:CodeSystem": "http://smart.who.int/hiv/CodeSystem-HIVConcepts"
+    },
+    {
+      "id": "http://smart.who.int/hiv/ValueSet-HIV.D.DE289.jsonld#HIV.D.DE315",
+      "name": "Severe recurrent bacterial pneumonia",
+      "fhir:code": "HIV.D.DE315",
+      "fhir:CodeSystem": "http://smart.who.int/hiv/CodeSystem-HIVConcepts"
+    },
+    {
+      "id": "http://smart.who.int/hiv/ValueSet-HIV.D.DE289.jsonld#HIV.D.DE316",
+      "name": "Acute necrotizing ulcerative stomatitis",
+      "fhir:code": "HIV.D.DE316",
+      "fhir:CodeSystem": "http://smart.who.int/hiv/CodeSystem-HIVConcepts"
+    },
+    {
+      "id": "http://smart.who.int/hiv/ValueSet-HIV.D.DE289.jsonld#HIV.D.DE317",
+      "name": "Acute necrotizing ulcerative gingivitis",
+      "fhir:code": "HIV.D.DE317",
+      "fhir:CodeSystem": "http://smart.who.int/hiv/CodeSystem-HIVConcepts"
+    },
+    {
+      "id": "http://smart.who.int/hiv/ValueSet-HIV.D.DE289.jsonld#HIV.D.DE318",
+      "name": "Acute necrotizing ulcerative periodontitis",
+      "fhir:code": "HIV.D.DE318",
+      "fhir:CodeSystem": "http://smart.who.int/hiv/CodeSystem-HIVConcepts"
+    },
+    {
+      "id": "http://smart.who.int/hiv/ValueSet-HIV.D.DE289.jsonld#HIV.D.DE319",
+      "name": "Unexplained anaemia (less than 8 g/dL)",
+      "fhir:code": "HIV.D.DE319",
+      "fhir:CodeSystem": "http://smart.who.int/hiv/CodeSystem-HIVConcepts"
+    },
+    {
+      "id": "http://smart.who.int/hiv/ValueSet-HIV.D.DE289.jsonld#HIV.D.DE320",
+      "name": "Neutropaenia (less than 0.5 x 10^9/L)",
+      "fhir:code": "HIV.D.DE320",
+      "fhir:CodeSystem": "http://smart.who.int/hiv/CodeSystem-HIVConcepts"
+    },
+    {
+      "id": "http://smart.who.int/hiv/ValueSet-HIV.D.DE289.jsonld#HIV.D.DE321",
+      "name": "Chronic thrombocytopaenia (less than 50 x 10^9/L)",
+      "fhir:code": "HIV.D.DE321",
+      "fhir:CodeSystem": "http://smart.who.int/hiv/CodeSystem-HIVConcepts"
+    },
+    {
+      "id": "http://smart.who.int/hiv/ValueSet-HIV.D.DE289.jsonld#HIV.D.DE322",
+      "name": "Symptomatic lymphoid interstitial pneumonitis",
+      "fhir:code": "HIV.D.DE322",
+      "fhir:CodeSystem": "http://smart.who.int/hiv/CodeSystem-HIVConcepts"
+    },
+    {
+      "id": "http://smart.who.int/hiv/ValueSet-HIV.D.DE289.jsonld#HIV.D.DE323",
+      "name": "Chronic HIV-associated lung disease, including bronchiectasis",
+      "fhir:code": "HIV.D.DE323",
+      "fhir:CodeSystem": "http://smart.who.int/hiv/CodeSystem-HIVConcepts"
+    },
+    {
+      "id": "http://smart.who.int/hiv/ValueSet-HIV.D.DE289.jsonld#HIV.D.DE324",
+      "name": "HIV wasting syndrome",
+      "fhir:code": "HIV.D.DE324",
+      "fhir:CodeSystem": "http://smart.who.int/hiv/CodeSystem-HIVConcepts"
+    },
+    {
+      "id": "http://smart.who.int/hiv/ValueSet-HIV.D.DE289.jsonld#HIV.D.DE325",
+      "name": "Unexplained severe wasting not responding to standard therapy",
+      "fhir:code": "HIV.D.DE325",
+      "fhir:CodeSystem": "http://smart.who.int/hiv/CodeSystem-HIVConcepts"
+    },
+    {
+      "id": "http://smart.who.int/hiv/ValueSet-HIV.D.DE289.jsonld#HIV.D.DE326",
+      "name": "Unexplained stunting not responding to standard therapy",
+      "fhir:code": "HIV.D.DE326",
+      "fhir:CodeSystem": "http://smart.who.int/hiv/CodeSystem-HIVConcepts"
+    },
+    {
+      "id": "http://smart.who.int/hiv/ValueSet-HIV.D.DE289.jsonld#HIV.D.DE327",
+      "name": "Unexplained severe malnutrition not responding to standard therapy",
+      "fhir:code": "HIV.D.DE327",
+      "fhir:CodeSystem": "http://smart.who.int/hiv/CodeSystem-HIVConcepts"
+    },
+    {
+      "id": "http://smart.who.int/hiv/ValueSet-HIV.D.DE289.jsonld#HIV.D.DE328",
+      "name": "Pneumocystis (jirovecii) pneumonia",
+      "fhir:code": "HIV.D.DE328",
+      "fhir:CodeSystem": "http://smart.who.int/hiv/CodeSystem-HIVConcepts"
+    },
+    {
+      "id": "http://smart.who.int/hiv/ValueSet-HIV.D.DE289.jsonld#HIV.D.DE329",
+      "name": "Recurrent severe bacterial pneumonia",
+      "fhir:code": "HIV.D.DE329",
+      "fhir:CodeSystem": "http://smart.who.int/hiv/CodeSystem-HIVConcepts"
+    },
+    {
+      "id": "http://smart.who.int/hiv/ValueSet-HIV.D.DE289.jsonld#HIV.D.DE330",
+      "name": "Recurrent severe bacterial infections (such as empyema, pyomyositis, bone or joint infection, meningitis, but excluding pneumonia)",
+      "fhir:code": "HIV.D.DE330",
+      "fhir:CodeSystem": "http://smart.who.int/hiv/CodeSystem-HIVConcepts"
+    },
+    {
+      "id": "http://smart.who.int/hiv/ValueSet-HIV.D.DE289.jsonld#HIV.D.DE331",
+      "name": "Empyema",
+      "fhir:code": "HIV.D.DE331",
+      "fhir:CodeSystem": "http://smart.who.int/hiv/CodeSystem-HIVConcepts"
+    },
+    {
+      "id": "http://smart.who.int/hiv/ValueSet-HIV.D.DE289.jsonld#HIV.D.DE332",
+      "name": "Pyomyositis",
+      "fhir:code": "HIV.D.DE332",
+      "fhir:CodeSystem": "http://smart.who.int/hiv/CodeSystem-HIVConcepts"
+    },
+    {
+      "id": "http://smart.who.int/hiv/ValueSet-HIV.D.DE289.jsonld#HIV.D.DE333",
+      "name": "Bone or joint infection",
+      "fhir:code": "HIV.D.DE333",
+      "fhir:CodeSystem": "http://smart.who.int/hiv/CodeSystem-HIVConcepts"
+    },
+    {
+      "id": "http://smart.who.int/hiv/ValueSet-HIV.D.DE289.jsonld#HIV.D.DE334",
+      "name": "Meningitis",
+      "fhir:code": "HIV.D.DE334",
+      "fhir:CodeSystem": "http://smart.who.int/hiv/CodeSystem-HIVConcepts"
+    },
+    {
+      "id": "http://smart.who.int/hiv/ValueSet-HIV.D.DE289.jsonld#HIV.D.DE335",
+      "name": "Chronic herpes simplex infection (orolabial or cutaneous of more than 1 month duration or visceral at any site)",
+      "fhir:code": "HIV.D.DE335",
+      "fhir:CodeSystem": "http://smart.who.int/hiv/CodeSystem-HIVConcepts"
+    },
+    {
+      "id": "http://smart.who.int/hiv/ValueSet-HIV.D.DE289.jsonld#HIV.D.DE336",
+      "name": "Chronic herpes simplex infection (orolabial, genital or anorectal of more than 1 month in duration or visceral at any site)",
+      "fhir:code": "HIV.D.DE336",
+      "fhir:CodeSystem": "http://smart.who.int/hiv/CodeSystem-HIVConcepts"
+    },
+    {
+      "id": "http://smart.who.int/hiv/ValueSet-HIV.D.DE289.jsonld#HIV.D.DE337",
+      "name": "Oesophageal candidiasis (or candidiasis of trachea, bronchi or lungs)",
+      "fhir:code": "HIV.D.DE337",
+      "fhir:CodeSystem": "http://smart.who.int/hiv/CodeSystem-HIVConcepts"
+    },
+    {
+      "id": "http://smart.who.int/hiv/ValueSet-HIV.D.DE289.jsonld#HIV.D.DE338",
+      "name": "Extrapulmonary TB",
+      "fhir:code": "HIV.D.DE338",
+      "fhir:CodeSystem": "http://smart.who.int/hiv/CodeSystem-HIVConcepts"
+    },
+    {
+      "id": "http://smart.who.int/hiv/ValueSet-HIV.D.DE289.jsonld#HIV.D.DE339",
+      "name": "Kaposi sarcoma",
+      "fhir:code": "HIV.D.DE339",
+      "fhir:CodeSystem": "http://smart.who.int/hiv/CodeSystem-HIVConcepts"
+    },
+    {
+      "id": "http://smart.who.int/hiv/ValueSet-HIV.D.DE289.jsonld#HIV.D.DE340",
+      "name": "Cytomegalovirus infection (retinitis or infection of other organs)",
+      "fhir:code": "HIV.D.DE340",
+      "fhir:CodeSystem": "http://smart.who.int/hiv/CodeSystem-HIVConcepts"
+    },
+    {
+      "id": "http://smart.who.int/hiv/ValueSet-HIV.D.DE289.jsonld#HIV.D.DE341",
+      "name": "Central nervous system toxoplasmosis",
+      "fhir:code": "HIV.D.DE341",
+      "fhir:CodeSystem": "http://smart.who.int/hiv/CodeSystem-HIVConcepts"
+    },
+    {
+      "id": "http://smart.who.int/hiv/ValueSet-HIV.D.DE289.jsonld#HIV.D.DE342",
+      "name": "HIV encephalopathy",
+      "fhir:code": "HIV.D.DE342",
+      "fhir:CodeSystem": "http://smart.who.int/hiv/CodeSystem-HIVConcepts"
+    },
+    {
+      "id": "http://smart.who.int/hiv/ValueSet-HIV.D.DE289.jsonld#HIV.D.DE343",
+      "name": "Extrapulmonary cryptococcosis, including meningitis",
+      "fhir:code": "HIV.D.DE343",
+      "fhir:CodeSystem": "http://smart.who.int/hiv/CodeSystem-HIVConcepts"
+    },
+    {
+      "id": "http://smart.who.int/hiv/ValueSet-HIV.D.DE289.jsonld#HIV.D.DE344",
+      "name": "Disseminated nontuberculous mycobacterial infection",
+      "fhir:code": "HIV.D.DE344",
+      "fhir:CodeSystem": "http://smart.who.int/hiv/CodeSystem-HIVConcepts"
+    },
+    {
+      "id": "http://smart.who.int/hiv/ValueSet-HIV.D.DE289.jsonld#HIV.D.DE345",
+      "name": "Progressive multifocal leukoencephalopathy",
+      "fhir:code": "HIV.D.DE345",
+      "fhir:CodeSystem": "http://smart.who.int/hiv/CodeSystem-HIVConcepts"
+    },
+    {
+      "id": "http://smart.who.int/hiv/ValueSet-HIV.D.DE289.jsonld#HIV.D.DE346",
+      "name": "Chronic cryptosporidiosis",
+      "fhir:code": "HIV.D.DE346",
+      "fhir:CodeSystem": "http://smart.who.int/hiv/CodeSystem-HIVConcepts"
+    },
+    {
+      "id": "http://smart.who.int/hiv/ValueSet-HIV.D.DE289.jsonld#HIV.D.DE347",
+      "name": "Chronic cryptosporidiosis (with diarrhoea)",
+      "fhir:code": "HIV.D.DE347",
+      "fhir:CodeSystem": "http://smart.who.int/hiv/CodeSystem-HIVConcepts"
+    },
+    {
+      "id": "http://smart.who.int/hiv/ValueSet-HIV.D.DE289.jsonld#HIV.D.DE348",
+      "name": "Chronic isosporiasis",
+      "fhir:code": "HIV.D.DE348",
+      "fhir:CodeSystem": "http://smart.who.int/hiv/CodeSystem-HIVConcepts"
+    },
+    {
+      "id": "http://smart.who.int/hiv/ValueSet-HIV.D.DE289.jsonld#HIV.D.DE349",
+      "name": "Disseminated mycosis (extrapulmonary histoplasmosis, coccidioidomycosis)",
+      "fhir:code": "HIV.D.DE349",
+      "fhir:CodeSystem": "http://smart.who.int/hiv/CodeSystem-HIVConcepts"
+    },
+    {
+      "id": "http://smart.who.int/hiv/ValueSet-HIV.D.DE289.jsonld#HIV.D.DE350",
+      "name": "Disseminated endemic mycosis (extrapulmonary histoplasmosis, coccidioidomycosis, penicilliosis)",
+      "fhir:code": "HIV.D.DE350",
+      "fhir:CodeSystem": "http://smart.who.int/hiv/CodeSystem-HIVConcepts"
+    },
+    {
+      "id": "http://smart.who.int/hiv/ValueSet-HIV.D.DE289.jsonld#HIV.D.DE351",
+      "name": "Cerebral lymphoma",
+      "fhir:code": "HIV.D.DE351",
+      "fhir:CodeSystem": "http://smart.who.int/hiv/CodeSystem-HIVConcepts"
+    },
+    {
+      "id": "http://smart.who.int/hiv/ValueSet-HIV.D.DE289.jsonld#HIV.D.DE352",
+      "name": "B-cell non-Hodgkin lymphoma",
+      "fhir:code": "HIV.D.DE352",
+      "fhir:CodeSystem": "http://smart.who.int/hiv/CodeSystem-HIVConcepts"
+    },
+    {
+      "id": "http://smart.who.int/hiv/ValueSet-HIV.D.DE289.jsonld#HIV.D.DE353",
+      "name": "HIV-associated nephropathy or cardiomyopathy",
+      "fhir:code": "HIV.D.DE353",
+      "fhir:CodeSystem": "http://smart.who.int/hiv/CodeSystem-HIVConcepts"
+    },
+    {
+      "id": "http://smart.who.int/hiv/ValueSet-HIV.D.DE289.jsonld#HIV.D.DE354",
+      "name": "Recurrent septicaemia (including nontyphoidal Salmonella)",
+      "fhir:code": "HIV.D.DE354",
+      "fhir:CodeSystem": "http://smart.who.int/hiv/CodeSystem-HIVConcepts"
+    },
+    {
+      "id": "http://smart.who.int/hiv/ValueSet-HIV.D.DE289.jsonld#HIV.D.DE355",
+      "name": "Invasive cervical carcinoma",
+      "fhir:code": "HIV.D.DE355",
+      "fhir:CodeSystem": "http://smart.who.int/hiv/CodeSystem-HIVConcepts"
+    },
+    {
+      "id": "http://smart.who.int/hiv/ValueSet-HIV.D.DE289.jsonld#HIV.D.DE356",
+      "name": "Atypical disseminated leishmaniasis",
+      "fhir:code": "HIV.D.DE356",
+      "fhir:CodeSystem": "http://smart.who.int/hiv/CodeSystem-HIVConcepts"
+    },
+    {
+      "id": "http://smart.who.int/hiv/ValueSet-HIV.D.DE289.jsonld#HIV.D.DE357",
+      "name": "Neutropenia",
+      "fhir:code": "HIV.D.DE357",
+      "fhir:CodeSystem": "http://smart.who.int/hiv/CodeSystem-HIVConcepts"
+    }
+  ]
+}

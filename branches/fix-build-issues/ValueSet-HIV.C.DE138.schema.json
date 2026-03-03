@@ -1,0 +1,16 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "http://smart.who.int/hiv/ValueSet-HIV.C.DE138.schema.json",
+  "title": "Condom type ValueSet Schema",
+  "description": "JSON Schema for Condom type ValueSet ValueSet codes. Generated from FHIR expansions using IRI format.",
+  "type": "string",
+  "enum": [
+    "http://smart.who.int/hiv/CodeSystem/HIVConcepts#HIV.C.DE139",
+    "http://smart.who.int/hiv/CodeSystem/HIVConcepts#HIV.C.DE140"
+  ],
+  "narrative": "This schema validates IRI-formatted codes for the Condom type ValueSet ValueSet. Each enum value includes the system URI in the format {systemuri}#{code} to match JSON-LD enumeration IRIs. Display values are available at http://smart.who.int/hiv/ValueSet-HIV.C.DE138.displays.json. For a complete listing of all ValueSets, see artifacts.html#terminology-value-sets.",
+  "fhir:displays": "http://smart.who.int/hiv/ValueSet-HIV.C.DE138.displays.json",
+  "fhir:valueSet": "http://smart.who.int/hiv/ValueSet/HIV.C.DE138",
+  "fhir:version": "0.4.4",
+  "fhir:expansionTimestamp": "2026-03-03T20:47:46+00:00"
+}

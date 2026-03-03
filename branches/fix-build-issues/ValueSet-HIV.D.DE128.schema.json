@@ -1,0 +1,31 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "http://smart.who.int/hiv/ValueSet-HIV.D.DE128.schema.json",
+  "title": "ART regimen composition ValueSet Schema",
+  "description": "JSON Schema for ART regimen composition ValueSet ValueSet codes. Generated from FHIR expansions using IRI format.",
+  "type": "string",
+  "enum": [
+    "http://smart.who.int/hiv/CodeSystem/HIVConcepts#HIV.D.DE129",
+    "http://smart.who.int/hiv/CodeSystem/HIVConcepts#HIV.D.DE130",
+    "http://smart.who.int/hiv/CodeSystem/HIVConcepts#HIV.D.DE131",
+    "http://smart.who.int/hiv/CodeSystem/HIVConcepts#HIV.D.DE132",
+    "http://smart.who.int/hiv/CodeSystem/HIVConcepts#HIV.D.DE133",
+    "http://smart.who.int/hiv/CodeSystem/HIVConcepts#HIV.D.DE134",
+    "http://smart.who.int/hiv/CodeSystem/HIVConcepts#HIV.D.DE135",
+    "http://smart.who.int/hiv/CodeSystem/HIVConcepts#HIV.D.DE136",
+    "http://smart.who.int/hiv/CodeSystem/HIVConcepts#HIV.D.DE137",
+    "http://smart.who.int/hiv/CodeSystem/HIVConcepts#HIV.D.DE138",
+    "http://smart.who.int/hiv/CodeSystem/HIVConcepts#HIV.D.DE139",
+    "http://smart.who.int/hiv/CodeSystem/HIVConcepts#HIV.D.DE140",
+    "http://smart.who.int/hiv/CodeSystem/HIVConcepts#HIV.D.DE141",
+    "http://smart.who.int/hiv/CodeSystem/HIVConcepts#HIV.D.DE142",
+    "http://smart.who.int/hiv/CodeSystem/HIVConcepts#HIV.D.DE143",
+    "http://smart.who.int/hiv/CodeSystem/HIVConcepts#HIV.D.DE144",
+    "http://smart.who.int/hiv/CodeSystem/HIVConcepts#HIV.D.DE145"
+  ],
+  "narrative": "This schema validates IRI-formatted codes for the ART regimen composition ValueSet ValueSet. Each enum value includes the system URI in the format {systemuri}#{code} to match JSON-LD enumeration IRIs. Display values are available at http://smart.who.int/hiv/ValueSet-HIV.D.DE128.displays.json. For a complete listing of all ValueSets, see artifacts.html#terminology-value-sets.",
+  "fhir:displays": "http://smart.who.int/hiv/ValueSet-HIV.D.DE128.displays.json",
+  "fhir:valueSet": "http://smart.who.int/hiv/ValueSet/HIV.D.DE128",
+  "fhir:version": "0.4.4",
+  "fhir:expansionTimestamp": "2026-03-03T20:47:46+00:00"
+}

@@ -1,0 +1,57 @@
+{
+  "openapi": "3.1.0",
+  "info": {
+    "title": "Preventing and treating coinfections ValueSet Schema API",
+    "description": "JSON Schema for Preventing and treating coinfections ValueSet ValueSet codes. Generated from FHIR expansions using IRI format.",
+    "version": "1.0.0"
+  },
+  "paths": {
+    "/ValueSet-HIV.D.DE247.schema.json": {
+      "get": {
+        "summary": "JSON Schema definition for the enumeration ValueSet-HIV.D.DE247",
+        "description": "This endpoint serves the JSON Schema definition for the enumeration ValueSet-HIV.D.DE247.",
+        "responses": {
+          "200": {
+            "description": "The JSON Schema for ValueSet-HIV.D.DE247",
+            "content": {
+              "application/schema+json": {
+                "schema": {
+                  "$ref": "./ValueSet-HIV.D.DE247.schema.json"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "ValueSet-HIV.D.DE247": {
+        "$schema": "https://json-schema.org/draft/2020-12/schema",
+        "$id": "http://smart.who.int/hiv/ValueSet-HIV.D.DE247.schema.json",
+        "title": "Preventing and treating coinfections ValueSet Schema",
+        "description": "JSON Schema for Preventing and treating coinfections ValueSet ValueSet codes. Generated from FHIR expansions using IRI format.",
+        "type": "string",
+        "enum": [
+          "http://smart.who.int/hiv/CodeSystem/HIVConcepts#HIV.D.DE248",
+          "http://smart.who.int/hiv/CodeSystem/HIVConcepts#HIV.D.DE249",
+          "http://smart.who.int/hiv/CodeSystem/HIVConcepts#HIV.D.DE250",
+          "http://smart.who.int/hiv/CodeSystem/HIVConcepts#HIV.D.DE251",
+          "http://smart.who.int/hiv/CodeSystem/HIVConcepts#HIV.D.DE252",
+          "http://smart.who.int/hiv/CodeSystem/HIVConcepts#HIV.D.DE253",
+          "http://smart.who.int/hiv/CodeSystem/HIVConcepts#HIV.D.DE254",
+          "http://smart.who.int/hiv/CodeSystem/HIVConcepts#HIV.D.DE255",
+          "http://smart.who.int/hiv/CodeSystem/HIVConcepts#HIV.D.DE256",
+          "http://smart.who.int/hiv/CodeSystem/HIVConcepts#HIV.D.DE257",
+          "http://smart.who.int/hiv/CodeSystem/HIVConcepts#HIV.D.DE258"
+        ],
+        "narrative": "This schema validates IRI-formatted codes for the Preventing and treating coinfections ValueSet ValueSet. Each enum value includes the system URI in the format {systemuri}#{code} to match JSON-LD enumeration IRIs. Display values are available at http://smart.who.int/hiv/ValueSet-HIV.D.DE247.displays.json. For a complete listing of all ValueSets, see artifacts.html#terminology-value-sets.",
+        "fhir:displays": "http://smart.who.int/hiv/ValueSet-HIV.D.DE247.displays.json",
+        "fhir:valueSet": "http://smart.who.int/hiv/ValueSet/HIV.D.DE247",
+        "fhir:version": "0.4.4",
+        "fhir:expansionTimestamp": "2026-03-03T20:47:47+00:00"
+      }
+    }
+  }
+}

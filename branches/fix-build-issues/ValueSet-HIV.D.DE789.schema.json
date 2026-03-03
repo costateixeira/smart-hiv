@@ -1,0 +1,24 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "http://smart.who.int/hiv/ValueSet-HIV.D.DE789.schema.json",
+  "title": "STI tested for ValueSet Schema",
+  "description": "JSON Schema for STI tested for ValueSet ValueSet codes. Generated from FHIR expansions using IRI format.",
+  "type": "string",
+  "enum": [
+    "http://smart.who.int/hiv/CodeSystem/HIVConcepts#HIV.D.DE790",
+    "http://smart.who.int/hiv/CodeSystem/HIVConcepts#HIV.D.DE791",
+    "http://smart.who.int/hiv/CodeSystem/HIVConcepts#HIV.D.DE792",
+    "http://smart.who.int/hiv/CodeSystem/HIVConcepts#HIV.D.DE793",
+    "http://smart.who.int/hiv/CodeSystem/HIVConcepts#HIV.D.DE794",
+    "http://smart.who.int/hiv/CodeSystem/HIVConcepts#HIV.D.DE795",
+    "http://smart.who.int/hiv/CodeSystem/HIVConcepts#HIV.D.DE796",
+    "http://smart.who.int/hiv/CodeSystem/HIVConcepts#HIV.D.DE797",
+    "http://smart.who.int/hiv/CodeSystem/HIVConcepts#HIV.D.DE798",
+    "http://smart.who.int/hiv/CodeSystem/HIVConcepts#HIV.D.DE799"
+  ],
+  "narrative": "This schema validates IRI-formatted codes for the STI tested for ValueSet ValueSet. Each enum value includes the system URI in the format {systemuri}#{code} to match JSON-LD enumeration IRIs. Display values are available at http://smart.who.int/hiv/ValueSet-HIV.D.DE789.displays.json. For a complete listing of all ValueSets, see artifacts.html#terminology-value-sets.",
+  "fhir:displays": "http://smart.who.int/hiv/ValueSet-HIV.D.DE789.displays.json",
+  "fhir:valueSet": "http://smart.who.int/hiv/ValueSet/HIV.D.DE789",
+  "fhir:version": "0.4.4",
+  "fhir:expansionTimestamp": "2026-03-03T20:47:48+00:00"
+}

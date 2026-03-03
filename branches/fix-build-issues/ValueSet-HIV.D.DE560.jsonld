@@ -1,0 +1,59 @@
+{
+  "@context": {
+    "@version": 1.1,
+    "name": "http://www.w3.org/2000/01/rdf-schema#label",
+    "fhir": "https://smart.who.int/base/DataTypes.jsonld#",
+    "id": "@id",
+    "generatedAt": {
+      "@id": "http://www.w3.org/ns/prov#generatedAtTime",
+      "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
+    }
+  },
+  "@id": "http://smart.who.int/hiv/ValueSet-HIV.D.DE560.jsonld",
+  "@type": "http://www.w3.org/ns/prov#Entity",
+  "generatedAt": "2026-03-03T20:52:45.720175Z",
+  "@graph": [
+    {
+      "id": "http://smart.who.int/hiv/ValueSet-HIV.D.DE560.jsonld#HIV.D.DE561",
+      "name": "No known allergies",
+      "fhir:code": "HIV.D.DE561",
+      "fhir:CodeSystem": "http://smart.who.int/hiv/CodeSystem-HIVConcepts"
+    },
+    {
+      "id": "http://smart.who.int/hiv/ValueSet-HIV.D.DE560.jsonld#HIV.D.DE562",
+      "name": "Don't know of any allergies",
+      "fhir:code": "HIV.D.DE562",
+      "fhir:CodeSystem": "http://smart.who.int/hiv/CodeSystem-HIVConcepts"
+    },
+    {
+      "id": "http://smart.who.int/hiv/ValueSet-HIV.D.DE560.jsonld#HIV.D.DE563",
+      "name": "Albendazole",
+      "fhir:code": "HIV.D.DE563",
+      "fhir:CodeSystem": "http://smart.who.int/hiv/CodeSystem-HIVConcepts"
+    },
+    {
+      "id": "http://smart.who.int/hiv/ValueSet-HIV.D.DE560.jsonld#HIV.D.DE564",
+      "name": "Malaria medication (sulfadoxine-pyrimethamine)",
+      "fhir:code": "HIV.D.DE564",
+      "fhir:CodeSystem": "http://smart.who.int/hiv/CodeSystem-HIVConcepts"
+    },
+    {
+      "id": "http://smart.who.int/hiv/ValueSet-HIV.D.DE560.jsonld#HIV.D.DE565",
+      "name": "Penicillin",
+      "fhir:code": "HIV.D.DE565",
+      "fhir:CodeSystem": "http://smart.who.int/hiv/CodeSystem-HIVConcepts"
+    },
+    {
+      "id": "http://smart.who.int/hiv/ValueSet-HIV.D.DE560.jsonld#HIV.D.DE566",
+      "name": "Tenofovir disoproxil fumarate (TDF)",
+      "fhir:code": "HIV.D.DE566",
+      "fhir:CodeSystem": "http://smart.who.int/hiv/CodeSystem-HIVConcepts"
+    },
+    {
+      "id": "http://smart.who.int/hiv/ValueSet-HIV.D.DE560.jsonld#HIV.D.DE567",
+      "name": "Other allergies",
+      "fhir:code": "HIV.D.DE567",
+      "fhir:CodeSystem": "http://smart.who.int/hiv/CodeSystem-HIVConcepts"
+    }
+  ]
+}

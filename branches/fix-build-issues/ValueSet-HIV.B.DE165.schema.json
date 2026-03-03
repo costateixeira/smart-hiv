@@ -1,0 +1,20 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "http://smart.who.int/hiv/ValueSet-HIV.B.DE165.schema.json",
+  "title": "Offer other clinical services ValueSet Schema",
+  "description": "JSON Schema for Offer other clinical services ValueSet ValueSet codes. Generated from FHIR expansions using IRI format.",
+  "type": "string",
+  "enum": [
+    "http://smart.who.int/hiv/CodeSystem/HIVConcepts#HIV.B.DE166",
+    "http://smart.who.int/hiv/CodeSystem/HIVConcepts#HIV.B.DE167",
+    "http://smart.who.int/hiv/CodeSystem/HIVConcepts#HIV.B.DE168",
+    "http://smart.who.int/hiv/CodeSystem/HIVConcepts#HIV.B.DE169",
+    "http://smart.who.int/hiv/CodeSystem/HIVConcepts#HIV.B.DE170",
+    "http://smart.who.int/hiv/CodeSystem/HIVConcepts#HIV.B.DE171"
+  ],
+  "narrative": "This schema validates IRI-formatted codes for the Offer other clinical services ValueSet ValueSet. Each enum value includes the system URI in the format {systemuri}#{code} to match JSON-LD enumeration IRIs. Display values are available at http://smart.who.int/hiv/ValueSet-HIV.B.DE165.displays.json. For a complete listing of all ValueSets, see artifacts.html#terminology-value-sets.",
+  "fhir:displays": "http://smart.who.int/hiv/ValueSet-HIV.B.DE165.displays.json",
+  "fhir:valueSet": "http://smart.who.int/hiv/ValueSet/HIV.B.DE165",
+  "fhir:version": "0.4.4",
+  "fhir:expansionTimestamp": "2026-03-03T20:47:45+00:00"
+}

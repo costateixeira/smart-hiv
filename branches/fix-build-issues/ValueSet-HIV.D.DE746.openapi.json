@@ -1,0 +1,52 @@
+{
+  "openapi": "3.1.0",
+  "info": {
+    "title": "Entry point for facility-level testing ValueSet Schema API",
+    "description": "JSON Schema for Entry point for facility-level testing ValueSet ValueSet codes. Generated from FHIR expansions using IRI format.",
+    "version": "1.0.0"
+  },
+  "paths": {
+    "/ValueSet-HIV.D.DE746.schema.json": {
+      "get": {
+        "summary": "JSON Schema definition for the enumeration ValueSet-HIV.D.DE746",
+        "description": "This endpoint serves the JSON Schema definition for the enumeration ValueSet-HIV.D.DE746.",
+        "responses": {
+          "200": {
+            "description": "The JSON Schema for ValueSet-HIV.D.DE746",
+            "content": {
+              "application/schema+json": {
+                "schema": {
+                  "$ref": "./ValueSet-HIV.D.DE746.schema.json"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "ValueSet-HIV.D.DE746": {
+        "$schema": "https://json-schema.org/draft/2020-12/schema",
+        "$id": "http://smart.who.int/hiv/ValueSet-HIV.D.DE746.schema.json",
+        "title": "Entry point for facility-level testing ValueSet Schema",
+        "description": "JSON Schema for Entry point for facility-level testing ValueSet ValueSet codes. Generated from FHIR expansions using IRI format.",
+        "type": "string",
+        "enum": [
+          "http://smart.who.int/hiv/CodeSystem/HIVConcepts#HIV.D.DE747",
+          "http://smart.who.int/hiv/CodeSystem/HIVConcepts#HIV.D.DE748",
+          "http://smart.who.int/hiv/CodeSystem/HIVConcepts#HIV.D.DE749",
+          "http://smart.who.int/hiv/CodeSystem/HIVConcepts#HIV.D.DE750",
+          "http://smart.who.int/hiv/CodeSystem/HIVConcepts#HIV.D.DE751",
+          "http://smart.who.int/hiv/CodeSystem/HIVConcepts#HIV.D.DE752"
+        ],
+        "narrative": "This schema validates IRI-formatted codes for the Entry point for facility-level testing ValueSet ValueSet. Each enum value includes the system URI in the format {systemuri}#{code} to match JSON-LD enumeration IRIs. Display values are available at http://smart.who.int/hiv/ValueSet-HIV.D.DE746.displays.json. For a complete listing of all ValueSets, see artifacts.html#terminology-value-sets.",
+        "fhir:displays": "http://smart.who.int/hiv/ValueSet-HIV.D.DE746.displays.json",
+        "fhir:valueSet": "http://smart.who.int/hiv/ValueSet/HIV.D.DE746",
+        "fhir:version": "0.4.4",
+        "fhir:expansionTimestamp": "2026-03-03T20:47:48+00:00"
+      }
+    }
+  }
+}

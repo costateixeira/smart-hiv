@@ -1,0 +1,52 @@
+{
+  "openapi": "3.1.0",
+  "info": {
+    "title": "DSD ART model(s) ValueSet Schema API",
+    "description": "JSON Schema for DSD ART model(s) ValueSet ValueSet codes. Generated from FHIR expansions using IRI format.",
+    "version": "1.0.0"
+  },
+  "paths": {
+    "/ValueSet-HIV.D.DE764.schema.json": {
+      "get": {
+        "summary": "JSON Schema definition for the enumeration ValueSet-HIV.D.DE764",
+        "description": "This endpoint serves the JSON Schema definition for the enumeration ValueSet-HIV.D.DE764.",
+        "responses": {
+          "200": {
+            "description": "The JSON Schema for ValueSet-HIV.D.DE764",
+            "content": {
+              "application/schema+json": {
+                "schema": {
+                  "$ref": "./ValueSet-HIV.D.DE764.schema.json"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "ValueSet-HIV.D.DE764": {
+        "$schema": "https://json-schema.org/draft/2020-12/schema",
+        "$id": "http://smart.who.int/hiv/ValueSet-HIV.D.DE764.schema.json",
+        "title": "DSD ART model(s) ValueSet Schema",
+        "description": "JSON Schema for DSD ART model(s) ValueSet ValueSet codes. Generated from FHIR expansions using IRI format.",
+        "type": "string",
+        "enum": [
+          "http://smart.who.int/hiv/CodeSystem/HIVConcepts#HIV.D.DE765",
+          "http://smart.who.int/hiv/CodeSystem/HIVConcepts#HIV.D.DE766",
+          "http://smart.who.int/hiv/CodeSystem/HIVConcepts#HIV.D.DE767",
+          "http://smart.who.int/hiv/CodeSystem/HIVConcepts#HIV.D.DE768",
+          "http://smart.who.int/hiv/CodeSystem/HIVConcepts#HIV.D.DE769",
+          "http://smart.who.int/hiv/CodeSystem/HIVConcepts#HIV.D.DE770"
+        ],
+        "narrative": "This schema validates IRI-formatted codes for the DSD ART model(s) ValueSet ValueSet. Each enum value includes the system URI in the format {systemuri}#{code} to match JSON-LD enumeration IRIs. Display values are available at http://smart.who.int/hiv/ValueSet-HIV.D.DE764.displays.json. For a complete listing of all ValueSets, see artifacts.html#terminology-value-sets.",
+        "fhir:displays": "http://smart.who.int/hiv/ValueSet-HIV.D.DE764.displays.json",
+        "fhir:valueSet": "http://smart.who.int/hiv/ValueSet/HIV.D.DE764",
+        "fhir:version": "0.4.4",
+        "fhir:expansionTimestamp": "2026-03-03T20:47:48+00:00"
+      }
+    }
+  }
+}

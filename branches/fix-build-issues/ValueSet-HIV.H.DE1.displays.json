@@ -1,0 +1,63 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "http://smart.who.int/hiv/ValueSet-HIV.H.DE1.displays.json",
+  "title": "Reason for follow-up ValueSet Display Values",
+  "description": "Display values for Reason for follow-up ValueSet ValueSet codes. Generated from FHIR expansions.",
+  "type": "object",
+  "properties": {
+    "fhir:displays": {
+      "type": "object",
+      "description": "Multilingual display values for ValueSet codes using IRI format to match JSON schema enum values",
+      "patternProperties": {
+        "^https?://.*": {
+          "type": "object",
+          "description": "Display values for a specific IRI-formatted code by language",
+          "properties": {
+            "en": {
+              "type": "string",
+              "description": "English display value"
+            }
+          },
+          "patternProperties": {
+            "^[a-z]{2}(-[A-Z]{2})?$": {
+              "type": "string",
+              "description": "Display value in the specified language (ISO 639-1 code)"
+            }
+          },
+          "additionalProperties": false
+        }
+      },
+      "additionalProperties": false
+    }
+  },
+  "required": [
+    "fhir:displays"
+  ],
+  "additionalProperties": true,
+  "fhir:displays": {
+    "http://smart.who.int/hiv/CodeSystem/HIVConcepts#HIV.H.DE2": {
+      "en": "Missed care visit"
+    },
+    "http://smart.who.int/hiv/CodeSystem/HIVConcepts#HIV.H.DE3": {
+      "en": "Missed medication pickup"
+    },
+    "http://smart.who.int/hiv/CodeSystem/HIVConcepts#HIV.H.DE4": {
+      "en": "Did not initiate ART"
+    },
+    "http://smart.who.int/hiv/CodeSystem/HIVConcepts#HIV.H.DE5": {
+      "en": "Incomplete visit"
+    },
+    "http://smart.who.int/hiv/CodeSystem/HIVConcepts#HIV.H.DE6": {
+      "en": "Inconclusive HIV status"
+    },
+    "http://smart.who.int/hiv/CodeSystem/HIVConcepts#HIV.H.DE7": {
+      "en": "Test results received"
+    },
+    "http://smart.who.int/hiv/CodeSystem/HIVConcepts#HIV.H.DE8": {
+      "en": "Other follow-up reason"
+    }
+  },
+  "fhir:valueSet": "http://smart.who.int/hiv/ValueSet/HIV.H.DE1",
+  "fhir:version": "0.4.4",
+  "fhir:expansionTimestamp": "2026-03-03T20:47:49+00:00"
+}

@@ -1,0 +1,143 @@
+{
+  "@context": {
+    "@version": 1.1,
+    "name": "http://www.w3.org/2000/01/rdf-schema#label",
+    "fhir": "https://smart.who.int/base/DataTypes.jsonld#",
+    "id": "@id",
+    "generatedAt": {
+      "@id": "http://www.w3.org/ns/prov#generatedAtTime",
+      "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
+    }
+  },
+  "@id": "http://smart.who.int/hiv/ValueSet-HIV.D.DE537.jsonld",
+  "@type": "http://www.w3.org/ns/prov#Entity",
+  "generatedAt": "2026-03-03T20:52:45.719128Z",
+  "@graph": [
+    {
+      "id": "http://smart.who.int/hiv/ValueSet-HIV.D.DE537.jsonld#HIV.D.DE538",
+      "name": "No medications",
+      "fhir:code": "HIV.D.DE538",
+      "fhir:CodeSystem": "http://smart.who.int/hiv/CodeSystem-HIVConcepts"
+    },
+    {
+      "id": "http://smart.who.int/hiv/ValueSet-HIV.D.DE537.jsonld#HIV.D.DE539",
+      "name": "Don't know of any current medications",
+      "fhir:code": "HIV.D.DE539",
+      "fhir:CodeSystem": "http://smart.who.int/hiv/CodeSystem-HIVConcepts"
+    },
+    {
+      "id": "http://smart.who.int/hiv/ValueSet-HIV.D.DE537.jsonld#HIV.D.DE540",
+      "name": "Analgesic",
+      "fhir:code": "HIV.D.DE540",
+      "fhir:CodeSystem": "http://smart.who.int/hiv/CodeSystem-HIVConcepts"
+    },
+    {
+      "id": "http://smart.who.int/hiv/ValueSet-HIV.D.DE537.jsonld#HIV.D.DE541",
+      "name": "Antacids",
+      "fhir:code": "HIV.D.DE541",
+      "fhir:CodeSystem": "http://smart.who.int/hiv/CodeSystem-HIVConcepts"
+    },
+    {
+      "id": "http://smart.who.int/hiv/ValueSet-HIV.D.DE537.jsonld#HIV.D.DE542",
+      "name": "Antibiotics (broad-spectrum)",
+      "fhir:code": "HIV.D.DE542",
+      "fhir:CodeSystem": "http://smart.who.int/hiv/CodeSystem-HIVConcepts"
+    },
+    {
+      "id": "http://smart.who.int/hiv/ValueSet-HIV.D.DE537.jsonld#HIV.D.DE543",
+      "name": "Anticonvulsive",
+      "fhir:code": "HIV.D.DE543",
+      "fhir:CodeSystem": "http://smart.who.int/hiv/CodeSystem-HIVConcepts"
+    },
+    {
+      "id": "http://smart.who.int/hiv/ValueSet-HIV.D.DE537.jsonld#HIV.D.DE544",
+      "name": "Antidiabetic",
+      "fhir:code": "HIV.D.DE544",
+      "fhir:CodeSystem": "http://smart.who.int/hiv/CodeSystem-HIVConcepts"
+    },
+    {
+      "id": "http://smart.who.int/hiv/ValueSet-HIV.D.DE537.jsonld#HIV.D.DE545",
+      "name": "Antifungals",
+      "fhir:code": "HIV.D.DE545",
+      "fhir:CodeSystem": "http://smart.who.int/hiv/CodeSystem-HIVConcepts"
+    },
+    {
+      "id": "http://smart.who.int/hiv/ValueSet-HIV.D.DE537.jsonld#HIV.D.DE546",
+      "name": "Antihelmintic",
+      "fhir:code": "HIV.D.DE546",
+      "fhir:CodeSystem": "http://smart.who.int/hiv/CodeSystem-HIVConcepts"
+    },
+    {
+      "id": "http://smart.who.int/hiv/ValueSet-HIV.D.DE537.jsonld#HIV.D.DE547",
+      "name": "Antihypertensive",
+      "fhir:code": "HIV.D.DE547",
+      "fhir:CodeSystem": "http://smart.who.int/hiv/CodeSystem-HIVConcepts"
+    },
+    {
+      "id": "http://smart.who.int/hiv/ValueSet-HIV.D.DE537.jsonld#HIV.D.DE548",
+      "name": "Antimalarials",
+      "fhir:code": "HIV.D.DE548",
+      "fhir:CodeSystem": "http://smart.who.int/hiv/CodeSystem-HIVConcepts"
+    },
+    {
+      "id": "http://smart.who.int/hiv/ValueSet-HIV.D.DE537.jsonld#HIV.D.DE549",
+      "name": "Antiretrovirals (ARVs)",
+      "fhir:code": "HIV.D.DE549",
+      "fhir:CodeSystem": "http://smart.who.int/hiv/CodeSystem-HIVConcepts"
+    },
+    {
+      "id": "http://smart.who.int/hiv/ValueSet-HIV.D.DE537.jsonld#HIV.D.DE550",
+      "name": "Antiparasitics",
+      "fhir:code": "HIV.D.DE550",
+      "fhir:CodeSystem": "http://smart.who.int/hiv/CodeSystem-HIVConcepts"
+    },
+    {
+      "id": "http://smart.who.int/hiv/ValueSet-HIV.D.DE537.jsonld#HIV.D.DE551",
+      "name": "Antivirals",
+      "fhir:code": "HIV.D.DE551",
+      "fhir:CodeSystem": "http://smart.who.int/hiv/CodeSystem-HIVConcepts"
+    },
+    {
+      "id": "http://smart.who.int/hiv/ValueSet-HIV.D.DE537.jsonld#HIV.D.DE552",
+      "name": "Buprenorphine",
+      "fhir:code": "HIV.D.DE552",
+      "fhir:CodeSystem": "http://smart.who.int/hiv/CodeSystem-HIVConcepts"
+    },
+    {
+      "id": "http://smart.who.int/hiv/ValueSet-HIV.D.DE537.jsonld#HIV.D.DE553",
+      "name": "Co-trimoxazole preventive therapy (CPT)",
+      "fhir:code": "HIV.D.DE553",
+      "fhir:CodeSystem": "http://smart.who.int/hiv/CodeSystem-HIVConcepts"
+    },
+    {
+      "id": "http://smart.who.int/hiv/ValueSet-HIV.D.DE537.jsonld#HIV.D.DE554",
+      "name": "Hormonal family planning method",
+      "fhir:code": "HIV.D.DE554",
+      "fhir:CodeSystem": "http://smart.who.int/hiv/CodeSystem-HIVConcepts"
+    },
+    {
+      "id": "http://smart.who.int/hiv/ValueSet-HIV.D.DE537.jsonld#HIV.D.DE555",
+      "name": "Methadone",
+      "fhir:code": "HIV.D.DE555",
+      "fhir:CodeSystem": "http://smart.who.int/hiv/CodeSystem-HIVConcepts"
+    },
+    {
+      "id": "http://smart.who.int/hiv/ValueSet-HIV.D.DE537.jsonld#HIV.D.DE556",
+      "name": "PrEP to prevent HIV",
+      "fhir:code": "HIV.D.DE556",
+      "fhir:CodeSystem": "http://smart.who.int/hiv/CodeSystem-HIVConcepts"
+    },
+    {
+      "id": "http://smart.who.int/hiv/ValueSet-HIV.D.DE537.jsonld#HIV.D.DE557",
+      "name": "Other antibiotics",
+      "fhir:code": "HIV.D.DE557",
+      "fhir:CodeSystem": "http://smart.who.int/hiv/CodeSystem-HIVConcepts"
+    },
+    {
+      "id": "http://smart.who.int/hiv/ValueSet-HIV.D.DE537.jsonld#HIV.D.DE558",
+      "name": "Other medications",
+      "fhir:code": "HIV.D.DE558",
+      "fhir:CodeSystem": "http://smart.who.int/hiv/CodeSystem-HIVConcepts"
+    }
+  ]
+}

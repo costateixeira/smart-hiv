@@ -1,0 +1,233 @@
+{
+  "@context": {
+    "@version": 1.1,
+    "name": "http://www.w3.org/2000/01/rdf-schema#label",
+    "fhir": "https://smart.who.int/base/DataTypes.jsonld#",
+    "id": "@id",
+    "generatedAt": {
+      "@id": "http://www.w3.org/ns/prov#generatedAtTime",
+      "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
+    }
+  },
+  "@id": "http://smart.who.int/hiv/ValueSet-HIV.D.DE90.jsonld",
+  "@type": "http://www.w3.org/ns/prov#Entity",
+  "generatedAt": "2026-03-03T20:52:45.738372Z",
+  "@graph": [
+    {
+      "id": "http://smart.who.int/hiv/ValueSet-HIV.D.DE90.jsonld#HIV.D.DE91",
+      "name": "ABC + 3TC + ATV/r",
+      "fhir:code": "HIV.D.DE91",
+      "fhir:CodeSystem": "http://smart.who.int/hiv/CodeSystem-HIVConcepts"
+    },
+    {
+      "id": "http://smart.who.int/hiv/ValueSet-HIV.D.DE90.jsonld#HIV.D.DE92",
+      "name": "ABC + 3TC + DTG",
+      "fhir:code": "HIV.D.DE92",
+      "fhir:CodeSystem": "http://smart.who.int/hiv/CodeSystem-HIVConcepts"
+    },
+    {
+      "id": "http://smart.who.int/hiv/ValueSet-HIV.D.DE90.jsonld#HIV.D.DE93",
+      "name": "ABC + 3TC + EFV",
+      "fhir:code": "HIV.D.DE93",
+      "fhir:CodeSystem": "http://smart.who.int/hiv/CodeSystem-HIVConcepts"
+    },
+    {
+      "id": "http://smart.who.int/hiv/ValueSet-HIV.D.DE90.jsonld#HIV.D.DE94",
+      "name": "ABC + 3TC + LPV/r",
+      "fhir:code": "HIV.D.DE94",
+      "fhir:CodeSystem": "http://smart.who.int/hiv/CodeSystem-HIVConcepts"
+    },
+    {
+      "id": "http://smart.who.int/hiv/ValueSet-HIV.D.DE90.jsonld#HIV.D.DE95",
+      "name": "ABC + 3TC + NVP",
+      "fhir:code": "HIV.D.DE95",
+      "fhir:CodeSystem": "http://smart.who.int/hiv/CodeSystem-HIVConcepts"
+    },
+    {
+      "id": "http://smart.who.int/hiv/ValueSet-HIV.D.DE90.jsonld#HIV.D.DE96",
+      "name": "ABC + 3TC + RAL",
+      "fhir:code": "HIV.D.DE96",
+      "fhir:CodeSystem": "http://smart.who.int/hiv/CodeSystem-HIVConcepts"
+    },
+    {
+      "id": "http://smart.who.int/hiv/ValueSet-HIV.D.DE90.jsonld#HIV.D.DE97",
+      "name": "AZT + 3TC + ATV/r",
+      "fhir:code": "HIV.D.DE97",
+      "fhir:CodeSystem": "http://smart.who.int/hiv/CodeSystem-HIVConcepts"
+    },
+    {
+      "id": "http://smart.who.int/hiv/ValueSet-HIV.D.DE90.jsonld#HIV.D.DE98",
+      "name": "AZT + 3TC + DRV/r",
+      "fhir:code": "HIV.D.DE98",
+      "fhir:CodeSystem": "http://smart.who.int/hiv/CodeSystem-HIVConcepts"
+    },
+    {
+      "id": "http://smart.who.int/hiv/ValueSet-HIV.D.DE90.jsonld#HIV.D.DE99",
+      "name": "AZT + 3TC + DTG",
+      "fhir:code": "HIV.D.DE99",
+      "fhir:CodeSystem": "http://smart.who.int/hiv/CodeSystem-HIVConcepts"
+    },
+    {
+      "id": "http://smart.who.int/hiv/ValueSet-HIV.D.DE90.jsonld#HIV.D.DE100",
+      "name": "AZT + 3TC + EFV",
+      "fhir:code": "HIV.D.DE100",
+      "fhir:CodeSystem": "http://smart.who.int/hiv/CodeSystem-HIVConcepts"
+    },
+    {
+      "id": "http://smart.who.int/hiv/ValueSet-HIV.D.DE90.jsonld#HIV.D.DE101",
+      "name": "AZT + 3TC + EFV 600 mg",
+      "fhir:code": "HIV.D.DE101",
+      "fhir:CodeSystem": "http://smart.who.int/hiv/CodeSystem-HIVConcepts"
+    },
+    {
+      "id": "http://smart.who.int/hiv/ValueSet-HIV.D.DE90.jsonld#HIV.D.DE102",
+      "name": "AZT + 3TC + LPV/r",
+      "fhir:code": "HIV.D.DE102",
+      "fhir:CodeSystem": "http://smart.who.int/hiv/CodeSystem-HIVConcepts"
+    },
+    {
+      "id": "http://smart.who.int/hiv/ValueSet-HIV.D.DE90.jsonld#HIV.D.DE103",
+      "name": "AZT + 3TC + NVP",
+      "fhir:code": "HIV.D.DE103",
+      "fhir:CodeSystem": "http://smart.who.int/hiv/CodeSystem-HIVConcepts"
+    },
+    {
+      "id": "http://smart.who.int/hiv/ValueSet-HIV.D.DE90.jsonld#HIV.D.DE104",
+      "name": "AZT + 3TC + RAL",
+      "fhir:code": "HIV.D.DE104",
+      "fhir:CodeSystem": "http://smart.who.int/hiv/CodeSystem-HIVConcepts"
+    },
+    {
+      "id": "http://smart.who.int/hiv/ValueSet-HIV.D.DE90.jsonld#HIV.D.DE105",
+      "name": "TAF + 3TC + DTG",
+      "fhir:code": "HIV.D.DE105",
+      "fhir:CodeSystem": "http://smart.who.int/hiv/CodeSystem-HIVConcepts"
+    },
+    {
+      "id": "http://smart.who.int/hiv/ValueSet-HIV.D.DE90.jsonld#HIV.D.DE106",
+      "name": "TAF + FTC + DTG",
+      "fhir:code": "HIV.D.DE106",
+      "fhir:CodeSystem": "http://smart.who.int/hiv/CodeSystem-HIVConcepts"
+    },
+    {
+      "id": "http://smart.who.int/hiv/ValueSet-HIV.D.DE90.jsonld#HIV.D.DE107",
+      "name": "TDF + 3TC + ATV/r",
+      "fhir:code": "HIV.D.DE107",
+      "fhir:CodeSystem": "http://smart.who.int/hiv/CodeSystem-HIVConcepts"
+    },
+    {
+      "id": "http://smart.who.int/hiv/ValueSet-HIV.D.DE90.jsonld#HIV.D.DE108",
+      "name": "TDF + 3TC + DRV/r",
+      "fhir:code": "HIV.D.DE108",
+      "fhir:CodeSystem": "http://smart.who.int/hiv/CodeSystem-HIVConcepts"
+    },
+    {
+      "id": "http://smart.who.int/hiv/ValueSet-HIV.D.DE90.jsonld#HIV.D.DE109",
+      "name": "TDF + 3TC + DTG",
+      "fhir:code": "HIV.D.DE109",
+      "fhir:CodeSystem": "http://smart.who.int/hiv/CodeSystem-HIVConcepts"
+    },
+    {
+      "id": "http://smart.who.int/hiv/ValueSet-HIV.D.DE90.jsonld#HIV.D.DE110",
+      "name": "TDF + 3TC + EFV",
+      "fhir:code": "HIV.D.DE110",
+      "fhir:CodeSystem": "http://smart.who.int/hiv/CodeSystem-HIVConcepts"
+    },
+    {
+      "id": "http://smart.who.int/hiv/ValueSet-HIV.D.DE90.jsonld#HIV.D.DE111",
+      "name": "TDF + 3TC + EFV 400 mg",
+      "fhir:code": "HIV.D.DE111",
+      "fhir:CodeSystem": "http://smart.who.int/hiv/CodeSystem-HIVConcepts"
+    },
+    {
+      "id": "http://smart.who.int/hiv/ValueSet-HIV.D.DE90.jsonld#HIV.D.DE112",
+      "name": "TDF + 3TC + EFV 600 mg",
+      "fhir:code": "HIV.D.DE112",
+      "fhir:CodeSystem": "http://smart.who.int/hiv/CodeSystem-HIVConcepts"
+    },
+    {
+      "id": "http://smart.who.int/hiv/ValueSet-HIV.D.DE90.jsonld#HIV.D.DE113",
+      "name": "TDF + 3TC + LPV/r",
+      "fhir:code": "HIV.D.DE113",
+      "fhir:CodeSystem": "http://smart.who.int/hiv/CodeSystem-HIVConcepts"
+    },
+    {
+      "id": "http://smart.who.int/hiv/ValueSet-HIV.D.DE90.jsonld#HIV.D.DE114",
+      "name": "TDF + 3TC + NVP",
+      "fhir:code": "HIV.D.DE114",
+      "fhir:CodeSystem": "http://smart.who.int/hiv/CodeSystem-HIVConcepts"
+    },
+    {
+      "id": "http://smart.who.int/hiv/ValueSet-HIV.D.DE90.jsonld#HIV.D.DE115",
+      "name": "TDF + 3TC + PI/r",
+      "fhir:code": "HIV.D.DE115",
+      "fhir:CodeSystem": "http://smart.who.int/hiv/CodeSystem-HIVConcepts"
+    },
+    {
+      "id": "http://smart.who.int/hiv/ValueSet-HIV.D.DE90.jsonld#HIV.D.DE116",
+      "name": "TDF + 3TC + RAL",
+      "fhir:code": "HIV.D.DE116",
+      "fhir:CodeSystem": "http://smart.who.int/hiv/CodeSystem-HIVConcepts"
+    },
+    {
+      "id": "http://smart.who.int/hiv/ValueSet-HIV.D.DE90.jsonld#HIV.D.DE117",
+      "name": "TDF + FTC + ATV/r",
+      "fhir:code": "HIV.D.DE117",
+      "fhir:CodeSystem": "http://smart.who.int/hiv/CodeSystem-HIVConcepts"
+    },
+    {
+      "id": "http://smart.who.int/hiv/ValueSet-HIV.D.DE90.jsonld#HIV.D.DE118",
+      "name": "TDF + FTC + DRV/r",
+      "fhir:code": "HIV.D.DE118",
+      "fhir:CodeSystem": "http://smart.who.int/hiv/CodeSystem-HIVConcepts"
+    },
+    {
+      "id": "http://smart.who.int/hiv/ValueSet-HIV.D.DE90.jsonld#HIV.D.DE119",
+      "name": "TDF + FTC + DTG",
+      "fhir:code": "HIV.D.DE119",
+      "fhir:CodeSystem": "http://smart.who.int/hiv/CodeSystem-HIVConcepts"
+    },
+    {
+      "id": "http://smart.who.int/hiv/ValueSet-HIV.D.DE90.jsonld#HIV.D.DE120",
+      "name": "TDF + FTC + EFV",
+      "fhir:code": "HIV.D.DE120",
+      "fhir:CodeSystem": "http://smart.who.int/hiv/CodeSystem-HIVConcepts"
+    },
+    {
+      "id": "http://smart.who.int/hiv/ValueSet-HIV.D.DE90.jsonld#HIV.D.DE121",
+      "name": "TDF + FTC + EFV 600 mg",
+      "fhir:code": "HIV.D.DE121",
+      "fhir:CodeSystem": "http://smart.who.int/hiv/CodeSystem-HIVConcepts"
+    },
+    {
+      "id": "http://smart.who.int/hiv/ValueSet-HIV.D.DE90.jsonld#HIV.D.DE122",
+      "name": "TDF + FTC + LPV/r",
+      "fhir:code": "HIV.D.DE122",
+      "fhir:CodeSystem": "http://smart.who.int/hiv/CodeSystem-HIVConcepts"
+    },
+    {
+      "id": "http://smart.who.int/hiv/ValueSet-HIV.D.DE90.jsonld#HIV.D.DE123",
+      "name": "TDF + FTC + NVP",
+      "fhir:code": "HIV.D.DE123",
+      "fhir:CodeSystem": "http://smart.who.int/hiv/CodeSystem-HIVConcepts"
+    },
+    {
+      "id": "http://smart.who.int/hiv/ValueSet-HIV.D.DE90.jsonld#HIV.D.DE124",
+      "name": "TDF + FTC + PI/r",
+      "fhir:code": "HIV.D.DE124",
+      "fhir:CodeSystem": "http://smart.who.int/hiv/CodeSystem-HIVConcepts"
+    },
+    {
+      "id": "http://smart.who.int/hiv/ValueSet-HIV.D.DE90.jsonld#HIV.D.DE125",
+      "name": "TDF + FTC + RAL",
+      "fhir:code": "HIV.D.DE125",
+      "fhir:CodeSystem": "http://smart.who.int/hiv/CodeSystem-HIVConcepts"
+    },
+    {
+      "id": "http://smart.who.int/hiv/ValueSet-HIV.D.DE90.jsonld#HIV.D.DE126",
+      "name": "Other",
+      "fhir:code": "HIV.D.DE126",
+      "fhir:CodeSystem": "http://smart.who.int/hiv/CodeSystem-HIVConcepts"
+    }
+  ]
+}

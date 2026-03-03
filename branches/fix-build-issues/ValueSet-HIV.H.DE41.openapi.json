@@ -1,0 +1,50 @@
+{
+  "openapi": "3.1.0",
+  "info": {
+    "title": "HIV treatment outcome ValueSet Schema API",
+    "description": "JSON Schema for HIV treatment outcome ValueSet ValueSet codes. Generated from FHIR expansions using IRI format.",
+    "version": "1.0.0"
+  },
+  "paths": {
+    "/ValueSet-HIV.H.DE41.schema.json": {
+      "get": {
+        "summary": "JSON Schema definition for the enumeration ValueSet-HIV.H.DE41",
+        "description": "This endpoint serves the JSON Schema definition for the enumeration ValueSet-HIV.H.DE41.",
+        "responses": {
+          "200": {
+            "description": "The JSON Schema for ValueSet-HIV.H.DE41",
+            "content": {
+              "application/schema+json": {
+                "schema": {
+                  "$ref": "./ValueSet-HIV.H.DE41.schema.json"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "ValueSet-HIV.H.DE41": {
+        "$schema": "https://json-schema.org/draft/2020-12/schema",
+        "$id": "http://smart.who.int/hiv/ValueSet-HIV.H.DE41.schema.json",
+        "title": "HIV treatment outcome ValueSet Schema",
+        "description": "JSON Schema for HIV treatment outcome ValueSet ValueSet codes. Generated from FHIR expansions using IRI format.",
+        "type": "string",
+        "enum": [
+          "http://smart.who.int/hiv/CodeSystem/HIVConcepts#HIV.H.DE42",
+          "http://smart.who.int/hiv/CodeSystem/HIVConcepts#HIV.H.DE43",
+          "http://smart.who.int/hiv/CodeSystem/HIVConcepts#HIV.H.DE44",
+          "http://smart.who.int/hiv/CodeSystem/HIVConcepts#HIV.H.DE45"
+        ],
+        "narrative": "This schema validates IRI-formatted codes for the HIV treatment outcome ValueSet ValueSet. Each enum value includes the system URI in the format {systemuri}#{code} to match JSON-LD enumeration IRIs. Display values are available at http://smart.who.int/hiv/ValueSet-HIV.H.DE41.displays.json. For a complete listing of all ValueSets, see artifacts.html#terminology-value-sets.",
+        "fhir:displays": "http://smart.who.int/hiv/ValueSet-HIV.H.DE41.displays.json",
+        "fhir:valueSet": "http://smart.who.int/hiv/ValueSet/HIV.H.DE41",
+        "fhir:version": "0.4.4",
+        "fhir:expansionTimestamp": "2026-03-03T20:47:49+00:00"
+      }
+    }
+  }
+}

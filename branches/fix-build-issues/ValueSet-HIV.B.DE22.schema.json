@@ -1,0 +1,20 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "http://smart.who.int/hiv/ValueSet-HIV.B.DE22.schema.json",
+  "title": "Entry point for facility-level testing ValueSet Schema",
+  "description": "JSON Schema for Entry point for facility-level testing ValueSet ValueSet codes. Generated from FHIR expansions using IRI format.",
+  "type": "string",
+  "enum": [
+    "http://smart.who.int/hiv/CodeSystem/HIVConcepts#HIV.B.DE23",
+    "http://smart.who.int/hiv/CodeSystem/HIVConcepts#HIV.B.DE24",
+    "http://smart.who.int/hiv/CodeSystem/HIVConcepts#HIV.B.DE25",
+    "http://smart.who.int/hiv/CodeSystem/HIVConcepts#HIV.B.DE26",
+    "http://smart.who.int/hiv/CodeSystem/HIVConcepts#HIV.B.DE27",
+    "http://smart.who.int/hiv/CodeSystem/HIVConcepts#HIV.B.DE28"
+  ],
+  "narrative": "This schema validates IRI-formatted codes for the Entry point for facility-level testing ValueSet ValueSet. Each enum value includes the system URI in the format {systemuri}#{code} to match JSON-LD enumeration IRIs. Display values are available at http://smart.who.int/hiv/ValueSet-HIV.B.DE22.displays.json. For a complete listing of all ValueSets, see artifacts.html#terminology-value-sets.",
+  "fhir:displays": "http://smart.who.int/hiv/ValueSet-HIV.B.DE22.displays.json",
+  "fhir:valueSet": "http://smart.who.int/hiv/ValueSet/HIV.B.DE22",
+  "fhir:version": "0.4.4",
+  "fhir:expansionTimestamp": "2026-03-03T20:47:45+00:00"
+}
